@@ -1,0 +1,7 @@
+"","STUDYID","DOMAIN","IETESTCD","IETEST","IECAT"
+"1","CDISC01","TI","EXCL01","Is pregnant, nursing, or planning to become pregnant within 6 months of last study treatment","EXCLUSION"
+"2","CDISC01","TI","EXCL02","Is unable or unwilling to undergo multiple venipunctures","EXCLUSION"
+"3","CDISC01","TI","EXCL03","Is known to have had a substance abuse (drug or alcohol) problem within the previous 3 years","EXCLUSION"
+"4","CDISC01","TI","INCL01","Is age 18 - 85","INCLUSION"
+"5","CDISC01","TI","INCL02","Has Xyz disease of at least 10 weeks duration confirmed by biopsy","INCLUSION"
+"6","CDISC01","TI","INCL03","Did not respond to a standard course of medication Abc","INCLUSION"
