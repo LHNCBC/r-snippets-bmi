@@ -1,4 +1,16 @@
-source('loadConcepts.R')
+---
+title: "callingAPI-Markdown"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## API use
+
+```{r cars}
+# source('loadConcepts.R')
 
 #there are many JSON packages in R, we will pick one of them
 library(jsonlite)
@@ -7,12 +19,13 @@ library(magrittr)
 
 
 #some examples
-example='atenolol'
+
 example='nexium'
 example='Esomeprazole'
+example='atenolol'
 
 
-example='bicycle'
+# example='bicycle'
 input=example
 
 
@@ -33,6 +46,16 @@ findRxCuibyString<-function(input) {
 
 findRxCuibyString(example)
 
+
+```
+
+#Parsing JSON
+```{r}
+
+  url<-sprintf('https://rxnav.nlm.nih.gov/REST/rxcui.json?search=2&allsrc=0&name=%s',input)
+  url2<-URLencode(url)
+  j<-jsonlite::fromJSON(url2)
+j
 
 
 
@@ -65,5 +88,15 @@ str(j3$allRelatedGroup$conceptGroup$conceptProperties,max.level =1)
 library(plyr)
 oneBigTable<-rbind.fill(j3$allRelatedGroup$conceptGroup$conceptProperties)
 
+
+# panderOptions('table.split.table', 300)
+
+# options(width = 500)
 library(pander)
-pander(oneBigTable)
+panderOptions('table.split.table', Inf)
+# pandoc.table(oneBigTable, split.table = Inf)
+
+ pander(oneBigTable)
+
+
+```
