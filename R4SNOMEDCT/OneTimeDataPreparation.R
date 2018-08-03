@@ -1,11 +1,28 @@
-
-
-#modify to point to downloaded SNOMED CT release files
-folder<-'n:/snomed/SnomedCT_InternationalRF2_PRODUCTION_20180131T120000Z/Snapshot/Terminology'
 library(tidyverse)
 
-#specify again the release substring
-release='20180131'
+#specify the release substring
+#release='20180131'
+release='20180731'
+
+#modify the start of the path  point to downloaded SNOMED CT release files
+base_folder<-'n:/snomed/SnomedCT_InternationalRF2_PRODUCTION_' #release goes here
+suffix<-'T120000Z/Snapshot/Terminology'
+
+#note how the path is constructed
+folder<-paste0(base_folder,release,suffix)
+
+#check if it is correct
+folder
+
+
+export_folder<-'n:/snomed/'
+#---------------end of specifying user entered parameters ----------------
+
+
+
+
+
+
 
 
 
@@ -17,7 +34,7 @@ options(scipen=999)
 FSN_CID=900000000000003001 #fsn
 
 #concepts
-c<-read_delim(file.path(folder,'sct2_Concept_Snapshot_INT_20180131.txt'),delim = '\t',col_types = 'dcidc')
+c<-read_delim(file.path(folder,paste0('sct2_Concept_Snapshot_INT_',release,'.txt')),delim = '\t',col_types = 'dcidc')
 
 #descriptions
 
@@ -43,5 +60,6 @@ r<-read_delim(file.path(folder,
 
 
 rm(folder)
-rm(release)
-save.image('snomedct.rda')
+#rm(release)
+
+save.image(file.path(export_folder,'snomedct.rda'))
