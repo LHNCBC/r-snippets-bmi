@@ -42,6 +42,13 @@ d<-read_delim(file.path(folder,
                         paste0('sct2_Description_Snapshot-en_INT_',release,'.txt'))
               ,delim='\t',col_types = 'dciddcdcd',quote = "")
 
+#definitions
+textDefinition<-read_delim(file.path(folder,
+                        paste0('sct2_TextDefinition_Snapshot-en_INT_',release,'.txt'))
+              ,delim='\t',quote = "")
+
+
+
 
 #another view of descriptions
 d2<-d %>% filter(typeId==FSN_CID) %>% filter(active==1) %>% select(conceptId,term) 

@@ -7,3 +7,22 @@ R script to work with SNOMED CT
 1. download SNOMEDCT to a folder on your hard drive
 2. run OneTimeDataPreparation.R (modify first 2 parameters to point to your folder and specify release)
 3. run CodeToRun.R to load SNOMEDCT and help functions
+
+
+# Script description
+
+Script generates data.frame c with concepts (no definitions), it also has data.frame  d with all descriptions (including synonymns) and data.frame d2 with descriptions reduced to Fully Specified Name (FSN). SNOMED CT has one crucial limitations. Semantic tag for a given object is not available as a separate column. But since it is very usefull, it is extracted using regular expression from FSN.  
+  
+All functions start with 'sct_'. Functions are being added by user and usage requests. 
+
+# How to cite
+  
+ - Huser, V (2018) R4SNOMEDCT (v3.0) https://github.com/lhncbc/r-snippets-bmi/tree/master/R4SNOMEDCT
+
+
+# Versions
+
+ - 1.0 loading and basic functions
+ - 2.0 more functions added
+ - 3.0 textual definitions added
+
