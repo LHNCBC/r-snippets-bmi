@@ -1,12 +1,18 @@
-source('loadConcepts.R')
+#this file provides same demo as the R Markdown file
+#used in the workshop
 
+#crtl L cleaers consolre, after that ctrl 1 focus on source
+
+#next line would load rxnorm concepts
+#source('loadConcepts.R')
 #there are many JSON packages in R, we will pick one of them
-library(jsonlite)
 
-library(magrittr)
+library(jsonlite)
+library(tidyverse)
 
 
 #some examples
+
 example='atenolol'
 example='nexium'
 example='Esomeprazole'
@@ -31,6 +37,14 @@ findRxCuibyString<-function(input) {
 }
 
 
+example='atenolol'
+example='nexium'
+example='Esomeprazole'
+example='esomeprazole'
+example='esomeprazolE'
+
+example='pregabalin'
+example='lyrica'
 findRxCuibyString(example)
 
 
@@ -39,6 +53,8 @@ findRxCuibyString(example)
 #JSON parsing
 
 input='283742' #esomeprasole
+input='187832' #pregabalin
+
 whatFunction='allrelated'
 url<-sprintf('https://rxnav.nlm.nih.gov/REST/rxcui/%s/%s.json',input,whatFunction)
 
@@ -54,6 +70,7 @@ str(j2$allRelatedGroup)
 
 
 #using JSON parsing shortcut
+
 j3<-jsonlite::fromJSON(URLencode(url),flatten = T)
 str(j3$allRelatedGroup)
 
@@ -62,8 +79,9 @@ str(j3$allRelatedGroup$conceptGroup,max.level =1)
 str(j3$allRelatedGroup$conceptGroup$conceptProperties,max.level =1)
 
 #making it one large table
-library(plyr)
-oneBigTable<-rbind.fill(j3$allRelatedGroup$conceptGroup$conceptProperties)
 
-library(pander)
-pander(oneBigTable)
+oneBigTable<-plyr::rbind.fill(j3$allRelatedGroup$conceptGroup$conceptProperties) 
+oneBigTable %<>% as.tibble() 
+oneBigTable
+pander::pander(oneBigTable)
+View(oneBigTable)

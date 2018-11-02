@@ -1,21 +1,30 @@
+#this file uses the .zip file as a starting point
+#excual api examples are in the subfoler api use examples
+
+
 library(tidyverse)
 
 #local copy of zip file
-zipfile<-'c:/q/net/RxNorm_full_10012018.zip'
+zipfile<-'c:/b/RxNorm_full_10012018.zip'
 
 #after UMLS login, it can be obtained from here
-url<-'https://download.nlm.nih.gov/umls/kss/rxnorm/RxNorm_full_10012018.zip'
+#url<-'https://download.nlm.nih.gov/umls/kss/rxnorm/RxNorm_full_10012018.zip'
 
 
 #where we will unzip it
-folder='local/temp'
+folder='local'
 
 #prepare target folder
-fullfolder=file.path(getwd(),folder);dir.create(fullfolder);print(fullfolder)
+fullfolder=file.path(getwd(),folder);
+dir.create(fullfolder);print(fullfolder)
 
-#unzip the file (and get listing of them)
-filenames <- unzip(zipfile, exdir=fullfolder,list=TRUE)
-filenames
+#unzip the file
+unzip(zipfile, exdir=fullfolder)
+
+#if we want to just look at the content of the zip file, we would do this
+# filenames <- unzip(zipfile, exdir=fullfolder,list=TRUE)
+# filenames
+
 
 
 
@@ -70,3 +79,5 @@ conso %>% count(sab) %>% arrange(desc(n))
 #filter only RxNorm concepts (beta code)
 rxnNames<-conso %>% filter(sab=='RXNORM') %>% filter(tty!='SY') %>%  filter(tty!='TMSY') %>% filter(tty!='PSN')
 nrow(rxnNames)
+
+#this object was used to create the rxnrom.rds file in the repo for convenience
