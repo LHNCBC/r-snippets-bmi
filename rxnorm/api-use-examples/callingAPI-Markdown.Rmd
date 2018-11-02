@@ -12,7 +12,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ```{r cars}
 # source('loadConcepts.R')
 
-#there are many JSON packages in R, we will pick one of them
+#there are many JSON packages in R, we will pick jsonlite
 library(jsonlite)
 
 library(magrittr)
