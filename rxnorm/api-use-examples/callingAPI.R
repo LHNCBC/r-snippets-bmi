@@ -9,7 +9,7 @@
 
 library(jsonlite)
 library(tidyverse)
-
+library(magrittr)
 
 #some examples
 
@@ -67,6 +67,7 @@ str(j2,max.level = 1)
 
 #traverse the tree
 str(j2$allRelatedGroup)
+str(j2$allRelatedGroup,max.level = 1)
 
 
 #using JSON parsing shortcut
