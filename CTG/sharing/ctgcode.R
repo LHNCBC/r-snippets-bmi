@@ -1,7 +1,7 @@
 #AACT Access
 
-user='informatician'
-psw='talk2LID'
+user='REDACTED'
+psw='REDACTED'
 
 library(RPostgreSQL)
 library(tidyverse)
