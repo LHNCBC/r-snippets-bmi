@@ -1,4 +1,4 @@
-# MMBox
+# mmbox
 
 Set of resources for VRDC
 
