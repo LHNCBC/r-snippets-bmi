@@ -3,7 +3,8 @@ library(tidyverse)
 #specify the release substring
 #release='20180131'
 release='20180731'
-
+release='20180731'
+    
 #modify the start of the path  point to downloaded SNOMED CT release files
 base_folder<-'n:/snomed/SnomedCT_InternationalRF2_PRODUCTION_' #release goes here
 suffix<-'T120000Z/Snapshot/Terminology'
