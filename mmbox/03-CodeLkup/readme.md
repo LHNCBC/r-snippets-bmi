@@ -5,10 +5,9 @@ For example, dot in ICD codes is removed.
 
 # Files
 
-## lkupDxProc.csv
+## lkupALL.csv
 Combined file with several terminologies included. Unfortunatelly, the HCPCS level 1 codes (CPT) are excluded for complex reasons.
 
-## lkupRx.csv
 
 # Note of .csv.zip files 
 Puting files >100MB on Github is restricted. For this reason, large full files are zipped. In order to see a preview of the file, view the file with suffix `-preview' to see a preview of the full file.
