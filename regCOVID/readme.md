@@ -5,4 +5,4 @@
 (will be updated frequently)
 
 ## S01
-concensed view of trials
+condensed view of trials
