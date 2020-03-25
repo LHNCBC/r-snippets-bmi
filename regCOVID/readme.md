@@ -1,5 +1,11 @@
 # COVID19 Interventional Trials and Observational Studies
 
+
+# regCOVID
+regCOVID stands for REGistered COVID-19 Interventional trials and observational Studies. 
+
+
+# Introduction
 We use AACT (db connection via registered user; you must provide your own user name) to obtain most recent CTG (=ClinicalTrials.gov) data.
 The script can be further improved.
 
@@ -29,3 +35,4 @@ We don't claim our script is the best approach and are open to suggestions for i
 - https://aact.ctti-clinicaltrials.org/schema
 - https://www.ncbi.nlm.nih.gov/pubmed/23874614
 - https://www.ncbi.nlm.nih.gov/pubmed/23304310
+- LitCovid (set created by NLM) https://www.ncbi.nlm.nih.gov/research/coronavirus  (we hope to link trials to publications in PubMed (considering LitCovid subset first)
