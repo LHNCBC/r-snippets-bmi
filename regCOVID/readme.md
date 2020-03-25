@@ -11,10 +11,21 @@ We use letters to denote search strategies. Strategy A uses title of trial. Stra
 
 Suffix of file name captures subseting. INT means Interventional trials only. OBS means observational studies only. REGISTRY means CTG's registry category.
 
+Another suffix indicates search strategy
+
+# View
+We plan to have multiple views: Condensed will be a single file. Custom will be tweak based on purpose. Relational (full or partial) will list study data by domain (will mirror the AACT schema).
+
 # Feedback
 We don't claim our script is the best approach and are open to suggestions for improvement
 
 # Future additions
 - for each NCT - webscrape (or via XML) obtain evidence of updating a trial. An updated trial is viewed as more creditable.
 - other registries (besides CTG)
+- view of all intervations that allows overview of drugs used in trials (over time)
+- relational view 
 
+# References
+- https://aact.ctti-clinicaltrials.org/schema
+- https://www.ncbi.nlm.nih.gov/pubmed/23874614
+- https://www.ncbi.nlm.nih.gov/pubmed/23304310
