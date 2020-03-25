@@ -2,7 +2,7 @@
 
 
 # regCOVID
-regCOVID stands for REGistered COVID-19 Interventional trials and observational Studies. 
+regCOVID stands for REGistered COVID-19 Interventional trials and observational Studies. We chose this acronym/name so that people can refer to the script/project/outputs uniquely.
 
 
 # Introduction
@@ -36,3 +36,4 @@ We don't claim our script is the best approach and are open to suggestions for i
 - https://www.ncbi.nlm.nih.gov/pubmed/23874614
 - https://www.ncbi.nlm.nih.gov/pubmed/23304310
 - LitCovid (set created by NLM) https://www.ncbi.nlm.nih.gov/research/coronavirus  (we hope to link trials to publications in PubMed (considering LitCovid subset first)
+- OHDSI COVID-19 efforts https://www.ohdsi.org/covid-19-updates/ (this project is part of that effort and also self standing)
