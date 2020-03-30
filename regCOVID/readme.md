@@ -32,6 +32,8 @@ We don't claim our script is the best approach and are open to suggestions for i
 - relational view 
 
 # References
+- http://www.cebm.net/covid-19/registered-trials-and-analysis/
+- http://www.cebm.net/covid-19/
 - https://aact.ctti-clinicaltrials.org/schema
 - https://www.ncbi.nlm.nih.gov/pubmed/23874614
 - https://www.ncbi.nlm.nih.gov/pubmed/23304310
