@@ -32,6 +32,10 @@ We don't claim our script is the best approach and are open to suggestions for i
 - relational view 
 
 # References
+- https://clinicaltrials.gov/ct2/results/download_fields?cond=covid-19&down_count=10000&down_flds=all&down_fmt=plain
+- https://clinicaltrials.gov/ct2/results/download_fields?cond=covid-19&down_count=10000&down_flds=all&down_fmt=tsv
+- https://clinicaltrials.gov/ct2/results/download_fields?cond=covid-19&down_count=10000&down_flds=all&down_fmt=csv
+- https://www.who.int/ictrp/en/
 - http://www.cebm.net/covid-19/registered-trials-and-analysis/
 - http://www.cebm.net/covid-19/
 - https://aact.ctti-clinicaltrials.org/schema
