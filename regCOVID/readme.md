@@ -6,13 +6,18 @@ regCOVID stands for REGistered COVID-19 Interventional trials and observational 
 
 
 # Introduction
-We use AACT (db connection via registered user; you must provide your own user name) to obtain most recent CTG (=ClinicalTrials.gov) data.
+We use AACT database from Duke U to obtain most recent CTG (=ClinicalTrials.gov) data.
 The script can be further improved.
+AACT database is 48 hours (or so) behind. To get the latest trials, you can also use CTG API call like this one: https://clinicaltrials.gov/ct2/results/download_fields?cond=covid-19&down_count=10000&down_flds=all&down_fmt=csv
 
 ## Search strategies
 We use letters to denote search strategies. Strategy A uses title of trial. Strategy B uses MeSH keywords assigned by CTG (their algorhitm; not publicaly posted).
 
-# Files
+# Code Files
+See files with extension .R   
+To run the script, you must provide your details for db connection; you must provide your own user name). See their site for instructions.
+
+# Data Files
 (will be updated frequently)
 
 Suffix of file name captures subseting. INT means Interventional trials only. OBS means observational studies only. REGISTRY means CTG's registry category.
