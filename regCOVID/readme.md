@@ -9,6 +9,12 @@ A landing page link is: [https://lhncbc.github.io/r-snippets-bmi/regCOVID](https
 regCOVID stands for REGistered COVID-19 Interventional trials and observational Studies. We chose this acronym/name so that people can refer to the script/project/outputs uniquely.
 
 
+# Report
+Some of our outputs are available in a generated report at this link: https://lhncbc.github.io/r-snippets-bmi/regCOVID/r-notebook-regCovid.html  
+Some direct links within this report are:  
+- Graph of studies over time: https://lhncbc.github.io/r-snippets-bmi/regCOVID/r-notebook-regCovid.html#studies_over_time  
+- Studied interventions: https://lhncbc.github.io/r-snippets-bmi/regCOVID/r-notebook-regCovid.html#count_of_studies_by_intervention_(normalized_and_mapped)  
+
 # Introduction
 We use AACT database from Duke U to obtain most recent CTG (=ClinicalTrials.gov) data.
 The script can be further improved.
