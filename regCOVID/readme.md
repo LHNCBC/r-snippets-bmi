@@ -2,7 +2,7 @@
 
 Welcome to the page that collects COVID19 studies registered at various registries (and focusing mainly on ClinicalTrials.gov)
 
-To see the files, follow this link: https://github.com/lhncbc/r-snippets-bmi/tree/master/regCOVID
+To see the files, follow this link: https://github.com/lhncbc/r-snippets-bmi/tree/master/regCOVID  
 A landing page link is: https://lhncbc.github.io/r-snippets-bmi/regCOVID/
 
 # regCOVID
