@@ -1,5 +1,9 @@
-# COVID19 Interventional Trials and Observational Studies
+# COVID19 Interventional Trials, Observational Studies and Registries
 
+Welcome to the page that collects COVID19 studies registered at various registries (and focusing mainly on ClinicalTrials.gov)
+
+To see the files, follow this link: https://github.com/lhncbc/r-snippets-bmi/tree/master/regCOVID
+A landing page link is: https://lhncbc.github.io/r-snippets-bmi/regCOVID/
 
 # regCOVID
 regCOVID stands for REGistered COVID-19 Interventional trials and observational Studies. We chose this acronym/name so that people can refer to the script/project/outputs uniquely.
