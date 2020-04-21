@@ -1,3 +1,8 @@
+options mprint;
+options SYMBOLGEN;
+options mlogic;
+
+
 /*File Class: Claims
   File Sourse: Medicare*/
 %macro claims_scraper(by,var,filelib,year,month,filename,cohort_number,cohort_name,job_name,library);
