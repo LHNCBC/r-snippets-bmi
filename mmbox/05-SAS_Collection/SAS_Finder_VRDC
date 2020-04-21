@@ -1,1 +1,353 @@
+Finder
+
+
+
+	/*
+File Class: Claims
+File Sourse: Medicare
+    */
+%macro claims_finder(by,var,filelib,year,month,filename,sql_case_def,cohort_name,cohort_number,job_name,library);
+%if &filename=INPATIENT_CLAIMS_ %then %let var=
+fst_dgns_e_cd 
+admtg_dgns_cd 
+prncpal_dgns_cd 
+icd_dgns_cd1-icd_dgns_cd25 
+icd_prcdr_cd1-icd_prcdr_cd25
+ ICD_DGNS_E_CD1-ICD_DGNS_E_CD12;/*try to limit the code types to thoes relevant to your case deffinition; this will speed you up a lot*/
+
+%if &filename=OUTPATIENT_CLAIMS_ %then %let var=
+fst_dgns_e_cd 
+prncpal_dgns_cd
+icd_dgns_cd1-icd_dgns_cd25
+icd_prcdr_cd1-icd_prcdr_cd25
+ICD_DGNS_E_CD1-ICD_DGNS_E_CD12;
+
+%if &filename=SNF_CLAIMS_ %then %let var=
+fst_dgns_e_cd 
+admtg_dgns_cd 
+prncpal_dgns_cd 
+icd_dgns_cd1-icd_dgns_cd25
+icd_prcdr_cd1-icd_prcdr_cd25 
+ICD_DGNS_E_CD1-ICD_DGNS_E_CD12;
+
+%if &filename=HOSPICE_CLAIMS_ %then %let var=
+fst_dgns_e_cd 
+prncpal_dgns_cd 
+icd_dgns_cd1-icd_dgns_cd25
+ ICD_DGNS_E_CD1-ICD_DGNS_E_CD12;
+
+%if &filename=HHA_CLAIMS_ %then %let var=
+ fst_dgns_e_cd 
+ prncpal_dgns_cd 
+ icd_dgns_cd1-icd_dgns_cd25 
+ ICD_DGNS_E_CD1-ICD_DGNS_E_CD12;
+
+%if &filename=BCARRIER_CLAIMS_ %then %let var= 
+icd_dgns_cd1-icd_dgns_cd12 
+PRNCPAL_DGNS_CD;
+
+data log;
+job_name=symget('job_name');
+start_date=date();format start_date date.;
+start_time=time();format start_time time.;
+time_zone=symget('systimezone');
+run;
+
+data case_index_&cohort_number
+(keep=&by &var);
+set 
+&filelib&year..&filename.%sysfunc(putn(&month,z2.));
+run;
+
+	proc sort data=case_index_&cohort_number
+	;by clm_id bene_id;run;
+
+	proc transpose data=case_index_&cohort_number out=transpose_index_&cohort_number;
+	by &by;var &var;run;
+
+proc sql;
+create table population_t_&cohort_number as
+select
+bene_id,
+clm_id,
+"&cohort_name" as cohort_name,
+"&cohort_number" as cohort_number,
+symget('filename') as filea,
+col1 as concept_code,
+clm_thru_dt
+from transpose_index_&cohort_number
+where col1=&sql_case_def;/*you can use the 'hard' code method here, or replace this with an inner join to a table where col1='col with codes'*/
+run;
+
+proc append FORCE
+base=&library..Cases_&Cohort_Number
+data=population_t_&cohort_number;
+run;
+
+data log;
+set 
+log;
+Source_File=symget('filename');
+cohort_name=symget('cohort_name');
+cohort_number=symget('cohort_number');
+obs=symget('sysnobs');
+End_Time=time();format end_time time.;
+run;
+/*append to super log*/
+proc append FORCE
+base=&library..precious_log
+data=work.log;
+run;
+
+proc datasets library=work;
+delete 
+event_index_&cohort_number
+transpose_index_&cohort_number
+population_t_&cohort_number
+;run;
+%mend;
+
+%macro multi_claims_finder(first_year,first_file,last_file,last_year,first_month,last_month);
+%do a=&first_file %to &last_file;
+%do year=&first_year %to &last_year;
+%do month=&first_month %to &last_month;
+%claims_finder(
+by=clm_id bene_id clm_thru_dt,
+filelib=rif,
+year=&year,
+library=,
+month=&month,
+filename=&&&claims&a.,
+sql_case_def=&claims_deff,
+cohort_name=&cohort_name,
+cohort_number=&cohort_number,
+job_name='Claims_finder');run;
+%END;%END;%end;%mend;
+
+	/*
+    File Class: RX
+    File Sourse: Medicare
+    */
+%macro RX_finder(filelib,year,month,filename,RX_List,cohort_name,cohort_number,job_name,library);
+
+data log;
+job_name=symget('job_name');
+start_date=date();format start_date date.;
+start_time=time();format start_time time.;
+time_zone=symget('systimezone');
+run;
+
+data event_index_&cohort_number(keep= bene_id prod_srvc_id srvc_dt);
+set
+&filelib&year..&filename&year._%sysfunc(putn(&month,z2.));
+run;quit;
+
+proc sql;
+create table
+working_event_index_&cohort_number
+as
+select * from
+event_index_&cohort_number
+inner join
+&library..&RX_deff/*here you can use a cusomt list of NDC codes or change this to reflect a 'where col1=&sql_case_def' rather than an inner join-*/
+on
+event_index_&cohort_number..prod_srvc_id=&RX_deff1..concept_code;
+
+proc sql;
+create table population_t_&cohort_number
+as select
+ bene_id, 
+prod_srvc_id as concept_code,
+srvc_dt as clm_thru_dt,
+"PDE_Demo" as filea,
+"&cohort_name" as cohort_name,
+"&cohort_number" as cohort_number
+from working_event_index_&cohort_number;
+run;quit;
+
+proc append FORCE
+base=&library..Cases_&Cohort_Number
+data=population_t_&cohort_number;
+run;
+
+data log;
+set 
+log;
+Source_File=symget('filename');
+cohort_name=symget('cohort_name');
+cohort_number=symget('cohort_number');
+cohort_deffinition=symget('RX_List');
+obs=symget('sysnobs');
+End_Time=time();format end_time time.;
+run;
+
+proc append FORCE
+base=&library..precious_log
+data=work.log;
+run;
+
+proc datasets library=work;
+delete 
+event_index_&cohort_number
+working_event_index_&cohort_number
+population_t_&cohort_number
+;run;%mend;
+
+%macro RX_multi_finder(first_year,last_year, first_month,last_month);
+%do year=&first_year %to &last_year;
+%do MONTH=&First_MONTH %to &last_MONTH;
+%rx_finder(
+	filelib=pde,
+	year=&year,
+	MONTH=&MONTH,
+    library=,
+	filename=pde_demo_,
+	cohort_name=&COHORT_NAME,
+	cohort_number=&COHORT_NUMBER,
+	job_name='RX_Finder'
+);run;
+%end; %end;
+%mend;
+
+/*
+File Class: Revenue(HCPCS CPT)
+File Sourse: Medicare
+*/
+
+%macro HCPCS_finder(by,var,filelib,year,month,job_name,filename,HCPCS_SAS_COHORT,cohort_name,cohort_number,library);
+data log;
+job_name=symget('job_name');
+start_date=date();format start_date date.;
+start_time=time();format start_time time.;
+time_zone=symget('systimezone');
+run;
+
+data case_index_&cohort_number
+(keep=&by &var where=(hcpcs_cd=&HCPCS_SAS_COHORT));
+set 
+&filelib&year..&filename.%sysfunc(putn(&month,z2.));
+run;
+
+proc sql;
+create table population_t_&cohort_number
+as
+select
+bene_id,
+clm_id,
+"&cohort_name" as cohort_name,
+"&cohort_number" as cohort_number,
+symget('filename') as filea,
+HCPCS_CD as concept_code,
+clm_thru_dt
+from case_index_&cohort_number
+where HCPCS_CD=&HCPCS_SAS_COHORT
+;run;
+
+proc append FORCE
+base=&library..Cases_&Cohort_Number
+data=population_t_&cohort_number;
+run;
+
+data log;
+set log;
+Source_File=symget('filename');
+cohort_name=symget('cohort_name');
+cohort_number=symget('cohort_number');
+obs=symget('sysnobs');
+End_Time=time();format end_time time.;
+run;
+
+proc append FORCE
+base=&library..precious_log
+data=work.log;
+run;
+
+proc datasets library=work;
+delete 
+case_index_&cohort_number
+table population_t_&cohort_number
+;
+run;
+%mend;
+
+%macro multi_hcpcs_finder(first_year,first_file,last_file,last_year,first_month,last_month);
+%do a=&first_file %to &last_file;
+%do month=&first_month %to &last_month;
+%do year=&first_year %to &last_year;
+ %HCPCS_finder(
+	by=CLM_ID bene_id clm_thru_dt,
+	var=HCPCS_CD,
+	filelib=rif,
+	year=&year,
+    library,
+	month=&month,
+	filename=&&&file&a.,
+	COHORT_NAME=&cohort_name,
+	cohort_number=&cohort_number,
+	HCPCS_SAS_COHORT=&HCPCS_deff, 
+	job_name='HCPCS_Finder'
+	);run;
+%END;%END;%END;
+%mend;
+
+
+/*CONFIG*/
+
+
+options spool;
+%let cohort_number=;/*Originate your cohort number (three digits)*/
+%let cohort_name=;/*Originate your cohort name*/
+%let RX_deff=;/*this should be a file if the program is running inner join*/
+%let &HCPCS_SAS_COHORT=,
+%let &sql_case_def=,/*hard coded method should reflect proper sql where clause syntax so:
+
+&sql_case_def='code1' 
+or col1='code2'
+or col1='code3'
+or col1='code4'
+*//*note the first linking statement 'where case deffinion=col1 is pre passed, but must be named for more than one code*/
+
+proc sql noprint; select Year into :year1-:year19 from &library..List;
+proc sql noprint; select HCPCS into :file1-:file6 from &library..List; 
+proc sql noprint; select claims into :claims1-:claims6 from &library..list; 
+proc sql noprint; select Month into :month1-:month12 from &library..List;
+
+/*make a dummy record to append to*/
+data &library..Cases_&Cohort_Number;
+Bene_ID=000000000000;
+Concept_code='XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
+clm_thru_dt='26oct98'd;
+filea='XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
+cohort_number='XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
+cohort_name='XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
+clm_id=00000000000000000000;
+run;
+
+
+%rx_multi_finder(
+first_year=&year8,
+last_year=&year19,
+FIRST_MONTH=01,
+LAST_MONTH=12
+);run;
+
+%multi_hcpcs_finder(
+first_file=1,
+last_file=6,
+first_year=&year1,
+last_year=&year18,
+first_month=01,
+last_month=12
+);run;quit;
+
+
+
+%multi_claims_finder(
+first_file=1,
+last_file=1,
+first_month=01,
+last_month=12,
+first_year=&year18,
+last_year=&year18
+);run;
 
