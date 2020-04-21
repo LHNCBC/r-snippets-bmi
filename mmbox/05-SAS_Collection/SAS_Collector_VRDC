@@ -1,1 +1,361 @@
+/*File Class: Claims
+  File Sourse: Medicare*/
+%macro claims_scraper(by,var,filelib,year,month,filename,cohort_number,cohort_name,job_name,library);
 
+/*
+here you can call specific variable types by their ranges
+VAR apears in the keep statemnt below to form the base file to search for codes of intrest
+*/
+%if &filename=INPATIENT_CLAIMS_ %then %let var=
+fst_dgns_e_cd 
+admtg_dgns_cd 
+prncpal_dgns_cd 
+icd_dgns_cd1-icd_dgns_cd25 
+icd_prcdr_cd1-icd_prcdr_cd25 
+ICD_DGNS_E_CD1-ICD_DGNS_E_CD12;
+
+%if &filename=OUTPATIENT_CLAIMS_ %then %let var=
+fst_dgns_e_cd 
+prncpal_dgns_cd 
+icd_dgns_cd1-icd_dgns_cd25 
+icd_prcdr_cd1-icd_prcdr_cd25 
+ICD_DGNS_E_CD1-ICD_DGNS_E_CD12;
+
+%if &filename=SNF_CLAIMS_ %then %let var=
+fst_dgns_e_cd 
+admtg_dgns_cd 
+prncpal_dgns_cd 
+icd_dgns_cd1-icd_dgns_cd25
+icd_prcdr_cd1-icd_prcdr_cd25
+ICD_DGNS_E_CD1-ICD_DGNS_E_CD12;
+
+%if &filename=HOSPICE_CLAIMS_ %then %let var=
+fst_dgns_e_cd 
+prncpal_dgns_cd 
+icd_dgns_cd1-icd_dgns_cd25 
+ICD_DGNS_E_CD1-ICD_DGNS_E_CD12;
+
+%if &filename=HHA_CLAIMS_ %then %let var= 
+fst_dgns_e_cd 
+prncpal_dgns_cd 
+icd_dgns_cd1-icd_dgns_cd25 
+ICD_DGNS_E_CD1-ICD_DGNS_E_CD12;
+
+%if &filename=BCARRIER_CLAIMS_ %then %let var= 
+icd_dgns_cd1-icd_dgns_cd12 
+PRNCPAL_DGNS_CD;
+
+/*
+SQL Vars determine variable names to be passed as SQL, not SAS. There are kinds of variable names that SQL will accept that SAS will not
+*/
+
+%if &filename=INPATIENT_CLAIMS_ %then %let SQL_VARs=
+FST_DGNS_E_CD,PRNCPAL_DGNS_CD,ICD_DGNS_CD1,ICD_DGNS_CD10,ICD_DGNS_CD11,
+ICD_DGNS_CD12,ICD_DGNS_CD13,ICD_DGNS_CD14,ICD_DGNS_CD15,ICD_DGNS_CD16,ICD_DGNS_CD17,ICD_DGNS_CD18,ICD_DGNS_CD19,ICD_DGNS_CD2,ICD_DGNS_CD20,ICD_DGNS_CD21,ICD_DGNS_CD22,ICD_DGNS_CD23,ICD_DGNS_CD24,ICD_DGNS_CD25,ICD_DGNS_CD3,ICD_DGNS_CD4,ICD_DGNS_CD5,ICD_DGNS_CD6,ICD_DGNS_CD7,ICD_DGNS_CD8,ICD_DGNS_CD9,ICD_DGNS_E_CD1,ICD_DGNS_E_CD10,ICD_DGNS_E_CD11,ICD_DGNS_E_CD12,ICD_DGNS_E_CD2,ICD_DGNS_E_CD3,ICD_DGNS_E_CD4,ICD_DGNS_E_CD5,ICD_DGNS_E_CD6,ICD_DGNS_E_CD7,ICD_DGNS_E_CD8,ICD_DGNS_E_CD9,ICD_PRCDR_CD1,ICD_PRCDR_CD10,ICD_PRCDR_CD11,ICD_PRCDR_CD12,ICD_PRCDR_CD13,ICD_PRCDR_CD14,ICD_PRCDR_CD15,ICD_PRCDR_CD16,ICD_PRCDR_CD17,ICD_PRCDR_CD18,ICD_PRCDR_CD19,ICD_PRCDR_CD2,ICD_PRCDR_CD20,ICD_PRCDR_CD21,
+ICD_PRCDR_CD22,ICD_PRCDR_CD23,ICD_PRCDR_CD24,ICD_PRCDR_CD25,ICD_PRCDR_CD3,ICD_PRCDR_CD4,ICD_PRCDR_CD5,ICD_PRCDR_CD6,ICD_PRCDR_CD7,ICD_PRCDR_CD8,ICD_PRCDR_CD9,bene_id,&filename as filename,clm_id,ADMTG_DGNS_CD;
+
+%if &filename=OUTPATIENT_CLAIMS_ %then %let SQL_VARs=
+FST_DGNS_E_CD,
+PRNCPAL_DGNS_CD,ICD_DGNS_CD1,ICD_DGNS_CD10,ICD_DGNS_CD11,ICD_DGNS_CD12,ICD_DGNS_CD13,ICD_DGNS_CD14,ICD_DGNS_CD15,ICD_DGNS_CD16,ICD_DGNS_CD17,ICD_DGNS_CD18,ICD_DGNS_CD19,ICD_DGNS_CD2,ICD_DGNS_CD20,ICD_DGNS_CD21,ICD_DGNS_CD22,ICD_DGNS_CD23,ICD_DGNS_CD24,ICD_DGNS_CD25,ICD_DGNS_CD3,ICD_DGNS_CD4,ICD_DGNS_CD5,ICD_DGNS_CD6,ICD_DGNS_CD7,ICD_DGNS_CD8,ICD_DGNS_CD9,ICD_DGNS_E_CD1,ICD_DGNS_E_CD10,ICD_DGNS_E_CD11,ICD_DGNS_E_CD12,ICD_DGNS_E_CD2,ICD_DGNS_E_CD3,ICD_DGNS_E_CD4,ICD_DGNS_E_CD5,ICD_DGNS_E_CD6,ICD_DGNS_E_CD7,ICD_DGNS_E_CD8,ICD_DGNS_E_CD9,ICD_PRCDR_CD1,ICD_PRCDR_CD10,ICD_PRCDR_CD11,ICD_PRCDR_CD12,ICD_PRCDR_CD13,ICD_PRCDR_CD14,ICD_PRCDR_CD15,ICD_PRCDR_CD16,ICD_PRCDR_CD17,ICD_PRCDR_CD18,ICD_PRCDR_CD19,ICD_PRCDR_CD2,ICD_PRCDR_CD20,ICD_PRCDR_CD21,ICD_PRCDR_CD22,ICD_PRCDR_CD23,ICD_PRCDR_CD24,ICD_PRCDR_CD25,ICD_PRCDR_CD3,ICD_PRCDR_CD4,ICD_PRCDR_CD5,ICD_PRCDR_CD6,ICD_PRCDR_CD7,ICD_PRCDR_CD8,ICD_PRCDR_CD9,
+bene_id,&filename as filename,clm_id;
+
+%if &filename=SNF_CLAIMS_ %then 
+%let SQL_VARs=
+FST_DGNS_E_CD,PRNCPAL_DGNS_CD,ICD_DGNS_CD1,ICD_DGNS_CD10,ICD_DGNS_CD11,ICD_DGNS_CD12,ICD_DGNS_CD13,ICD_DGNS_CD14,ICD_DGNS_CD15,ICD_DGNS_CD16,ICD_DGNS_CD17,ICD_DGNS_CD18,ICD_DGNS_CD19,ICD_DGNS_CD2,ICD_DGNS_CD20,ICD_DGNS_CD21,
+ICD_DGNS_CD22,ICD_DGNS_CD23,ICD_DGNS_CD24,ICD_DGNS_CD25,ICD_DGNS_CD3,ICD_DGNS_CD4,ICD_DGNS_CD5,ICD_DGNS_CD6,ICD_DGNS_CD7,ICD_DGNS_CD8,ICD_DGNS_CD9,ICD_DGNS_E_CD1,ICD_DGNS_E_CD10,ICD_DGNS_E_CD11,ICD_DGNS_E_CD12,ICD_DGNS_E_CD2,ICD_DGNS_E_CD3,ICD_DGNS_E_CD4,ICD_DGNS_E_CD5,ICD_DGNS_E_CD6,ICD_DGNS_E_CD7,ICD_DGNS_E_CD8,ICD_DGNS_E_CD9,ICD_PRCDR_CD1,ICD_PRCDR_CD10,ICD_PRCDR_CD11,ICD_PRCDR_CD12,ICD_PRCDR_CD13,ICD_PRCDR_CD14,ICD_PRCDR_CD15,ICD_PRCDR_CD16,ICD_PRCDR_CD17,ICD_PRCDR_CD18,ICD_PRCDR_CD19,ICD_PRCDR_CD2,ICD_PRCDR_CD20,ICD_PRCDR_CD21,
+ICD_PRCDR_CD22,ICD_PRCDR_CD23,ICD_PRCDR_CD24,ICD_PRCDR_CD25,ICD_PRCDR_CD3,ICD_PRCDR_CD4,ICD_PRCDR_CD5,ICD_PRCDR_CD6,ICD_PRCDR_CD7,ICD_PRCDR_CD8,
+ICD_PRCDR_CD9,bene_id,&filename as filename,clm_id,ADMTG_DGNS_CD;
+
+%if &filename=HOSPICE_CLAIMS_ %then 
+%let SQL_VARs=
+FST_DGNS_E_CD,PRNCPAL_DGNS_CD,ICD_DGNS_CD1,ICD_DGNS_CD10,ICD_DGNS_CD11,
+ICD_DGNS_CD12,ICD_DGNS_CD13,ICD_DGNS_CD14,ICD_DGNS_CD15,ICD_DGNS_CD16,ICD_DGNS_CD17,ICD_DGNS_CD18,ICD_DGNS_CD19,ICD_DGNS_CD2,ICD_DGNS_CD20,ICD_DGNS_CD21,ICD_DGNS_CD22,ICD_DGNS_CD23,ICD_DGNS_CD24,ICD_DGNS_CD25,ICD_DGNS_CD3,ICD_DGNS_CD4,ICD_DGNS_CD5,ICD_DGNS_CD6,ICD_DGNS_CD7,ICD_DGNS_CD8,ICD_DGNS_CD9,ICD_DGNS_E_CD1,ICD_DGNS_E_CD10,ICD_DGNS_E_CD11,ICD_DGNS_E_CD12,ICD_DGNS_E_CD2,ICD_DGNS_E_CD3,ICD_DGNS_E_CD4,ICD_DGNS_E_CD5,ICD_DGNS_E_CD6,ICD_DGNS_E_CD7,ICD_DGNS_E_CD8,ICD_DGNS_E_CD9,bene_id,&filename as filename,clm_id;
+
+%if &filename=HHA_CLAIMS_ %then 
+%let SQL_VARs=
+FST_DGNS_E_CD,PRNCPAL_DGNS_CD,ICD_DGNS_CD1,ICD_DGNS_CD10,ICD_DGNS_CD11,ICD_DGNS_CD12,ICD_DGNS_CD13,ICD_DGNS_CD14,ICD_DGNS_CD15,ICD_DGNS_CD16, ICD_DGNS_CD17,ICD_DGNS_CD18,ICD_DGNS_CD19,ICD_DGNS_CD2,ICD_DGNS_CD20,
+ICD_DGNS_CD21,ICD_DGNS_CD22,ICD_DGNS_CD23,ICD_DGNS_CD24,
+ICD_DGNS_CD25,ICD_DGNS_CD3,ICD_DGNS_CD4,ICD_DGNS_CD5,ICD_DGNS_CD6,ICD_DGNS_CD7,ICD_DGNS_CD8,ICD_DGNS_CD9,ICD_DGNS_E_CD1,ICD_DGNS_E_CD10,ICD_DGNS_E_CD11,ICD_DGNS_E_CD12,ICD_DGNS_E_CD2,ICD_DGNS_E_CD3,ICD_DGNS_E_CD4,ICD_DGNS_E_CD5,
+ICD_DGNS_E_CD6,ICD_DGNS_E_CD7,ICD_DGNS_E_CD8,ICD_DGNS_E_CD9,
+bene_id,&filename as filename,clm_id;
+
+%if &filename=BCARRIER_CLAIMS_ %then 
+%let SQL_VARs= PRNCPAL_DGNS_CD,ICD_DGNS_CD1,ICD_DGNS_CD10,ICD_DGNS_CD11,ICD_DGNS_CD12,ICD_DGNS_CD2,ICD_DGNS_CD3,ICD_DGNS_CD4,ICD_DGNS_CD5,ICD_DGNS_CD6,ICD_DGNS_CD7,ICD_DGNS_CD8,ICD_DGNS_CD9,bene_id, &filename as filename,clm_id;
+
+/*This program has a log function that will write a log file*/
+data log;
+job_name=symget('job_name');
+start_date=date();format start_date date.;
+start_time=time();format start_time time.;
+time_zone=symget('systimezone');
+run;
+
+data event_index_&cohort_number(
+keep=&by &var);
+merge
+&filelib&year..&filename.%sysfunc(putn(&month,z2.))(in=a)
+cases_&cohort_number(in=b);/*here we refrence a finder output file that is preprocessed in this script below.*/
+by bene_id;
+if a and b;
+run;
+
+proc sort data=event_index_&cohort_number;
+by &by;
+run;
+
+proc transpose 
+data=event_index_&cohort_number
+out=transpose_index_&cohort_number;
+by &by;
+var &var;
+run;
+
+proc sql; 
+create table transpose_index_&cohort_number as
+select * from transpose_index_&cohort_number
+where col1^='';run;
+
+	data transpose_index_&cohort_number;
+	set transpose_index_&cohort_number;
+	if _Name_=:'ADMTG_DGNS_CD' then Type='DX';
+	if _Name_=:'PRNCPAL_DGNS_CD' then Type='DX';
+	if _Name_=:'ICD_DGNS_CD' then Type='DX';
+	if _Name_=:'ICD_PRCDR_CD' then Type='PX';
+	if _NAME_=:'ICD_DGNS_E_CD' then Type='DX';
+	if _Name_=:'FST_DGNS_E_CD' then Type='PX';
+	year=&year;
+	month=&month;
+	run;
+
+proc sql;
+create table 
+event_index_&cohort_number
+as select 
+bene_id,
+"&cohort_name" as cohort_name,
+"&cohort_number" as cohort_number,
+symget('filename') as filea,
+col1 as concept_code,
+type,
+clm_thru_dt
+from
+transpose_index_&cohort_number;
+
+Proc append force base=&library..Events_&Cohort_Number/*you may only need one period here*/
+Data=event_index_&cohort_number;
+
+data log;
+set log;
+Source_File=symget('filename');
+cohort_name=symget('cohort_name');
+cohort_number=symget('cohort_number');
+obs=symget('sysnobs');
+End_Time=time();format end_time time.;
+run;
+
+proc append FORCE
+base=&library.precious_log
+data=work.log;
+run;
+
+/*clear cashed*/
+proc datasets library=work;
+delete 
+event_index_&cohort_number
+transpose_index_&cohort_number
+;run;
+
+%mend;
+
+%macro multi_claims_scraper(first_year,first_file,last_file,last_year,first_month,last_month);
+%do a=&first_file %to &last_file;
+%do year=&first_year %to &last_year;
+%do month=&first_month %to &last_month;
+%claims_scraper(
+by=clm_id bene_id clm_thru_dt,
+filelib=rif,
+year=&year,
+month=&month,
+library=,/*put your user library here!!!*/
+filename=&&&claims&a.,
+cohort_name=&Cohort_Name,
+cohort_number=&Cohort_Number,
+job_name='Claims_Scraper'
+);run;
+%end;%end;%END;
+%mend;
+
+
+/*File Class: RX
+  File Sourse: Medicare*/
+%macro rx_scraper(filelib,year,month,filename,cohort_name,cohort_number,job_name,var,library);
+data log;
+job_name=symget('job_name');
+start_date=date();format start_date date.;
+start_time=time();format start_time time.;
+time_zone=symget('systimezone');
+run;
+
+data event_index_&cohort_number(keep=&var);
+merge
+&filelib&year..&filename.&year._%sysfunc(putn(&month,z2.))(in=a)
+cases_&cohort_number(in=b);
+by bene_id;
+if a and b;
+filea="pde_demo";
+type="NDC";
+clm_thru_dt=srvc_dt;
+concept_code=prod_srvc_id;
+cohort_number=&cohort_number;
+run;
+
+
+proc append force base=&library..events_&cohort_number data=event_index_&cohort_number;run;
+data log;set log;Source_File=symget('filename');cohort_name=symget('cohort_name');cohort_number=symget('cohort_number');obs=symget('sysnobs');End_Time=time();format end_time time.;run;
+proc append FORCE base=&library..precious_log data=work.log;run;
+proc datasets library=work;delete  event_index_&cohort_number;run;%mend;
+
+%macro RX_multi_scraper(first_year,last_year,first_month,last_month);
+%do year=&first_year %to &last_year;
+%do month=&first_month %to &last_month;
+%rx_scraper(
+	year=&year,
+	month=&month,
+	filelib=pde,
+	var=bene_id filea type clm_thru_dt concept_code cohort_number QTY_DSPNSD_NUM DAYS_SUPLY_NUM TOT_RX_CST_AMT PTNT_PAY_AMT,
+	filename=pde_demo_,
+    library=,/*name your working directory*/
+	cohort_name=&cohort_name,
+	cohort_number=&cohort_number,
+	job_name='RX_Scraper'/*name it something better if you want the log to shine*/
+);run;
+%end;%end;
+%mend;
+
+
+/*File Class: Revenue (HCPCS-CPT
+  File Sourse: Medicare*/
+%macro HCPCS_scraper(var,filelib,year,month,filename,cohort_name,cohort_number,job_name,library);
+	/*Log Step*/
+data log;job_name=symget('job_name');
+start_date=date();format 
+start_date date.;
+start_time=time();format 
+start_time time.;
+time_zone=symget('systimezone');
+run;
+
+data event_index_&cohort_number(
+keep=&var);
+merge
+&filelib&year..&filename.%sysfunc(putn(&month,z2.))(in=a)
+cases_&cohort_number(in=b);
+by bene_id;
+if a and b;
+Type='PX';
+cohort_number=&cohort_number;
+cohort_name=&cohort_name;
+concept_code=HCPCS_CD;
+filea=symget('filename');
+run;
+
+/*remove event blanks*/
+proc sql; create table  event_index_&cohort_number as select * from  event_index_&cohort_number where concept_code^='';run;
+
+/*append events to event index by cohort*/
+Proc append force base=&library..Events_&Cohort_Number
+Data= event_index_&cohort_number;
+
+/*end log*/
+data log;
+set log;
+Source_File=symget('filename');
+cohort_name=symget('cohort_name');
+cohort_number=symget('cohort_number');
+obs=symget('sysnobs');
+End_Time=time();format end_time time.;
+run;
+proc append FORCE base=&library..precious_log
+data=work.log;run;
+
+/*clear cashed*/
+proc datasets library=work;delete 
+event_index_&cohort_number
+;run;
+%mend;
+
+/* Multi Year Config */
+/*HCPCS_Config*/
+%macro multi_HCPCS_scraper(first_year,first_file,last_file,last_year,first_month,last_month);
+%do a=&first_file %to &last_file;
+%do year=&first_year %to &last_year;
+%do month=&first_month %to &last_month;
+%HCPCS_scraper(
+	var=bene_id clm_thru_dt type cohort_number cohort_name concept_code filea,
+	filelib=rif,
+	year=&year,
+	month=&month,
+    library=,
+	filename=&&&file&a.,
+	cohort_name=&Cohort_Name,
+	cohort_number=&Cohort_Number,
+	job_name='HCPCS_Collector'
+	);run;
+%END;%END;%end;
+%mend;
+
+
+/*Config*/
+%let cohort_number='';/*name and number your cohorts!*/
+%let cohort_name='';
+%let library='';/*name your library as above!*/
+
+proc sql; create table cases_&cohort_number as
+select distinct bene_id as bene_id from &library..cases_&cohort_number;
+run;
+proc sort data=cases_&cohort_number; by bene_id; run;
+/*make sure list is in your library*/
+proc sql noprint; select Year into :year1-:year19 from &library..List;
+proc sql noprint; select HCPCS into :file1-:file6 from &library..List; 
+proc sql noprint; select claims into :claims1-:claims6 from &library..list; 
+proc sql noprint; select Month into :month1-:month12 from &library..List;
+
+	/*make a space to save your data by writing a dummy record*/
+data &library..Events_&Cohort_Number;
+Bene_ID=000000000000;
+Concept_code='XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
+clm_thru_dt='26oct98'd;/*VRDC data starts in 1999- 1998 is the dummy record*/
+filea='XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
+type='XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
+cohort_number='XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
+cohort_name='XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
+ /*you can append aditional data provided it is called from SQL and SAS above*/
+
+run;
+
+/*launch the jobs, results will append the dummy record you made in the above block code*/
+
+%rx_multi_scraper(
+first_year=&year15,
+last_year=&year19,
+first_month=01,
+last_month=12
+);run;
+*/
+%multi_HCPCS_scraper
+(first_file=1,
+last_file=6,
+first_month=01,
+last_month=12,
+first_year=&year9,
+last_year=&year11)
+;run;
+
+%multi_claims_scraper(
+first_file=1,
+last_file=6,
+first_month=01,
+last_month=12,
+first_year=&year9,
+last_year=&year11
+);run;
