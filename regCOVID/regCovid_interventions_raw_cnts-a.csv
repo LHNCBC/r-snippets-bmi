@@ -1,41 +1,82 @@
 intervention,Study_count
-placebo,20
-hydroxychloroquine,19
-lopinavir/ritonavir,8
-placebo oral tablet,8
-remdesivir,7
-tocilizumab,7
-hydroxychloroquine sulfate,6
-azithromycin,5
-methylprednisolone,5
+placebo,56
+hydroxychloroquine,55
+placebo oral tablet,18
+azithromycin,16
+tocilizumab,13
+hydroxychloroquine sulfate,11
+placebos,10
+lopinavir/ritonavir,9
+standard of care,9
+convalescent plasma,8
+methylprednisolone,8
+remdesivir,8
+chloroquine,7
+favipiravir,7
+losartan,7
+vitamin c,5
+anakinra,4
 colchicine,4
-losartan,3
-placebos,3
-standard care,3
-standard of care,3
-uc-mscs,3
+hydroxychloroquine + azithromycin,4
+sarilumab,4
+standard care,4
+uc-mscs,4
+baricitinib,3
+bcg vaccine,3
+interferon beta-1a,3
+interferon beta-1b,3
+lopinavir / ritonavir,3
+nitazoxanide,3
+nitric oxide gas,3
+oseltamivir,3
+telerehabilitation,3
+usual care,3
+vitamin d,3
 abidol hydrochloride,2
-anakinra,2
+anti-sars-cov-2 convalescent plasma,2
 arbidol,2
+ascorbic acid,2
+azithromycin tablets,2
 basic treatment,2
-bcg vaccine,2
+bevacizumab injection,2
+camostat mesilate,2
+chloroquine diphosphate,2
+chloroquine or hydroxychloroquine,2
 chloroquine phosphate,2
-convalescent plasma,2
+clazakizumab,2
+control,2
+control group,2
 dexamethasone,2
-hydroxychloroquine + azithromycin,2
+emtricitabine/tenofovir disoproxil,2
+exercise brochure,2
+hb-admscs,2
+hydroxychloroquine + placebo,2
+hydroxychloroquine sulfate loading dose,2
+hydroxychloroquine sulfate regular dose,2
+ivermectin,2
+leronlimab (700mg),2
 mscs,2
-nestcellâ®,2
 nitric oxide,2
-nitric oxide gas,2
-oseltamivir,2
+nors (nitric oxide releasing solution),2
+placebo: hydroxychloroquine,2
+plasma,2
+prone positioning,2
 pul-042 inhalation solution,2
+recombinant novel coronavirus vaccine (adenovirus type 5 vector),2
 remdesivir placebo,2
-sarilumab,2
+ruxolitinib,2
 siltuximab,2
+single dose of hydroxychloroquine,2
+standard of care treatment,2
 standard treatment,2
+telemedicine,2
 thalidomide,2
+tocilizumab (tcz),2
+zinc,2
 """calm"" is a mindfulness meditation mobile app",1
 (standard of care) soc,1
+0.12% chlorhexidine oral/nasal rinse,1
+0.5% povidone/iodine oral/nasal rinse,1
 1: discontinuation of ras blocker therapy,1
 1: naproxen,1
 1: usual practice,1
@@ -43,87 +84,192 @@ thalidomide,2
 2: standard of care,1
 2: usual practice + symbicort rapihaler,1
 abidol hydrochloride combined with interferon atomization,1
+acalabrutinib,1
 ace inhibitor,1
+aceis,1
+allogeneic and expanded adipose tissue-derived mesenchymal stromal cells,1
+allogeneic human dental pulp stem cells (bsh btc & utooth btc),1
+allogeneic nk transfer,1
+amiodarone,1
+angiotensin 1-7,1
 angiotensin receptor blocker,1
+anluohuaxian,1
 anti- sars-cov-2 plasma,1
-antiviral treatment and prophylaxis,1
+anti-coronavirus antibodies (immunoglobulins)obtained with dfpp from convalescent patients,1
+antibody-rich plasma from covid-19 recovered patients,1
 arbidol hydrochloride granules,1
 asc09/ritonavir group,1
 asc09f+oseltamivir,1
-ascorbic acid,1
+ascorbic acid and zinc gluconate,1
+aspirin,1
+aspirin 75mg,1
+atorvastatin 40mg,1
+atovaquone/azithromycin,1
+auricular neuromodulation,1
 automated oxygen administration - freeo2,1
 aviptadil by intravenous infusion + maximal intensive care,1
+awake proning,1
+ayurveda,1
 azithromycin 500mg oral tablet,1
-azithromycin tablets,1
-baricitinib,1
+bactrl-spike,1
 baricitinib (janus kinase inhibitor),1
+best standard of care,1
+best supportive care (bsc) + ifx-1,1
+best supportive care only,1
 bevacizumab,1
-bevacizumab injection,1
 bidirectional oxygenation mouthpiece,1
+biosensors,1
+biovitals,1
+bld-2660,1
+blood and derivatives.,1
+blood draw,1
 blood sample,1
+bm-mscs,1
+bms-986253,1
+bob's red mill,1
+bromhexine 8 mg,1
 bromhexine hydrochloride tablets,1
 calcium channel blockers,1
-camostat mesilate,1
+candesartan,1
+caption ai,1
 carrimycin,1
 castem,1
 cd24fc,1
+cellectraâ® 2000,1
 centricyte 1000,1
 chadox1 ncov-19,1
 chinese medicine treatment,1
-chloroquine,1
-chloroquine diphosphate,1
-chloroquine or hydroxychloroquine,1
+chloroquine analog (gns651),1
+"cholecalciferol 200,000 iu",1
+"cholecalciferol 50,000 iu",1
 ciclesonide metered dose inhaler [alvesco],1
-control,1
-control group,1
+clazakizumab 12.5 mg,1
+clazakizumab 25 mg,1
+clevudine,1
+clopidogrel 75mg,1
+cm4620-injectable emulsion,1
+colchicine tablets,1
+combined use of a respiratory broad panel multiplex pcr and procalcitonin,1
+complement dosage,1
+continuation of acei/arb,1
+continuation of arb/acei,1
+control - corn starch,1
+control arm,1
+convalescent anti-sars-cov-2 plasma,1
+convalescent plasma from recovered covid 19 donor,1
+convalescent plasma transfusion,1
+convalescent serum,1
 "conventional medicines (oxygen therapy, alfa interferon via aerosol inhalation, and lopinavir/ritonavir)",1
 "conventional medicines (oxygen therapy, alfa interferon via aerosol inhalation, and lopinavir/ritonavir) and traditional chinese medicines (tcms) granules",1
+conventional oxygen,1
+conventional treatment,1
+covid-19 diagnostic test,1
+"covid-19 igm/igg rapid testing, mobile device image capture and telemedicine support",1
+cpap,1
 cpap treatment,1
+crisis management coaching,1
+cytokines dosage,1
+cytosorb-therapy,1
+danoprevir+ritonavir,1
+dapagliflozin 10 mg,1
 darunavir and cobicistat,1
 das181,1
+deferoxamine,1
+defibrotide 25 mg/kg 24 hours continuous infusion for 15 days,1
+defibrotide injection,1
 dental pulp mesenchymal stem cells,1
+dexamethasone and hydroxychloroquine,1
+dexamethasone injection,1
+discontinuation of acei/arb,1
+discontinuation of arb/acei,1
+double-trunk mask,1
+ecco2r,1
+ecmo implantation,1
+eculizumab,1
+eicosapentaenoic acid gastro-resistant capsules,1
 emapalumab,1
-emtricitabine/tenofovir disoproxil,1
+enoxaparin,1
 escin,1
-experimental group,1
 experimental: questionnaire without precaution information,1
 expiratory training device,1
-favipiravir,1
 favipiravir combined with tocilizumab,1
 favipiravir tablets,1
 favipiravir tablets+chloroquine phosphatetablets tablets,1
 fingolimod 0.5 mg,1
+fluvoxamine,1
 ganovo+ritonavir+/-interferon nebulization,1
+gargle/mouthwash,1
 general health education,1
+gimsilumab,1
 glucose tablets,1
 go2 peep mouthpiece,1
 guided online support program,1
+hfno,1
+hidroxicloroquina,1
+high-titer anti-sars-cov-2 plasma,1
+high does chloroquine or hydroxychloroquine,1
 high flow nasal cannula (hfnc),1
+home-cov rule implementation,1
+honey,1
 huaier granule,1
 human amniotic fluid,1
 human biological samples,1
+human immunoglobulin,1
 humanistic care,1
+hydrocortisone,1
+hydroxychloroquine - daily dosing,1
+hydroxychloroquine - weekly dosing,1
+hydroxychloroquine (hcq),1
+hydroxychloroquine + azithromycin + / - tocilizumab,1
 hydroxychloroquine 200 mg oral tablet,1
+hydroxychloroquine and azithromycin treatment arm.,1
 hydroxychloroquine as post exposure prophylaxis,1
 hydroxychloroquine oral product,1
+hydroxychloroquine placebo,1
+hydroxychloroquine sar321068,1
+hydroxychloroquine sulfate (hcq),1
+hydroxychloroquine sulfate + azithromycin,1
+hydroxychloroquine sulfate 200 milligram (mg) tab,1
 hydroxychloroquine sulfate 400 mg twice a day,1
 hydroxychloroquine sulfate 600 mg once a day,1
 hydroxychloroquine sulfate 600 mg twice a day,1
+"hydroxychloroquine, azithromycin",1
+"hydroxychloroquine, clindamycin",1
+"hydroxychloroquine, clindamycin, primaquine - high dose.",1
+"hydroxychloroquine, clindamycin, primaquine - low dose.",1
+"hydroxychloroquine, doxycycline",1
 hyperbaric oxygen,1
+hyperbaric oxygen therapy,1
 hyperbaric oxygen therapy (hbot),1
+hyperbaric oxygen treatment (hbot) i.e. inhalation of pressurized oxygen delivered by a hyperbaric chamber (drug/device),1
 hyperimmune plasma,1
 î³-globulin,1
+ibuprofen,1
 immunoglobulin of cured patients,1
+individualised ayurveda,1
+indomethacin,1
 inhaled nitric oxide gas,1
+inhaled supplemental oxygen,1
 injection and infusion of lv-smenp-dc vaccine and antigen-specific ctls,1
+injective placebo,1
+ino-4800,1
 inspiratory training device,1
-interferon beta-1a,1
-interferon beta-1b,1
+insulin regimen,1
+interferon-alpha2b,1
+interferon-î² 1a,1
+internet-delivered cognitive behavior therapy (icbt) for dysfunctional worry related to the covid-19 pandemic,1
+intradermal injection of bcg vaccine,1
+intravenous saline injection (placebo),1
 isocaloric/isonutrigenous ons,1
+isotonic saline 0.9%,1
 iv deployment of csvf in sterile normal saline iv solution,1
+ivermectine,1
 kevzara sc,1
+l-ascorbic acid,1
+lenzilumab,1
 levamisole pill + budesonide+formoterol inhaler,1
 liberase enzyme (roche),1
+linagliptin,1
 local standard of care,1
 lopinavir / ritonavir tablets combined with xiyanping injection,1
 "lopinavir / ritonavir, alpha-interferon nebulization",1
@@ -133,86 +279,189 @@ lopinavir/ritonavir + hydoxychloroquine,1
 lopinavir/ritonavir group,1
 lopinavir/ritonavir tablets or arbidol or chloroquine phosphate,1
 lopinavir/ritonavir treatment,1
+low-dose chloroquine/hydroxychloroquine,1
+lung ultrasound,1
+ly3127804,1
+mavrilimumab,1
+mechanical ventilation,1
 medical mask,1
+mefloquine,1
+mefloquine + azithromycin + / - tocilizumab,1
+menacwy placebo,1
 meplazumab for injection,1
+mesenchymal stromal cells,1
+methylprednisolone sodium succinate,1
 methylprednisolone therapy,1
 microcannula harvest adipose derived tissue stromal vascular fraction (tsvf),1
+mid dose chloroquine or hydroxychloroquine,1
 mindfulness session(s),1
+monitoring visit - baseline,1
+monitoring visit - week 4,1
+monitoring visit - week 8,1
 mrna-1273,1
 mscs-derived exosomes,1
+multifrequency bioimpedance spectroscopy,1
+musclesound ultrasound,1
 n-acetylcysteine+ fuzheng huayu tablet,1
 n-acetylcysteine+placebo,1
 n95 respirator,1
+nacl 0.9%,1
 natural honey,1
+nestcellâ®,1
 new screening strategy,1
+niclosamide,1
+nigella sativa / black cumin,1
+nintedanib 150 mg,1
+nitazoxanide 500 mg,1
+nitazoxanide tablets,1
+nivolumab,1
+nivolumab injection,1
 nk cells,1
 "nk cells,il15-nk cells,nkg2d car-nk cells,ace2 car-nk cells,nkg2d-ace2 car-nk cells",1
 non-contact mce system,1
+non-ras blocking antihypertensives,1
 normal saline infusion + maximal intensive care,1
+omeprazole 20mg,1
+online mindfulness group,1
 oral,1
 "oral nutrition supplement (ons) enriched in eicosapentaenoic acid, gamma-linolenic acid and antioxidants",1
+oral placebo,1
 others(no intervention),1
+oxygen,1
+oxygen therapy,1
+oxyhydrogen,1
 pathogen-specific aapc,1
 pd-1 blocking antibody+standard treatment,1
 peginterferon lambda-1a,1
+peginterferon lambda alfa-1a subcutaneous injection,1
+pegylated interferon lambda,1
+pembrolizumab (mk-3475),1
 personalized health education,1
+physiological saline solution,1
+piclidenoson,1
 pirfenidone,1
+placebo + placebo,1
+placebo 250 cc 24 hours continuous infusion for 15 days,1
+placebo for clazakizumab,1
 placebo of hydroxychloroquine,1
 placebo of lpv/r tablets,1
+placebo solution,1
+placebo vaccine,1
 placebo: emtricitabine/tenofovir disoproxil,1
-placebo: hydroxychloroquine,1
-plasma,1
+placebo: emtricitabine/tenofovir disoproxil placebo,1
+plasma donation,1
+postural positioning,1
+povidone-iodine 0.5%,1
+povidone-iodine 2%,1
+prednisone,1
 prone positioning (pp),1
+protective ventilation,1
+psychoeducational intervention,1
 psychological and physical rehabilitation based humanistic care,1
+pyridostigmine bromide,1
+q-nrg metobolic cart device,1
 questionnaire with precaution information,1
 recombinant human angiotensin-converting enzyme 2 (rhace2),1
 recombinant human interferon alpha-1b,1
 recombinant human interferon î±1î²,1
 recombinant human interferon î±2b spray,1
-recombinant novel coronavirus vaccine (adenovirus type 5 vector),1
+rhace2 apn01,1
 ribavirin,1
 ritonavir+oseltamivir,1
+rivaroxaban,1
+rivaroxaban 2.5 mg,1
 roactemra iv,1
 roactemra sc,1
-ruxolitinib,1
+ruxolitinib 10 mg,1
+ruxolitinib oral tablet,1
+ruxolitinib plus simvastatin,1
+saline,1
 saline containing 1% human serum albuminï¼ˆsolution of mscï¼‰,1
-saline placebo,1
+saline nasal irrigation,1
+saline oral/nasal rinse,1
+saline with baby shampoo nasal irrigation,1
 sargramostim,1
 sarilumab (anti-il-6 receptor),1
 sarilumab sar153191,1
+sars-cov-2 infection,1
 sars-cov-2 non-immune plasma,1
+self-administered questionnaires,1
+self-prone position recommendation,1
+selinexor,1
+serological tests will be applied on patients blood sampling,1
 sildenafil citrate tablets,1
+simvastatin,1
+sirolimus,1
+sodium chloride 9mg/ml,1
+spin-chat program,1
+spironolactone 100mg,1
 standard administration of oxygen flow,1
+standard donor plasma,1
+standard interface,1
 standard medical care,1
 standard medical treatment,1
-standard of care treatment,1
+standard of care therapy,1
+standard of care.,1
 standard public health measures,1
 standard screening strategy,1
 standard therapy,1
+standard therapy for covid-19 according to the stablished hospital protocols.,1
+standard therapy of covid-19,1
+standard therapy recommended by the ministry of health of the russian federation and dalargin inhalation,1
+standard therapy recommended by the ministry of health of the russian federation and dalargin intramuscular injection,1
+standard therapy recommended by the ministry of health of the russian federation and dalargin intramuscular injection combined with dalargin inhalation,1
+standard therapy recommended by the ministry of health of the russian federation.,1
 standard western medicine treatment,1
+standards of care,1
 stem cell educator-treated mononuclear cells apheresis,1
+stem cell product,1
 sterile normal saline for intravenous use,1
 sterile water for injection,1
+study group,1
+supportive care,1
+surgical facial mask,1
+suspension of heat killed (autoclaved) mycobacterium w,1
+t3 solution for injection,1
 t89,1
+tacrolimus,1
+td-0903,1
+tele-interventions related to diabetes management and mental well-being,1
 tele-medicine platform,1
-telemedicine,1
+telehealth applications,1
 tetrandrine,1
 the control group will not receive hydroxychloroquine,1
 thiazide or thiazide-like diuretics,1
+thromboprophylaxis,1
 thymosin alpha 1,1
 thymosin+standard treatment,1
-tocilizumab (tcz),1
+tinzaparin or unfractionated heparin,1
+tj003234,1
 tocilizumab injection,1
 tofacitinib,1
 tradipitant,1
 traditional chinese medicine prescription,1
-usual care,1
+tranexamic acid,1
+tranexamic acid tablets,1
+transfusion of covid-19 convalescent plasma,1
+treatment and prophylaxis,1
+treatment with dexmedetomidine,1
+ultraprotective ventilation,1
+umbilical cord wharton's jelly-derived human,1
+umifenovir,1
+unikinon (chloroquine phosphate) 200mg tablets,1
+usual antibiotic treatment,1
+valsartan (diovan),1
+vazegepant (bhv-3500),1
 vc,1
-vitamin c,1
+verapamil,1
+video based aerobic exercise,1
+video based exercise,1
+vitalconnect vital sign patch,1
 vivadiagâ„¢ covid-19 lgm/igg rapid test,1
 vv-ecmo + cytokine adsorption (cytosorb adsorber),1
 vv-ecmo only (no cytokine adsorption),1
 washed microbiota transplantation,1
+weekly assessment,1
 who recommendations (waiting condition),1
 wj-mscs,1
 xiyanping injection,1
@@ -220,3 +469,5 @@ yin hu qing wen granula(low does),1
 yinhu qingwen decoction,1
 yinhu qingwen decoction(low dose),1
 yinhu qingwen granula,1
+zinc gluconate,1
+zithromax oral product,1
