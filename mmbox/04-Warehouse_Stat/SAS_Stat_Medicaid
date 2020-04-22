@@ -1,1 +1,452 @@
+/*
+OT File
+/*
+
+options mprint;
+options SYMBOLGEN;
+options mlogic;
+
+
+%let library=;
+
+proc sql noprint; select States into :state1-:state51 from &library..List;
+%let start_year=2010;
+%let end_year=2012;
+%let last_state=51;
+%let out_file=&library..ot_epi
+;
+
+
+
+%macro max_finder_ot(filelib, file, year, state, subtype, cohort_number,sqldf,library);
+data log;
+start_date=date();format start_date date.;
+start_time=time();format start_time time.;
+time_zone=symget('systimezone');
+run;
+
+data ot_file(keep= 
+BENE_ID
+STATE_CD
+YR_NUM	
+PRCDR_CD
+DIAG_CD_1	
+DIAG_CD_2
+rownum
+);
+set 
+max&year..&file.&&STATE&a..&subtype&year;
+rownum=_n_;
+run;
+
+proc sort data=ot_file;
+by 
+BENE_ID
+YR_NUM
+state_cd
+rownum
+;run;
+
+proc sql; create table ot_file as
+select * from ot_file where
+bene_id>0;
+
+
+proc transpose
+data=ot_file
+out=ot_file;
+by
+BENE_ID
+YR_NUM
+state_cd
+rownum;
+var
+PRCDR_CD
+DIAG_CD_1	
+DIAG_CD_2
+;run;
+
+data ot_file;
+set ot_file;
+if _name_=:'PRCDR_CD' then type='PX';
+if _name_=: 'DIAG_CD_' then type='DX';
+run;
+
+proc sql; create table 
+ot_file as select * from 
+ot_file where col1 is not null;
+
+
+
+proc append force
+force base=&library..ot_epi
+Data=ot_file
+;run;
+
+proc datasets lib=work;
+delete 
+ot_file
+;run;
+
+proc sql;
+create table 
+&library..ot_file as 
+select
+count(distinct bene_id) as pt_cnt,
+count(col1) as ev_cnt,
+col1 as concept_code,
+YR_NUM as year,
+state_cd as state,
+"OT" as filea,
+type
+from
+&library..ot_epi
+group by
+col1,state_cd, YR_NUM,filea,type;run;
+
+proc append force 
+base=&library..OT_final
+data=&library..ot_file
+;run;
+
+proc datasets library=&library;
+delete 
+ot_epi
+ot_file
+;run;
+
+data log;
+set log;
+cohort_name=symget('cohort_name');
+cohort_number=symget('cohort_number');
+obs=symget('sysnobs');
+End_Time=time();format end_time time.;
+run;
+
+proc append FORCE
+base=&library..precious_log
+data=work.log;
+run;
+%mend;
+
+%macro multi_finder_OT();
+%do year=&start_year %to &end_year;
+%do a=1 %to &last_state; 
+%max_finder_ot(
+filelib=MAX,
+file=maxdata_,
+library=,
+year=&year,
+state=&a,
+subtype=_OT_)
+;run;
+%end;
+%end;
+%mend;
+
+
+%multi_finder_OT();
+
+
+/*
+LT File
+*/
+
+
+
+%macro finder_lt_max(
+year,filename,library
+);
+
+data lt_file(keep= 
+BENE_ID
+YR_NUM
+DIAG_CD_1-DIAG_CD_5
+state_cd
+rownum
+);
+set 
+max&year..MAXDATA_lt_&year;
+rownum=_n_;
+run;
+
+proc sql; create table lt_file as
+select * from lt_file where
+bene_id>0;
+
+
+proc sort data=lt_file;
+by BENE_ID
+YR_NUM
+state_cd
+rownum
+;run;
+
+proc transpose
+data=lt_file
+out=lt_file;
+by
+BENE_ID
+YR_NUM
+state_cd
+rownum;
+var
+DIAG_CD_1
+DIAG_CD_2
+DIAG_CD_3
+DIAG_CD_4
+DIAG_CD_5
+;run;
+
+proc sql; create table lt_file as select * from lt_file
+where col1 is not null;
+
+proc sql;
+create table lt_file as
+select
+count(distinct bene_id) as pt_cnt,
+count(col1) as ev_cnt,
+YR_NUM as year,
+State_cd as state,
+"LT" as filea,
+col1 as concept_code
+from lt_file
+group by
+yr_num, state_cd,filea, col1;
+run;
+
+
+proc append  force
+base=&library..Epi_medicaid_lt
+data=lt_file
+;run;
+
+
+%mend;
+%macro multi_finder_lt_max();
+%do year= 1999 %to 2014;
+%finder_lt_max(
+year=&year,
+filename="LT");
+%end;
+%mend;
+
+%multi_finder_LT_max()
+
+\*RX File*\
+
+options mprint;
+options SYMBOLGEN;
+options mlogic;
+
+proc sql noprint; select States into :state1-:state51 from &library..List;
+%let start_year=1999;
+%let end_year=2014;
+%let last_state=51;
+;
+
+
+
+%macro max_finder_rx(filelib, file, year, state, subtype, cohort_number);
+data log;
+start_date=date();format start_date date.;
+start_time=time();format start_time time.;
+time_zone=symget('systimezone');
+run;
+
+data &library..rx_file(keep= 
+bene_id nownum yr_num state_cd ndc
+);
+set 
+max&year..&file.&&STATE&a..&subtype&year;
+rownum=_n_;
+run;
+
+
+proc sql; create table &library..rx_file as
+select * from &library..rx_file where
+bene_id>0;
+
+proc sql; create table &library..rx_file as
+select * from &library..rx_file
+left join
+&library..ndc_map_b
+on
+ndc
+=
+prod_srvc_id
+;
+
+proc sql;
+create table 
+&library..RX_file as 
+select
+count(distinct bene_id) as pt_cnt,
+count(cdn) as ev_cnt,
+cdn as concept_code,
+YR_NUM as year,
+state_cd as state,
+"RX" as filea
+from
+&library..RX_file
+group by
+cdn,state_cd, YR_NUM,filea;run;
+
+
+
+proc append force 
+base=&library..EPI_Medicaid_RX
+data=&library..RX_file
+;run;
+
+proc datasets lib=&library;
+delete 
+RX_file
+;run;
+
+
+data log;
+set log;
+cohort_name=symget('cohort_name');
+cohort_number=symget('cohort_number');
+obs=symget('sysnobs');
+End_Time=time();format end_time time.;
+run;
+
+proc append FORCE
+base=&library..precious_log
+data=work.log;
+run;
+%mend;
+
+%macro multi_finder_rx();
+%do year=&start_year %to &end_year;
+%do a=1 %to &last_state; 
+%max_finder_rx(
+filelib=MAX,
+file=maxdata_,
+year=&year,
+state=&a,
+subtype=_RX_)
+;run;
+%end;
+%end;
+%mend;
+
+
+%multi_finder_rx();
+
+
+\*IP file*\
+
+options mprint;
+options SYMBOLGEN;
+options mlogic;
+
+
+%macro finder_ip_max(
+year,
+filename
+);
+
+/*logstep*/
+
+/*make file subset*/
+data ip_file(keep= 
+BENE_ID
+YR_NUM
+DIAG_CD_1-DIAG_CD_9
+PRCDR_CD_1-PRCDR_CD_6
+state_cd
+rownum
+);
+set 
+max&year..MAXDATA_IP_&year;
+rownum=_n_;
+run;
+
+proc sql; create table ip_file as
+select * from ip_file where
+bene_id>0;
+/*sort*/
+proc sort data=ip_file;
+by BENE_ID
+YR_NUM
+state_cd
+rownum
+;run;
+
+/*transpose*/
+
+proc transpose
+data=ip_file
+out=ip_file;
+by
+BENE_ID
+YR_NUM
+state_cd
+rownum;
+var
+DIAG_CD_1
+DIAG_CD_2
+DIAG_CD_3
+DIAG_CD_4
+DIAG_CD_5
+DIAG_CD_6
+DIAG_CD_7
+DIAG_CD_8
+DIAG_CD_9
+PRCDR_CD_1
+PRCDR_CD_2
+PRCDR_CD_3
+PRCDR_CD_4
+PRCDR_CD_5
+PRCDR_CD_6
+;run;
+
+data ip_file;
+set ip_file;
+if _name_=:'PRCDR_CD' then type='PX';
+if _name_=: 'DIAG_CD_' then type='DX';
+run;
+
+run;
+
+proc sql; create table ip_file as select * from ip_file
+where col1 is not null;
+
+
+/*scrape*/
+proc sql;
+create table ip_file as
+select
+count(distinct bene_id) as pt_cnt,
+count(col1) as ev_cnt,
+YR_NUM as year,
+State_cd as state,
+"IP" as filea,
+type,
+col1 as concept_code
+from ip_file
+group by
+yr_num, state_cd,filea, col1,type;
+run;
+/*append*/
+
+proc append  force
+base=&library..Epi_medicaid_IP
+data=ip_file
+;run;
+/*clear cashe*/
+%mend;
+/*multi year loop*/
+%macro multi_finder_ip_max();
+%do year= 1999 %to 2014;
+%finder_ip_max(
+year=&year,
+filename="IP");
+%end;
+%mend;
+
+%multi_finder_ip_max()
 
