@@ -1,26 +1,28 @@
 intervention_type,Study_Count
-Drug,235
-Drug|Other,40
-Biological,31
-Other,30
-Device,17
-Behavioral,10
-Biological|Other,9
-Procedure,7
-Diagnostic Test,6
-Dietary Supplement|Drug,5
+Drug,299
+Drug|Other,54
+Other,45
+Biological,44
+Device,22
+Behavioral,13
+Biological|Other,13
+Procedure,10
+Diagnostic Test,8
+Dietary Supplement|Drug,7
+Device|Other,4
 Dietary Supplement,4
+Dietary Supplement|Other,4
 Biological|Drug,3
-Dietary Supplement|Other,3
+Drug|Procedure,3
+Biological|Diagnostic Test,2
 Combination Product,2
 Combination Product|Drug,2
-Device|Other,2
+Combination Product|Other,2
 Biological|Drug|Other,1
 Device|Drug,1
 Device|Drug|Procedure,1
 Device|Procedure,1
 Diagnostic Test|Drug|Other,1
 Diagnostic Test|Other,1
-Drug|Procedure,1
 Genetic,1
 Other|Procedure,1
