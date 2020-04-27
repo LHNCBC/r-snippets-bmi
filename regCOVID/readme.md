@@ -11,9 +11,6 @@ regCOVID stands for REGistered COVID-19 Interventional trials and observational 
 
 # Report
 Some of our outputs are available in a generated report at this link: https://lhncbc.github.io/r-snippets-bmi/regCOVID/regCovid_notebook2.html
-Some direct links within this report are:  
-- Graph of studies over time: https://lhncbc.github.io/r-snippets-bmi/regCOVID/r-notebook-regCovid.html#studies_over_time  
-- Studied interventions: https://lhncbc.github.io/r-snippets-bmi/regCOVID/r-notebook-regCovid.html#count_of_studies_by_intervention_(normalized_and_mapped)    
 
 Old link was https://lhncbc.github.io/r-snippets-bmi/regCOVID/r-notebook-regCovid.html  
 
