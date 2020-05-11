@@ -9,6 +9,17 @@ output:
   pdf_document:
     toc: yes
 ---
+# Study Counts
+```{r nintynine, message=FALSE, echo=FALSE}
+library(readr)
+library(DT)
+library(magrittr)
+library(tidyverse)
+library(knitr)
+x<-read_csv('regCovid_study_cnts.csv')
+kable(x)
+```
+
 # Studies over Time
 ![Total studies by type over time](regCovid_total_studies_time-a.png)
 
@@ -17,16 +28,12 @@ output:
 ```
 
 # Interventional Trials
-# Intervention Type
+## Intervention Type
 ```{r four, message=FALSE, echo=FALSE}
 
-library(readr)
-library(DT)
-library(magrittr)
-library(tidyverse)
-library(knitr)
 
-d5<-read_csv('regCovid_intervention-type_cnts.csv')
+
+d5<-read_csv('regCovid_intervention-type_cnts_int.csv')
 
 
 kable(d5)
@@ -34,18 +41,18 @@ kable(d5)
 
 
 
-# Count of Studies by Intervention (normalized and mapped)
+## Count of Studies by Intervention (normalized and mapped)
 ```{r five, message=FALSE, echo=FALSE}
-d9<-read_csv('regCovid_interventions_mapped_cnts-a.csv')
+d9<-read_csv('regCovid_interventions_mapped_cnts_int-a.csv')
 kable(d9)
 ```
 
 
-# Interventions over Time
-![Weekly counts of new studies for each intervention](regCovid_new_interventions_time-a.png)
+## Interventions over Time
+![Weekly counts of new studies for each intervention](regCovid_new_interventions_time_int-a.png)
 
 
-# Studies by Country
+## Studies by Country
 ```{r six, message=FALSE, echo=FALSE}
 d9<-read_csv('regCovid_facil_country_cnts_int.csv')
 
@@ -53,7 +60,7 @@ kable(d9)
 ```
 
 
-# Sites per Study
+## Sites per Study
 
 ```{r seven, message=FALSE, echo=FALSE}
 d9<-read_csv('regCovid_site_cnts_int.csv')
@@ -62,7 +69,7 @@ kable(d9)
 
 ```
 
-# Phase
+## Phase
 ```{r eight, message=FALSE, echo=FALSE}
 d9<-read_csv('regCovid_phase.csv')
 
@@ -70,14 +77,14 @@ kable(d9)
 
 ```
 
-# Number of Arms
+## Number of Arms
 ```{r nine, message=FALSE, echo=FALSE}
 d9<-read_csv('regCovid_arm_cnts_int.csv')
 
 kable(d9)
 ```
 
-# Number of Updates
+## Number of Updates
 ```{r ten, message=FALSE, echo=FALSE}
 d9<-read_csv('regCovid_update_counts_int.csv')
 
@@ -85,7 +92,7 @@ kable(d9)
 
 ```
 
-# Update History Change Type
+## Update History Change Type
 ```{r eleven, message=FALSE, echo=FALSE}
 d9<-read_csv('regCovid_change_type_cnt_int.csv')
 
@@ -94,7 +101,7 @@ kable(d9)
 
 ```
 
-# Enrollment Metrics by Phase
+## Enrollment Metrics by Phase
 
 ```{r twentyfour, message=FALSE, echo=FALSE}
 d9<-read_csv('regCovid_enroll_int.csv')
@@ -103,9 +110,28 @@ kable(d9)
 
 ```
 
+## Trial Group Type
+```{r nintyeight, message=FALSE, echo=FALSE}
+d9<-read_csv('regCovid_intervention_group_types.csv')
+
+kable(d9)
+
+```
+
+## Intervention Model
+```{r nintysevent, message=FALSE, echo=FALSE}
+d9<-read_csv('regCovid_interventionl_model.csv')
+
+kable(d9)
+
+```
+
+
+
+
 # Observational Studies
 
-# Studies by Country
+## Studies by Country
 ```{r twelve, message=FALSE, echo=FALSE}
 d9<-read_csv('regCovid_facil_country_cnts_obs.csv')
 
@@ -113,7 +139,7 @@ kable(d9)
 ```
 
 
-# Sites per Study
+## Sites per Study
 
 ```{r thirteen, message=FALSE, echo=FALSE}
 d9<-read_csv('regCovid_site_cnts_obs.csv')
@@ -123,14 +149,8 @@ kable(d9)
 ```
 
 
-# Number of Arms
-```{r fourteen, message=FALSE, echo=FALSE}
-d9<-read_csv('regCovid_arm_cnts_obs.csv')
 
-kable(d9)
-```
-
-# Number of Updates
+## Number of Updates
 ```{r fifteen, message=FALSE, echo=FALSE}
 d9<-read_csv('regCovid_update_counts_obs.csv')
 
@@ -138,7 +158,7 @@ kable(d9)
 
 ```
 
-# Update History Change Type
+## Update History Change Type
 ```{r sixteen, message=FALSE, echo=FALSE}
 d9<-read_csv('regCovid_change_type_cnt_obs.csv')
 
@@ -147,7 +167,7 @@ kable(d9)
 
 ```
 
-# Enrollment Metrics
+## Enrollment Metrics
 
 ```{r twentythree, message=FALSE, echo=FALSE}
 d9<-read_csv('regCovid_enroll_obs.csv')
@@ -155,10 +175,26 @@ d9<-read_csv('regCovid_enroll_obs.csv')
 kable(d9)
 
 ```
+## Observation Model
+```{r nintysix, message=FALSE, echo=FALSE}
+d9<-read_csv('regCovid_observational_model.csv')
+
+kable(d9)
+
+```
+
+## Time Perspective
+```{r nintyfive, message=FALSE, echo=FALSE}
+d9<-read_csv('regCovid_observational_time_perspective.csv')
+
+kable(d9)
+```
+
+
 
 # Registries
 
-# Studies by Country
+## Studies by Country
 ```{r seventeen, message=FALSE, echo=FALSE}
 d9<-read_csv('regCovid_facil_country_cnts_reg.csv')
 
@@ -166,7 +202,7 @@ kable(d9)
 ```
 
 
-# Sites per Study
+## Sites per Study
 
 ```{r eighteen, message=FALSE, echo=FALSE}
 d9<-read_csv('regCovid_site_cnts_reg.csv')
@@ -176,14 +212,9 @@ kable(d9)
 ```
 
 
-# Number of Arms
-```{r nineteen, message=FALSE, echo=FALSE}
-d9<-read_csv('regCovid_arm_cnts_reg.csv')
 
-kable(d9)
-```
 
-# Number of Updates
+## Number of Updates
 ```{r twenty, message=FALSE, echo=FALSE}
 d9<-read_csv('regCovid_update_counts_reg.csv')
 
@@ -191,7 +222,7 @@ kable(d9)
 
 ```
 
-# Update History Change Type
+## Update History Change Type
 ```{r twentyone, message=FALSE, echo=FALSE}
 d9<-read_csv('regCovid_change_type_cnt_reg.csv')
 
@@ -200,7 +231,7 @@ kable(d9)
 
 ```
 
-# Enrollment Metrics
+## Enrollment Metrics
 
 ```{r twentytwo, message=FALSE, echo=FALSE}
 d9<-read_csv('regCovid_enroll_reg.csv')
@@ -208,14 +239,40 @@ d9<-read_csv('regCovid_enroll_reg.csv')
 kable(d9)
 ```
 
+## Registry Model
+```{r nintyfour, message=FALSE, echo=FALSE}
+d9<-read_csv('regCovid_registry_model.csv')
+
+kable(d9)
+
+```
+
+## Time Perspective
+```{r nintythree, message=FALSE, echo=FALSE}
+d9<-read_csv('regCovid_registry_timeperspective.csv')
+
+kable(d9)
+
+```
+
+## Follow-up
+```{r nintytwo, message=FALSE, echo=FALSE}
+d9<-read_csv('regCovid_follow-up_reg.csv')
+
+kable(d9)
+
+```
+
+
+
 # Overview of trials
 
-# Interventional Trials
+## Interventional Trials
 
 ```{r one, message=FALSE, echo=FALSE}
 
 d<-read_csv('regCovid_int_a.csv')
-#names(d)
+##names(d)
 prefix='https://ClinicalTrials.gov/show/'
 d$link<-paste0(prefix,d$nct_id)
 d2<-d %>% select(nct_id,brief_title,link) 
@@ -223,10 +280,10 @@ kable(d2)
 
 ```
 
-# Observational Studies
+## Observational Studies
 ``````{r two, message=FALSE, echo=FALSE}
 d<-read_csv('regCovid_obs_a.csv')
-#names(d)
+##names(d)
 prefix='https://ClinicalTrials.gov/show/'
 d$link<-paste0(prefix,d$nct_id)
 d2<-d %>% select(nct_id,brief_title,link) 
@@ -236,11 +293,11 @@ kable(d2)
 
 
 
-# Registrires
+## Registrires
 ```{r three, message=FALSE, echo=FALSE}
 
 d<-read_csv('regCovid_registry_a.csv')
-#names(d)
+##names(d)
 prefix='https://ClinicalTrials.gov/show/'
 d$link<-paste0(prefix,d$nct_id)
 d2<-d %>% select(nct_id,brief_title,link) 
