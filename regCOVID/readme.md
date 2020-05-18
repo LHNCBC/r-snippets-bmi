@@ -61,16 +61,18 @@ We don't claim our script is the best approach and are open to suggestions for i
 
 # Presentation slides
 
-## What is regCOVID?
+## What is regCOVID? (slide 1)
 - analysis of COVID-19 studies registered in ClinicalTrials.gov using informatics methods
 - 'reg' stands for registered clinical studies
+- studies: 1.interventional clinical trials, 2. observational studies, 3. registries
 - informatics methods: no or minimal human curation of the data
 - open-source code; demonstration of data science
   
   
   
   
-  
+___  
 
 ## Motivation
 - We build on previous work that linked Clinicaltrials.gov records to PubMed articles [PMC3706420](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3706420), anlaysis of outcomes  
+___
