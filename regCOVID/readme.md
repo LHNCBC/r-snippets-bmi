@@ -57,3 +57,14 @@ We don't claim our script is the best approach and are open to suggestions for i
 - https://www.ncbi.nlm.nih.gov/pubmed/23304310
 - LitCovid (set created by NLM) https://www.ncbi.nlm.nih.gov/research/coronavirus  (we hope to link trials to publications in PubMed (considering LitCovid subset first)
 - OHDSI COVID-19 efforts https://www.ohdsi.org/covid-19-updates/ (this project is part of that effort and also self standing)
+
+
+# Presentation slides
+
+## What is regCOVID?
+- analysis of COVID-19 studies registered in ClinicalTrials.gov using informatics methods
+- 'reg' stands for registered clinical studies
+- informatics methods: no or minimal human curation of the data
+- open-source code; demonstration of data science
+
+## Wh
