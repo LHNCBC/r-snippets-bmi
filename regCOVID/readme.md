@@ -10,6 +10,8 @@ Presentation document-based-slides are termporarily put the the top of this read
 - studies: 1.interventional clinical trials, 2. observational studies, 3. registries
 - informatics methods: no or minimal human curation of the data
 - open-source code (R language); demonstration of data science
+<br><br>
+- authors: Vojtech Huser, Craig Mayer 
   
 ___
 <br><br><br><br><br><br><br><br>
