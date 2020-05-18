@@ -66,5 +66,11 @@ We don't claim our script is the best approach and are open to suggestions for i
 - 'reg' stands for registered clinical studies
 - informatics methods: no or minimal human curation of the data
 - open-source code; demonstration of data science
+  
+  
+  
+  
+  
 
-## Wh
+## Motivation
+- We build on previous work that linked Clinicaltrials.gov records to PubMed articles [PMC3706420](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3706420), anlaysis of outcomes  
