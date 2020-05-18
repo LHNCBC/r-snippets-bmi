@@ -20,8 +20,8 @@ ___
   - linked Clinicaltrials.gov records to PubMed articles ([PMC3706420](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3706420),[PMC3540528](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3540528/))
   - analysis of ClinicalTrials.gov data for study outcomes ([PMC6371255](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6371255/))
   - analysis of sharing Individual Participant Data on ClinicalTrials.gov ([PMC7153161](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7153161/))
-- ClinicalTrials.gov function is to inform the public about current and completed clinical studies (and COVID-19 is a perfect use case for that)
-- The single disease snapshot analysis of registered studies
+- ClinicalTrials.gov function: inform the public (COVID-19;perfect use case)
+- Single disease snapshot analysis of registered studies 
   - prior work focusing on HIV
   - `D-SHOT` Knowledge Base (disease-intervention)
 ___
@@ -32,18 +32,38 @@ ___
 - few similar efforts (see references in this readme file)
   - main difference: fully open source, small size of our team, single registry)
 - Inclusion criteria
-  - three compared search methods (computerized overlap analysis)
-    - <sub><sup>title,keyword, MeSH keyword (assigned by external algorithm)</sup></sub>
-      
-  - Study status
+  - 1: search criterion: three compared search methods (title,keyword, MeSH keyword)      
+  - 2: metadata criteria: study status (`Active, not recruiting`, `Completed`) (excluded 'Not yet recruiting')
+  - Typical flow is `Not yet recruiting` --> `active` --> `completed`)
 
+___
+<br><br><br><br><br><br><br><br><br><br><br><br>
 
 ## Report Demo 
-- live demo of report now
+- live demo of report now (COVID-19 version; v1)
+<br><br>
+- other analyses
+  - custom analyses for journal article draft
+  - general analysis (for any disease; v2)
+  - intervention-only focused analyses (`d-shot`; v3)
+  
+
 
 
 ___
 <br><br><br><br><br><br><br><br>
+
+## Lessons learned
+- Study record updates
+- Dates logic (recency, comparison to "today's date")
+- Interventions
+  - Placebo (sham)
+  - presence of interventions in observational studies and registries
+  - 
+
+___
+<br><br><br><br><br><br><br><br><br><br><br><br>
+
 ## Additional COVID-19 work
 - Participation on Observational Health Data Sciences and Informatics (OHDSI) consortium COVID-19 efforts
 - Characterization of COVID-19 cases (co-author, [MedrXiv preprint](https://www.medrxiv.org/content/10.1101/2020.04.22.20074336v1))
