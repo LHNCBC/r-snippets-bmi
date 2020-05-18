@@ -9,15 +9,16 @@ Presentation document-based-slides are termporarily put the the top of this read
 - informatics methods: no or minimal human curation of the data
 - open-source code; demonstration of data science
   
-<br><br><br><br>
+___
+<br><br><br><br><br><br><br><br>
 
-  
-  
-___  
 
 ## Motivation
-- We build on previous work that linked Clinicaltrials.gov records to PubMed articles [PMC3706420](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3706420), anlaysis of outcomes  
+- We build on previous work that linked Clinicaltrials.gov records to PubMed articles ([PMC3706420](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3706420),[PMC3540528](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3540528/)) anlaysis of ClinicalTrials.gov data for study outcomes   
+
 ___
+<br><br><br><br><br><br><br><br>
+
 
 
 
