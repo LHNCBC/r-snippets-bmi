@@ -2,6 +2,8 @@ Presentation document-based-slides are termporarily put the the top of this read
 
 # Presentation slides
 
+<br><br><br>
+
 ## What is regCOVID? (slide 1)
 - analysis of COVID-19 studies registered in ClinicalTrials.gov using informatics methods
 - 'reg' stands for registered clinical studies
@@ -16,16 +18,34 @@ ___
 ## Motivation
 - We build on previous work that 
   - linked Clinicaltrials.gov records to PubMed articles ([PMC3706420](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3706420),[PMC3540528](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3540528/))
-  - analysis of ClinicalTrials.gov data for study outcomes ([PMC6371255/](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6371255/))
+  - analysis of ClinicalTrials.gov data for study outcomes ([PMC6371255](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6371255/))
   - analysis of sharing Individual Participant Data on ClinicalTrials.gov ([PMC7153161](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7153161/))
-
+- ClinicalTrials.gov function is to inform the public about current and completed clinical studies (and COVID-19 is a perfect use case for that)
+- The single disease snapshot analysis of registered studies (was created because of focus on HIV) (`D-SHOT` Knowledge Base (disease-intervention)
 ___
 <br><br><br><br><br><br><br><br>
 
 
+## Context
 
 
 
+## Report Demo 
+- live demo of report now
+
+
+___
+<br><br><br><br><br><br><br><br>
+## Additional COVID-19 work
+- Participation on Observational Health Data Sciences and Informatics (OHDSI) consortium COVID-19 efforts
+- Characterization of COVID-19 cases (co-author, [MedrXiv preprint](https://www.medrxiv.org/content/10.1101/2020.04.22.20074336v1)
+
+<br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br>
+
+<br><br><br><br><br><br><br><br>
+# Original readme file follows below
+<br><br><br><br><br><br><br><br>
 
 # COVID19 Interventional Trials, Observational Studies and Registries
 
