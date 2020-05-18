@@ -1,65 +1,35 @@
 intervention_type,Study_Count
-Drug,70
-Drug|placebo,57
-Drug|Drug,47
-Other,25
-Biological,24
-Device,14
-Drug|Drug|Drug,14
-Drug|Other,13
-Behavioral,10
-Biological|placebo,10
-Diagnostic Test,9
-Biological|Biological,7
-Device|Device,7
-Drug|Drug|placebo,7
-Drug|Drug|Drug|Drug,6
-Drug|Drug|Drug|placebo,5
-Other|Other,5
-Procedure,5
-Biological|Drug,4
-Drug|Drug|Other,4
-Biological|Other,3
-Device|Other,3
-Drug|Drug|Drug|Other,3
-Drug|Drug|placebo|placebo,3
-Behavioral|Behavioral,2
+Drug,156
+Drug|placebo,84
+Biological,40
+Other,37
+Device,25
+Drug|Other,23
+Behavioral,14
+Procedure,13
+Biological|placebo,12
+Diagnostic Test,12
+Biological|Drug,6
+Biological|Other,4
+Device|Other,4
+Dietary Supplement,4
+Dietary Supplement|Other,3
+Radiation,3
+Combination Product|Drug,2
+Device|Drug|Procedure,2
 Device|Procedure,2
-Dietary Supplement|Dietary Supplement,2
-Dietary Supplement|Other,2
-Drug|Drug|Drug|Drug|Drug,2
-Radiation,2
-Biological|Biological|Biological|Biological,1
-Biological|Biological|Biological|Biological|placebo,1
-Biological|Biological|Biological|Biological|placebo|placebo,1
-Biological|Biological|Biological|Drug,1
-Biological|Biological|Biological|Genetic|Other,1
-Biological|Biological|Other,1
+Drug|Other|placebo,2
 Biological|Drug|placebo,1
+Biological|Genetic|Other,1
+Biological|Other|placebo,1
 Combination Product,1
-Combination Product|Combination Product|Drug|Drug,1
-Combination Product|Drug,1
-Device|Device|Device,1
 Device|Drug,1
-Device|Drug|Drug|Drug|Drug|Drug|Drug|Radiation,1
-Device|Drug|Drug|Procedure,1
-Device|Drug|Drug|Procedure|Procedure,1
+Device|Drug|Radiation,1
 Device|placebo,1
-Diagnostic Test|Diagnostic Test,1
-Diagnostic Test|Diagnostic Test|Diagnostic Test|Drug|Drug|Other|placebo,1
+Diagnostic Test|Drug|Other|placebo,1
 Diagnostic Test|Other,1
-Dietary Supplement,1
-Dietary Supplement|Dietary Supplement|Dietary Supplement|Other,1
 Dietary Supplement|Drug,1
-Dietary Supplement|Drug|Drug|Other,1
-Drug|Drug|Drug|Drug|Drug|Drug|Drug|Drug|Drug|Drug|Drug,1
-Drug|Drug|Drug|Drug|Drug|Drug|Drug|Other|placebo,1
-Drug|Drug|Drug|Drug|Other,1
-Drug|Drug|Other|Other,1
-Drug|Other|placebo,1
-Drug|placebo|Procedure|Procedure|Procedure|Procedure,1
+Dietary Supplement|Drug|Other,1
+Drug|placebo|Procedure,1
+Drug|placebo|Radiation,1
 Drug|Procedure,1
-Other|Other|Other,1
-Procedure|Procedure,1
-Procedure|Procedure|Procedure,1
-Procedure|Procedure|Procedure|Procedure,1

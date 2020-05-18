@@ -1,42 +1,42 @@
 intervention_type,Study_Count
-"NA",138
-Other,130
-Drug,79
-Drug|placebo,57
-Drug|Drug,48
-Diagnostic Test,47
-Biological,28
-Behavioral,22
-Device,22
-Drug|Drug|Drug,14
-Drug|Other,13
-Other|Other,11
+"NA",158
+Other,150
+Drug,93
+Drug|placebo,64
+Diagnostic Test,59
+Drug|Drug,55
+Biological,35
+Device,29
+Behavioral,25
+Drug|Drug|Drug,16
+Procedure,16
+Other|Other,15
+Drug|Other,14
 Biological|placebo,10
-Procedure,10
-Biological|Biological,7
+Biological|Biological,8
+Drug|Drug|placebo,8
 Device|Device,7
-Drug|Drug|placebo,7
 Drug|Drug|Drug|Drug,6
+Biological|Drug,5
 Diagnostic Test|Diagnostic Test,5
 Drug|Drug|Drug|placebo,5
-Biological|Drug,4
+Drug|Drug|Other,5
 Biological|Other,4
-Drug|Drug|Other,4
-Combination Product,3
-Device|Other,3
+Combination Product,4
+Device|Other,4
+Dietary Supplement,4
+Drug|Drug|placebo|placebo,4
+Procedure|Procedure,4
 Diagnostic Test|Other,3
+Drug|Drug|Drug|Drug|Drug,3
 Drug|Drug|Drug|Other,3
-Drug|Drug|placebo|placebo,3
 Other|Other|Other,3
-Procedure|Procedure,3
+Radiation,3
 Behavioral|Behavioral,2
 Behavioral|Other,2
 Device|Procedure,2
-Dietary Supplement,2
 Dietary Supplement|Dietary Supplement,2
 Dietary Supplement|Other,2
-Drug|Drug|Drug|Drug|Drug,2
-Radiation,2
 Behavioral|Behavioral|Biological|Other,1
 Biological|Biological|Biological|Biological,1
 Biological|Biological|Biological|Biological|placebo,1
@@ -45,6 +45,7 @@ Biological|Biological|Biological|Drug,1
 Biological|Biological|Biological|Genetic|Other,1
 Biological|Biological|Other,1
 Biological|Drug|placebo,1
+Biological|Other|placebo,1
 Combination Product|Combination Product|Drug|Drug,1
 Combination Product|Drug,1
 Device|Device|Device,1
@@ -65,10 +66,10 @@ Dietary Supplement|Drug|Drug|Other,1
 Drug|Drug|Drug|Drug|Drug|Drug|Drug|Drug|Drug|Drug|Drug,1
 Drug|Drug|Drug|Drug|Drug|Drug|Drug|Other|placebo,1
 Drug|Drug|Drug|Drug|Other,1
-Drug|Drug|Other|Other,1
 Drug|Other|placebo,1
 Drug|Other|Procedure,1
 Drug|placebo|Procedure|Procedure|Procedure|Procedure,1
+Drug|placebo|Radiation,1
 Drug|Procedure,1
 Genetic|Other|Other|Other,1
 Other|Other|Other|Other|Other,1
