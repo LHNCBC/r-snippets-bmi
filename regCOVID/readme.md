@@ -1,3 +1,28 @@
+Presentation document-based-slides are termporarily put the the top of this readme file. (will be moved to bottom at the next release)
+
+# Presentation slides
+
+## What is regCOVID? (slide 1)
+- analysis of COVID-19 studies registered in ClinicalTrials.gov using informatics methods
+- 'reg' stands for registered clinical studies
+- studies: 1.interventional clinical trials, 2. observational studies, 3. registries
+- informatics methods: no or minimal human curation of the data
+- open-source code; demonstration of data science
+  
+<br><br><br><br>
+
+  
+  
+___  
+
+## Motivation
+- We build on previous work that linked Clinicaltrials.gov records to PubMed articles [PMC3706420](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3706420), anlaysis of outcomes  
+___
+
+
+
+
+
 # COVID19 Interventional Trials, Observational Studies and Registries
 
 Welcome to the page that collects COVID19 studies registered at various registries (and focusing mainly on ClinicalTrials.gov)
@@ -59,20 +84,3 @@ We don't claim our script is the best approach and are open to suggestions for i
 - OHDSI COVID-19 efforts https://www.ohdsi.org/covid-19-updates/ (this project is part of that effort and also self standing)
 
 
-# Presentation slides
-
-## What is regCOVID? (slide 1)
-- analysis of COVID-19 studies registered in ClinicalTrials.gov using informatics methods
-- 'reg' stands for registered clinical studies
-- studies: 1.interventional clinical trials, 2. observational studies, 3. registries
-- informatics methods: no or minimal human curation of the data
-- open-source code; demonstration of data science
-  
-  
-  
-  
-___  
-
-## Motivation
-- We build on previous work that linked Clinicaltrials.gov records to PubMed articles [PMC3706420](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3706420), anlaysis of outcomes  
-___
