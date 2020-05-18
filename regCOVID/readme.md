@@ -59,7 +59,10 @@ ___
 - Interventions
   - Placebo (sham)
   - presence of interventions in observational studies and registries
-  - 
+- Limitations of computerized analysis, limit the burden of ClinicalTrials.gov record creation and maintenance
+- Study design metadata
+- Special analysis context for Registries and Observational Studies (FDA's framework for RWE/RWD)
+   
 
 ___
 <br><br><br><br><br><br><br><br><br><br><br><br>
