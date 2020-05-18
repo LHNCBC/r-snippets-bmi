@@ -14,7 +14,10 @@ ___
 
 
 ## Motivation
-- We build on previous work that linked Clinicaltrials.gov records to PubMed articles ([PMC3706420](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3706420),[PMC3540528](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3540528/)) anlaysis of ClinicalTrials.gov data for study outcomes   
+- We build on previous work that 
+  - linked Clinicaltrials.gov records to PubMed articles ([PMC3706420](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3706420),[PMC3540528](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3540528/))
+  - analysis of ClinicalTrials.gov data for study outcomes ([PMC6371255/](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6371255/))
+  - analysis of sharing Individual Participant Data on ClinicalTrials.gov ([PMC7153161](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7153161/))
 
 ___
 <br><br><br><br><br><br><br><br>
