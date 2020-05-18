@@ -9,7 +9,7 @@ Presentation document-based-slides are termporarily put the the top of this read
 - 'reg' stands for registered clinical studies
 - studies: 1.interventional clinical trials, 2. observational studies, 3. registries
 - informatics methods: no or minimal human curation of the data
-- open-source code; demonstration of data science
+- open-source code (R language); demonstration of data science
   
 ___
 <br><br><br><br><br><br><br><br>
@@ -21,13 +21,21 @@ ___
   - analysis of ClinicalTrials.gov data for study outcomes ([PMC6371255](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6371255/))
   - analysis of sharing Individual Participant Data on ClinicalTrials.gov ([PMC7153161](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7153161/))
 - ClinicalTrials.gov function is to inform the public about current and completed clinical studies (and COVID-19 is a perfect use case for that)
-- The single disease snapshot analysis of registered studies (was created because of focus on HIV) (`D-SHOT` Knowledge Base (disease-intervention)
+- The single disease snapshot analysis of registered studies
+  - prior work focusing on HIV
+  - `D-SHOT` Knowledge Base (disease-intervention)
 ___
-<br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br>
 
 
 ## Context
-
+- few similar efforts (see references in this readme file)
+  - main difference: fully open source, small size of our team, single registry)
+- Inclusion criteria
+  - three compared search methods (computerized overlap analysis)
+    - title,keyword, MeSH keyword (assigned by external algorithm)
+      
+  - Study status
 
 
 ## Report Demo 
@@ -38,7 +46,7 @@ ___
 <br><br><br><br><br><br><br><br>
 ## Additional COVID-19 work
 - Participation on Observational Health Data Sciences and Informatics (OHDSI) consortium COVID-19 efforts
-- Characterization of COVID-19 cases (co-author, [MedrXiv preprint](https://www.medrxiv.org/content/10.1101/2020.04.22.20074336v1)
+- Characterization of COVID-19 cases (co-author, [MedrXiv preprint](https://www.medrxiv.org/content/10.1101/2020.04.22.20074336v1))
 
 <br><br><br><br><br><br><br><br>
 <br><br><br><br><br><br><br><br>
@@ -95,13 +103,16 @@ We don't claim our script is the best approach and are open to suggestions for i
 - relational view 
 
 # References
+- 
 - https://clinicaltrials.gov/ct2/results/download_fields?cond=covid-19&down_count=10000&down_flds=all&down_fmt=plain
 - https://clinicaltrials.gov/ct2/results/download_fields?cond=covid-19&down_count=10000&down_flds=all&down_fmt=tsv
 - https://clinicaltrials.gov/ct2/results/download_fields?cond=covid-19&down_count=10000&down_flds=all&down_fmt=csv
 - https://www.who.int/ictrp/en/
-- http://www.cebm.net/covid-19/registered-trials-and-analysis/
-- http://www.cebm.net/covid-19/
-- https://aact.ctti-clinicaltrials.org/schema
+- similar efforts
+  - http://www.cebm.net/covid-19/registered-trials-and-analysis/
+  - http://www.cebm.net/covid-19/
+  - https://www.covid-trials.org/
+- AACT relational database version of ClinicalTrials.gov data https://aact.ctti-clinicaltrials.org/schema
 - https://www.ncbi.nlm.nih.gov/pubmed/23874614
 - https://www.ncbi.nlm.nih.gov/pubmed/23304310
 - LitCovid (set created by NLM) https://www.ncbi.nlm.nih.gov/research/coronavirus  (we hope to link trials to publications in PubMed (considering LitCovid subset first)
