@@ -33,7 +33,7 @@ ___
   - main difference: fully open source, small size of our team, single registry)
 - Inclusion criteria
   - three compared search methods (computerized overlap analysis)
-    - title,keyword, MeSH keyword (assigned by external algorithm)
+    - <sub><sup>title,keyword, MeSH keyword (assigned by external algorithm)</sup></sub>
       
   - Study status
 
