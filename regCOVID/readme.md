@@ -6,6 +6,7 @@ Welcome to the page that collects COVID19 studies registered at various registri
 - To see the files, follow this link: [https://github.com/lhncbc/r-snippets-bmi/tree/master/regCOVID](https://github.com/lhncbc/r-snippets-bmi/tree/master/regCOVID)  
 - A landing page link is: [https://lhncbc.github.io/r-snippets-bmi/regCOVID](https://lhncbc.github.io/r-snippets-bmi/regCOVID)  
 - REPORT: https://lhncbc.github.io/r-snippets-bmi/regCOVID/regCovid_notebook2.html
+- Old releases (data from previous weeks) are available via GitHub repo release mechanism here: https://github.com/lhncbc/r-snippets-bmi/releases
 
 
 # regCOVID
