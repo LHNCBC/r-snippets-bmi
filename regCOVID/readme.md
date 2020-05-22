@@ -3,8 +3,10 @@
 
 Welcome to the page that collects COVID19 studies registered at various registries (and focusing mainly on ClinicalTrials.gov)
 
-To see the files, follow this link: [https://github.com/lhncbc/r-snippets-bmi/tree/master/regCOVID](https://github.com/lhncbc/r-snippets-bmi/tree/master/regCOVID)  
-A landing page link is: [https://lhncbc.github.io/r-snippets-bmi/regCOVID](https://lhncbc.github.io/r-snippets-bmi/regCOVID)
+- To see the files, follow this link: [https://github.com/lhncbc/r-snippets-bmi/tree/master/regCOVID](https://github.com/lhncbc/r-snippets-bmi/tree/master/regCOVID)  
+- A landing page link is: [https://lhncbc.github.io/r-snippets-bmi/regCOVID](https://lhncbc.github.io/r-snippets-bmi/regCOVID)  
+- REPORT: https://lhncbc.github.io/r-snippets-bmi/regCOVID/regCovid_notebook2.html
+
 
 # regCOVID
 regCOVID stands for REGistered COVID-19 Interventional trials and observational Studies. We chose this acronym/name so that people can refer to the script/project/outputs uniquely.
@@ -13,7 +15,7 @@ regCOVID stands for REGistered COVID-19 Interventional trials and observational 
 # Report
 Some of our outputs are available in a generated report at this link: https://lhncbc.github.io/r-snippets-bmi/regCOVID/regCovid_notebook2.html
 
-Old link was https://lhncbc.github.io/r-snippets-bmi/regCOVID/r-notebook-regCovid.html  
+
 
 # Introduction
 We use AACT database from Duke U to obtain most recent CTG (=ClinicalTrials.gov) data.
