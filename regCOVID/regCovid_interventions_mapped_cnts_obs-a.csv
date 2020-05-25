@@ -1,32 +1,30 @@
 Intervention_type,intervention,Study_count
-NA,NA,122
-Other,questionnaire,21
+NA,NA,141
+Other,questionnaire,22
 Other,no intervention,15
+Other,observational,5
+Other,online survey,5
 Diagnostic Test,pcr,4
-Other,observational,4
-Other,online survey,4
-Behavioral,observation,3
+Biological,blood sample,3
 Diagnostic Test,igg antibody test,3
-Diagnostic Test,igm/igg rapid test,3
 Diagnostic Test,lung ultrasound,3
 Drug,hydroxychloroquine,3
-Drug,tocilizumab,3
 Other,biological samples,3
 Other,blood sample,3
-Other,exposure,3
 Other,ultrasound,3
-Behavioral,views,2
-Biological,blood sample,2
+Behavioral,observation,2
 Biological,pcr,2
-Device,coviage,2
+Device,ct-scan,2
+Diagnostic Test,igm/igg rapid test,2
 Diagnostic Test,serology,2
 Diagnostic Test,serum test,2
-Diagnostic Test,standard care,2
 Drug,ace inhibitor,2
 Drug,methylprednisolone,2
+Drug,tocilizumab,2
+Other,covid-19,2
 Other,ct-scan,2
 Other,dialysis,2
-Other,nosocomial,2
+Other,exposure,2
 Other,other,2
 Other,practice details,2
 Procedure,biological samples,2
@@ -40,30 +38,45 @@ Behavioral,emotional stimulation,1
 Behavioral,examine the impact of covid-19 during pregnancy,1
 Behavioral,experiences of health care professionals working in intensive care units during the covid-19 pandemic,1
 Behavioral,fsfi survey,1
+Behavioral,generalized anxiety disorder-7 (gad-7),1
+Behavioral,minnrap peer support program,1
 Behavioral,news,1
 Behavioral,online survey,1
+Behavioral,patient health questionnaire-9 (phq-9),1
 Behavioral,social media,1
 Behavioral,social media/news consumption,1
 Behavioral,turkish physicians,1
+Behavioral,views,1
 Biological,biological samples,1
 Biological,chest ct,1
+Biological,collection of blood samples in order to create a biocollection,1
+Biological,exposure,1
+Biological,non applicable,1
 Biological,pcr/chest ct,1
 Biological,saliva,1
 Combination Product,respiratory rehabilitation,1
 Combination Product,systemic,1
+Device,adam sensor,1
 Device,apple watch,1
+Device,c3,1
+Device,c3/ holter monitor,1
+Device,coviage,1
 Device,covx,1
-Device,ct-scan,1
 Device,extracorporeal membrane oxygenation,1
+Device,holter monitor,1
 Device,magec spine rod,1
+Device,"masimo, lidco",1
 Device,nasal high flow,1
 Device,non-invasive ventilatory support,1
 Device,respiratory monitor,1
+Diagnostic Test,": igg, ig m derologies in the amniotoc fluid, the blood cord",1
 Diagnostic Test,a specifically designed self-administered questionnaire,1
 Diagnostic Test,assessment of ventilator-associated pneumonia criteria,1
 Diagnostic Test,biomarkers expression,1
 Diagnostic Test,cambridge validated viral detection,1
 Diagnostic Test,clinico-biological parameters in routine care,1
+Diagnostic Test,diagnosis of sars-cov2 by rt-pcr,1
+Diagnostic Test,"diagnosis of sars-cov2 by rt-pcr/: igg, ig m derologies in the amniotoc fluid, the blood cord/the placenta",1
 Diagnostic Test,diagnostic test,1
 Diagnostic Test,duplex ultrasound/computed tomography angiography,1
 Diagnostic Test,ecg,1
@@ -83,6 +96,7 @@ Diagnostic Test,machine learning model,1
 Diagnostic Test,mri,1
 Diagnostic Test,muscle,1
 Diagnostic Test,nasal,1
+Diagnostic Test,nasopharyngeal swab,1
 Diagnostic Test,no intervention,1
 Diagnostic Test,no intervention planned due to the observational study design only a diagnostic testing,1
 Diagnostic Test,odd,1
@@ -97,7 +111,9 @@ Diagnostic Test,radiological,1
 Diagnostic Test,recombinase,1
 Diagnostic Test,salivary,1
 Diagnostic Test,samba ii,1
+Diagnostic Test,sars-cov-2,1
 Diagnostic Test,scanning chest x-rays/performing ai algorithms on images,1
+Diagnostic Test,standard care,1
 Diagnostic Test,standardized,1
 Diagnostic Test,stc-19,1
 Diagnostic Test,study of immune-mediated mechanisms in patients tested positive for sars-cov-2,1
@@ -105,6 +121,7 @@ Diagnostic Test,swallowing evaluation with the eat-10,1
 Diagnostic Test,swallowing evaluation with the eat-10/the volume-viscosity swallowing test (v-vst),1
 Diagnostic Test,tem-tpa,1
 Diagnostic Test,testing sensitivity for sars-cov-2 virus in symptomatic individuals,1
+Diagnostic Test,the placenta,1
 Diagnostic Test,thoracic ct,1
 Diagnostic Test,titanium blood test,1
 Diagnostic Test,tomography angiography,1
@@ -132,9 +149,11 @@ Drug,immunoglubulins,1
 Drug,immunosuppressive,1
 Drug,no-immunosuppressive,1
 Drug,remdesivir,1
+Drug,retrospective case-control analysis,1
 Drug,tcm,1
 Genetic,next generation sequencing (ngs) analysis,1
 Genetic,sequencing,1
+Other,[timp-2]*[igfbp-7],1
 Other,after covid-19 pandemic,1
 Other,all treatment about covid-2019,1
 Other,anxiety questionnaire,1
@@ -145,19 +164,23 @@ Other,cardiac,1
 Other,cardiac surgery,1
 Other,cardiac/electrodermal recordings,1
 Other,clinical data collection,1
+Other,clinical testing of subjects,1
 Other,comprehensive treatment,1
 Other,convalescent plasma,1
-Other,covid-19,1
 Other,covid-19 / patients,1
 Other,covid-19 pandemic,1
+Other,covid-19/ observational,1
 Other,cross-sectional observational study,1
 Other,cross-sectional study investigating the association of npis with mental health,1
 Other,daily syndromic surveillance,1
+Other,data collection,1
+Other,data collection/clinical testing of subjects,1
 Other,"data research, database analysis",1
 Other,depression scale,1
 Other,during covid-19 pandemic,1
 Other,echocardiography,1
 Other,electrodermal recordings,1
+Other,endoscopic management according to standard of care,1
 Other,evaluate hacor score effectivity in this patients,1
 Other,evaluation of the epidemiological characteristics of coronavirus infection (sars-cov-2),1
 Other,file scanning,1
@@ -175,6 +198,8 @@ Other,interview,1
 Other,it,1
 Other,its,1
 Other,liver,1
+Other,lung ct scan analysis in covid-19 patients,1
+Other,measurement of circulating sflt1 concentration,1
 Other,mobile internet survey on self-test,1
 Other,modification,1
 Other,monitoring for aggravation,1
@@ -185,6 +210,7 @@ Other,no intervention (survey study for medical doctors).,1
 Other,no interventional study,1
 Other,non,1
 Other,non-interventional,1
+Other,nosocomial,1
 Other,nutrition,1
 Other,observation,1
 Other,olfactory,1
@@ -193,11 +219,13 @@ Other,olfactory/gustatory tests,1
 Other,oxygen,1
 Other,pandemic control measures,1
 Other,patients,1
+Other,patients admitted to intensive care unit with sars-cov2,1
 Other,peep,1
 Other,phobia questionairre,1
 Other,phq,1
 Other,phsyiotherapy,1
 Other,physical exercise,1
+Other,physiotherapy,1
 Other,prospective oberservational registry,1
 Other,pss,1
 Other,pulmonary rehabilitation,1
@@ -224,6 +252,9 @@ Other,taste,1
 Other,taste/olfactory function evaluation,1
 Other,telehealth,1
 Other,there is no intervention in this study,1
+Other,this is an online survey with no intervention.,1
+Other,transplant patient,1
+Other,web based survey,1
 Other,zaritt burden interview,1
 Procedure,blood draw,1
 Procedure,continuous renal replacement therapy,1
@@ -234,8 +265,10 @@ Procedure,facial fractures reduction,1
 Procedure,facial fractures reduction/osteosynthesis,1
 Procedure,gloves,1
 Procedure,lung ultrasound,1
+Procedure,lung ultrasound (lus),1
 Procedure,osteosynthesis,1
 Procedure,prone positioning,1
+Procedure,study arm,1
 Procedure,surgery,1
 Procedure,symptom,1
 Procedure,symptom/exposure surveys,1

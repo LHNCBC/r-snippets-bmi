@@ -1,77 +1,43 @@
 intervention_type,Study_Count
-"NA",158
-Other,150
-Drug,93
-Drug|placebo,64
-Diagnostic Test,59
-Drug|Drug,55
-Biological,35
-Device,29
-Behavioral,25
-Drug|Drug|Drug,16
-Procedure,16
-Other|Other,15
-Drug|Other,14
-Biological|placebo,10
-Biological|Biological,8
-Drug|Drug|placebo,8
-Device|Device,7
-Drug|Drug|Drug|Drug,6
-Biological|Drug,5
-Diagnostic Test|Diagnostic Test,5
-Drug|Drug|Drug|placebo,5
-Drug|Drug|Other,5
-Biological|Other,4
+Other,192
+Drug,189
+"NA",180
+Drug|placebo,97
+Diagnostic Test,70
+Biological,56
+Device,45
+Behavioral,34
+Drug|Other,26
+Procedure,26
+Biological|placebo,12
+Dietary Supplement,7
+Biological|Drug,6
+Biological|Other,6
+Device|Other,5
 Combination Product,4
-Device|Other,4
-Dietary Supplement,4
-Drug|Drug|placebo|placebo,4
-Procedure|Procedure,4
-Diagnostic Test|Other,3
-Drug|Drug|Drug|Drug|Drug,3
-Drug|Drug|Drug|Other,3
-Other|Other|Other,3
+Diagnostic Test|Other,4
+Dietary Supplement|Drug,3
+Dietary Supplement|Other,3
 Radiation,3
-Behavioral|Behavioral,2
 Behavioral|Other,2
+Combination Product|Drug,2
+Device|Drug|Procedure,2
+Device|Drug|Radiation,2
+Device|placebo,2
 Device|Procedure,2
-Dietary Supplement|Dietary Supplement,2
-Dietary Supplement|Other,2
-Behavioral|Behavioral|Biological|Other,1
-Biological|Biological|Biological|Biological,1
-Biological|Biological|Biological|Biological|placebo,1
-Biological|Biological|Biological|Biological|placebo|placebo,1
-Biological|Biological|Biological|Drug,1
-Biological|Biological|Biological|Genetic|Other,1
-Biological|Biological|Other,1
+Drug|Other|placebo,2
+Behavioral|Biological|Other,1
 Biological|Drug|placebo,1
+Biological|Genetic|Other,1
 Biological|Other|placebo,1
-Combination Product|Combination Product|Drug|Drug,1
-Combination Product|Drug,1
-Device|Device|Device,1
 Device|Diagnostic Test,1
 Device|Drug,1
-Device|Drug|Drug|Drug|Drug|Drug|Drug|Radiation,1
-Device|Drug|Drug|Procedure,1
-Device|Drug|Drug|Procedure|Procedure,1
-Device|placebo,1
-Diagnostic Test|Diagnostic Test|Diagnostic Test|Diagnostic Test,1
-Diagnostic Test|Diagnostic Test|Diagnostic Test|Drug|Drug|Other|placebo,1
+Diagnostic Test|Drug|Other|placebo,1
 Diagnostic Test|Genetic,1
 Diagnostic Test|Procedure,1
-Dietary Supplement|Dietary Supplement|Dietary Supplement|Other,1
-Dietary Supplement|Drug,1
-Dietary Supplement|Drug|Drug,1
-Dietary Supplement|Drug|Drug|Other,1
-Drug|Drug|Drug|Drug|Drug|Drug|Drug|Drug|Drug|Drug|Drug,1
-Drug|Drug|Drug|Drug|Drug|Drug|Drug|Other|placebo,1
-Drug|Drug|Drug|Drug|Other,1
-Drug|Other|placebo,1
+Dietary Supplement|Drug|Other,1
 Drug|Other|Procedure,1
-Drug|placebo|Procedure|Procedure|Procedure|Procedure,1
+Drug|placebo|Procedure,1
 Drug|placebo|Radiation,1
 Drug|Procedure,1
-Genetic|Other|Other|Other,1
-Other|Other|Other|Other|Other,1
-Procedure|Procedure|Procedure,1
-Procedure|Procedure|Procedure|Procedure,1
+Genetic|Other,1
