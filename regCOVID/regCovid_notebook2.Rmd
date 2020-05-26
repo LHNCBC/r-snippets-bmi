@@ -1,6 +1,6 @@
 
 ---
-title: "R Notebook"
+title: "regCOVID"
 output:
   html_document:
     df_print: paged
@@ -8,7 +8,12 @@ output:
     toc_float: yes
   pdf_document:
     toc: yes
+
 ---
+*Craig Mayer, Nick WIlliams, Vojtech Huser*  
+_Lister Hill National Center for Biomedical Communications, National Library of Medicine, NIH, Bethesda, MD_
+---
+
 # Study Counts
 ```{r nintynine, message=FALSE, echo=FALSE}
 library(readr)
@@ -126,7 +131,32 @@ kable(d9)
 
 ```
 
+## Primary Purpose
+```{r eightyeight, message=FALSE, echo=FALSE}
+d9<-read_csv('regCovid_primary_purpose.csv')
 
+kable(d9)
+
+```
+
+## Vaccines
+```{r ixtytwo, message=FALSE, echo=FALSE}
+d<-read_csv('regCovid_vaccines.csv')
+##names(d)
+prefix='https://ClinicalTrials.gov/show/'
+d$link<-paste0(prefix,d$nct_id)
+d2<-d %>% select(nct_id,brief_title,link) 
+kable(d2)
+
+```
+
+### Phase
+```{r sixtythree, message=FALSE, echo=FALSE}
+d9<-read_csv('regCovid_vaccines_phase.csv')
+
+kable(d9)
+
+```
 
 
 # Observational Studies
@@ -175,7 +205,9 @@ d9<-read_csv('regCovid_enroll_obs.csv')
 kable(d9)
 
 ```
+
 ## Observation Model
+
 ```{r nintysix, message=FALSE, echo=FALSE}
 d9<-read_csv('regCovid_observational_model.csv')
 

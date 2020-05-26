@@ -120,7 +120,7 @@ ggplot() +
   geom_path(data = study_date2_int, aes(x = Date, y = study_count_int, group =1, color = 'Interventional')) +
   geom_path(data = study_date2_obs, aes(x = Date, y = study_count_obs, group =1, color= 'Observational')) +
   geom_path(data = study_date2_reg, aes(x = Date, y = study_count_reg, group =1,color = 'Registry')) +
-  xlab('Date') +
+  xlab('Date') + labs(color ='Study Type')+
   ylab('Study Count')+
   scale_x_discrete(breaks = study_date2_int$Date[seq(1, length(study_date2_int$Date), by = 14)])
 
@@ -213,6 +213,18 @@ colnames(interventional_model)[2]<-'Study_Count'
 
 interventional_model %>% write_csv('finaloutput/regCovid_interventionl_model.csv')
 
+#purpose
+
+purpose<-covid9_design_int2 %>% group_by(primary_purpose) %>%count()
+purpose <- purpose[with(purpose, order(-n)), ]
+
+colnames(purpose)[2]<-'Study_Count'
+
+purpose %>% write_csv('finaloutput/regCovid_primary_purpose.csv')
+
+
+
+
 #Observational
 #Model
 covid9_design_obs<-covid9_design %>%filter(study_type =='Observational')
@@ -227,6 +239,10 @@ time_perspective_obs<-covid9_design_obs2 %>% group_by(time_perspective) %>%count
 time_perspective_obs <- time_perspective_obs[with(time_perspective_obs, order(-n)), ]
 colnames(time_perspective_obs)[2]<-'Study_Count'
 time_perspective_obs %>% write_csv('finaloutput/regCovid_observational_time_perspective.csv')
+
+
+
+
 
 #Rgistries
 #Model
@@ -249,6 +265,14 @@ duration<-duration%>% filter(target_duration != 'NA')
 duration <- duration[with(duration, order(-n)), ]
 colnames(duration)[2]<-'Study_Count'
 duration %>% write_csv('finaloutput/regCovid_follow-up_reg.csv')
+
+group_reg<-covid9_design_reg %>% group_by(group_type) %>% count()
+group_int <- group_int[with(group_int, order(-n)), ]
+colnames(group_int)[2]<-'Group_Count'
+
+
+
+
 
 
 #----- CHapter 7 Number of Sites
@@ -453,7 +477,7 @@ intervention_count_raw <- intervention_count_raw[with(intervention_count_raw, or
 intervention_count_mapped %>% write_csv('finaloutput/regCovid_interventions_raw_cnts_int-a.csv')
 
 #Intervention Type
-covid_int_type <- covid_int_studies_normal_int [!duplicated(covid_int_studies_normal_int[c(1,66)]),]
+covid_int_type <- covid_int_studies_normal_int [!duplicated(covid_int_studies_normal_int[c(1,67)]),]
 covid_int_type<-covid_int_type[order(covid_int_type$intervention_type),]
 studies_int_type2<-aggregate(covid_int_type, list(covid_int_type$nct_id), paste, collapse="|")
 int_type_cnt<-  studies_int_type2%>% group_by(intervention_type)%>% count()
@@ -520,15 +544,17 @@ dev.off()
 intervent_date2 <- melt(weekly_intervent2, id.vars="Date")
 png("finaloutput/regCovid_new_interventions_time_int-a.png")
 ggplot()+ geom_path(data =intervent_date2, aes(x =Date, y=value, group = variable, color=variable))+ geom_line() +
-  ylab('New Study Count')
+  ylab('New Study Count')+ labs(variable = 'Intervention')
+
+
 dev.off()
 
 
 #Observational
-covid_int_studies_normal_obs<-covid_int_studies_normal%>% filter(study_type == 'Pbservational')
+covid_int_studies_normal_obs<-covid_int_studies_normal%>% filter(study_type == 'Observational')
 
 # Mapped Intervention
-covid_int_studies_normal2 <- covid_int_studies_normal_obs [!duplicated(covid_int_studies_normal_pbs[c(1,66, 70)]),]
+covid_int_studies_normal2 <- covid_int_studies_normal_obs [!duplicated(covid_int_studies_normal_obs[c(1,66, 70)]),]
 intervention_count_mapped<-covid_int_studies_normal2 %>% group_by(intervention_type, mapped_intervention )%>%count()
 colnames(intervention_count_mapped)<- c("Intervention_type","intervention", "Study_count")
 intervention_count_mapped <- intervention_count_mapped[with(intervention_count_mapped, order(-Study_count)), ]
@@ -794,7 +820,7 @@ colnames(Days_since_update)<-c("Days since Last update", "COunt of Studies")
 Days_since_update %>% write_csv('finaloutput/regCOvid_Days_since_update_int.csv')
 
 #Country Updates
-country_update1<-left_join(total_history, facil_uniq, by = 'nct_id')
+country_update1<-left_join(total_history, facil_country, by = c('nct_id'= 'Group.1'))
 cahnges_by_country<-country_update1%>%group_by(country)%>% count()
 cahnges_by_country2<-left_join(cahnges_by_country,country_cnts_int, by =c('country'= 'Country') )
 cahnges_by_country2$n<-cahnges_by_country2$n-cahnges_by_country2$Study_Count
@@ -917,8 +943,11 @@ cahnges_by_country2%>% write_csv('finaloutput/regCovid_country_updates_reg.csv')
 
 
 
-
-
+#Vaccines
+covid9_vacc<- covid9_int %>% filter (tolower(official_title)  %like% "vaccine" )
+vacc_phase<- covid9_vacc %>% group_by(phase) %>% count()
+covid9_vacc %>% write_csv('finaloutput/regCovid_vaccines.csv')
+vacc_phase %>% write_csv('finaloutput/regCovid_vaccines_phase.csv')
 
 
 
@@ -944,7 +973,9 @@ covid_qc<-"select * from studies s join browse_conditions c on s.nct_id = c.nct_
 where study_first_submitted_date > '2019-12-27' and downcase_mesh_term = 'coronavirus infections'"
 co_studies_c<-dbGetQuery(con, covid_qc)
 co_studies_c$nct_id = NULL
+
 covid9c<- co_studies_c %>% filter(overall_status == 'Recruiting'| overall_status == 'Completed'|overall_status == 'Enrolling by invitation'|overall_status == 'Active, not recruiting')
+co_studies_c2<-co_studies_c[!duplicated(co_studies_c$nct_id),]
 
 
 covid9c %>% write_csv('finaloutput/regCovid_all_studies-c.csv')
