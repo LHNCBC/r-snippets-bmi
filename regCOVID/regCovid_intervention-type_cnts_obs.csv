@@ -1,12 +1,12 @@
 intervention_type,Study_Count
-"NA",141
-Other,126
-Diagnostic Test,50
-Drug,15
-Behavioral,13
-Device,12
-Procedure,10
-Biological,8
+"NA",163
+Other,149
+Diagnostic Test,60
+Behavioral,16
+Drug,16
+Device,14
+Procedure,12
+Biological,9
 Combination Product,2
 Diagnostic Test|Other,2
 Dietary Supplement,2
@@ -19,3 +19,4 @@ Diagnostic Test|Procedure,1
 Dietary Supplement|Drug,1
 Drug|Other|Procedure,1
 Genetic|Other,1
+Other|Procedure,1

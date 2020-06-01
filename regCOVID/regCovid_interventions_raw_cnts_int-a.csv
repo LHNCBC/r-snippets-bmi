@@ -1,53 +1,54 @@
 Intervention_type,intervention,Study_count
-placebo,placebo,115
-Drug,hydroxychloroquine,94
-Other,standard care,30
-Biological,convalescent plasma,27
+placebo,placebo,124
+Drug,hydroxychloroquine,95
+Biological,convalescent plasma,31
+Other,standard care,31
 Drug,azithromycin,27
-Drug,ritonavir,23
-Drug,tocilizumab,20
-Drug,lopinavir,19
-Drug,lopinavir/ritonavir,18
-Drug,standard care,17
+Drug,ritonavir,24
+Drug,tocilizumab,22
+Drug,lopinavir,20
+Drug,lopinavir/ritonavir,19
+Drug,standard care,19
 Drug,chloroquine,15
 Drug,methylprednisolone,11
 Biological,mesenchymal stem cells,10
+Drug,colchicine,10
 Drug,interferon,10
-Drug,colchicine,9
+Drug,remdesivir,8
+Drug,baricitinib,7
 Drug,convalescent plasma,7
-Drug,remdesivir,7
+Drug,favipiravir,7
 Other,convalescent plasma,7
 Device,oxygen,6
-Drug,favipiravir,6
+Drug,enoxaparin,6
 Drug,hydroxychloroquine / azithromycin,6
 Drug,ivermectin,6
 Drug,losartan,6
 Drug,saline,6
+Drug,sarilumab,6
 Biological,plasma,5
-Drug,baricitinib,5
 Drug,dexamethasone,5
-Drug,enoxaparin,5
 Drug,nitric oxide,5
 Drug,ruxolitinib,5
-Drug,sarilumab,5
 Other,prone positioning,5
 Drug,anakinra,4
 Drug,arbidol,4
+Drug,bromhexine hydrochloride,4
+Drug,nitazoxanide,4
 Drug,vitamin c,4
 Other,blood sample,4
+Procedure,prone positioning,4
 Radiation,radiotherapy,4
+Biological,blood sample,3
 Biological,nk cells,3
 Dietary Supplement,vitamin c,3
-Drug,bromhexine hydrochloride,3
 Drug,budesonide,3
 Drug,clazakizumab,3
 Drug,heparin,3
 Drug,oseltamivir,3
 Other,telehealth,3
-Procedure,prone positioning,3
 Behavioral,mindfulness,2
 Biological,adenovirus type 5 vector,2
-Biological,blood sample,2
 Biological,bnt162a1,2
 Biological,bnt162b1,2
 Biological,bnt162b2,2
@@ -58,6 +59,7 @@ Combination Product,hydroxychloroquine,2
 Device,cytokine adsorption,2
 Diagnostic Test,serology,2
 Dietary Supplement,probiotic,2
+Dietary Supplement,vitamin super b-complex,2
 Drug,anticoagulation,2
 Drug,aspirin,2
 Drug,bcg,2
@@ -69,11 +71,11 @@ Drug,cholecalciferol,2
 Drug,clopidogrel,2
 Drug,corticosteroid,2
 Drug,hydroxychloroquine/placebo,2
+Drug,ibuprofen,2
 Drug,immunoglobulin,2
 Drug,lenzilumab,2
 Drug,mesenchymal stem cells,2
 Drug,n-acetylcysteine,2
-Drug,nitazoxanide,2
 Drug,peginterferon,2
 Drug,povidone/iodine,2
 Drug,rivaroxaban,2
@@ -90,6 +92,7 @@ Other,saline,2
 Procedure,biological samples,2
 Procedure,ophthalmologic exam,2
 Procedure,standard care,2
+Behavioral,a survey,1
 Behavioral,anxiety reduction training,1
 Behavioral,attention bias modification (abm),1
 Behavioral,blood donation sms,1
@@ -98,6 +101,7 @@ Behavioral,daily coping toolkit,1
 Behavioral,digital health online platform,1
 Behavioral,educational video,1
 Behavioral,guided online support program,1
+Behavioral,hads,1
 Behavioral,hope intervention,1
 Behavioral,intermittent,1
 Behavioral,internet-based self-help,1
@@ -118,6 +122,7 @@ Behavioral,tele-interventions related to diabetes management/mental well-being,1
 Behavioral,usual care positioning with no instructions,1
 Behavioral,who recommendations (waiting condition),1
 Biological,aapc,1
+Biological,allogenic pooled olfactory mucosa-derived mesenchymal stem cells,1
 Biological,anakinra,1
 Biological,angiotensin peptide (1-7) derived plasma,1
 Biological,anti-coronavirus antibodies (immunoglobulins)obtained with dfpp from convalescent patients,1
@@ -125,10 +130,14 @@ Biological,avdoralimab,1
 Biological,bacille calmette-guã©rin (bcg),1
 Biological,bcg,1
 Biological,biological,1
+Biological,biological: mrna-1273: 100 mcg,1
+Biological,biological: mrna-1273: 50 mcg,1
+Biological,blood samples collection,1
 Biological,castem,1
 Biological,cell therapy protocol 1,1
 Biological,cell therapy protocol 2,1
 Biological,chadox1,1
+Biological,convalescent plasma of patients with covid-19,1
 Biological,covid-19 convalescent hyperimmune plasma,1
 Biological,emapalumab,1
 Biological,fecal swab,1
@@ -225,33 +234,52 @@ Device,volatile organic compounds analysis,1
 Device,vv-ecmo,1
 Device,vv-ecmo / cytokine adsorption,1
 Diagnostic Test,antibody test,1
+Diagnostic Test,biological samples day of delivery,1
 Diagnostic Test,blood sample,1
+Diagnostic Test,blood tests,1
 Diagnostic Test,complement dosage,1
 Diagnostic Test,conjunctival rt pcr,1
 Diagnostic Test,conjunctival swab,1
 Diagnostic Test,covid-19 pcr,1
 Diagnostic Test,covid-19 pcr/serology,1
+Diagnostic Test,ct-scan,1
 Diagnostic Test,ctus examination,1
 Diagnostic Test,cytokines,1
 Diagnostic Test,data collection,1
 Diagnostic Test,data collection/rhinopharyngeal swab,1
+Diagnostic Test,eeg,1
+Diagnostic Test,ep,1
 Diagnostic Test,filmarray pneumonia,1
 Diagnostic Test,igg antibody test,1
 Diagnostic Test,igm/igg rapid test,1
+Diagnostic Test,low-dose chest ct,1
+Diagnostic Test,lung impedance technique,1
 Diagnostic Test,lung ultrasound,1
 Diagnostic Test,monitoring visit,1
 Diagnostic Test,pcr,1
+Diagnostic Test,performance evaluation (a),1
+Diagnostic Test,performance evaluation (b),1
+Diagnostic Test,pulse oximetry,1
 Diagnostic Test,rapid salivary test,1
 Diagnostic Test,rhinopharyngeal,1
 Diagnostic Test,saliva,1
+Diagnostic Test,sample collection,1
+Diagnostic Test,sample collection/performance evaluation (a),1
+Diagnostic Test,sample collection/performance evaluation (b),1
 Diagnostic Test,telehealth,1
+Dietary Supplement,asbrip,1
 Dietary Supplement,ascorbic acid/zinc gluconate,1
 Dietary Supplement,ayurveda,1
 Dietary Supplement,control,1
 Dietary Supplement,honey,1
+Dietary Supplement,nicotinamide riboside,1
+Dietary Supplement,nigella sativa,1
 Dietary Supplement,quercetin,1
 Dietary Supplement,sivomixx,1
 Dietary Supplement,vitamin d,1
+Dietary Supplement,vitamin d3,1
+Dietary Supplement,viusid,1
+Dietary Supplement,viusid/asbrip,1
 Dietary Supplement,zinc,1
 Drug,,1
 Drug,-interferon nebulization,1
@@ -312,7 +340,9 @@ Drug,deferoxamine,1
 Drug,defibrotide,1
 Drug,defibrotide 25 mg/kg 24 hours continuous infusion for 15 days,1
 Drug,dexamethasone/hydroxychloroquine,1
+Drug,dfv890,1
 Drug,diovan,1
+Drug,dipyridamole 100 milligram(mg),1
 Drug,discontinuation of ras blocker,1
 Drug,doxycycline,1
 Drug,eculizumab,1
@@ -349,20 +379,20 @@ Drug,hydroxychloroquine/doxycycline,1
 Drug,hydroxychloroquine/famotidine,1
 Drug,hydroxychloroquine/ivermectin,1
 Drug,hydroxyvitamin,1
-Drug,ibuprofen,1
 Drug,ifx-1,1
+Drug,igiv,1
 Drug,imatinib,1
 Drug,indomethacin,1
 Drug,ino-4800,1
 Drug,interferon-î² 1a,1
 Drug,interferon î²-1b,1
 Drug,interleukin,1
+Drug,intermediate dose enoxaparin,1
 Drug,intravenous drug,1
 Drug,iodine,1
 Drug,ivermectin (iver pâ®) arm will receive ivm 600 âµg,1
 Drug,ivermectin (iver pâ®) arm will receive ivm 600 âµg / kg once daily/standard care. control arm will receive standard care.,1
 Drug,ivermectin 6 mg oral tablet (2 tablets),1
-Drug,kaletra,1
 Drug,ketamine,1
 Drug,kg 24 hours continuous infusion for 15 days,1
 Drug,kg once daily,1
@@ -392,11 +422,13 @@ Drug,naltrexone,1
 Drug,nasal rinse,1
 Drug,nigella sativa,1
 Drug,nigella sativa / black cumin,1
+Drug,nitazoxanide 500mg oral tablet,1
 Drug,nivolumab,1
 Drug,nk cells,1
 Drug,normal saline / maximal intensive care,1
 Drug,olokizumab,1
 Drug,omeprazole,1
+Drug,only standard treatment,1
 Drug,oral administration of colchicine,1
 Drug,oral administration of colchicine/herbal phenolic monoterpene fractions,1
 Drug,osoc,1
@@ -407,11 +439,14 @@ Drug,piperacillin/tazobactam,1
 Drug,pirfenidone,1
 Drug,plasma,1
 Drug,plitidepsin,1
+Drug,post exposure prophylaxis (pep),1
 Drug,povidone,1
 Drug,povidone-iodine,1
 Drug,prazosin,1
 Drug,prednisone,1
 Drug,progesterone,1
+Drug,prophylactic,1
+Drug,prophylactic/intermediate dose enoxaparin,1
 Drug,prophylaxis,1
 Drug,propofol,1
 Drug,pul-042,1
@@ -438,6 +473,7 @@ Drug,symbicort,1
 Drug,tacrolimus,1
 Drug,tazobactam,1
 Drug,td-0903,1
+Drug,telmisartan,1
 Drug,tenofovir disoproxil,1
 Drug,tetrandrine,1
 Drug,thiazide,1
@@ -458,6 +494,7 @@ Drug,umifenovir,1
 Drug,usual practice / symbicort rapihaler,1
 Drug,uttr1147a,1
 Drug,verapamil,1
+Drug,veru-111,1
 Drug,water,1
 Drug,xcel-umc-beta,1
 Drug,zidovudine,1
@@ -467,11 +504,13 @@ Genetic,blood sample,1
 Other,"""calm"" is a mindfulness meditation mobile app",1
 Other,adjuvant,1
 Other,after-each-case room disinfection,1
+Other,albumine),1
 Other,arb,1
 Other,ayurveda,1
 Other,biological samples,1
 Other,blood,1
 Other,blood/derivatives,1
+Other,cash transfer,1
 Other,collection of samples,1
 Other,continuation of acei,1
 Other,continuation of acei/arb,1
@@ -496,42 +535,57 @@ Other,neuromuscular electrical stimulation,1
 Other,oxygen-ozone,1
 Other,phone call,1
 Other,physical exercise,1
+Other,physiotherapy,1
+Other,placebo (hartmann/albumine),1
 Other,plasma,1
+Other,postural positioning,1
 Other,psg,1
 Other,regular inpatient medical care,1
 Other,rehabilitation,1
 Other,saline with baby shampoo nasal irrigation,1
+Other,saliva,1
 Other,sars-cov-2 infection,1
 Other,serum,1
 Other,spin-chat program,1
 Other,standard interface,1
+Other,standard treatment according to the clinical protocols,1
 Other,supportive care,1
 Other,surgical facial mask,1
 Other,suspension,1
 Other,suspension/maintenance of angiotensin receptor blockers/angiotensin-converting enzyme inhibitors,1
+Other,usual antibiotic treatment,1
 Other,weekly assessment,1
 placebo,mstt1041a-matched placebo,1
+placebo,placebo (hartmann,1
 placebo,placebo administration,1
 placebo,placebo pbmt,1
 placebo,uttr1147a-matched placebo,1
 Procedure,alveolar,1
+Procedure,auditory evoked potentials (aep),1
 Procedure,auricular neuromodulation,1
 Procedure,awake prone positioning,1
+Procedure,blink,1
+Procedure,blink/masseter inhibitory reflex,1
 Procedure,blood sample,1
 Procedure,clinical examination,1
 Procedure,control,1
+Procedure,convalescent plasma,1
 Procedure,cpap,1
 Procedure,csvf,1
 Procedure,ct-scan,1
 Procedure,dalargin,1
 Procedure,laryngoscopy,1
+Procedure,masseter inhibitory reflex,1
 Procedure,mechanical ventilation,1
 Procedure,mesenchymal stem cells,1
 Procedure,oxygen,1
 Procedure,ozone,1
+Procedure,pcr,1
 Procedure,physical therapy,1
+Procedure,procalcitonin,1
 Procedure,robot assisted percutaneous cardiovascular intervention,1
 Procedure,standard therapy,1
+Procedure,stellate ganglion block,1
 Procedure,telephone follow-up,1
 Procedure,tsvf,1
 Radiation,low,1

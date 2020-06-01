@@ -1,36 +1,38 @@
 intervention_type,Study_Count
-Drug,94
-Drug|placebo,73
-Drug|Drug,54
-Biological,36
-Other,31
+Drug,101
+Drug|placebo,76
+Drug|Drug,57
+Biological,40
+Other,34
 Device,22
-Drug|Other,17
+Drug|Other,18
+Diagnostic Test,16
 Drug|Drug|Drug,16
 Behavioral,15
-Diagnostic Test,13
-Drug|Drug|placebo,12
+Drug|Drug|placebo,13
+Procedure,13
 Biological|Biological,11
 Biological|placebo,10
-Procedure,10
 Other|Other,9
 Device|Device,8
 Drug|Drug|Drug|Drug,8
+Biological|Other,7
 Biological|Drug,5
 Device|Other,5
+Dietary Supplement,5
 Drug|Drug|Drug|placebo,5
 Drug|Drug|Other,5
-Biological|Other,4
+Behavioral|Behavioral,4
 Drug|Drug|placebo|placebo,4
-Behavioral|Behavioral,3
+Procedure|Procedure,4
 Drug|Drug|Drug|Drug|Drug,3
 Drug|Drug|Drug|Other,3
-Procedure|Procedure,3
 Radiation,3
 Device|Procedure,2
-Dietary Supplement,2
+Diagnostic Test|Diagnostic Test,2
 Dietary Supplement|Dietary Supplement,2
 Dietary Supplement|Drug,2
+Dietary Supplement|Drug|placebo,2
 Dietary Supplement|Other,2
 Behavioral|Behavioral|Behavioral,1
 Biological|Biological|Biological|Biological,1
@@ -39,6 +41,8 @@ Biological|Biological|Biological|Biological|placebo|placebo,1
 Biological|Biological|Biological|Drug,1
 Biological|Biological|Biological|Genetic|Other,1
 Biological|Biological|Other,1
+Biological|Biological|placebo,1
+Biological|Drug|Drug|Drug|placebo|placebo,1
 Biological|Drug|placebo,1
 Biological|Other|placebo,1
 Combination Product,1
@@ -51,11 +55,12 @@ Device|Drug|Drug|Drug|Drug|Drug|Drug|Radiation,1
 Device|Drug|Drug|Procedure,1
 Device|Drug|Drug|Procedure|Procedure,1
 Device|placebo,1
-Diagnostic Test|Diagnostic Test,1
+Diagnostic Test|Diagnostic Test|Diagnostic Test|Diagnostic Test|Diagnostic Test,1
 Diagnostic Test|Diagnostic Test|Diagnostic Test|Drug|Drug|Other|placebo,1
 Diagnostic Test|Other,1
 Dietary Supplement|Dietary Supplement|Dietary Supplement|Other,1
 Dietary Supplement|Drug|Drug|Other,1
+Dietary Supplement|placebo,1
 Drug|Drug|Drug|Drug|Drug|Drug|Drug|Drug|Drug|Drug|Drug,1
 Drug|Drug|Drug|Drug|Drug|Drug|Drug|Other|placebo,1
 Drug|Drug|Drug|Drug|Other,1
@@ -64,5 +69,6 @@ Drug|placebo|Procedure|Procedure|Procedure|Procedure,1
 Drug|placebo|Radiation,1
 Drug|Procedure,1
 Other|Other|Other,1
+Other|Procedure,1
 Procedure|Procedure|Procedure,1
 Procedure|Procedure|Procedure|Procedure,1
