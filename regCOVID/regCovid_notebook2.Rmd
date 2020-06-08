@@ -11,7 +11,9 @@ output:
 
 ---
 *Craig Mayer, Nick WIlliams, Vojtech Huser*  
-_Lister Hill National Center for Biomedical Communications, National Library of Medicine, NIH, Bethesda, MD_
+*Lister Hill National Center for Biomedical Communications, National Library of Medicine, NIH, Bethesda, MD*
+
+_See the full regCOVID repository with detailed results at https://github.com/lhncbc/r-snippets-bmi/tree/master/regCOVID
 ---
 
 # Study Counts
@@ -54,7 +56,14 @@ kable(d9)
 
 
 ## Interventions over Time
-![Weekly counts of new studies for each intervention](regCovid_new_interventions_time_int-a.png)
+```{r on hundred, echo=FALSE, message=FALSE}
+intervent_date2<-read_csv('intervent_date.csv')
+library(plotly)
+library(ggplot2)
+ggplotly( ggplot()+geom_path(data =intervent_date2, aes(x =Date2, y=value, group = variable, color=variable)) +xlab('Date')+
+  ylab('New Study Count')+ labs(variable = 'Intervention'))
+```
+Weekly studies for each intervention
 
 
 ## Studies by Country
@@ -151,8 +160,76 @@ kable(d2)
 ```
 
 ### Phase
-```{r sixtythree, message=FALSE, echo=FALSE}
+
+```{r sixtyfour, message=FALSE, echo=FALSE}
 d9<-read_csv('regCovid_vaccines_phase.csv')
+
+kable(d9)
+
+```
+
+### Country
+```{r sixtythree, message=FALSE, echo=FALSE}
+d9<-read_csv('regCovid_vaccines_country.csv')
+
+kable(d9)
+
+```
+
+### Site Count
+```{r seventyone, message=FALSE, echo=FALSE}
+d9<-read_csv('regCovid_vaccines_site_cnts.csv')
+
+kable(d9)
+
+```
+
+### Arms
+```{r sixtyseven, message=FALSE, echo=FALSE}
+d9<-read_csv('regCovid_vaccines_arms.csv')
+
+kable(d9)
+
+```
+
+
+### Enrollment
+
+```{r sixtyfive, message=FALSE, echo=FALSE}
+d9<-read_csv('regCovid_vaccines_enroll.csv')
+
+kable(d9)
+
+```
+
+### Model
+```{r sixtyeight, message=FALSE, echo=FALSE}
+d9<-read_csv('regCovid_vaccines_model.csv')
+
+kable(d9)
+
+```
+
+### Group Types
+```{r sixtysix, message=FALSE, echo=FALSE}
+d9<-read_csv('regCovid_vaccines_group_types.csv')
+
+kable(d9)
+
+```
+
+### Update Count
+```{r sixtynine, message=FALSE, echo=FALSE}
+d9<-read_csv('regCovid_vaccines_update.csv')
+
+kable(d9)
+
+```
+
+
+### Change Type
+```{r seventy, message=FALSE, echo=FALSE}
+d9<-read_csv('regCovid_vaccines_change_type.csv')
 
 kable(d9)
 
