@@ -163,7 +163,7 @@ base=&library.precious_log
 data=work.log;
 run;
 
-/*clear cashed*/
+
 proc datasets library=work;
 delete 
 event_index_&cohort_number
@@ -283,7 +283,7 @@ run;
 proc append FORCE base=&library..precious_log
 data=work.log;run;
 
-/*clear cashed*/
+
 proc datasets library=work;delete 
 event_index_&cohort_number
 ;run;

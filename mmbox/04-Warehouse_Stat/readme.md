@@ -1,20 +1,20 @@
-Warehouse Statistics 
+# Warehouse Statistics 
 
 The following program can be configured to produce ‘warehouse statistics’ for files within VRDC that describe patient care. There are additional features of patient care this script does not facilitate harvesting such as the location of care, the demography of patients, mortality, and costs of care. On some level these are secondary analysis use cases that would only be interesting if known about a predefined cohort.  Ideally users would use this output to establish their research question. Seeing how many kinds of relative care events there were should inform cohort design. This output should support cohort design efforts. 
 
 We consider care in three wide categories:  
 
-Diagnosis: ICD9-CM, ICD10-CM DX Codes 
+- Diagnosis: ICD9-CM, ICD10-CM DX Codes 
 
-Procedures: ICD9-CM-Procedure, ICD10-CM-Procedure, CPT and HCPCS 
+- Procedures: ICD9-CM-Procedure, ICD10-CM-Procedure, CPT and HCPCS 
 
-Medications: National Drug Codes or RX_NORM Clinical Drugs 
+- Medications: National Drug Codes or RX_NORM Clinical Drugs 
 
 We do not disambiguate inpatient, outpatient, long term or elective care from one another. However users could use the native file names and the codes themselves to decide on the above classifications.  
 
 Configuration: This script uses several configuration options including source files, months of interest, years of interest as well as input and output files.  
 
-Essential declarations: 
+## Essential declarations: 
 
 1. Host Library: Declare your user library. Do not run this in the work directory.  
 
@@ -34,7 +34,7 @@ Essential declarations:
 
 The program loops through item positions in this list file, not actual file names or state names. You must load this file into your host library. The program learns the year, month, state and file names from this file. The year1 or state1 in this list corresponds to the first item in the corresponding column.  You can manually change the order of the items in the file to control the loop. Double clicking on the SAS file while in view mode should enable edit privileges. For example if you want to run a loop for year 2000 and 2016 only you could run the program twice or change the order of the year column in the list to first:2000 and second:2016 instead of the native first:1999 and second:2001; then run from &year1 to &year2. Remember SAS has a hard time looping over strings, but can manage a list like this.  
 
-Medicaid vs Medicare 
+# Medicaid vs Medicare 
 
 This script uses a 100% sample of VRDC RIF and MAX Files. Your VRDC configuration may differ, and in turn results may vary. You could modify the script to reflect your file name structure. This is tricky and takes a little hit and miss. Most VRDC file name structures are dynamic. For example: 
 
