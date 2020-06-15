@@ -1,12 +1,17 @@
 Intervention_type,intervention,Study_count
-NA,NA,41
+NA,NA,42
 Other,no intervention,5
+Diagnostic Test,blood sample,2
 Other,pregnant women with laboratory-confirmed 2019-n-cov,2
+Other,recop unit patient,2
 Behavioral,enhanced hygiene measures,1
 Behavioral,health care worker survey,1
 Behavioral,survey,1
 Behavioral,telephonic medical visit,1
 Combination Product,observational,1
+Device,cerebral compliance,1
+Device,cerebral compliance/hemodynamics monitoring,1
+Device,hemodynamics monitoring,1
 Device,nä°cas,1
 Device,performance evaluation study of realdetect rt-pcr kit for covid-19 detection,1
 Device,savr,1
@@ -19,7 +24,6 @@ Diagnostic Test,antibody testing,1
 Diagnostic Test,assessment of cardiovascular diseases,1
 Diagnostic Test,assessment of cardiovascular diseases/cardiovascular risk factors,1
 Diagnostic Test,"biomarker (tropt, myoglobin, ck, ck-mb, ldh, d-dimer, crp, pct)",1
-Diagnostic Test,blood sample,1
 Diagnostic Test,cardiovascular risk factors,1
 Diagnostic Test,clia of igg,1
 Diagnostic Test,clia of igg/igm against sars-cov-2,1
@@ -31,13 +35,16 @@ Diagnostic Test,igm against sars-cov-2,1
 Diagnostic Test,igm/igg rapid test,1
 Diagnostic Test,laboratory,1
 Diagnostic Test,muscle,1
+Diagnostic Test,questionnaire,1
 Diagnostic Test,rt-pcr,1
 Diagnostic Test,rt-pcr/antibody testing,1
 Diagnostic Test,sars-cov-2-test,1
 Dietary Supplement,vitamin d,1
 Drug,ace inhibitor,1
+Drug,antihypertensive agents,1
 Drug,methylprednisolone,1
 Drug,patients with the treatment agains covid19,1
+Drug,statins (cardiovascular agents),1
 Other,at risk for covid-19 infection,1
 Other,biological samples,1
 Other,blood d-dimer assay,1
@@ -47,15 +54,18 @@ Other,chloroquine/hydroxychloroquine,1
 Other,clinical data,1
 Other,coronavirus disease 2019,1
 Other,data collection,1
+Other,diabetes type 2,1
 Other,diagnosed with covid-19,1
 Other,ecg-holter,1
 Other,follow up,1
 Other,hospitalized children with covid19,1
 Other,hydroxychloroquine,1
+Other,hypertension,1
 Other,icu treatment,1
 Other,modified rankin score,1
-Other,newborns,1
+Other,no interverntion,1
 Other,no special intervention,1
+Other,obesity,1
 Other,observation,1
 Other,observational,1
 Other,patient sampling,1
@@ -63,7 +73,6 @@ Other,postpartum,1
 Other,postpartum women under investigation for coronavirus/diagnosed with covid-19,1
 Other,pregnant women under investigation for coronavirus,1
 Other,pregnant women under investigation for coronavirus/diagnosed with covid-19,1
-Other,recop unit patient,1
 Other,sars-cov-2 questionnaire survey,1
 Other,serology,1
 Other,standard care,1
@@ -72,5 +81,6 @@ Other,taking biological samples,1
 Other,thromboprofylaxis protocol,1
 Other,web-based redcap survey,1
 Procedure,abdominal ultrasound,1
+Procedure,endoscopic intervention,1
 Procedure,evaluation of changes in the diagnostic-therapeutic pathway,1
 Procedure,gastrointestinal endoscopy,1
