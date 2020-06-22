@@ -1,39 +1,41 @@
 Intervention_type,intervention,Study_count
-NA,NA,240
-placebo,placebo,150
-Drug,hydroxychloroquine,99
-Biological,convalescent plasma,41
-Other,standard care,35
-Other,questionnaire,34
-Drug,azithromycin,26
-Drug,standard care,25
-Drug,ritonavir,24
-Drug,tocilizumab,24
-Drug,lopinavir,22
-Other,no intervention,22
+NA,NA,256
+placebo,placebo,161
+Drug,hydroxychloroquine,98
+Biological,convalescent plasma,42
+Other,questionnaire,35
+Other,standard care,34
+Drug,azithromycin,27
+Drug,standard care,27
+Drug,tocilizumab,26
+Drug,ritonavir,25
+Drug,lopinavir,23
+Other,no intervention,23
 Drug,lopinavir/ritonavir,20
 Drug,chloroquine,14
+Drug,methylprednisolone,14
 Biological,mesenchymal stem cells,13
-Drug,methylprednisolone,13
 Drug,colchicine,12
+Drug,ivermectin,12
+Drug,favipiravir,11
+Drug,remdesivir,11
 Biological,blood sample,10
 Drug,interferon,10
-Drug,favipiravir,9
-Drug,ivermectin,9
-Drug,remdesivir,9
+Drug,convalescent plasma,9
+Drug,saline,9
 Device,oxygen,8
 Drug,baricitinib,8
-Drug,saline,8
 Other,blood sample,8
 Other,prone positioning,8
 Diagnostic Test,pcr,7
-Drug,convalescent plasma,7
 Drug,enoxaparin,7
+Drug,hydroxychloroquine / azithromycin,7
+Drug,nitazoxanide,7
 Other,convalescent plasma,7
 Procedure,prone positioning,7
 Biological,plasma,6
-Drug,hydroxychloroquine / azithromycin,6
 Drug,losartan,6
+Drug,nitric oxide,6
 Drug,sarilumab,6
 Other,observational,6
 Other,online survey,6
@@ -44,8 +46,6 @@ Drug,ace inhibitor,5
 Drug,anakinra,5
 Drug,dexamethasone,5
 Drug,heparin,5
-Drug,nitazoxanide,5
-Drug,nitric oxide,5
 Drug,ruxolitinib,5
 Other,biological samples,5
 Diagnostic Test,lung ultrasound,4
@@ -53,9 +53,11 @@ Diagnostic Test,serology,4
 Drug,arbidol,4
 Drug,bromhexine hydrochloride,4
 Drug,clazakizumab,4
+Drug,povidone/iodine,4
 Drug,vitamin c,4
 Other,telehealth,4
 Procedure,biological samples,4
+Behavioral,blood donation sms,3
 Behavioral,questionnaire,3
 Biological,bcg,3
 Biological,nk cells,3
@@ -63,13 +65,14 @@ Device,coviage,3
 Diagnostic Test,blood sample,3
 Diagnostic Test,blood test,3
 Dietary Supplement,vitamin d,3
+Drug,aspirin,3
 Drug,budesonide,3
 Drug,corticosteroid,3
 Drug,imatinib,3
 Drug,mesenchymal stem cells,3
 Drug,oseltamivir,3
 Drug,peginterferon,3
-Drug,povidone/iodine,3
+Drug,rivaroxaban,3
 Other,blood,3
 Other,blood draw,3
 Other,data collection,3
@@ -77,7 +80,7 @@ Other,other,3
 Other,oxygen,3
 Other,saline,3
 Other,ultrasound,3
-Behavioral,blood donation sms,2
+Radiation,low,3
 Behavioral,mindfulness,2
 Behavioral,observation,2
 Behavioral,survey,2
@@ -91,7 +94,7 @@ Biological,inactivated sars-cov-2 vaccine,2
 Biological,mrna-1273,2
 Biological,pcr,2
 Biological,saliva,2
-Biological,tocilizumab,2
+Biological,vpm1002,2
 Combination Product,azithromycin,2
 Combination Product,hydroxychloroquine,2
 Device,ct-scan,2
@@ -105,13 +108,14 @@ Diagnostic Test,ct-scan,2
 Diagnostic Test,igm,2
 Diagnostic Test,muscle,2
 Diagnostic Test,online survey,2
+Diagnostic Test,questionnaire,2
 Diagnostic Test,serum test,2
 Dietary Supplement,probiotic,2
 Dietary Supplement,sivomixx,2
 Dietary Supplement,vitamin c,2
 Dietary Supplement,vitamin super b-complex,2
+Drug,200 mg eidd-2801,2
 Drug,anticoagulation,2
-Drug,aspirin,2
 Drug,bcg,2
 Drug,bevacizumab,2
 Drug,calcium channel blockers,2
@@ -125,18 +129,23 @@ Drug,darunavir,2
 Drug,darunavir/cobicistat,2
 Drug,dipyridamole,2
 Drug,dornase alfa,2
+Drug,doxycycline,2
 Drug,famotidine,2
 Drug,ibuprofen,2
 Drug,immunoglobulin,2
 Drug,lenzilumab,2
+Drug,ly3819253,2
+Drug,melatonin,2
 Drug,n-acetylcysteine,2
+Drug,opaganib,2
 Drug,plasma,2
 Drug,pul-042,2
-Drug,rivaroxaban,2
+Drug,pulmozyme,2
 Drug,sevoflurane,2
 Drug,siltuximab,2
 Drug,sirolimus,2
 Drug,telmisartan,2
+Drug,thromboprophylaxis,2
 Other,ace inhibitor,2
 Other,best available therapy,2
 Other,control,2
@@ -156,7 +165,9 @@ Other,practice details,2
 Other,pregnant women with laboratory-confirmed 2019-n-cov,2
 Other,quality of life,2
 Other,recop unit patient,2
+Other,sample collection,2
 Other,serology,2
+placebo,matching placebo,2
 Procedure,blood sample,2
 Procedure,ophthalmologic exam,2
 Procedure,standard care,2
@@ -196,6 +207,8 @@ Behavioral,lifestyle change promotion program,1
 Behavioral,lock-down,1
 Behavioral,lock-down/social distancing,1
 Behavioral,maslach burnout inventory (mbi),1
+Behavioral,mechanical ventilator settings,1
+Behavioral,mechanical ventilator settings/position,1
 Behavioral,meditation,1
 Behavioral,meditation/anxiety reduction training,1
 Behavioral,mental well-being,1
@@ -211,6 +224,7 @@ Behavioral,patient-centred advice on telephone consultation in tb patients:,1
 Behavioral,patient health questionnaire-9 (phq-9),1
 Behavioral,personal exercise intervention,1
 Behavioral,personalized health education,1
+Behavioral,position,1
 Behavioral,prayer,1
 Behavioral,prone positioning,1
 Behavioral,psychological,1
@@ -221,6 +235,7 @@ Behavioral,self-administered structured questionnaire,1
 Behavioral,self-compassion for chronic pain virtual group treatment program,1
 Behavioral,self-help booklet,1
 Behavioral,self-questionnary,1
+Behavioral,shg,1
 Behavioral,sms message support,1
 Behavioral,social distancing,1
 Behavioral,social media,1
@@ -230,6 +245,7 @@ Behavioral,tele-interventions related to diabetes management/mental well-being,1
 Behavioral,telephonic medical visit,1
 Behavioral,therapy intervention,1
 Behavioral,turkish physicians,1
+Behavioral,unified protocol for covid-19 parenting stress (up-covid),1
 Behavioral,usual care positioning with no instructions,1
 Behavioral,views,1
 Behavioral,virtual group intervention,1
@@ -244,7 +260,9 @@ Biological,anti-coronavirus antibodies (immunoglobulins)obtained with dfpp from 
 Biological,avdoralimab,1
 Biological,bacille calmette-guã©rin (bcg),1
 Biological,biological,1
+Biological,biological assays in particular on the lipid metabolism,1
 Biological,biological samples,1
+Biological,biological test,1
 Biological,blood collection,1
 Biological,blood test,1
 Biological,castem,1
@@ -253,11 +271,15 @@ Biological,cell therapy protocol 2,1
 Biological,chadox1,1
 Biological,chest ct,1
 Biological,collection of blood samples in order to create a biocollection,1
+Biological,covid-19 convalescent plasma (ccp),1
 Biological,emapalumab,1
 Biological,exposure,1
 Biological,fecal swab,1
+Biological,gam-covid-vac,1
+Biological,gam-covid-vac lyo,1
 Biological,human amniotic fluid,1
 Biological,injection,1
+Biological,intravenous infusions of stem cells,1
 Biological,lenzilumab,1
 Biological,low,1
 Biological,low/upper respiratory tract sample,1
@@ -274,6 +296,7 @@ Biological,otilimab,1
 Biological,pcr/chest ct,1
 Biological,pembrolizumab,1
 Biological,plasma exchange,1
+Biological,plasma from a volunteer donor,1
 Biological,plx-pad,1
 Biological,remestemcel-l,1
 Biological,"reporting of anosmia, ageusia",1
@@ -281,7 +304,7 @@ Biological,"reporting of anosmia, ageusia/other clinical symptoms",1
 Biological,respiratory tract sample,1
 Biological,rph-104,1
 Biological,saline,1
-Biological,saline containing 1% human serum albuminï¼ˆsolution of mscï¼‰,1
+Biological,saline containing 1% human serum albuminï¼ˆsolution without uc-mscsï¼‰,1
 Biological,sarilumab,1
 Biological,sars-cov-2 rs,1
 Biological,serology,1
@@ -290,6 +313,7 @@ Biological,serum tube collection,1
 Biological,stool collection,1
 Biological,swab,1
 Biological,t cell derived exosom,1
+Biological,tocilizumab,1
 Biological,upper respiratory sample,1
 Biological,utooth btc),1
 Biological,v-sars,1
@@ -308,6 +332,7 @@ Device,actigraphy,1
 Device,adam sensor,1
 Device,apple watch,1
 Device,arfc mask,1
+Device,assessment),1
 Device,bidirectional oxygenation mouthpiece,1
 Device,biosensor,1
 Device,biovitals,1
@@ -367,9 +392,12 @@ Device,pbmt,1
 Device,pbmt/smf,1
 Device,percutaneous coronary revascularization for stemi,1
 Device,performance evaluation study of realdetect rt-pcr kit for covid-19 detection,1
+Device,performing of lung ultrasound,1
 Device,prototype,1
 Device,q-nrg metobolic cart device,1
 Device,respiratory monitor,1
+Device,ria-device (remote investigation,1
+Device,ria-device (remote investigation/assessment),1
 Device,savr,1
 Device,seraph,1
 Device,sledd with a l-mod,1
@@ -379,6 +407,7 @@ Device,tavr,1
 Device,tavr/savr,1
 Device,tcc-covid mhealth,1
 Device,telehealth,1
+Device,vibrolung,1
 Device,volatile organic compounds analysis,1
 Device,vv-ecmo / cytokine adsorption,1
 Device,web application users,1
@@ -393,6 +422,7 @@ Diagnostic Test,biological samples,1
 Diagnostic Test,"biomarker (tropt, myoglobin, ck, ck-mb, ldh, d-dimer, crp, pct)",1
 Diagnostic Test,biomarkers expression,1
 Diagnostic Test,blood sample for serology to measure past infection with sars-cov-2,1
+Diagnostic Test,butterfly,1
 Diagnostic Test,c-reactive protein,1
 Diagnostic Test,cambridge validated viral detection,1
 Diagnostic Test,cardiovascular risk factors,1
@@ -410,6 +440,7 @@ Diagnostic Test,copan swabbing/blood sample collection,1
 Diagnostic Test,covid-19 igg,1
 Diagnostic Test,"covid-19 igg/igm rapid test cassette test (healgen scientific, houston, texas, usa)",1
 Diagnostic Test,covid-19 rapid test kit (rapg-cov-019),1
+Diagnostic Test,covid-19 swab,1
 Diagnostic Test,covid 19 diagnostic test,1
 Diagnostic Test,ctus examination,1
 Diagnostic Test,cytokines,1
@@ -460,6 +491,7 @@ Diagnostic Test,monitoring visit,1
 Diagnostic Test,mri,1
 Diagnostic Test,nasal,1
 Diagnostic Test,nasopharyngeal swab,1
+Diagnostic Test,nasopharyngeal swabs,1
 Diagnostic Test,neural network diagnosis algorithm,1
 Diagnostic Test,ng test,1
 Diagnostic Test,no intervention,1
@@ -473,15 +505,16 @@ Diagnostic Test,paraclinical test,1
 Diagnostic Test,pcr/serology,1
 Diagnostic Test,performance evaluation,1
 Diagnostic Test,performing ai algorithms on images,1
+Diagnostic Test,peripheral blood sampling,1
 Diagnostic Test,polysomnography,1
 Diagnostic Test,post-traumatic stress screening,1
+Diagnostic Test,pt-pcr test for sars-cov-2,1
 Diagnostic Test,public health england gold standard,1
 Diagnostic Test,pulmonary anomalies 4 months after documented covid-19 pneumonia,1
 Diagnostic Test,pulmonary function tests,1
 Diagnostic Test,pulse oximetry,1
 Diagnostic Test,quantitative analysis of sars-cov-2 antibodies,1
 Diagnostic Test,quantitative igg test,1
-Diagnostic Test,questionnaire,1
 Diagnostic Test,radiological,1
 Diagnostic Test,rapid salivary test,1
 Diagnostic Test,recombinase,1
@@ -527,6 +560,7 @@ Diagnostic Test,tomography angiography,1
 Diagnostic Test,tuberculin,1
 Diagnostic Test,ultrasonography,1
 Diagnostic Test,ultrasound,1
+Diagnostic Test,vaginal fluid covid-19 pcr test,1
 Diagnostic Test,volume rapid test,1
 Diagnostic Test,whole exome sequencing,1
 Diagnostic Test,x-ray,1
@@ -551,6 +585,7 @@ Drug,0.4 ml injectable solution,1
 Drug,1200 mg),1
 Drug,1600 mg),1
 Drug,18f-î±vî²6-bp,1
+Drug,300 mg eidd-2801,1
 Drug,abx464,1
 Drug,"ace inhibitor, angiotensin receptor blocker",1
 Drug,ace inhibitors/calcium channel blockers,1
@@ -562,6 +597,7 @@ Drug,amiodarone,1
 Drug,anakinra/osoc,1
 Drug,angiotensin-converting enzyme inhibitors (ace-i)/angiotensin ii receptor blockers (arb),1
 Drug,angiotensin ii,1
+Drug,angiotensin receptor blockers,1
 Drug,anluohuaxian,1
 Drug,antihypertensive agents,1
 Drug,antihypertensives,1
@@ -578,7 +614,6 @@ Drug,atorvastatin,1
 Drug,atovaquone,1
 Drug,atovaquone/azithromycin,1
 Drug,atyr1923,1
-Drug,avdoralimab,1
 Drug,aviptadil,1
 Drug,aviptadil/standard care,1
 Drug,azithromycin capsule,1
@@ -598,6 +633,7 @@ Drug,cerc-002,1
 Drug,chlorhexidine,1
 Drug,chlorine dioxide,1
 Drug,chloroquine phosphate tablets,1
+Drug,cholchicine,1
 Drug,ciclesonide,1
 Drug,clarithromycin,1
 Drug,clevudine,1
@@ -609,6 +645,7 @@ Drug,control,1
 Drug,"conventional medicines (oxygen therapy, alfa interferon via aerosol inhalation,",1
 Drug,"conventional medicines (oxygen therapy, alfa interferon via aerosol inhalation,/lopinavir/ritonavir)",1
 Drug,"conventional medicines (oxygen therapy, alfa interferon via aerosol inhalation,/lopinavir/ritonavir)/traditional chinese medicines (tcms) granules",1
+Drug,covid-19 treatment,1
 Drug,cumin,1
 Drug,cyclosporine,1
 Drug,dalteparin,1
@@ -622,12 +659,12 @@ Drug,defibrotide,1
 Drug,defibrotide 25 mg/kg 24 hours continuous infusion for 15 days,1
 Drug,dexamethasone/hydroxychloroquine,1
 Drug,dfv890,1
+Drug,dietary supplement containing resistant starch,1
 Drug,diovan,1
 Drug,discontinuation of ras blocker,1
 Drug,dociparastat sodium,1
 Drug,dose of tinzaparin,1
 Drug,dose of tinzaparin/dalteparin,1
-Drug,doxycycline,1
 Drug,eculizumab,1
 Drug,emtricitabine,1
 Drug,emtricitabine/tenofovir disoproxil,1
@@ -660,18 +697,16 @@ Drug,hormones,1
 Drug,hydrocortisone,1
 Drug,hydroxychloroquine sulfate tablets,1
 Drug,hydroxychloroquine sulfate tablets/lopinavir/ ritonavir oral tablets,1
-Drug,hydroxychloroquine/chloroquine,1
 Drug,hydroxychloroquine/clindamycin,1
 Drug,hydroxychloroquine/clindamycin/primaquine,1
 Drug,hydroxychloroquine/doxycycline,1
-Drug,hydroxychloroquine/famotidine,1
 Drug,hydroxychloroquine/ivermectin,1
-Drug,hydroxychloroquine/placebo,1
 Drug,hydroxyvitamin,1
 Drug,ibrutinib,1
 Drug,icosapent ethyl,1
 Drug,ifx-1,1
 Drug,igiv,1
+Drug,iloprost,1
 Drug,immunoglubulins,1
 Drug,immunosuppressive,1
 Drug,indomethacin,1
@@ -682,13 +717,16 @@ Drug,interleukin,1
 Drug,interleukin-1 receptor antagonist,1
 Drug,intravenous drug,1
 Drug,iodine,1
+Drug,isotonic saline,1
 Drug,ivermectin (iver pâ®) arm will receive ivm 600 âµg,1
 Drug,ivermectin (iver pâ®) arm will receive ivm 600 âµg / kg once daily/standard care. control arm will receive standard care.,1
+Drug,ivermectin / doxycycline,1
 Drug,ivermectin 5 mg,1
 Drug,ivermectin 5 mg/ml,1
 Drug,ivermectin oral product,1
 Drug,ivermectin tablets,1
 Drug,ketamine,1
+Drug,ketotifen 1 mg,1
 Drug,kg,1
 Drug,kg 24 hours continuous infusion for 15 days,1
 Drug,kg once daily,1
@@ -703,36 +741,38 @@ Drug,lopinavir/ ritonavir oral tablet,1
 Drug,lopinavir/ritonavir / hydoxychloroquine,1
 Drug,lovenox,1
 Drug,ly3127804,1
-Drug,ly3819253,1
 Drug,management of covid-19,1
 Drug,mas825,1
 Drug,mavrilimumab,1
 Drug,"mcn (methylene blue, vitamin c, n-acetyl cysteine)",1
+Drug,measles-mumps-rubella vaccine,1
 Drug,mefloquine,1
-Drug,melatonin,1
 Drug,melphalan,1
 Drug,meplazumab,1
+Drug,merimepodib,1
 Drug,metenkefalin,1
 Drug,metenkefalin / tridecactide,1
 Drug,methylene blue/ vitamin c/n-acetyl cysteine,1
-Drug,monalizumab,1
+Drug,ml intravenous solution [actemra]_#1,1
+Drug,ml intravenous solution [actemra]_#1 (2 doses),1
 Drug,mstt1041a,1
 Drug,n-acetylcysteine/ fuzheng huayu,1
 Drug,n-acetylcysteine/placebo,1
 Drug,naltrexone,1
 Drug,nasal rinse,1
+Drug,niclosamide,1
 Drug,nigella sativa,1
 Drug,nigella sativa / black cumin,1
-Drug,nivolumab,1
 Drug,nk cells,1
 Drug,no-immunosuppressive,1
 Drug,observational,1
 Drug,octagam,1
 Drug,olokizumab,1
 Drug,omeprazole,1
-Drug,opaganib,1
 Drug,osoc,1
+Drug,other,1
 Drug,oxygen,1
+Drug,pacritinib,1
 Drug,paracetamol,1
 Drug,patients with the treatment agains covid19,1
 Drug,piperacillin,1
@@ -746,7 +786,6 @@ Drug,progesterone,1
 Drug,prophylactic,1
 Drug,prophylaxis,1
 Drug,propofol,1
-Drug,pulmozyme,1
 Drug,pyridostigmine bromide,1
 Drug,r tablets,1
 Drug,ravulizumab,1
@@ -766,8 +805,12 @@ Drug,sildenafil citrate,1
 Drug,simvastatin,1
 Drug,sirukumab,1
 Drug,sndx-6352,1
+Drug,soc,1
+Drug,soc / intravenous famotidine,1
+Drug,soc / placebo,1
 Drug,sodium bicarbonate,1
 Drug,standard care. control arm will receive standard care.,1
+Drug,standard of care thromboprophylaxis,1
 Drug,standard therapy,1
 Drug,statins (cardiovascular agents),1
 Drug,sulfamethoxazole,1
@@ -787,12 +830,14 @@ Drug,tetrandrine,1
 Drug,thiazide,1
 Drug,thiazide-like diuretics,1
 Drug,thiazide/thiazide-like diuretics,1
-Drug,thromboprophylaxis,1
 Drug,thymosin,1
 Drug,tirofiban,1
 Drug,tj003234,1
 Drug,tociliuzumab,1
+Drug,tocilizumab 20 mg/ml intravenous solution [actemra]_#1,1
+Drug,tocilizumab 20 mg/ml intravenous solution [actemra]_#1 (2 doses),1
 Drug,tradipitant,1
+Drug,traditional antirheumatic drugs,1
 Drug,traditional chinese medicine,1
 Drug,tranexamic acid,1
 Drug,treatment,1
@@ -816,6 +861,7 @@ Genetic,next generation sequencing (ngs) analysis,1
 Genetic,sequencing,1
 Other,"""calm"" is a mindfulness meditation mobile app",1
 Other,[timp-2]*[igfbp-7],1
+Other,38-questions questionnaire,1
 Other,"ä±t will be compared pain, sleep, fatigue, physical activity level",1
 Other,"ä±t will be compared pain, sleep, fatigue, physical activity level/quality of life/questioning exercise habits before/after the covid-19 outbreak in patients with behã§et/fmf.",1
 Other,active covid-19 disease,1
@@ -830,7 +876,10 @@ Other,anxiety questionnaire,1
 Other,arb,1
 Other,at risk for covid-19 infection,1
 Other,ayurveda,1
+Other,biochemical analysis,1
 Other,biological sample/clinical data collection,1
+Other,"biological samples, questionnaires",1
+Other,"biological samples, questionnaires/interviews",1
 Other,blood d-dimer assay,1
 Other,blood sampling for biobank,1
 Other,blood test,1
@@ -855,6 +904,7 @@ Other,comprehensive treatment,1
 Other,continuation of acei,1
 Other,continuation of acei/arb,1
 Other,continuation of arb,1
+Other,convalescent sars covid-19 plasma,1
 Other,coronavirus disease 2019,1
 Other,covicu,1
 Other,covid-19 / patients,1
@@ -905,6 +955,7 @@ Other,fmf.,1
 Other,follow up,1
 Other,further processing of health data,1
 Other,gad-7 (7-item generalized anxiety disorder),1
+Other,gad-7 general anxiety disorder scale,1
 Other,gas exchanges at different peep,1
 Other,general public cohort,1
 Other,global survey,1
@@ -933,6 +984,7 @@ Other,inflammatory cytokines,1
 Other,inflammatory cytokines/chemokines profiles of patients with dexmedetomidine administration,1
 Other,interview,1
 Other,interview by psychologists,1
+Other,interviews,1
 Other,invasive mechanical ventilation,1
 Other,investigation of smell,1
 Other,investigation of smell/taste disorders,1
@@ -940,6 +992,7 @@ Other,it,1
 Other,its,1
 Other,kb109,1
 Other,kb109 / self supportive care (ssc),1
+Other,lifestyle habits,1
 Other,liver,1
 Other,lung ct scan analysis in covid-19 patients,1
 Other,lung mechanics at different peep,1
@@ -959,6 +1012,7 @@ Other,ncapp,1
 Other,neuromuscular electrical stimulation,1
 Other,newborns,1
 Other,no intervention (survey study for medical doctors).,1
+Other,"no intervention, observational",1
 Other,no interventional study,1
 Other,no interverntion,1
 Other,no special intervention,1
@@ -972,6 +1026,8 @@ Other,observational cohort study on the natural history of hospitalized sars-cov
 Other,olfactory,1
 Other,olfactory function evaluation,1
 Other,olfactory/gustatory tests,1
+Other,online survey about dietary,1
+Other,online survey about dietary/lifestyle habits,1
 Other,oxygen-ozone,1
 Other,pandemic control measures,1
 Other,passed infection of sars-cov-2,1
@@ -983,6 +1039,7 @@ Other,personal protective equipment from biological hazard,1
 Other,phobia questionairre,1
 Other,phone call,1
 Other,phq,1
+Other,phq-9 depression scale,1
 Other,phsyiotherapy,1
 Other,physical therapy,1
 Other,plasma,1
@@ -997,6 +1054,7 @@ Other,pregnant women under investigation for coronavirus,1
 Other,pregnant women under investigation for coronavirus/diagnosed with covid-19,1
 Other,prevalence of covid-19,1
 Other,"primary care professionals reports of potential patient safety incidents, non-covid-19 related",1
+Other,prospective chart review,1
 Other,prospective oberservational registry,1
 Other,psg,1
 Other,pss,1
@@ -1018,12 +1076,13 @@ Other,risk factors,1
 Other,saline solution,1
 Other,saline with baby shampoo nasal irrigation,1
 Other,saliva,1
-Other,sample collection,1
 Other,sars-cov-2 infection,1
 Other,sars-cov-2 questionnaire survey,1
+Other,sars-cov2 infection,1
 Other,satisfaction evaluation,1
 Other,self supportive care (ssc),1
 Other,self supportive care (ssc) alone,1
+Other,serial seroconversion measurements in hospital employees during the covid-19 pandemic,1
 Other,serological analyses to be lead on a pre-existing biobank,1
 Other,serum,1
 Other,serum test,1
@@ -1070,7 +1129,7 @@ Other,weekly assessment,1
 Other,whoqol-bref survey,1
 Other,yoga,1
 Other,zaritt burden interview,1
-placebo,matching placebo,1
+placebo,placebo (pbo),1
 Procedure,abdominal ultrasound,1
 Procedure,alveolar,1
 Procedure,auditory evoked potentials (aep),1
@@ -1121,5 +1180,4 @@ Procedure,telephone follow-up,1
 Procedure,throat swab,1
 Procedure,tracheotomy,1
 Procedure,tsvf,1
-Radiation,low,1
 Radiation,radiological,1

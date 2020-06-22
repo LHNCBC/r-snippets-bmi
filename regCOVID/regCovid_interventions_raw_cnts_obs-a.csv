@@ -1,6 +1,6 @@
 Intervention_type,intervention,Study_count
-NA,NA,198
-Other,questionnaire,31
+NA,NA,211
+Other,questionnaire,32
 Other,no intervention,17
 Other,online survey,6
 Biological,blood sample,5
@@ -37,6 +37,7 @@ Other,non-interventional,2
 Other,practice details,2
 Other,prone positioning,2
 Other,quality of life,2
+Other,sample collection,2
 Procedure,biological samples,2
 Procedure,prone positioning,2
 Behavioral,assessment of work-related stress,1
@@ -64,6 +65,7 @@ Behavioral,social media,1
 Behavioral,social media/news consumption,1
 Behavioral,turkish physicians,1
 Behavioral,views,1
+Biological,biological assays in particular on the lipid metabolism,1
 Biological,biological samples,1
 Biological,blood collection,1
 Biological,chest ct,1
@@ -107,6 +109,7 @@ Diagnostic Test,assessment of ventilator-associated pneumonia criteria,1
 Diagnostic Test,biomarkers expression,1
 Diagnostic Test,blood sample for serology to measure past infection with sars-cov-2,1
 Diagnostic Test,blood test,1
+Diagnostic Test,butterfly,1
 Diagnostic Test,c-reactive protein,1
 Diagnostic Test,cambridge validated viral detection,1
 Diagnostic Test,cellular response,1
@@ -166,12 +169,15 @@ Diagnostic Test,odd/even birth year intervention groups,1
 Diagnostic Test,oxidative stress elisa kit,1
 Diagnostic Test,paraclinical test,1
 Diagnostic Test,performing ai algorithms on images,1
+Diagnostic Test,peripheral blood sampling,1
 Diagnostic Test,polysomnography,1
 Diagnostic Test,post-traumatic stress screening,1
+Diagnostic Test,pt-pcr test for sars-cov-2,1
 Diagnostic Test,public health england gold standard,1
 Diagnostic Test,pulmonary function tests,1
 Diagnostic Test,quantitative analysis of sars-cov-2 antibodies,1
 Diagnostic Test,quantitative igg test,1
+Diagnostic Test,questionnaire,1
 Diagnostic Test,radiological,1
 Diagnostic Test,recombinase,1
 Diagnostic Test,"respiratory symptoms, symptoms of anxiety",1
@@ -206,6 +212,7 @@ Diagnostic Test,tomography angiography,1
 Diagnostic Test,tuberculin,1
 Diagnostic Test,ultrasonography,1
 Diagnostic Test,ultrasound,1
+Diagnostic Test,vaginal fluid covid-19 pcr test,1
 Diagnostic Test,volume rapid test,1
 Diagnostic Test,whole exome sequencing,1
 Diagnostic Test,x-ray,1
@@ -225,6 +232,7 @@ Drug,baricitinib/anakinra,1
 Drug,calcium channel blockers,1
 Drug,chlorine dioxide,1
 Drug,cobicistat,1
+Drug,covid-19 treatment,1
 Drug,dalteparin,1
 Drug,darunavir,1
 Drug,darunavir/cobicistat,1
@@ -238,19 +246,24 @@ Drug,interleukin-1 receptor antagonist,1
 Drug,ivermectin,1
 Drug,ivermectin 5 mg,1
 Drug,ivermectin 5 mg/ml,1
+Drug,ketotifen 1 mg,1
 Drug,lopinavir,1
 Drug,lopinavir/ritonavir,1
 Drug,management of covid-19,1
 Drug,no-immunosuppressive,1
 Drug,observational,1
+Drug,opaganib,1
 Drug,remdesivir,1
 Drug,retrospective case-control analysis,1
 Drug,ritonavir,1
+Drug,standard care,1
 Drug,tcm,1
 Drug,tocilizumab,1
+Drug,traditional antirheumatic drugs,1
 Genetic,next generation sequencing (ngs) analysis,1
 Genetic,sequencing,1
 Other,[timp-2]*[igfbp-7],1
+Other,38-questions questionnaire,1
 Other,"ä±t will be compared pain, sleep, fatigue, physical activity level",1
 Other,"ä±t will be compared pain, sleep, fatigue, physical activity level/quality of life/questioning exercise habits before/after the covid-19 outbreak in patients with behã§et/fmf.",1
 Other,active covid-19 disease,1
@@ -259,6 +272,7 @@ Other,after the covid-19 outbreak in patients with behã§et,1
 Other,airway pressure release ventilation,1
 Other,all treatment about covid-2019,1
 Other,anxiety questionnaire,1
+Other,biochemical analysis,1
 Other,biological sample/clinical data collection,1
 Other,blood draw,1
 Other,blood sampling for biobank,1
@@ -303,6 +317,7 @@ Other,exposure to the dutch measures due to the covid-19 pandemic.,1
 Other,fmf.,1
 Other,further processing of health data,1
 Other,gad-7 (7-item generalized anxiety disorder),1
+Other,gad-7 general anxiety disorder scale,1
 Other,general public cohort,1
 Other,global survey,1
 Other,glycaemic levels,1
@@ -321,6 +336,7 @@ Other,investigation of smell,1
 Other,investigation of smell/taste disorders,1
 Other,it,1
 Other,its,1
+Other,lifestyle habits,1
 Other,liver,1
 Other,lung ct scan analysis in covid-19 patients,1
 Other,measurement of circulating sflt1 concentration,1
@@ -345,6 +361,8 @@ Other,observational cohort study on the natural history of hospitalized sars-cov
 Other,olfactory,1
 Other,olfactory function evaluation,1
 Other,olfactory/gustatory tests,1
+Other,online survey about dietary,1
+Other,online survey about dietary/lifestyle habits,1
 Other,oxygen,1
 Other,pandemic control measures,1
 Other,passed infection of sars-cov-2,1
@@ -354,6 +372,7 @@ Other,peep,1
 Other,personal protective equipment from biological hazard,1
 Other,phobia questionairre,1
 Other,phq,1
+Other,phq-9 depression scale,1
 Other,phsyiotherapy,1
 Other,physical exercise,1
 Other,physiotherapy,1
@@ -362,6 +381,7 @@ Other,"predict admission of covid-19 patients to icu/death with routine/quickly 
 Other,predictive factors for clinical response in patients with covid-19.,1
 Other,prevalence of covid-19,1
 Other,"primary care professionals reports of potential patient safety incidents, non-covid-19 related",1
+Other,prospective chart review,1
 Other,prospective oberservational registry,1
 Other,pss,1
 Other,pulmonary rehabilitation,1
@@ -376,8 +396,9 @@ Other,relation between frailty,1
 Other,relation between frailty/clinical outcomes in elderly patients with covid-19.,1
 Other,retrospective,1
 Other,risk factors,1
-Other,sample collection,1
+Other,sars-cov2 infection,1
 Other,satisfaction evaluation,1
+Other,serial seroconversion measurements in hospital employees during the covid-19 pandemic,1
 Other,serological analyses to be lead on a pre-existing biobank,1
 Other,serology,1
 Other,serum test,1
