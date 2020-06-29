@@ -1,6 +1,6 @@
 Intervention_type,intervention,Study_count
-NA,NA,211
-Other,questionnaire,32
+NA,NA,229
+Other,questionnaire,34
 Other,no intervention,17
 Other,online survey,6
 Biological,blood sample,5
@@ -13,6 +13,7 @@ Drug,ace inhibitor,3
 Drug,hydroxychloroquine,3
 Other,biological samples,3
 Other,blood sample,3
+Other,data record,3
 Other,other,3
 Other,ultrasound,3
 Behavioral,observation,2
@@ -29,7 +30,6 @@ Other,covid-19,2
 Other,covid-19 pandemic,2
 Other,ct-scan,2
 Other,data collection,2
-Other,data record,2
 Other,dialysis,2
 Other,exposure,2
 Other,file scanning,2
@@ -38,6 +38,7 @@ Other,practice details,2
 Other,prone positioning,2
 Other,quality of life,2
 Other,sample collection,2
+Other,web based survey,2
 Procedure,biological samples,2
 Procedure,prone positioning,2
 Behavioral,assessment of work-related stress,1
@@ -51,6 +52,7 @@ Behavioral,examine the impact of covid-19 during pregnancy,1
 Behavioral,experiences of health care professionals working in intensive care units during the covid-19 pandemic,1
 Behavioral,fsfi survey,1
 Behavioral,generalized anxiety disorder-7 (gad-7),1
+Behavioral,"knowledge, attitude, practice, awareness, preference",1
 Behavioral,lock-down,1
 Behavioral,lock-down/social distancing,1
 Behavioral,maslach burnout inventory (mbi),1
@@ -59,6 +61,7 @@ Behavioral,news,1
 Behavioral,online survey,1
 Behavioral,patient health questionnaire-9 (phq-9),1
 Behavioral,prone positioning,1
+Behavioral,questionnaire for evaluation of confinement on deviant sexual fantasies,1
 Behavioral,self-administered structured questionnaire,1
 Behavioral,social distancing,1
 Behavioral,social media,1
@@ -87,6 +90,7 @@ Device,coviage,1
 Device,covx,1
 Device,device used to record voice for screening,1
 Device,extracorporeal membrane oxygenation,1
+Device,faecal sample collector,1
 Device,high flow nasal cannula device,1
 Device,holter monitor,1
 Device,iota carrageenan,1
@@ -105,20 +109,26 @@ Device,vv-ecmo,1
 Diagnostic Test,": igg, ig m serologies in the amniotoc fluid, the blood cord",1
 Diagnostic Test,anti-sars-cov2 serological controls,1
 Diagnostic Test,anti-sars-cov2 serological controls/serum neutralization,1
+Diagnostic Test,antibody test,1
 Diagnostic Test,assessment of ventilator-associated pneumonia criteria,1
+Diagnostic Test,asynchronies detection,1
 Diagnostic Test,biomarkers expression,1
 Diagnostic Test,blood sample for serology to measure past infection with sars-cov-2,1
 Diagnostic Test,blood test,1
 Diagnostic Test,butterfly,1
 Diagnostic Test,c-reactive protein,1
+Diagnostic Test,cag length <24,1
+Diagnostic Test,cag length >=24,1
 Diagnostic Test,cambridge validated viral detection,1
 Diagnostic Test,cellular response,1
 Diagnostic Test,chest mri,1
 Diagnostic Test,clinico-biological parameters in routine care,1
 Diagnostic Test,clungene rapid test cassette,1
+Diagnostic Test,covid-19 antibody testing,1
 Diagnostic Test,covid-19 igg,1
 Diagnostic Test,"covid-19 igg/igm rapid test cassette test (healgen scientific, houston, texas, usa)",1
 Diagnostic Test,covid-19 rapid test kit (rapg-cov-019),1
+Diagnostic Test,covid-19 swab pcr test,1
 Diagnostic Test,covid 19 diagnostic test,1
 Diagnostic Test,ct-scan,1
 Diagnostic Test,cytokines measurement,1
@@ -138,6 +148,7 @@ Diagnostic Test,even birth year intervention groups,1
 Diagnostic Test,examinations for the research:,1
 Diagnostic Test,exercise capacity,1
 Diagnostic Test,exercise physiology,1
+Diagnostic Test,gas exchange measurement,1
 Diagnostic Test,global longitudinal strain,1
 Diagnostic Test,health-related quality of life,1
 Diagnostic Test,id now vs. accula,1
@@ -147,15 +158,19 @@ Diagnostic Test,igm,1
 Diagnostic Test,igm antibodytest,1
 Diagnostic Test,"igm rapid test cassette test (healgen scientific, houston, texas, usa)",1
 Diagnostic Test,igm test,1
+Diagnostic Test,iief-5 questionnaire,1
 Diagnostic Test,imaging,1
 Diagnostic Test,imaging by thoracic scanner,1
 Diagnostic Test,"imaging, blood tests",1
 Diagnostic Test,immunfluorescence,1
+Diagnostic Test,interleukin assessment in semen,1
 Diagnostic Test,ip-10,1
+Diagnostic Test,ipss questionnaire,1
 Diagnostic Test,kir phenotype evaluation,1
 Diagnostic Test,laboratory analyses,1
 Diagnostic Test,lung function tests,1
 Diagnostic Test,machine learning model,1
+Diagnostic Test,male sexual health questionnaire (mshq),1
 Diagnostic Test,mri,1
 Diagnostic Test,muscle,1
 Diagnostic Test,nasal,1
@@ -180,6 +195,7 @@ Diagnostic Test,quantitative igg test,1
 Diagnostic Test,questionnaire,1
 Diagnostic Test,radiological,1
 Diagnostic Test,recombinase,1
+Diagnostic Test,respiratory mechanics measurement,1
 Diagnostic Test,"respiratory symptoms, symptoms of anxiety",1
 Diagnostic Test,"respiratory symptoms, symptoms of anxiety/depression,/post-traumatic stress screening",1
 Diagnostic Test,reverse transcription polymerase chain reaction,1
@@ -190,8 +206,12 @@ Diagnostic Test,"sampling (edta blood, pharyngeal",1
 Diagnostic Test,"sampling (edta blood, pharyngeal/nose swabs, bronchoalveolar lavage ,urine)",1
 Diagnostic Test,sars-cov-2,1
 Diagnostic Test,sars-cov-2 diagnostic rapid test,1
+Diagnostic Test,sars-cov 2 rna pcr semen,1
+Diagnostic Test,sars-cov 2 rna pcr urine,1
 Diagnostic Test,scanning chest x-rays/performing ai algorithms on images,1
+Diagnostic Test,secret questionnaire,1
 Diagnostic Test,self-administered questionnaire,1
+Diagnostic Test,semen qualitative analysis,1
 Diagnostic Test,serum neutralization,1
 Diagnostic Test,standard care,1
 Diagnostic Test,standardized,1
@@ -236,6 +256,7 @@ Drug,covid-19 treatment,1
 Drug,dalteparin,1
 Drug,darunavir,1
 Drug,darunavir/cobicistat,1
+Drug,dexamethasone,1
 Drug,dornase alfa,1
 Drug,dose of tinzaparin,1
 Drug,dose of tinzaparin/dalteparin,1
@@ -272,6 +293,7 @@ Other,after the covid-19 outbreak in patients with behã§et,1
 Other,airway pressure release ventilation,1
 Other,all treatment about covid-2019,1
 Other,anxiety questionnaire,1
+Other,beck depression inventory (bdi),1
 Other,biochemical analysis,1
 Other,biological sample/clinical data collection,1
 Other,blood draw,1
@@ -294,6 +316,7 @@ Other,covid-19/ observational,1
 Other,cross-sectional observational study,1
 Other,cross-sectional study investigating the association of npis with mental health,1
 Other,daily syndromic surveillance,1
+Other,data collection up to 1 year,1
 Other,data collection/clinical testing of subjects,1
 Other,data monitoring for 48h within the first 12 hours of admission for covid-19,1
 Other,"data research, database analysis",1
@@ -302,6 +325,7 @@ Other,demographic characteristics,1
 Other,depression scale,1
 Other,diet tracking,1
 Other,diet tracking/survey,1
+Other,"dietary counselling on food groups according to iyc feeding practices, who",1
 Other,during covid-19 pandemic,1
 Other,echocardiography,1
 Other,electrodermal recordings,1
@@ -344,6 +368,7 @@ Other,mechanical trombectomy,1
 Other,mobile internet survey on self-test,1
 Other,modification,1
 Other,monitoring for aggravation,1
+Other,mri,1
 Other,na (no intervention),1
 Other,nasal,1
 Other,ncapp,1
@@ -384,10 +409,14 @@ Other,"primary care professionals reports of potential patient safety incidents,
 Other,prospective chart review,1
 Other,prospective oberservational registry,1
 Other,pss,1
+Other,psychological,1
+Other,psychological/sociological interviews,1
 Other,pulmonary rehabilitation,1
+Other,quality-of-life assessment,1
 Other,questionaire,1
 Other,questionairre,1
 Other,questioning exercise habits before,1
+Other,questionnaire administration,1
 Other,"quickly avalaible clinical, biological",1
 Other,radiological variables?,1
 Other,rapid molecular test,1
@@ -404,6 +433,7 @@ Other,serology,1
 Other,serum test,1
 Other,"serum zinc, vitamin d vitamin b12 levels .",1
 Other,simulation of repurposed drugs for covid-19,1
+Other,sociological interviews,1
 Other,SOP,1
 Other,speq (specific psychotic experiences questionnaire) - paranoia,1
 Other,speq (specific psychotic experiences questionnaire) - paranoia/grandiosity subscales,1
@@ -424,7 +454,7 @@ Other,telemedicine to remote outpatient visit in bariatric patient,1
 Other,there is no intervention in this study,1
 Other,this is an online survey with no intervention.,1
 Other,transplant patient,1
-Other,web based survey,1
+Other,venipuncture in peripheral vein,1
 Other,whoqol-bref survey,1
 Other,zaritt burden interview,1
 Procedure,biospecimen collection,1
@@ -441,9 +471,11 @@ Procedure,gloves,1
 Procedure,lung ultrasound,1
 Procedure,lung ultrasound (lus),1
 Procedure,osteosynthesis,1
+Procedure,questionnaire,1
 Procedure,study arm,1
 Procedure,surgery,1
 Procedure,surgical procedures performed under general anesthesia,1
 Procedure,symptom,1
 Procedure,symptom/exposure surveys,1
 Procedure,throat swab,1
+Procedure,tracheostomy with aerosol box in covid-19 positive patients,1

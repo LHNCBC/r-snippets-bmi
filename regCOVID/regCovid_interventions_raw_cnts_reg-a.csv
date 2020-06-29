@@ -1,5 +1,5 @@
 Intervention_type,intervention,Study_count
-NA,NA,45
+NA,NA,47
 Other,no intervention,6
 Diagnostic Test,blood sample,2
 Other,pregnant women with laboratory-confirmed 2019-n-cov,2
@@ -38,6 +38,7 @@ Diagnostic Test,igm against sars-cov-2,1
 Diagnostic Test,igm/igg rapid test,1
 Diagnostic Test,laboratory,1
 Diagnostic Test,muscle,1
+Diagnostic Test,"pcr, lung ultrasound",1
 Diagnostic Test,questionnaire,1
 Diagnostic Test,rt-pcr,1
 Diagnostic Test,rt-pcr/antibody testing,1
@@ -63,6 +64,7 @@ Other,cardiopulmonary resuscitation,1
 Other,chloroquine,1
 Other,chloroquine/hydroxychloroquine,1
 Other,clinical data,1
+Other,clinical diagnosis of covid-19 by a health care professional,1
 Other,coronavirus disease 2019,1
 Other,data collection,1
 Other,diabetes type 2,1
@@ -78,6 +80,7 @@ Other,modified rankin score,1
 Other,"no intervention, observational",1
 Other,no interverntion,1
 Other,no special intervention,1
+Other,non-interventional study,1
 Other,obesity,1
 Other,observation,1
 Other,observational,1
@@ -91,9 +94,13 @@ Other,serology,1
 Other,standard care,1
 Other,standard protocol,1
 Other,taking biological samples,1
+Other,tested for sars-cov-2 (regardless of the result),1
 Other,thromboprofylaxis protocol,1
 Other,web-based redcap survey,1
 Procedure,abdominal ultrasound,1
+Procedure,airway management during sedation,1
+Procedure,airway management during sedation/general anesthesia,1
 Procedure,endoscopic intervention,1
 Procedure,evaluation of changes in the diagnostic-therapeutic pathway,1
 Procedure,gastrointestinal endoscopy,1
+Procedure,general anesthesia,1
