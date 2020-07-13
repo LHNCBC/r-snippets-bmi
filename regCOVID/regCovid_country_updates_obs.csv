@@ -1,28 +1,29 @@
 country,Total_changes,Study_Count,changes_per_study
-Saudi Arabia,10,1,10
-Australia,7,1,7
+Saudi Arabia,18,2,9
+Australia,11,2,5.5
+Czechia,10,2,5
 "Iran, Islamic Republic of",5,1,5
-United States,413,93,4.440860215053763
-Czechia,8,2,4
-Netherlands,6,2,3
+United States,476,96,4.958333333333333
+Netherlands,9,2,4.5
+Argentina,14,5,2.8
+Singapore,8,3,2.6666666666666665
 Poland,5,2,2.5
-Argentina,10,5,2
-Singapore,6,3,2
-Sweden,10,5,2
-Germany,35,19,1.8421052631578947
+Mexico,11,5,2.2
+Germany,43,20,2.15
+Sweden,11,6,1.8333333333333333
+Brazil,12,7,1.7142857142857142
 Belgium,16,11,1.4545454545454546
-Brazil,10,7,1.4285714285714286
-Mexico,7,5,1.4
 Norway,11,8,1.375
+Italy,71,52,1.3653846153846154
 Portugal,4,3,1.3333333333333333
-Italy,67,51,1.3137254901960784
 Israel,5,4,1.25
-Austria,8,7,1.1428571428571428
 Hong Kong,8,7,1.1428571428571428
-United Kingdom,37,33,1.121212121212121
-Egypt,37,34,1.088235294117647
+Austria,9,8,1.125
+Egypt,45,40,1.125
+United Kingdom,40,36,1.1111111111111112
 Denmark,13,12,1.0833333333333333
-France,175,164,1.0670731707317074
+France,183,171,1.0701754385964912
+Turkey,36,35,1.0285714285714285
 Burkina Faso,1,1,1
 Colombia,1,1,1
 Jordan,1,1,1
@@ -30,14 +31,13 @@ Malaysia,3,3,1
 Pakistan,1,1,1
 Russian Federation,5,5,1
 Slovenia,1,1,1
-Turkey,33,34,0.9705882352941176
 Switzerland,15,16,0.9375
-Spain,22,28,0.7857142857142857
-China,25,33,0.7575757575757576
+Spain,28,31,0.9032258064516129
+China,27,34,0.7941176470588235
+Greece,3,4,0.75
 Hungary,3,4,0.75
-Greece,2,3,0.6666666666666666
+Canada,8,12,0.6666666666666666
 India,6,9,0.6666666666666666
-Canada,7,11,0.6363636363636364
 Monaco,1,3,0.3333333333333333
 Algeria,0,1,0
 Ecuador,0,1,0
@@ -46,6 +46,7 @@ Luxembourg,0,2,0
 Qatar,0,1,0
 United Arab Emirates,0,1,0
 Albania,NA,NA,NA
+Armenia,NA,NA,NA
 Bolivia,NA,NA,NA
 Botswana,NA,NA,NA
 Chile,NA,NA,NA
