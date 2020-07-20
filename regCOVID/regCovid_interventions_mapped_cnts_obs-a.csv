@@ -1,16 +1,17 @@
 Intervention_type,intervention,Study_count
-NA,NA,250
-Other,questionnaire,36
-Other,no intervention,19
-Other,online survey,7
+NA,NA,261
+Other,questionnaire,38
+Other,no intervention,22
+Other,online survey,8
 Biological,blood sample,5
 Other,observational,5
 Diagnostic Test,pcr,4
+Drug,ace inhibitor,4
 Behavioral,questionnaire,3
 Diagnostic Test,igg antibody test,3
 Diagnostic Test,igm/igg rapid test,3
 Diagnostic Test,lung ultrasound,3
-Drug,ace inhibitor,3
+Diagnostic Test,serology,3
 Drug,hydroxychloroquine,3
 Other,biological samples,3
 Other,blood sample,3
@@ -26,8 +27,8 @@ Device,ct-scan,2
 Diagnostic Test,anti-sars-cov2 serology,2
 Diagnostic Test,online survey,2
 Diagnostic Test,sars-cov-2 diagnostic rapid test,2
-Diagnostic Test,serology,2
 Diagnostic Test,serum test,2
+Drug,arb,2
 Drug,methylprednisolone,2
 Other,covid-19 pandemic,2
 Other,ct-scan,2
@@ -46,11 +47,14 @@ Procedure,biological samples,2
 Procedure,prone positioning,2
 Behavioral,assessment of work-related stress,1
 Behavioral,change in preference to surgery under covid-19 pandemic.,1
+Behavioral,clinical features,1
 Behavioral,covid-19 infection will be conducted.,1
 Behavioral,covid-19 positive pregnant women,1
 Behavioral,covid-surgres questionaire,1
 Behavioral,education sessions,1
 Behavioral,emotional stimulation,1
+Behavioral,environmental exposure,1
+Behavioral,environmental exposure/clinical features,1
 Behavioral,examine the impact of covid-19 during pregnancy,1
 Behavioral,experiences of health care professionals working in intensive care units during the covid-19 pandemic,1
 Behavioral,fsfi survey,1
@@ -84,6 +88,7 @@ Biological,other clinical symptoms,1
 Biological,pcr/chest ct,1
 Biological,"reporting of anosmia, ageusia",1
 Biological,"reporting of anosmia, ageusia/other clinical symptoms",1
+Biological,specific anti-sars-cov-2 antibodies,1
 Combination Product,respiratory rehabilitation,1
 Combination Product,systemic,1
 Device,adam sensor,1
@@ -128,8 +133,8 @@ Diagnostic Test,blood sample for serology to measure past infection with sars-co
 Diagnostic Test,blood test,1
 Diagnostic Test,butterfly,1
 Diagnostic Test,c-reactive protein,1
-Diagnostic Test,cag length <24,1
-Diagnostic Test,cag length >=24,1
+Diagnostic Test,cag length <22,1
+Diagnostic Test,cag length >=22,1
 Diagnostic Test,cambridge validated viral detection,1
 Diagnostic Test,cellular response,1
 Diagnostic Test,chest mri,1
@@ -184,6 +189,7 @@ Diagnostic Test,laboratory analyses,1
 Diagnostic Test,lung function tests,1
 Diagnostic Test,machine learning model,1
 Diagnostic Test,male sexual health questionnaire (mshq),1
+Diagnostic Test,mcc ims,1
 Diagnostic Test,mri,1
 Diagnostic Test,muscle,1
 Diagnostic Test,nasal,1
@@ -192,6 +198,8 @@ Diagnostic Test,neural network diagnosis algorithm,1
 Diagnostic Test,no intervention,1
 Diagnostic Test,no intervention planned due to the observational study design only a diagnostic testing,1
 Diagnostic Test,"nose swabs, bronchoalveolar lavage ,urine)",1
+Diagnostic Test,"obtainment of nasopharyngeal, oropharyngeal, buccal, nasal",1
+Diagnostic Test,"obtainment of nasopharyngeal, oropharyngeal, buccal, nasal/saliva samples",1
 Diagnostic Test,odd,1
 Diagnostic Test,odd/even birth year intervention groups,1
 Diagnostic Test,oxidative stress elisa kit,1
@@ -216,6 +224,7 @@ Diagnostic Test,"respiratory symptoms, symptoms of anxiety/depression,/post-trau
 Diagnostic Test,reverse transcription polymerase chain reaction,1
 Diagnostic Test,rt-pcr,1
 Diagnostic Test,rt pcr sars-cov-2,1
+Diagnostic Test,saliva samples,1
 Diagnostic Test,salivary,1
 Diagnostic Test,samba ii,1
 Diagnostic Test,sampling,1
@@ -258,11 +267,11 @@ Dietary Supplement,ayurvedic kadha,1
 Dietary Supplement,sivomixx,1
 Dietary Supplement,traditional chinese medicine,1
 Drug,ace inhibitors/calcium channel blockers,1
+Drug,acei/arb,1
 Drug,anakinra,1
 Drug,angiotensin-converting enzyme inhibitors (ace-i)/angiotensin ii receptor blockers (arb),1
 Drug,angiotensin ii,1
 Drug,any drug used to treat covid-19,1
-Drug,arb,1
 Drug,arb blocker,1
 Drug,azithromycin,1
 Drug,baricitinib,1
@@ -279,6 +288,7 @@ Drug,dornase alfa,1
 Drug,dose of tinzaparin,1
 Drug,dose of tinzaparin/dalteparin,1
 Drug,famotidine,1
+Drug,favipiravir,1
 Drug,favorable outcome,1
 Drug,immunoglubulins,1
 Drug,immunosuppressive,1
@@ -293,6 +303,8 @@ Drug,lopinavir,1
 Drug,lopinavir/ritonavir,1
 Drug,management of covid-19,1
 Drug,no-immunosuppressive,1
+Drug,non-acei,1
+Drug,non-acei/arb,1
 Drug,observational,1
 Drug,opaganib,1
 Drug,remdesivir,1
@@ -317,9 +329,11 @@ Other,airway pressure release ventilation,1
 Other,all treatment about covid-2019,1
 Other,an auto-questionnaire comprising three psychometric scales,1
 Other,anxiety questionnaire,1
+Other,attendance by ambulance crew,1
 Other,beck depression inventory (bdi),1
 Other,biochemical analysis,1
 Other,biological sample/clinical data collection,1
+Other,biospecimen collection,1
 Other,blood draw,1
 Other,blood sampling for biobank,1
 Other,blood test,1
@@ -327,6 +341,7 @@ Other,cardiac,1
 Other,cardiac surgery,1
 Other,cardiac/electrodermal recordings,1
 Other,cardiology clinical consultations,1
+Other,case fatality rate,1
 Other,clinical data collection,1
 Other,clinical interview,1
 Other,clinical outcomes in elderly patients with covid-19.,1
@@ -365,6 +380,7 @@ Other,evaluate hacor score effectivity in this patients,1
 Other,evaluation of skin microvascular flow,1
 Other,evaluation of skin microvascular flow/reactivity,1
 Other,evaluation of the epidemiological characteristics of coronavirus infection (sars-cov-2),1
+Other,evaluation of the ferritin,1
 Other,exposure to the dutch measures due to the covid-19 pandemic.,1
 Other,fibrin generation markers assays,1
 Other,fmf.,1
@@ -375,6 +391,7 @@ Other,gad-7 general anxiety disorder scale,1
 Other,general public cohort,1
 Other,global survey,1
 Other,glycaemic levels,1
+Other,glycosylated ferritin by standard approved serological tests,1
 Other,"gps reports of potential patient safety incidents, non-covid-19 related",1
 Other,grandiosity subscales,1
 Other,group1,1
@@ -413,12 +430,14 @@ Other,newborns,1
 Other,nhanes smell,1
 Other,nhanes smell/taste tests,1
 Other,no intervention (survey study for medical doctors).,1
+Other,no intervention / evaluation of the ferritin/glycosylated ferritin by standard approved serological tests,1
 Other,no interventional study,1
 Other,non,1
 Other,non applicable,1
 Other,non interventional study,1
 Other,non invasive visual acuity testing,1
 Other,none - na,1
+Other,"none, this study is observational",1
 Other,nosocomial,1
 Other,nutrition,1
 Other,nutritional intervention,1
@@ -454,6 +473,7 @@ Other,"primary care professionals reports of potential patient safety incidents,
 Other,prospective chart review,1
 Other,prospective oberservational registry,1
 Other,pss,1
+Other,psycho-social questionnaire,1
 Other,psychological,1
 Other,psychological/sociological interviews,1
 Other,pulmonary rehabilitation,1
@@ -468,6 +488,7 @@ Other,rapid molecular test,1
 Other,reactivity,1
 Other,relation between frailty,1
 Other,relation between frailty/clinical outcomes in elderly patients with covid-19.,1
+Other,research specific blood sample,1
 Other,respiratory physiotherapy,1
 Other,retrospective,1
 Other,risk factors,1
@@ -501,6 +522,7 @@ Other,telehealth,1
 Other,telemedicine to remote outpatient visit in bariatric patient,1
 Other,there is no intervention in this study,1
 Other,this is an online survey with no intervention.,1
+Other,thoracic lung ultrasound,1
 Other,thrombin,1
 Other,transplant patient,1
 Other,venipuncture in peripheral vein,1
@@ -515,9 +537,11 @@ Procedure,data collection: clinical care assessments,1
 Procedure,elective cancer surgery,1
 Procedure,emergency general surgery,1
 Procedure,exposure surveys,1
+Procedure,extracorporeal left hemicolectomy anastomosis,1
 Procedure,facial fractures reduction,1
 Procedure,facial fractures reduction/osteosynthesis,1
 Procedure,gloves,1
+Procedure,intracorporeal left hemicolectomy anastomosis,1
 Procedure,lung ultrasound,1
 Procedure,lung ultrasound (lus),1
 Procedure,osteosynthesis,1
