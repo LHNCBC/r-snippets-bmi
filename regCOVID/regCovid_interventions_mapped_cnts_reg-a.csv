@@ -1,5 +1,5 @@
 Intervention_type,intervention,Study_count
-NA,NA,53
+NA,NA,54
 Other,no intervention,6
 Diagnostic Test,blood sample,2
 Other,pregnant women with laboratory-confirmed 2019-n-cov,2
@@ -34,6 +34,7 @@ Diagnostic Test,clia of igg,1
 Diagnostic Test,clia of igg/igm against sars-cov-2,1
 Diagnostic Test,copan swabbing,1
 Diagnostic Test,copan swabbing/blood sample collection,1
+Diagnostic Test,face mask sampling,1
 Diagnostic Test,igg antibody test,1
 Diagnostic Test,igg for sars-cov-2,1
 Diagnostic Test,igm,1
@@ -67,27 +68,34 @@ Other,biological samples,1
 Other,"biological samples, questionnaires",1
 Other,"biological samples, questionnaires/interviews",1
 Other,blood d-dimer assay,1
+Other,brief psychiatric rating scale,1
 Other,cardiopulmonary resuscitation,1
 Other,chloroquine,1
 Other,chloroquine/hydroxychloroquine,1
 Other,clinical data,1
 Other,clinical diagnosis of covid-19 by a health care professional,1
 Other,complex diagnostic panel,1
+Other,connor-davidson resilience scale 10 items (cd-risc 10),1
 Other,coronavirus disease 2019,1
 Other,data collection,1
+Other,"depression, anxiety",1
+Other,"depression, anxiety/stress scale",1
 Other,diabetes type 2,1
 Other,diagnosed with covid-19,1
 Other,ecg-holter,1
 Other,follow up,1
+Other,hospital admission,1
 Other,hospitalized children with covid19,1
 Other,hydroxychloroquine,1
 Other,hypertension,1
 Other,icu treatment,1
+Other,impact of event scale-revised,1
 Other,interviews,1
 Other,modified rankin score,1
 Other,"no intervention, observational",1
 Other,no interverntion,1
 Other,no special intervention,1
+Other,non-hospitalization procedures,1
 Other,non-interventional study,1
 Other,non intervention,1
 Other,obesity,1
@@ -103,6 +111,7 @@ Other,sars-cov-2 questionnaire survey,1
 Other,serology,1
 Other,standard care,1
 Other,standard protocol,1
+Other,stress scale,1
 Other,taking biological samples,1
 Other,tested for sars-cov-2 (regardless of the result),1
 Other,thromboprofylaxis protocol,1
