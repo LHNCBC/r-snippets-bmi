@@ -163,6 +163,17 @@ kable(d9)
 
 ```
 
+## Has Results
+```{r intresults, message=FALSE, echo=FALSE}
+d<-read_csv('regCovid_has_results_int.csv')
+prefix='https://ClinicalTrials.gov/show/'
+d$link<-paste0(prefix,d$nct_id)
+d2<-d %>% select(nct_id,brief_title,link)
+kable(d2)
+
+```
+
+
 ## Vaccines
 ```{r ixtytwo, message=FALSE, echo=FALSE}
 d<-read_csv('regCovid_vaccines.csv')
@@ -314,6 +325,16 @@ d9<-read_csv('regCovid_observational_time_perspective.csv')
 kable(d9)
 ```
 
+## Has Results
+```{r obsresults, message=FALSE, echo=FALSE}
+d<-read_csv('regCovid_has_results_obs.csv')
+prefix='https://ClinicalTrials.gov/show/'
+d$link<-paste0(prefix,d$nct_id)
+d2<-d %>% select(nct_id,brief_title,link)
+kable(d2)
+
+```
+
 
 
 # Registries
@@ -384,6 +405,17 @@ kable(d9)
 d9<-read_csv('regCovid_follow-up_reg.csv')
 
 kable(d9)
+
+```
+
+
+## Has Results
+```{r regresults, message=FALSE, echo=FALSE}
+d<-read_csv('regCovid_has_results_reg.csv')
+prefix='https://ClinicalTrials.gov/show/'
+d$link<-paste0(prefix,d$nct_id)
+d2<-d %>% select(nct_id,brief_title,link)
+kable(d2)
 
 ```
 
