@@ -1,13 +1,16 @@
 
 # COVID19 Interventional Trials, Observational Studies and Registries
 
-Welcome to the page that collects COVID19 studies registered at various registries (and focusing mainly on ClinicalTrials.gov)
+Welcome to the page that collects COVID19 studies registered at ClinicalTrials.gov. This page is updated weekly (each Monday).
 
-- To see the files, follow this link: [https://github.com/lhncbc/r-snippets-bmi/tree/master/regCOVID](https://github.com/lhncbc/r-snippets-bmi/tree/master/regCOVID)  
-- A landing page link is: [https://lhncbc.github.io/r-snippets-bmi/regCOVID](https://lhncbc.github.io/r-snippets-bmi/regCOVID)  
-- REPORT: https://lhncbc.github.io/r-snippets-bmi/regCOVID/regCovid_notebook2.html
-- Data file descriptions: https://lhncbc.github.io/r-snippets-bmi/regCOVID/regCOVID_data_file_descript.html
+- [CLICK HERE FOR REPORT](https://lhncbc.github.io/r-snippets-bmi/regCOVID/regCovid_notebook2.html). This is the most important link on this page.
+- To see the R code for the analysis and all input and result files, follow this link: [https://github.com/lhncbc/r-snippets-bmi/tree/master/regCOVID](https://github.com/lhncbc/r-snippets-bmi/tree/master/regCOVID)  
+- [DESCRIPTION OF EACH DATA FILE](https://lhncbc.github.io/r-snippets-bmi/regCOVID/regCOVID_data_file_descript.html). This is provided if you plan to use our data or see the results in table format. (instead of a report above)
 - Old releases (data from previous weeks) are available via GitHub repo release mechanism here: https://github.com/lhncbc/r-snippets-bmi/releases
+
+Additional important links are
+
+- [A user friendly landing page link is here](https://lhncbc.github.io/r-snippets-bmi/regCOVID). This links does not display a long list of data files in this repository and is easier to consume for non-experts.
 
 
 # regCOVID
