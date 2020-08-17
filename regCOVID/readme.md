@@ -31,7 +31,7 @@ See files with extension .R (regCovid_code_for_analysis.R)
 To run the script, you must provide your details for db connection (you must provide your own user name). See their site for instructions https://aact.ctti-clinicaltrials.org/connect.
 
 Code Sections:
-- CHapter 1: Studies by type
+- Chapter 1: Studies by type
 - Chapter 2: Studies over time
 - Chapter 3: Phase
 - Chapter 4: Arms
