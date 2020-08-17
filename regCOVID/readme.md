@@ -67,26 +67,24 @@ Code Sections:
 
 
 # Data Files
-(will be updated frequently)
-
-Suffix of file name captures subseting. INT means Interventional trials only. OBS means observational studies only. REGISTRY means CTG's registry category.
-
-Another suffix indicates search strategy: A, B, or C
 
 A list of the data files included and descriptions of what the files are, can be found at this link:  https://lhncbc.github.io/r-snippets-bmi/regCOVID/regCOVID_data_file_descript.html
 
+Some file naming conventions we used are:  
+- Suffix of file name captures subseting. INT means Interventional trials only. OBS means observational studies only. REGISTRY means CTG's registry category.
+- Another suffix indicates search strategy: A, B, or C
 
-# View
-We plan to have multiple views: Condensed will be a single file. Custom will be tweak based on purpose. Relational (full or partial) will list study data by domain (will mirror the AACT schema).
+
+
 
 # Feedback
-We don't claim our script is the best approach and are open to suggestions for improvement
+We don't claim our script is the best approach to analyze certain feature. We are open to suggestions for improvement.
 
 # Future additions
-- for each NCT - webscrape (or via XML) obtain evidence of updating a trial. An updated trial is viewed as more creditable.
-- other registries (besides CTG)
-- view of all intervations that allows overview of drugs used in trials (over time)
-- relational view 
+- respond to issues filed 
+- improve temporal view of interventions
+- improve vaccines trials sub-analysis 
+- relational view (full subset of AACT set of tables)
 
 # References
 - 
