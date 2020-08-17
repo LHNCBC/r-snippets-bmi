@@ -27,7 +27,7 @@ AACT database is 48 hours (or so) behind. To get the latest trials, you can also
 We use letters to denote search strategies. Strategy A uses title of trial. Strategy B uses free-text condition. Strategy C uses MeSH keywords assigned by CTG (their algorhitm; not publicaly posted).
 
 # Code Files
-See files with extension .R   
+See files with extension .R (regCovid_cm3.R)   
 To run the script, you must provide your details for db connection (you must provide your own user name). See their site for instructions https://aact.ctti-clinicaltrials.org/connect.
 
 # Data Files
