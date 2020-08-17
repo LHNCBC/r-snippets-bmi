@@ -6,6 +6,7 @@ Welcome to the page that collects COVID19 studies registered at various registri
 - To see the files, follow this link: [https://github.com/lhncbc/r-snippets-bmi/tree/master/regCOVID](https://github.com/lhncbc/r-snippets-bmi/tree/master/regCOVID)  
 - A landing page link is: [https://lhncbc.github.io/r-snippets-bmi/regCOVID](https://lhncbc.github.io/r-snippets-bmi/regCOVID)  
 - REPORT: https://lhncbc.github.io/r-snippets-bmi/regCOVID/regCovid_notebook2.html
+- Data file descriptions: https://lhncbc.github.io/r-snippets-bmi/regCOVID/regCOVID_data_file_descript.html
 - Old releases (data from previous weeks) are available via GitHub repo release mechanism here: https://github.com/lhncbc/r-snippets-bmi/releases
 
 
@@ -17,25 +18,27 @@ regCOVID stands for REGistered COVID-19 Interventional trials and observational 
 Some of our outputs are available in a generated report at this link: https://lhncbc.github.io/r-snippets-bmi/regCOVID/regCovid_notebook2.html
 
 
-
 # Introduction
 We use AACT database from Duke U to obtain most recent CTG (=ClinicalTrials.gov) data.
 The script can be further improved.
 AACT database is 48 hours (or so) behind. To get the latest trials, you can also use CTG API call like this one: https://clinicaltrials.gov/ct2/results/download_fields?cond=covid-19&down_count=10000&down_flds=all&down_fmt=csv
 
 ## Search strategies
-We use letters to denote search strategies. Strategy A uses title of trial. Strategy B uses MeSH keywords assigned by CTG (their algorhitm; not publicaly posted).
+We use letters to denote search strategies. Strategy A uses title of trial. Strategy B uses free-text condition. Strategy C uses MeSH keywords assigned by CTG (their algorhitm; not publicaly posted).
 
 # Code Files
 See files with extension .R   
-To run the script, you must provide your details for db connection; you must provide your own user name). See their site for instructions.
+To run the script, you must provide your details for db connection (you must provide your own user name). See their site for instructions https://aact.ctti-clinicaltrials.org/connect.
 
 # Data Files
 (will be updated frequently)
 
 Suffix of file name captures subseting. INT means Interventional trials only. OBS means observational studies only. REGISTRY means CTG's registry category.
 
-Another suffix indicates search strategy
+Another suffix indicates search strategy: A, B, or C
+
+A list of the data files included and descriptions of what the files are, can be found at this link:  https://lhncbc.github.io/r-snippets-bmi/regCOVID/regCOVID_data_file_descript.html
+
 
 # View
 We plan to have multiple views: Condensed will be a single file. Custom will be tweak based on purpose. Relational (full or partial) will list study data by domain (will mirror the AACT schema).
