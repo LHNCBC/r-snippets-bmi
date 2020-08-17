@@ -24,14 +24,27 @@ The report is the most important output. It is linked at the top of this documen
 # Database form of ClinicalTrials.gov data - AACT database
 This project relies heavily on prior project by Duke University. It is the AACT database. It stands for Aggregate Analysis of ClinicalTrials.gov. The database offers most recent CTG (=ClinicalTrials.gov) data in database form.
 
+- For researchers interested in using teh AACT database, we recommend reviewing the Entity-Relationship diagram here: https://aact.ctti-clinicaltrials.org/schema  
+- Detailed documentation of the database columns is at https://aact.ctti-clinicaltrials.org/data_dictionary 
+- Excel version https://aact.ctti-clinicaltrials.org/static/documentation/aact_data_definitions.xlsx
+
 ## Data lag
 AACT database is 48 hours (or so) behind. To eliminate the lag and get more recent data (compared to AACT), you can also use CTG API call like this one: https://clinicaltrials.gov/ct2/results/download_fields?cond=covid-19&down_count=10000&down_flds=all&down_fmt=csv
+
+## ClinicalTrials.gov documentation
+
+In addition, data dictionary from CTG is available at https://prsinfo.clinicaltrials.gov/definitions.html and very usefull to researchers extenind this analysis or conducting other CTG based analyses.  
 
 
 # Analysis comments
 
 ## Search strategies
 We use letters to denote search strategies. Strategy A uses title of trial. Strategy B uses free-text condition. Strategy C uses MeSH keywords assigned by CTG (their algorhitm; not publicaly posted).
+
+# How to obtain a copy of the database we created
+
+See [DESCRIPTION OF EACH DATA FILE](https://lhncbc.github.io/r-snippets-bmi/regCOVID/regCOVID_data_file_descript.html). For example, files regCovid_int-a.csv, regCovid_obs-a.csv, and regCovid_reg-a.csv are the lists of interventional trials, observational studies, and registries generated from search method A. Replace letter at the end with b and c to obtain the set of trials using the other 
+
 
 # Code Files
 See files with extension .R (regCovid_code_for_analysis.R)   
