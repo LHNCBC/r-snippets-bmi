@@ -10,13 +10,26 @@ output:
     toc: yes
 
 ---
-*Craig Mayer, Nick WIlliams, Vojtech Huser*  
+*Craig Mayer, Vojtech Huser*  
 *Lister Hill National Center for Biomedical Communications, National Library of Medicine, NIH, Bethesda, MD*
 
 _See the full regCOVID repository with detailed results at https://github.com/lhncbc/r-snippets-bmi/tree/master/regCOVID
 ---
 
-# Study Counts
+# Study Status
+```{r status, message=FALSE, echo=FALSE}
+library(readr)
+library(DT)
+library(magrittr)
+library(tidyverse)
+library(knitr)
+x<-read_csv('regCovid_status_cnt.csv')
+kable(x)
+```
+
+
+
+# Study Types
 ```{r nintynine, message=FALSE, echo=FALSE}
 library(readr)
 library(DT)
@@ -51,7 +64,9 @@ kable(d5)
 ## Count of Studies by Intervention (normalized and mapped)
 ```{r five, message=FALSE, echo=FALSE}
 d9<-read_csv('regCovid_interventions_mapped_cnts_int-a.csv')
-kable(d9)
+library(DT)
+options(DT.options = list(pageLength = 100, language = list(search = 'Filter:')))
+	d9 %>%  datatable(rownames = FALSE)
 ```
 
 
