@@ -18,13 +18,17 @@ regCOVID stands for REGistered COVID-19 Interventional trials and observational 
 
 
 # Report
-Some of our outputs are available in a generated report at this link: https://lhncbc.github.io/r-snippets-bmi/regCOVID/regCovid_notebook2.html
+The report is the most important output. It is linked at the top of this documentation. The link to the report is [https://lhncbc.github.io/r-snippets-bmi/regCOVID/regCovid_notebook2.html](https://lhncbc.github.io/r-snippets-bmi/regCOVID/regCovid_notebook2.html)
 
 
-# Introduction
-We use AACT database from Duke U to obtain most recent CTG (=ClinicalTrials.gov) data.
-The script can be further improved.
-AACT database is 48 hours (or so) behind. To get the latest trials, you can also use CTG API call like this one: https://clinicaltrials.gov/ct2/results/download_fields?cond=covid-19&down_count=10000&down_flds=all&down_fmt=csv
+# Database form of ClinicalTrials.gov data - AACT database
+This project relies heavily on prior project by Duke University. It is the AACT database. It stands for Aggregate Analysis of ClinicalTrials.gov. The database offers most recent CTG (=ClinicalTrials.gov) data in database form.
+
+## Data lag
+AACT database is 48 hours (or so) behind. To eliminate the lag and get more recent data (compared to AACT), you can also use CTG API call like this one: https://clinicaltrials.gov/ct2/results/download_fields?cond=covid-19&down_count=10000&down_flds=all&down_fmt=csv
+
+
+# Analysis comments
 
 ## Search strategies
 We use letters to denote search strategies. Strategy A uses title of trial. Strategy B uses free-text condition. Strategy C uses MeSH keywords assigned by CTG (their algorhitm; not publicaly posted).
