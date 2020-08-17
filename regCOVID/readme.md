@@ -41,7 +41,7 @@ Code Sections:
 - Chapter 8: Country
 - Chapter 9: Intervention
 - Chapter 10: Update history
-- CHapter 11: Vaccines
+- Chapter 11: Vaccines
 - Chapter 12: Completed interventional trials
 - Chapter 13: Has results
 
