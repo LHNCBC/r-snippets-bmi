@@ -43,7 +43,7 @@ We use letters to denote search strategies. Strategy A uses title of trial. Stra
 
 # How to obtain a copy of the database we created
 
-See [DESCRIPTION OF EACH DATA FILE](https://lhncbc.github.io/r-snippets-bmi/regCOVID/regCOVID_data_file_descript.html). For example, files regCovid_int-a.csv, regCovid_obs-a.csv, and regCovid_reg-a.csv are the lists of interventional trials, observational studies, and registries generated from search method A. Replace letter at the end with b and c to obtain the set of trials using the other 
+See [DESCRIPTION OF EACH DATA FILE](https://lhncbc.github.io/r-snippets-bmi/regCOVID/regCOVID_data_file_descript.html). For example, files regCovid_int-a.csv, regCovid_obs-a.csv, and regCovid_reg-a.csv are the lists of interventional trials, observational studies, and registries generated from search method A. Replace letter at the end with b and c to obtain the set of trials using the other search strategy. Note that these files will only include the STUDIES table metadata (from AACT). Inspect the other CSV files that support all the web report analyses to get additional data (e.g., interventions, study updates, etc.)
 
 
 # Code Files
