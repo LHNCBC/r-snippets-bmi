@@ -27,8 +27,24 @@ AACT database is 48 hours (or so) behind. To get the latest trials, you can also
 We use letters to denote search strategies. Strategy A uses title of trial. Strategy B uses free-text condition. Strategy C uses MeSH keywords assigned by CTG (their algorhitm; not publicaly posted).
 
 # Code Files
-See files with extension .R (regCovid_cm3.R)   
+See files with extension .R (regCovid_code_for_analysis.R)   
 To run the script, you must provide your details for db connection (you must provide your own user name). See their site for instructions https://aact.ctti-clinicaltrials.org/connect.
+
+Code Sections:
+- CHapter 1: Studies by type
+- Chapter 2: Studies over time
+- Chapter 3: Phase
+- Chapter 4: Arms
+- Chapter 5: Enrollment
+- Chapter 6: Study Design
+- Chapter 7: Number of sites
+- Chapter 8: Country
+- Chapter 9: Intervention
+- Chapter 10: Update history
+- CHapter 11: Vaccines
+- Chapter 12: Completed interventional trials
+- Chapter 13: Has results
+
 
 # Data Files
 (will be updated frequently)
