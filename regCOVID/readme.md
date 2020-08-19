@@ -35,7 +35,7 @@ AACT database is 48 hours (or so) behind. To eliminate the lag and get more rece
 
 In addition, data dictionary from CTG is available at https://prsinfo.clinicaltrials.gov/definitions.html and very usefull to researchers extenind this analysis or conducting other CTG based analyses.  
 
-# Qucik Tutorial
+# Quick Tutorial
 For a quick tutorial on how to use the analysis code and data files in this repository go to: https://github.com/lhncbc/r-snippets-bmi/blob/master/regCOVID/regCovid_Tutorial.md
 
 # Analysis comments
