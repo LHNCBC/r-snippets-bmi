@@ -1,22 +1,25 @@
 Intervention_type,intervention,Study_count
 Other,questionnaire,56
-Other,no intervention,25
+Other,no intervention,26
 Other,online survey,9
 Diagnostic Test,pcr,7
 Diagnostic Test,serology test,7
 Other,survey,7
 Behavioral,questionnaire,6
+Biological,blood sample,6
 Other,observational,6
-Biological,blood sample,5
 Diagnostic Test,igg antibody test,4
+Diagnostic Test,lung ultrasound,4
 Drug,ace inhibitor,4
 Other,blood sample,4
+Biological,saliva,3
 Diagnostic Test,igm/igg rapid test,3
-Diagnostic Test,lung ultrasound,3
 Diagnostic Test,questionnaire,3
 Drug,hydroxychloroquine,3
 Other,biological samples,3
 Other,covid-19,3
+Other,covid-19 pandemic,3
+Other,data collection,3
 Other,data record,3
 Other,exposure,3
 Other,interview,3
@@ -29,13 +32,13 @@ Other,ultrasound,3
 Behavioral,observation,2
 Biological,biological data,2
 Biological,pcr,2
-Biological,saliva,2
 Device,ct-scan,2
 Device,mask,2
 Diagnostic Test,ecg,2
 Diagnostic Test,igg,2
 Diagnostic Test,igm antibodytest,2
 Diagnostic Test,online survey,2
+Diagnostic Test,rt-pcr,2
 Diagnostic Test,sars-cov-2 diagnostic rapid test,2
 Diagnostic Test,serum test,2
 Diagnostic Test,standard care,2
@@ -43,10 +46,9 @@ Drug,arb,2
 Drug,interleukin,2
 Drug,ivermectin,2
 Drug,methylprednisolone,2
+Other,clinical assessment,2
 Other,clinical data,2
-Other,covid-19 pandemic,2
 Other,ct-scan,2
-Other,data collection,2
 Other,dialysis,2
 Other,exercise,2
 Other,file scanning,2
@@ -109,6 +111,7 @@ Device,alexa amazon,1
 Device,apple watch,1
 Device,breath biopsy face masks with removable filters,1
 Device,breath biopsy face masks with removable filters/fitted pva strip,1
+Device,bva-100,1
 Device,c3,1
 Device,c3/ holter monitor,1
 Device,coviage,1
@@ -258,7 +261,6 @@ Diagnostic Test,respiratory mechanics measurement,1
 Diagnostic Test,"respiratory symptoms, symptoms of anxiety",1
 Diagnostic Test,"respiratory symptoms, symptoms of anxiety/depression,/post-traumatic stress screening",1
 Diagnostic Test,reverse transcription polymerase chain reaction,1
-Diagnostic Test,rt-pcr,1
 Diagnostic Test,rt pcr,1
 Diagnostic Test,rt pcr sars-cov-2,1
 Diagnostic Test,saliva,1
@@ -271,6 +273,7 @@ Diagnostic Test,"sampling (edta blood, pharyngeal/nose swabs, bronchoalveolar la
 Diagnostic Test,sars-cov-2,1
 Diagnostic Test,sars-cov-2 ab,1
 Diagnostic Test,sars-cov-2 antibody immunoassays,1
+Diagnostic Test,sars-cov-2 antibody testing,1
 Diagnostic Test,sars-cov 2 rna pcr semen,1
 Diagnostic Test,sars-cov 2 rna pcr urine,1
 Diagnostic Test,sars-cov2 testing,1
@@ -287,6 +290,7 @@ Diagnostic Test,swallowing evaluation with the eat-10,1
 Diagnostic Test,swallowing evaluation with the eat-10/the volume-viscosity swallowing test (v-vst),1
 Diagnostic Test,tears swab,1
 Diagnostic Test,tem-tpa,1
+Diagnostic Test,testing for sars-cov-2,1
 Diagnostic Test,testing sensitivity for sars-cov-2 virus in symptomatic individuals,1
 Diagnostic Test,"the demographic, clinical, laboratory,",1
 Diagnostic Test,"the demographic, clinical, laboratory,/instrumental data",1
@@ -351,6 +355,7 @@ Drug,tcm,1
 Drug,tinzaparin,1
 Drug,tinzaparin/dalteparin,1
 Drug,tocilizumab,1
+Genetic,complete thrombophilic profile testing by multiplex pcr,1
 Genetic,next generation sequencing (ngs) analysis,1
 Genetic,sequencing,1
 Genetic,whole exome sequencing,1
@@ -370,6 +375,8 @@ Other,all treatment about covid-2019,1
 Other,"analysis of cytokine response, innate",1
 Other,"analysis of cytokine response, innate/adaptive immune response, complement activation,/serum neurofilaments as a marker of neurological damage.",1
 Other,antidiabetic treatment,1
+Other,antithrombotic therapy (anticoagulant and,1
+Other,antithrombotic therapy (anticoagulant and/or antiplatelet) before admission for covid19,1
 Other,anxiety questionnaire,1
 Other,arb,1
 Other,assessment of postnatal depression using the the edinburgh questionnaire between 4,1
@@ -382,6 +389,9 @@ Other,biospecimen collection,1
 Other,blood draw,1
 Other,blood sampling for biobank,1
 Other,blood test,1
+Other,"blood tests sputum, nasal lavage",1
+Other,"blood tests sputum, nasal lavage/brushing",1
+Other,brushing,1
 Other,cardiac,1
 Other,cardiac surgery,1
 Other,cardiac/electrodermal recordings,1
@@ -394,6 +404,7 @@ Other,clinical testing of subjects,1
 Other,"clinical, laboratory",1
 Other,"clinical, laboratory/imaging characteristics of pneumonia",1
 Other,cns magnetic resonance imaging (mri) imaging,1
+Other,compare the difference in respiratory rate between h0,1
 Other,comprehensive treatment,1
 Other,convalescent plasma,1
 Other,covicu,1
@@ -446,6 +457,7 @@ Other,"gps reports of potential patient safety incidents, non-covid-19 related",
 Other,grandiosity subscales,1
 Other,group1,1
 Other,gustatory tests,1
+Other,h12 of the initiation of morphine between the control,1
 Other,high peep with end inspiratory pause,1
 Other,high peep without end inspiratory pause,1
 Other,home-use test,1
@@ -462,6 +474,7 @@ Other,in-hospital mortality rate,1
 Other,infectious disease,1
 Other,infectious disease/cardiology clinical consultations,1
 Other,informed consent,1
+Other,interventional groups,1
 Other,invasive mechanical ventilation,1
 Other,investigation of smell,1
 Other,investigation of smell/taste disorders,1
@@ -482,6 +495,7 @@ Other,model validation,1
 Other,modification,1
 Other,monitoring for aggravation,1
 Other,mortality,1
+Other,mr-pro-adm,1
 Other,mri,1
 Other,na (no intervention),1
 Other,nasal,1
@@ -491,6 +505,7 @@ Other,nhanes smell,1
 Other,nhanes smell/taste tests,1
 Other,nil intervention,1
 Other,no intervention (survey study for medical doctors).,1
+Other,no intervention / compare the difference in respiratory rate between h0/h12 of the initiation of morphine between the control/interventional groups,1
 Other,no intervention / evaluation of the ferritin/glycosylated ferritin by standard approved serological tests,1
 Other,no intervention. observational cohort study,1
 Other,no interventional study,1
@@ -510,6 +525,7 @@ Other,olfactory,1
 Other,olfactory function evaluation,1
 Other,olfactory/gustatory tests,1
 Other,or ace inhibitors,1
+Other,or antiplatelet) before admission for covid19,1
 Other,oxygen,1
 Other,pandemic control measures,1
 Other,passed infection of sars-cov-2,1
@@ -550,10 +566,12 @@ Other,relation between frailty/clinical outcomes in elderly patients with covid-
 Other,research specific blood sample,1
 Other,respiratory physiotherapy,1
 Other,retrospective,1
+Other,retrospective metagenomics on clinical samples collected during hospitalization,1
 Other,risk factors,1
 Other,sars-cov2 infection,1
 Other,satisfaction evaluation,1
 Other,serial seroconversion measurements in hospital employees during the covid-19 pandemic,1
+Other,seroprevalence of sars-cov-2 infection in patients with hiv infection,1
 Other,serum neurofilaments as a marker of neurological damage.,1
 Other,simulation of repurposed drugs for covid-19,1
 Other,SOP,1
@@ -595,6 +613,7 @@ Procedure,gloves,1
 Procedure,intracorporeal left hemicolectomy anastomosis,1
 Procedure,lung ultrasound,1
 Procedure,lung ultrasound (lus),1
+Procedure,orthopaedic surgical procedures,1
 Procedure,osteosynthesis,1
 Procedure,questionnaire,1
 Procedure,study arm,1

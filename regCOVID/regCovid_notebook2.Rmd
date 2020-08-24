@@ -325,15 +325,6 @@ d9<-read_csv('regCovid_observational_time_perspective.csv')
 kable(d9)
 ```
 
-## Has Results
-```{r obsresults, message=FALSE, echo=FALSE}
-d<-read_csv('regCovid_has_results_obs.csv')
-prefix='https://ClinicalTrials.gov/show/'
-d$link<-paste0(prefix,d$nct_id)
-d2<-d %>% select(nct_id,brief_title,link)
-kable(d2)
-
-```
 
 
 
