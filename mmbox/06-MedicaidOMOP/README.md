@@ -1,6 +1,6 @@
 # Medicaid to OMOP ETL code
 
-For both current (TAF) format and legacy (MAX) format.
+Source data: CMS VRDC Medicaid data. For both current (TAF) format and legacy (MAX) format.
 
 See folder TAF or folder MAX for files organized by OMOP table name.
 
