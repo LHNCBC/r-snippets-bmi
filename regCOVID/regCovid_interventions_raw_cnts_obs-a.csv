@@ -8,11 +8,12 @@ Other,survey,7
 Behavioral,questionnaire,6
 Biological,blood sample,6
 Other,observational,6
+Other,covid-19,5
 Diagnostic Test,igg antibody test,4
 Diagnostic Test,lung ultrasound,4
 Drug,ace inhibitor,4
 Other,blood sample,4
-Other,covid-19,4
+Other,exposure,4
 Biological,saliva,3
 Diagnostic Test,igm/igg rapid test,3
 Diagnostic Test,questionnaire,3
@@ -21,7 +22,6 @@ Other,biological samples,3
 Other,covid-19 pandemic,3
 Other,data collection,3
 Other,data record,3
-Other,exposure,3
 Other,interview,3
 Other,non-interventional,3
 Other,other,3
@@ -172,6 +172,7 @@ Diagnostic Test,collection of swabs,1
 Diagnostic Test,covid-19 antibody testing,1
 Diagnostic Test,covid-19 diagnostic pcr,1
 Diagnostic Test,"covid-19 igg/igm rapid test cassette test (healgen scientific, houston, texas, usa)",1
+Diagnostic Test,covid-19 presto test,1
 Diagnostic Test,covid 19 diagnostic test,1
 Diagnostic Test,ct-scan,1
 Diagnostic Test,cytokines measurement,1
@@ -258,6 +259,7 @@ Diagnostic Test,quantitative analysis of anti-sars-cov-2-antibodies,1
 Diagnostic Test,quantitative analysis of sars-cov-2 antibodies,1
 Diagnostic Test,quantitative igg test,1
 Diagnostic Test,quantitative/qualitative assessments of mental health,1
+Diagnostic Test,quantra system,1
 Diagnostic Test,radiological,1
 Diagnostic Test,rapid test,1
 Diagnostic Test,rarefaction,1
@@ -389,6 +391,7 @@ Other,antithrombotic therapy (anticoagulant and,1
 Other,antithrombotic therapy (anticoagulant and/or antiplatelet) before admission for covid19,1
 Other,anxiety questionnaire,1
 Other,arb,1
+Other,assessing impact of covid19,1
 Other,assessment of postnatal depression using the the edinburgh questionnaire between 4,1
 Other,assessment of postnatal depression using the the edinburgh questionnaire between 4/6 weeks after delivery,1
 Other,attendance by ambulance crew,1
@@ -419,6 +422,7 @@ Other,comprehensive treatment,1
 Other,convalescent plasma,1
 Other,covicu,1
 Other,covid-19 / patients,1
+Other,covid-19 experience surveys,1
 Other,covid-19 facility,1
 Other,covid-19 infection,1
 Other,covid-19 infection status,1
@@ -456,6 +460,7 @@ Other,evaluation of skin microvascular flow,1
 Other,evaluation of skin microvascular flow/reactivity,1
 Other,evaluation of the epidemiological characteristics of coronavirus infection (sars-cov-2),1
 Other,evaluation of the ferritin,1
+Other,experts consensus,1
 Other,exposure to the dutch measures due to the covid-19 pandemic.,1
 Other,fibrin generation markers assays,1
 Other,fmf.,1
@@ -524,6 +529,7 @@ Other,no intervention / compare the difference in respiratory rate between h0/h1
 Other,no intervention / evaluation of the ferritin/glycosylated ferritin by standard approved serological tests,1
 Other,no intervention. observational cohort study,1
 Other,no interventional study,1
+Other,no interventions,1
 Other,non,1
 Other,non interventional study,1
 Other,non invasive visual acuity testing,1
@@ -547,10 +553,12 @@ Other,passed infection of sars-cov-2,1
 Other,patient characteristics,1
 Other,patients,1
 Other,patients admitted to intensive care unit with sars-cov2,1
+Other,patients received standard of care treatment during hospitalization,1
 Other,pcr,1
 Other,pct/serology,1
 Other,peep,1
 Other,personal protective equipment from biological hazard,1
+Other,personal protective testing booth,1
 Other,phobia questionairre,1
 Other,phq,1
 Other,phq-9 depression scale,1
@@ -573,6 +581,7 @@ Other,psychological,1
 Other,psychological/sociological interviews,1
 Other,pulmonary rehabilitation,1
 Other,quality of live assessment,1
+Other,questionaire,1
 Other,"quickly avalaible clinical, biological",1
 Other,radiological variables?,1
 Other,rapid molecular test,1
@@ -628,11 +637,14 @@ Procedure,facial fractures reduction,1
 Procedure,facial fractures reduction/osteosynthesis,1
 Procedure,gloves,1
 Procedure,intracorporeal left hemicolectomy anastomosis,1
+Procedure,lateral position (left,1
+Procedure,lateral position (left/right lateral decubitus),1
 Procedure,lung ultrasound,1
 Procedure,lung ultrasound (lus),1
 Procedure,orthopaedic surgical procedures,1
 Procedure,osteosynthesis,1
 Procedure,questionnaire,1
+Procedure,right lateral decubitus),1
 Procedure,study arm,1
 Procedure,surgery,1
 Procedure,surgical procedures performed under general anesthesia,1
@@ -640,3 +652,4 @@ Procedure,symptom,1
 Procedure,symptom/exposure surveys,1
 Procedure,throat swab,1
 Procedure,tracheostomy with aerosol box in covid-19 positive patients,1
+Radiation,thoracic ct-scan,1
