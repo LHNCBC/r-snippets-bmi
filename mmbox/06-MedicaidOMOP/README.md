@@ -8,18 +8,18 @@ Additional Medicaid releveant link: https://github.com/lhncbc/CRI/tree/master/VR
 
 # Comments on individual tables
 
-## TAF
-JUS_TAF_CASES
-JUS_TAF_LKUP
+## TAF (new format, 2016 - present)
 
 ### person
-Max_and_Taf_Age_Extraction
+In addition to comments in the code, additional comments are
 
 ### observation_period
-MAX_Enrollment_Table_Maker
-TAF_Enrollment_Assessment
 
 
-## MAX
-JUS_MAX_CASES
-JUS_MAX_LKIP
+## MAX (legacy format, 1999-2016)
+
+### person
+In addition to comments in the code, additional comments are
+ 
+
+### observation_period
