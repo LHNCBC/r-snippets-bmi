@@ -434,83 +434,79 @@ if _name_= 'MAX_ELG_CD_MO_180' then  YYYYYMM=201312;
 run;
 
 
-
-
-
-
 %let start = 199812;
 
 /* List all participants: dataset "list" 
 this is an adapted snipit from my sas code collection (by other people)*/
 
 proc sql;
-
-
-
-
+	create table list as
+	select distinct bene_id, state_cd 
+	from workingfile_t1;
+	
 %let start = 199812;
 data list_month;
-
-
-
-
-
-
-
-
-
+	set list;
+	format Enroll_month YYMMn6.;
+	do i=1 to 181;
+		Enroll_month = intnx('month',
+		input("&start",YYMMn6.),
+		i-1,"b");
+		output;
+	end;
+	drop i;
 run;
 
 /*flag prior enrollment month-*/
 
 data have_flag;
-
-
-
-
-
-
+	set workingfile_t1;
+	by bene_id state_cd yyyyymm;
+	if first.bene_id then flag_Enroll_month = 1;
+	else flag_Enroll_month = .;
+	enroll_month=input(put(yyyyymm),6.);
+	format enroll_month yymmn6.;
 run;
 
 /*first observed enrollment month*/
 data enroll;
-
-
-
-
+	set have_flag;
+	where flag_Enroll_month=1;
+	drop flag_Enroll_month;
+	rename Enroll_month = initial_month;
 run;
 
 /*assess enrollment status within month-*/
 
 data have_pre_all;
-
-
-
-
-
+	merge list_month (in=x) have_flag (in=y);
+	by bene_id state_cd Enroll_month;
+	if y=1 then flag_enroll = 1;
+	else flag_enroll = 0;
+	run;
 
 /*merge enrollment with calandar-*/
 data have_all;
-
-
+	merge have_pre_all enroll;
+	by bene_id state_cd;
 run;
 
 
 /* Enroll_Continous_months */
 
 data have_continous;
-
-
-
-
+	set have_all (where=(Enroll_month>initial_month));
+	by bene_id State_cd flag_enroll notsorted;
+	if first.flag_enroll then count = 0;
+	count + 1;
 run;
 
 proc sql;
-
-
-
-
-
+	create table case_enrollment_list as
+	select bene_id, state_cd, max(count) as Enroll_Continous_months
+	from have_continous
+	where flag_enroll=1
+	group by bene_id, state_cd;
 quit;
 
 data key_file (keep=bene_id
@@ -539,3 +535,6 @@ set key_file;
 if enrollment_episode_end < enrollment_episode_start then flag=1;
 run;
 /*key file is the enrollment episode duration table*/
+
+
+
