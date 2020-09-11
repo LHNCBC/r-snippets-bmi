@@ -11,7 +11,7 @@ Additional Medicaid releveant link: https://github.com/lhncbc/CRI/tree/master/VR
 ## TAF (new format, 2016 - present)
 
 ### person
-SQL extract for assessing age from TAF x file.
+SQL extract for assessing age from TAF Demography file.
 
 ### observation_period
 TAF contains an observation period table natively; this file assesses that table for longest and first enrollment episode.
