@@ -1,19 +1,19 @@
 Intervention_type,intervention,Study_count
-Other,questionnaire,57
+Other,questionnaire,58
 Other,no intervention,26
 Other,online survey,9
 Diagnostic Test,serology test,8
 Diagnostic Test,pcr,7
+Other,observational,7
 Other,survey,7
 Behavioral,questionnaire,6
 Biological,blood sample,6
-Other,observational,6
 Other,covid-19,5
+Other,exposure,5
 Diagnostic Test,igg antibody test,4
 Diagnostic Test,lung ultrasound,4
 Drug,ace inhibitor,4
 Other,blood sample,4
-Other,exposure,4
 Biological,saliva,3
 Diagnostic Test,igm/igg rapid test,3
 Diagnostic Test,questionnaire,3
@@ -89,6 +89,7 @@ Behavioral,online survey,1
 Behavioral,personal behaviours,1
 Behavioral,prone positioning,1
 Behavioral,remote pulmonary rehabilitation,1
+Behavioral,saliva-based testing,1
 Behavioral,social distancing,1
 Behavioral,social media,1
 Behavioral,social media/news consumption,1
@@ -99,12 +100,14 @@ Biological,biological samples,1
 Biological,blood collection,1
 Biological,chest ct,1
 Biological,collection of blood samples in order to create a biocollection,1
+Biological,convalescent plasma,1
 Biological,exposure,1
 Biological,no intervention,1
 Biological,other clinical symptoms,1
 Biological,pcr/chest ct,1
 Biological,"reporting of anosmia, ageusia",1
 Biological,"reporting of anosmia, ageusia/other clinical symptoms",1
+Biological,serology test,1
 Biological,specific anti-sars-cov-2 antibodies,1
 Combination Product,respiratory rehabilitation,1
 Combination Product,systemic,1
@@ -121,6 +124,7 @@ Device,covx,1
 Device,device used to record voice for screening,1
 Device,doctor spot,1
 Device,earsats pulse oximeter probe,1
+Device,ecg,1
 Device,echocardiography,1
 Device,extracorporeal membrane oxygenation,1
 Device,faecal sample collector,1
@@ -213,7 +217,9 @@ Diagnostic Test,imaging,1
 Diagnostic Test,imaging by thoracic scanner,1
 Diagnostic Test,"imaging, blood tests",1
 Diagnostic Test,immunfluorescence,1
+Diagnostic Test,interleuken 6 level measurment,1
 Diagnostic Test,interleukin,1
+Diagnostic Test,interleukin-6 gene-174c detection,1
 Diagnostic Test,ip-10,1
 Diagnostic Test,kir phenotype evaluation,1
 Diagnostic Test,laboratory analyses,1
@@ -357,6 +363,7 @@ Drug,non-acei,1
 Drug,non-acei/arb,1
 Drug,observational,1
 Drug,opaganib,1
+Drug,polyoxidonium,1
 Drug,remdesivir,1
 Drug,retrospective case-control analysis,1
 Drug,ritonavir,1
@@ -378,6 +385,7 @@ Other,"ä±t will be compared pain, sleep, fatigue, physical activity level/qual
 Other,ace/arb,1
 Other,active covid-19 disease,1
 Other,activity,1
+Other,acute kidney injury,1
 Other,"adaptive immune response, complement activation,",1
 Other,admission to icu for covid-19,1
 Other,after covid-19 pandemic,1
@@ -451,6 +459,7 @@ Other,differences in triage,1
 Other,during covid-19 pandemic,1
 Other,echocardiography,1
 Other,electrodermal recordings,1
+Other,electrolytes,1
 Other,endoscopic management according to standard of care,1
 Other,epds (edinburgh postnatal depression scale),1
 Other,epidemiological,1
@@ -490,6 +499,7 @@ Other,immunoglobulin,1
 Other,immunological,1
 Other,impact event score,1
 Other,in-hospital mortality rate,1
+Other,individualized-chinese herbal medicine,1
 Other,infectious disease,1
 Other,infectious disease/cardiology clinical consultations,1
 Other,informed consent,1
@@ -505,6 +515,8 @@ Other,liver,1
 Other,low peep - fio2 high,1
 Other,low peep - fio2 low,1
 Other,lung ct scan analysis in covid-19 patients,1
+Other,management strategy of outpatient with mild to moderate sars-cov-2 pneumonia,1
+Other,maternal stress,1
 Other,measurement of circulating sflt1 concentration,1
 Other,mechanical trombectomy,1
 Other,mhealth assessments,1
