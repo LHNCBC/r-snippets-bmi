@@ -528,13 +528,20 @@ end;
 run;
 
 proc sort data=key_file nodup;
-by bene_id enrollment_episode_start enrollment_episode_end;
+by 
+bene_id 
+enrollment_episode_start 
+enrollment_episode_end;
 run;
-data key_file(where=(flag<1));
-set key_file;
+
+data observation_period(where=(flag<1));
+set key_file(keep=person_id );
 if enrollment_episode_end < enrollment_episode_start then flag=1;
+person_id=bene_id;
+observation_period_start_date=enrollment_episode_start;
+observation_period_end_date=enrollment_episode_end;
 run;
-/*key file is the enrollment episode duration table*/
+/*observation_period*/
 
 
 
