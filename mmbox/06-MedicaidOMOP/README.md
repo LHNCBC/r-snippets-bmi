@@ -9,9 +9,6 @@ Additional Medicaid releveant link: https://github.com/lhncbc/CRI/tree/master/VR
 # Comments on individual tables
 
 ## TAF
-JUS_TAF_CASES
-JUS_TAF_LKUP
-
 ### person
 Max_and_Taf_Age_Extraction
 
@@ -23,7 +20,7 @@ MAX_Enrollment_Table_Maker
 SQL extract for assessing age from TAF Demography file.
 
 ### observation_period
-TAF contains an observation period table natively; this file assesses that table for longest and first enrollment episode.
+TAF contains an observation period table natively unlike MAX; this file assesses that table for longest and first enrollment episode.
 
 TAF_Enrollment_Assessment
 	TAF contains an observation period table for enrollment periods natively;
@@ -31,8 +28,6 @@ TAF_Enrollment_Assessment
 	period. 
 
 ## MAX
-JUS_MAX_CASES
-JUS_MAX_LKIP
 ### person
 SQL extract for assessing age from MAX PS File.
 
