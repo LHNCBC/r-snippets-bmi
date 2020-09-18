@@ -41,13 +41,13 @@ format
 	if el_race_ethncy_cd=2 then race_concept_id='8516';/*black*/
 	if el_race_ethncy_cd=1 then race_concept_id='8527';/*white*/
 	if el_race_ethncy_cd=3 then race_concept_id='8515';/*asian*/
-	if el_race_ethncy_cd=4 then race_concept_id='8657'/*american indian alaska native*/;
+	if el_race_ethncy_cd=4 then race_concept_id='8657'/*AIAN*/;
 	if el_race_ethncy_cd=5 then race_concept_id='38003563';/*hispanic*/
-	if el_race_ethncy_cd=6 then race_concept_id='8557';/*native haawaiian or OPI*/
-	if el_race_ethncy_cd=7 then race_concept_id='38003563';/*hispanic multi*/
+	if el_race_ethncy_cd=6 then race_concept_id='8557';/*NH or OPI*/
+	if el_race_ethncy_cd=7 then race_concept_id='38003563';/*Hispanic multi*/
 	if el_race_ethncy_cd=8 then race_concept_id='0';/*multi*/
 	if el_race_ethncy_cd=9 then race_concept_id='0';/*blank unknown*/
 	if ethnicity_code=1 then ethnicity_concept_id='38003563';/*Hispanic*/
-	if ethnicity_code=0 then ethnicity_concept_id='38003564';/*not hispanic*/
+	if ethnicity_code=0 then ethnicity_concept_id='38003564';/*not hHspanic*/
 	if ethnicity_code=9 then ethnicity_concept_id='0';/*blank*/
 	run;
