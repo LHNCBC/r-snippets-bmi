@@ -14,12 +14,9 @@ Max_and_Taf_Age_Extraction
 
 ### observation_period
 
-MAX_Enrollment_Table_Maker
-	This Max File will turn several years of MAX Enrollment records into
-	an observaiton_period table.
 SQL extract for assessing age from TAF Demography file.
 
-### observation_period
+
 TAF contains an observation period table natively unlike MAX; this file assesses that table for longest and first enrollment episode.
 
 TAF_Enrollment_Assessment
@@ -34,3 +31,8 @@ SQL extract for assessing age from MAX PS File.
 ### observation_period
 This file creates an observation table out of MAX monthly enrollment status assessments. To assess longest or first enrollment
 episode, modify TAF observation period file to use the final file from this script. 
+
+MAX_Enrollment_Table_Maker
+	This Max File will turn several years of MAX Enrollment records into
+	an observaiton_period table.
+
