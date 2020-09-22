@@ -1,52 +1,54 @@
 Intervention_type,intervention,Study_count,Date of First Study
-placebo,placebo,287,2020-02-15
+placebo,placebo,297,2020-02-15
 Drug,hydroxychloroquine,106,2020-02-06
-Other,standard care,95,2020-01-23
-Biological,convalescent plasma,83,2020-03-23
+Other,standard care,98,2020-01-23
+Biological,convalescent plasma,84,2020-03-23
 Drug,azithromycin,35,2020-03-23
+Biological,mesenchymal stem cells,28,2020-01-27
 Drug,tocilizumab,28,2020-03-09
-Biological,mesenchymal stem cells,27,2020-01-27
 Drug,ritonavir,26,2020-01-28
-Drug,saline,26,2020-03-25
+Drug,saline,25,2020-03-25
 Drug,ivermectin,24,2020-04-05
 Drug,lopinavir,23,2020-04-23
+Drug,favipiravir,21,2020-03-09
 Drug,lopinavir/ritonavir,21,2020-01-30
-Drug,favipiravir,20,2020-03-09
 Drug,chloroquine,17,2020-03-19
 Drug,enoxaparin,16,2020-04-07
 Drug,remdesivir,16,2020-02-20
 Biological,blood sample,15,2020-03-09
+Device,oxygen,15,2020-03-19
 Drug,colchicine,14,2020-03-23
 Drug,methylprednisolone,14,2020-01-23
-Device,oxygen,14,2020-03-19
 Procedure,prone positioning,14,2020-03-26
+Drug,control,13,2020-03-24
 Drug,heparin,13,2020-04-24
 Biological,plasma,13,2020-03-24
-Drug,control,12,2020-03-24
 Drug,interferon,12,2020-02-11
 Dietary Supplement,vitamin c,12,2020-02-04
 Other,exercise,11,2020-04-02
+Drug,nitazoxanide,11,2020-04-03
 Drug,hydroxychloroquine / azithromycin,10,2020-03-23
-Drug,nitazoxanide,10,2020-04-03
 Dietary Supplement,vitamin d,10,2020-04-02
 Drug,anakinra,9,2020-03-25
-Other,questionnaire,8,2020-03-08
+Other,questionnaire,9,2020-03-08
+Drug,ruxolitinib,8,2020-04-01
 Diagnostic Test,serology test,8,2020-04-08
 Drug,zinc,8,2020-04-02
 Drug,baricitinib,7,2020-03-24
 Drug,dexamethasone,7,2020-04-09
 Drug,losartan,7,2020-03-13
 Drug,nitric oxide,7,2020-03-09
+Drug,povidone/iodine,7,2020-04-08
 Radiation,radiotherapy,7,2020-05-04
-Drug,ruxolitinib,7,2020-04-01
 Other,telehealth,7,2020-03-21
 Biological,bcg,6,2020-03-25
 Diagnostic Test,biological samples,6,2020-03-23
 Drug,oseltamivir,6,2020-02-02
-Drug,povidone/iodine,6,2020-04-08
 Drug,sarilumab,6,2020-03-15
+Drug,cholecalciferol,5,2020-04-09
 Drug,clazakizumab,5,2020-04-09
 Drug,ly3819253,5,2020-05-29
+Drug,rivaroxaban,5,2020-03-25
 Drug,sofosbuvir,5,2020-07-04
 Drug,telmisartan,5,2020-04-11
 Drug,anticoagulation,4,2020-04-20
@@ -54,22 +56,22 @@ Drug,arbidol,4,2020-01-30
 Drug,bromhexine hydrochloride,4,2020-02-14
 Drug,camostat mesilate,4,2020-03-23
 Drug,chloroquine/hydroxychloroquine,4,2020-03-06
-Drug,cholecalciferol,4,2020-04-09
 Drug,doxycycline,4,2020-04-26
 Biological,inactivated sars-cov-2 vaccine,4,2020-04-14
 Radiation,low,4,2020-04-24
 Drug,mavrilimumab,4,2020-05-21
 Combination Product,na-831,4,2020-06-26
+Diagnostic Test,nasopharyngeal swab,4,2020-04-17
 Biological,nk cells,4,2020-02-13
 Diagnostic Test,pcr,4,2020-04-02
 Drug,peginterferon,4,2020-03-27
 Drug,regn10933,4,2020-06-08
-Drug,ribavirin,4,2020-02-11
-Drug,rivaroxaban,4,2020-03-25
 Drug,supportive care,4,2020-04-14
 Behavioral,,3,2020-02-27
+Biological,adenovirus type 5 vector,3,2020-03-15
 Drug,aspirin,3,2020-03-25
 Other,best available therapy,3,2020-04-21
+Biological,biological,3,2020-09-04
 Other,blood,3,2020-04-17
 Behavioral,blood donation sms,3,2020-04-28
 Diagnostic Test,blood test,3,2020-04-24
@@ -82,40 +84,39 @@ Drug,daclatasvir,3,2020-07-04
 Drug,imatinib,3,2020-04-07
 Drug,immunoglobulin,3,2020-04-08
 Behavioral,information,3,2020-06-09
-Drug,ledipasvir,3,2020-08-01
 Drug,lenzilumab,3,2020-03-31
 Biological,mrna-1273,3,2020-02-21
-Diagnostic Test,nasopharyngeal swab,3,2020-04-17
 Drug,nigella sativa,3,2020-05-21
 Dietary Supplement,probiotic,3,2020-04-27
 Drug,pulmozyme,3,2020-04-15
+Drug,ribavirin,3,2020-02-11
 Biological,saliva,3,2020-04-17
 Drug,sargramostim,3,2020-03-24
 Drug,sirolimus,3,2020-04-05
+Drug,soc,3,2020-06-17
 Other,survey,3,2020-04-28
+Procedure,therapeutic plasma exchange,3,2020-04-20
 Dietary Supplement,vitamin super b-complex,3,2020-04-08
 Biological,vpm1002,3,2020-05-11
 Drug,0.4 ml injectable solution,2,2020-05-28
-Drug,200 mg eidd-2801,2,2020-05-26
 Biological,28-day schedule,2,2020-05-21
 Drug,acalabrutinib,2,2020-04-09
 Other,ace inhibitor,2,2020-04-01
 Drug,acetylsalicylic acid,2,2020-04-23
 Biological,ad26.cov2.s,2,2020-08-11
-Biological,adenovirus type 5 vector,2,2020-03-15
 Device,aeonose,2,2020-07-15
 Drug,antibiotics,2,2020-07-01
 Dietary Supplement,ayurveda,2,2020-04-10
 Biological,bacille calmette-guã©rin (bcg),2,2020-05-04
 Biological,best available care,2,2020-07-03
-Drug,best supportive care,2,2020-04-01
+Other,best supportive care,2,2020-04-28
 Drug,bevacizumab,2,2020-02-14
-Biological,biological,2,2020-09-04
 Other,blood draw,2,2020-04-03
 Biological,bnt162b2,2,2020-04-27
 Drug,canakinumab,2,2020-04-24
 Drug,cannabidiol,2,2020-07-03
 Device,cellectraâ® 2000,2,2020-04-03
+Drug,ciclesonide,2,2020-03-31
 Diagnostic Test,conjunctival swab,2,2020-04-22
 Drug,"conventional medicines (oxygen therapy, alfa interferon via aerosol inhalation,/lopinavir/ritonavir)/traditional chinese medicines (tcms) granules",2,2020-01-28
 Device,coviage,2,2020-05-14
@@ -128,6 +129,8 @@ Device,cytosorb,2,2020-04-09
 Drug,dapagliflozin,2,2020-04-14
 Behavioral,data collection,2,2020-06-08
 Drug,dipyridamole,2,2020-05-15
+Drug,edp1815,2,2020-05-16
+Drug,eidd-2801,2,2020-05-26
 Drug,famotidine,2,2020-08-06
 Combination Product,favipiravir/hydroxychloroquine,2,2020-05-10
 Biological,gam-covid-vac,2,2020-06-16
@@ -146,6 +149,8 @@ Drug,iodine,2,2020-07-14
 Other,kb109,2,2020-06-01
 Other,kb109 / self supportive care (ssc),2,2020-06-01
 Drug,kg,2,2020-05-28
+Biological,lanadelumab,2,2020-06-03
+Drug,ledipasvir,2,2020-04-14
 Device,lung ultrasound,2,2020-04-04
 Device,"magpro x100 stimulator, b70 fluid-cooled coil",2,2020-05-08
 Behavioral,mechanical ventilation,2,2020-04-09
@@ -170,7 +175,6 @@ Dietary Supplement,quercetin,2,2020-05-01
 Biological,ravulizumab,2,2020-04-28
 Biological,recombinant new coronavirus vaccine (cho cell) low-dose group,2,2020-06-16
 Biological,recombinant new coronavirus vaccine (cho cells) high-dose group,2,2020-06-16
-Drug,regn10933/regn10987,2,2020-06-26
 Drug,regn10933/regn10987 combination therapy,2,2020-06-08
 Drug,regn10987,2,2020-06-26
 Drug,regn10987 combination therapy,2,2020-06-08
@@ -180,12 +184,11 @@ Other,self supportive care (ssc) alone,2,2020-06-01
 Biological,serum test,2,2020-04-24
 Drug,sevoflurane,2,2020-03-26
 Drug,siltuximab,2,2020-03-31
-Drug,soc,2,2020-06-17
+Drug,soc / placebo,2,2020-04-01
 Drug,sofosbuvir/ledipasvir,2,2020-04-14
 Biological,stool collection,2,2020-04-28
 Drug,td-0903,2,2020-04-14
 Other,tele-yoga therapy,2,2020-06-30
-Procedure,therapeutic plasma exchange,2,2020-07-21
 Biological,therapeutic plasma exchange (tpe),2,2020-06-19
 Drug,thromboprophylaxis,2,2020-04-10
 Drug,water,2,2020-02-04
@@ -207,14 +210,13 @@ Biological,14-day schedule,1,2020-05-21
 Drug,1600 mg),1,2020-05-23
 Drug,18f-î±vî²6-bp,1,2020-05-03
 Biological,2.2x10^10vp (qpcr) boost,1,2020-05-12
+Drug,20 mg prednisone for 14 days,1,2020-09-13
 Biological,21 - phase 2,1,2020-04-24
-Drug,300 mg eidd-2801,1,2020-05-26
 Combination Product,4plants,1,2020-08-03
 Combination Product,4plants/azythromycin,1,2020-08-03
 Biological,5x10^10vp boost (qpcr),1,2020-05-12
 Other,6 months later,1,2020-05-22
 Other,a short video intervention,1,2020-07-21
-Drug,a specific plant based dietary supplement,1,2020-05-22
 Other,a vignette intervention,1,2020-07-21
 Dietary Supplement,aã§aã­ palm berry extract - natural product,1,2020-05-24
 Biological,aapc,1,2020-03-05
@@ -223,7 +225,10 @@ Drug,abx464,1,2020-05-18
 Device,accuchek inform ii platform,1,2020-06-01
 Drug,"ace inhibitor, angiotensin receptor blocker",1,2020-04-14
 Device,actigraphy,1,2020-04-24
+Behavioral,action (tara),1,2020-09-11
 Drug,activase,1,2020-04-18
+Drug,active comparator,1,2020-09-15
+Biological,ad5-ncov,1,2020-09-15
 Biological,adimrsc-2f,1,2020-08-12
 Biological,adsorbed covid-19 (inactivated) vaccine,1,2020-06-30
 Drug,aerosolized dnase,1,2020-06-05
@@ -245,17 +250,18 @@ Other,anger message,1,2020-07-02
 Radiation,angiography scanner,1,2020-07-06
 Biological,angiotensin peptide (1-7) derived plasma,1,2020-05-01
 Drug,angiotensin receptor blockers,1,2020-05-18
+Drug,anise seed capsule,1,2020-09-15
 Drug,anluohuaxian,1,2020-04-01
 Biological,anti-coronavirus antibodies (immunoglobulins)obtained with dfpp from convalescent patients,1,2020-04-09
 Biological,anti-sars-cov-2 igt seropositivity,1,2020-06-23
 Diagnostic Test,"antibody rapid testing, mobile device image capture",1,2020-04-13
 Diagnostic Test,antibody test,1,2020-05-08
 Drug,antihypertensives,1,2020-04-10
-Dietary Supplement,antioxidants,1,2020-03-23
 Other,anxiety,1,2020-05-22
 Behavioral,anxiety reduction training,1,2020-05-11
 Drug,apilimod dimesylate,1,2020-06-23
 Drug,apl-9,1,2020-05-22
+Other,apps,1,2020-09-09
 Drug,apremilast,1,2020-07-14
 Drug,aprepitant injectable emulsion,1,2020-07-13
 Drug,aprotinin,1,2020-08-24
@@ -281,6 +287,7 @@ Drug,atorvastatin 20mg,1,2020-07-22
 Drug,atovaquone,1,2020-04-07
 Drug,atovaquone/azithromycin,1,2020-04-07
 Behavioral,attention bias modification (abm),1,2020-04-24
+placebo,attention placebo,1,2020-07-06
 Drug,atyr1923,1,2020-06-01
 Procedure,auditory evoked potentials (aep),1,2020-05-08
 Procedure,auricular neuromodulation,1,2020-04-07
@@ -298,6 +305,7 @@ Drug,azithromycin capsule,1,2020-05-07
 Drug,azoximer bromide,1,2020-05-07
 Biological,bactek-r,1,2020-04-19
 Behavioral,bandebereho fathers',1,2020-06-19
+Drug,bardoxolone methyl,1,2020-07-29
 Other,baseline message,1,2020-07-02
 Biological,bcg group,1,2020-05-06
 Biological,bcg vaccine (freeze-dried),1,2020-07-16
@@ -307,7 +315,6 @@ Behavioral,behaviour change support,1,2020-06-03
 Behavioral,behaviour change technique intervention to improve quality of life,1,2020-05-12
 Drug,bemiparin,1,2020-06-05
 Drug,berberine,1,2020-05-13
-Drug,best supportive care (bsc) / ifx-1,1,2020-04-01
 Drug,"best supportive care"" which includes antivirals",1,2020-07-16
 Drug,"best supportive care"" which includes antivirals /antibiotics/ hydroxychloroquine; oxygen therapy",1,2020-07-16
 Drug,best symptomatic treatment based on doctor recommendations),1,2020-06-03
@@ -315,6 +322,9 @@ Drug,bgb dxp593,1,2020-08-27
 Device,bidirectional oxygenation mouthpiece,1,2020-03-25
 Drug,bio101,1,2020-07-06
 Biological,biological test,1,2020-04-21
+Biological,biological/vaccine: recombinant new coronavirus vaccine (cho cell) low-dose group,1,2020-08-16
+Biological,biological/vaccine: recombinant new coronavirus vaccine (cho cells) high-dose group,1,2020-08-16
+Biological,biological/vaccine: recombinant new coronavirus vaccine (cho cells) placebo group,1,2020-08-16
 Biological,biological: oral polio vaccine,1,2020-09-04
 Device,biosensor,1,2020-04-01
 Procedure,biospecimen collection,1,2020-06-05
@@ -333,6 +343,7 @@ Other,blood/derivatives,1,2020-04-02
 Biological,bm-allo.msc,1,2020-05-18
 Drug,bms-986253,1,2020-04-02
 Biological,bnt162a1,1,2020-05-06
+Biological,bnt162b3,1,2020-09-02
 Biological,bnt162c2,1,2020-05-06
 Drug,brazilian green propolis extract (epp-af),1,2020-07-12
 Diagnostic Test,breath test,1,2020-07-03
@@ -355,9 +366,11 @@ Biological,ccp,1,2020-06-17
 Drug,cd24fc,1,2020-03-19
 Biological,cell therapy protocol 1,1,2020-04-20
 Biological,cell therapy protocol 2,1,2020-04-20
+placebo,cellulose-containing placebo capsules,1,2020-03-23
 Drug,cenicriviroc,1,2020-07-14
 Drug,cenicriviroc (cvc),1,2020-08-04
 Device,centricyte 1000,1,2020-03-26
+Dietary Supplement,centrum adult (under 50) multivitamin,1,2020-09-09
 Drug,cerc-002,1,2020-05-29
 Other,certified cloth face mask,1,2020-07-14
 Other,certified cloth face mask/preventive information,1,2020-07-14
@@ -370,7 +383,6 @@ Diagnostic Test,chest ct,1,2020-04-30
 Other,chest ct scan,1,2020-07-21
 Diagnostic Test,chest x-ray,1,2020-07-12
 Drug,chlorhexidine,1,2020-04-08
-Drug,ciclesonide,1,2020-05-05
 Drug,ciclesonide inhalation aerosol,1,2020-05-07
 Other,cig axial,1,2020-07-14
 Other,cig tilted,1,2020-07-14
@@ -412,6 +424,7 @@ Other,control group (pharmacotherapy and,1,2020-06-22
 Other,"control group (pharmacotherapy and/or psychotherapy, n=10)",1,2020-06-22
 Other,control message,1,2020-07-02
 Device,control swab,1,2020-04-24
+Biological,convalescent anti-sars-cov-2 mbt plasma,1,2020-09-10
 Drug,"conventional medicines (oxygen therapy, alfa interferon via aerosol inhalation,",1,2020-01-28
 Drug,"conventional medicines (oxygen therapy, alfa interferon via aerosol inhalation,/lopinavir/ritonavir)",1,2020-01-28
 Device,conventional therapy first,1,2020-08-29
@@ -431,6 +444,7 @@ Other,covid-19 patients,1,2020-05-10
 Behavioral,covid-19 related health warning leaflet,1,2020-05-19
 Diagnostic Test,covid-19 swab,1,2020-06-17
 Behavioral,covid-specific advice,1,2020-05-19
+Biological,covid 19 convalescent plasma,1,2020-08-26
 Biological,covid19 convalescent plasma infusion,1,2020-08-29
 Biological,covid19 vaccine,1,2020-06-03
 Device,covsurf drug delivery system,1,2020-04-20
@@ -452,6 +466,7 @@ Other,daily room disinfection,1,2020-05-19
 Procedure,dalargin,1,2020-04-08
 Drug,danoprevir,1,2020-04-10
 Drug,danoprevir/ritonavir,1,2020-04-10
+Drug,dapansutrile capsules,1,2020-08-13
 Drug,darunavir,1,2020-01-29
 Drug,darunavir/cobicistat,1,2020-01-29
 Drug,das181,1,2020-03-25
@@ -462,6 +477,7 @@ Drug,deferoxamine,1,2020-04-01
 Drug,defibrotide,1,2020-04-08
 Drug,defibrotide 25 mg/kg 24 hours continuous infusion for 15 days,1,2020-04-08
 Drug,degarelix,1,2020-05-14
+Drug,deglycyrrhizinated licorice,1,2020-09-15
 Other,derivatives.,1,2020-04-02
 Drug,desidustat,1,2020-07-07
 Combination Product,device),1,2020-04-09
@@ -497,12 +513,13 @@ Drug,dur-928,1,2020-06-23
 Drug,dutasteride,1,2020-06-22
 Device,ðžxygen therapy,1,2020-07-01
 Behavioral,e-psychotherapy,1,2020-07-13
+Drug,early-dexamethasone,1,2020-08-24
 Drug,ec-18,1,2020-08-04
 Device,ecco2r,1,2020-04-09
 Other,economic benefit message,1,2020-07-02
 Other,economic freedom message,1,2020-07-02
 Drug,eculizumab,1,2020-04-06
-Drug,edp1815,1,2020-05-16
+Other,education,1,2020-08-17
 Behavioral,educational video,1,2020-04-30
 Diagnostic Test,eeg,1,2020-05-26
 Other,eit-group,1,2020-07-31
@@ -516,6 +533,7 @@ Device,endoscopy,1,2020-05-09
 Drug,enoxaparin 1 mg,1,2020-05-28
 Drug,enoxaparin 1 mg/kg,1,2020-05-28
 Drug,enoxaparin/lovenox,1,2020-04-27
+Behavioral,enriched survey feedback,1,2020-04-30
 Drug,ensifentrine dose 1,1,2020-08-06
 Drug,enzalutamide,1,2020-06-08
 Diagnostic Test,ep,1,2020-05-26
@@ -534,6 +552,7 @@ Biological,f-652,1,2020-07-31
 Behavioral,family nurture intervention (fni),1,2020-08-19
 Other,farmalarm,1,2020-06-06
 Drug,favipiravir / standard care,1,2020-04-16
+placebo,favipiravir placebo,1,2020-06-24
 Drug,favipiravir/azithromycin,1,2020-05-23
 Drug,favipiravir/chloroquine,1,2020-03-20
 Drug,favipiravir/nitazoxanide,1,2020-08-26
@@ -542,6 +561,7 @@ Other,feces samples (covi-biome ancillary study),1,2020-03-31
 Other,fenofibrate,1,2020-08-17
 Diagnostic Test,filmarray pneumonia,1,2020-05-06
 Device,filtration test,1,2020-06-26
+Diagnostic Test,fingerstick,1,2020-09-17
 Drug,fingolimod,1,2020-02-20
 Drug,fisetin,1,2020-07-15
 Device,fit test,1,2020-06-26
@@ -562,6 +582,8 @@ Drug,ganovo/ritonavir//-interferon nebulization,1,2020-02-27
 Biological,"garadacimab, factor xiia antagonist monoclonal antibody",1,2020-05-28
 Drug,gargle,1,2020-04-25
 Other,gas exchanges at different peep,1,2020-04-13
+Drug,gc4419,1,2020-09-16
+Biological,gc5131,1,2020-09-16
 Behavioral,general health education,1,2020-03-20
 Drug,gimsilumab,1,2020-04-15
 Drug,gls-1200,1,2020-05-22
@@ -586,7 +608,6 @@ Biological,high-titer convalescent covid-19 plasma (ccp1),1,2020-08-21
 Device,high flow nasal cannula (hfnc),1,2020-03-26
 Behavioral,high intensity interval training group,1,2020-05-21
 Other,home-cov rule implementation,1,2020-04-05
-Other,home care monitoring,1,2020-04-14
 Device,home pulse oximetry monitoring,1,2020-04-30
 Behavioral,hope intervention,1,2020-03-31
 Biological,human amniotic fluid,1,2020-03-22
@@ -611,6 +632,7 @@ Drug,igiv,1,2020-05-18
 Biological,imm-101,1,2020-06-19
 Combination Product,immunofree tablets,1,2020-07-28
 Combination Product,immunofree tablets/reginmune capsule,1,2020-07-28
+Drug,indian costus,1,2020-09-15
 Drug,indomethacin,1,2020-04-08
 Other,inflammatory cytokines,1,2020-04-21
 Other,inflammatory cytokines/chemokines profiles of patients with dexmedetomidine administration,1,2020-04-21
@@ -636,10 +658,7 @@ Device,intraosseous,1,2020-04-23
 Device,intravenous,1,2020-04-23
 Drug,intravenous drug,1,2020-03-26
 Drug,iota-carrageenan,1,2020-08-19
-Dietary Supplement,isocaloric,1,2020-03-23
-Dietary Supplement,isocaloric/isonutrigenous ons,1,2020-03-23
 Drug,isoflurane inhalant product,1,2020-06-02
-Dietary Supplement,isonutrigenous ons,1,2020-03-23
 Drug,itolizumab,1,2020-07-16
 Drug,iv dexamethasone,1,2020-08-12
 Drug,ivermectin (iver pâ®) arm will receive ivm 600 âµg,1,2020-05-05
@@ -649,9 +668,8 @@ Drug,ivermectin / doxycycline / placebo,1,2020-05-17
 Drug,ivermectin / placebo,1,2020-05-17
 Drug,ivermectin/doxycycline,1,2020-08-19
 Drug,ivig,1,2020-07-15
+Biological,kamada anti-sars-cov-2,1,2020-09-10
 Device,kelea water,1,2020-07-27
-Device,kerecis,1,2020-04-20
-Device,kerecis oral/nasal spray,1,2020-04-20
 Drug,ketamine,1,2020-04-26
 Drug,kg 24 hours continuous infusion for 15 days,1,2020-04-08
 Drug,kg once daily,1,2020-05-05
@@ -659,8 +677,8 @@ Behavioral,kundalini yoga,1,2020-05-11
 Behavioral,kundalini yoga/anxiety reduction training,1,2020-05-11
 Dietary Supplement,lactobaciltus rhamnosus gg,1,2020-05-19
 Drug,lambda 180 mcg s.c,1,2020-04-20
-Drug,lanadelumab,1,2020-06-30
 Procedure,laryngoscopy,1,2020-04-24
+Drug,late-dexamethasone,1,2020-08-24
 Drug,lau-7b,1,2020-05-28
 Drug,leaf-4l6715,1,2020-05-05
 Drug,leaf-4l7520,1,2020-05-05
@@ -690,6 +708,7 @@ Drug,ly3127804,1,2020-04-10
 Drug,ly3832479,1,2020-06-09
 Drug,m-m-r ii â® vaccine,1,2020-03-31
 Drug,m5049,1,2020-06-25
+Other,magnetic resonance spectroscopy (mrs).,1,2020-09-10
 Other,maintenance,1,2020-04-07
 Device,makair,1,2020-07-15
 Dietary Supplement,manremyc,1,2020-06-25
@@ -733,6 +752,7 @@ Biological,mf59 adjuvanted sars-cov-2 sclamp vaccine,1,2020-07-13
 Behavioral,mindfullness based cognitive program,1,2020-06-09
 Behavioral,mindfullness training,1,2020-05-04
 Behavioral,mindfulness,1,2020-05-05
+Other,mindfulness based intervention,1,2020-06-11
 Behavioral,mindfulness intervention,1,2020-05-18
 Behavioral,mindfulness session(s),1,2020-03-20
 Behavioral,minimal attention control intervention,1,2020-08-10
@@ -763,6 +783,7 @@ Combination Product,na-831and dexamethasone,1,2020-06-26
 Drug,nacl,1,2020-06-05
 Other,nacl solution,1,2020-05-08
 Drug,naltrexone,1,2020-04-26
+Diagnostic Test,nasal,1,2020-09-17
 Drug,nasal dexamethasone,1,2020-08-12
 Diagnostic Test,nasopharyngeal swabs,1,2020-04-27
 Behavioral,negative covid test result - hypothetical scenario,1,2020-07-05
@@ -772,6 +793,7 @@ Other,neutral writing control,1,2020-05-12
 Diagnostic Test,ng biotech,1,2020-04-17
 Diagnostic Test,ng test,1,2020-05-27
 Dietary Supplement,nicotinamide riboside,1,2020-05-22
+Drug,nigella sativa oil,1,2020-09-15
 Device,nioâ® (intraosseous access),1,2020-04-23
 Drug,nitazoxanide with ivermectin,1,2020-04-15
 Drug,nitric oxide-continuous,1,2020-07-16
@@ -797,6 +819,12 @@ Other,observation,1,2020-06-19
 Other,obvio-19 app,1,2020-06-17
 Drug,olokizumab,1,2020-05-06
 Drug,omega-3 fatty acid supplement,1,2020-07-30
+Drug,omega 3,1,2020-09-15
+Drug,omega 3/nigella sativa oil,1,2020-09-15
+Drug,omega 3/nigella sativa oil/anise seed capsule,1,2020-09-15
+Drug,omega 3/nigella sativa oil/deglycyrrhizinated licorice,1,2020-09-15
+Drug,omega 3/nigella sativa oil/indian costus,1,2020-09-15
+Drug,omega 3/nigella sativa oil/quinine pills,1,2020-09-15
 Drug,omeprazole,1,2020-04-01
 Biological,one covid-19 vaccine candidate (tmv-083) administration - high dose,1,2020-07-31
 Behavioral,online intervention mental health covid-19,1,2020-07-10
@@ -808,10 +836,9 @@ Diagnostic Test,optical coherence tomography (oct),1,2020-05-21
 Other,"or psychotherapy, n=10)",1,2020-06-22
 Drug,oral,1,2020-02-24
 Drug,oral co-trimoxazole,1,2020-07-11
-Dietary Supplement,"oral nutrition supplement (ons) enriched in eicosapentaenoic acid, gamma-linolenic acid",1,2020-03-23
-Dietary Supplement,"oral nutrition supplement (ons) enriched in eicosapentaenoic acid, gamma-linolenic acid/antioxidants",1,2020-03-23
 Biological,oral polio vaccine,1,2020-06-22
 Biological,oral polio vaccine / information,1,2020-06-22
+Dietary Supplement,oral supplement enriched in antioxidants,1,2020-03-23
 Drug,osoc,1,2020-04-17
 Biological,otilimab,1,2020-05-04
 Other,oxygen-ozone,1,2020-04-22
@@ -828,6 +855,7 @@ Drug,pb1046,1,2020-05-28
 Device,pbmt,1,2020-05-08
 Device,pbmt/smf,1,2020-05-08
 Diagnostic Test,pcr/serology,1,2020-05-15
+Behavioral,peer resilience champion,1,2020-04-30
 Drug,pegylated interferon-î±2b,1,2020-07-20
 Biological,pembrolizumab,1,2020-03-31
 Diagnostic Test,performance evaluation,1,2020-04-30
@@ -845,12 +873,16 @@ Drug,piperacillin,1,2020-05-15
 Drug,piperacillin/tazobactam,1,2020-05-15
 Drug,pirfenidone,1,2020-02-10
 placebo,placebo (0.9% normal saline),1,2020-09-02
+placebo,placebo (pb0),1,2020-05-26
 placebo,"placebo (sodium chloride bufus, solvent for the preparation of dosage forms for injection 0.9%)",1,2020-08-11
+placebo,placebo comparator: dw-ni,1,2020-09-11
+placebo,placebo comparator: dw-ns,1,2020-09-11
 placebo,placebo mouthwash (water),1,2020-07-14
 placebo,placebo of drug,1,2020-09-04
 placebo,placebo pmdi,1,2020-08-06
 Drug,placebo/control,1,2020-07-30
 Procedure,placenta-derived mmscs; cryopreserved placenta-derived multipotent mesenchymal stromal cells,1,2020-07-01
+Drug,plant polyphenol,1,2020-05-22
 Drug,plitidepsin,1,2020-05-07
 Biological,plx-pad,1,2020-05-14
 Drug,poractant alfa,1,2020-05-07
@@ -859,9 +891,15 @@ Behavioral,positive covid test result - hypothetical scenario,1,2020-07-05
 Behavioral,positive feedback,1,2020-06-18
 Other,postural positioning,1,2020-04-10
 Drug,povidone,1,2020-04-08
+Drug,povidone-iodine 0.4% ni,1,2020-09-11
+Drug,povidone-iodine 0.5% ni,1,2020-09-11
+Drug,povidone-iodine 0.5% ns,1,2020-09-11
+Drug,povidone-iodine 0.6% ni,1,2020-09-11
+Drug,povidone-iodine 0.6% ns,1,2020-09-11
 Behavioral,prayer,1,2020-04-16
 Drug,prazosin,1,2020-04-24
 Other,prediction market,1,2020-05-27
+Dietary Supplement,preservision areds formulation gel tabs,1,2020-09-09
 Other,primary care,1,2020-07-09
 Other,probiorinse,1,2020-07-01
 Dietary Supplement,probiotics,1,2020-08-16
@@ -869,6 +907,7 @@ Behavioral,problem-solving,1,2020-04-12
 Behavioral,problem-solving/relationship improvement intervention.,1,2020-04-12
 Procedure,procalcitonin,1,2020-04-02
 Drug,progesterone,1,2020-04-24
+Other,progressive cycling exercise test to exhaustion,1,2020-09-09
 Biological,prolastin,1,2020-07-28
 Drug,prophylactic,1,2020-05-20
 Drug,prophylactic heparin,1,2020-08-06
@@ -892,6 +931,7 @@ Biological,qazcovid-inâ® - covid-19 inactivated vaccine,1,2020-08-26
 Dietary Supplement,quadramune(tm),1,2020-06-04
 Other,quality-of-life assessment,1,2020-07-21
 Other,quality of life promotion,1,2020-08-07
+Drug,quinine pills,1,2020-09-15
 Combination Product,quinquina-stevia,1,2020-08-03
 Combination Product,quinquina-stevia/azythromycin,1,2020-08-03
 Drug,r tablets,1,2020-03-25
@@ -913,9 +953,13 @@ Biological,recovered covid 19 patients plasma,1,2020-08-26
 Biological,rectal swab,1,2020-04-17
 Behavioral,referral card,1,2020-05-19
 Combination Product,reginmune capsule,1,2020-07-28
+Drug,regn10933 / regn10987,1,2020-06-26
+Drug,regn10933/regn10987,1,2020-07-24
+Other,regular care,1,2020-06-03
 Other,rehabilitation,1,2020-04-26
 Behavioral,relationship improvement intervention.,1,2020-04-12
 Behavioral,remain covid free ssi,1,2020-06-29
+Drug,remdesivir (rdv),1,2020-08-26
 Biological,remestemcel-l,1,2020-04-28
 Behavioral,remote cognitive behavioral therapy for insomnia,1,2020-05-28
 Other,removal of dead space filter,1,2020-06-07
@@ -937,6 +981,7 @@ Other,saline-sodium citrate (ssc) buffer,1,2020-06-16
 Biological,saline containing 1% human serum albuminï¼ˆsolution without uc-mscsï¼‰,1,2020-02-24
 Other,saline with baby shampoo nasal irrigation,1,2020-04-11
 Drug,saline/standard care,1,2020-03-14
+Diagnostic Test,saliva specimen,1,2020-09-17
 Diagnostic Test,sample collection,1,2020-04-30
 Diagnostic Test,sample collection/performance evaluation (a),1,2020-04-30
 Diagnostic Test,sample collection/performance evaluation (b),1,2020-04-30
@@ -964,6 +1009,7 @@ Biological,scb-2019,1,2020-05-25
 Biological,scb-2019 with as03 adjuvant,1,2020-05-25
 Biological,scb-2019 with cpg 1018 adjuvant,1,2020-05-25
 Biological,scb-2019 with cpg 1018 adjuvant/alum adjuvant,1,2020-05-25
+Device,scd,1,2020-05-17
 Other,sch intervention,1,2020-06-26
 Behavioral,self-compassion for chronic pain virtual group treatment program,1,2020-05-21
 Behavioral,self-help booklet,1,2020-05-26
@@ -982,6 +1028,7 @@ Drug,sildenafil,1,2020-07-25
 Drug,sildenafil citrate,1,2020-02-14
 Drug,silymarin,1,2020-05-15
 Behavioral,simha kriya,1,2020-08-03
+Behavioral,simple cognitive task intervention,1,2020-07-06
 Drug,simvastatin,1,2020-04-13
 Drug,sirukumab,1,2020-05-07
 Dietary Supplement,sivomixx,1,2020-04-22
@@ -990,10 +1037,9 @@ Device,smf,1,2020-05-08
 Behavioral,sms-based support,1,2020-05-19
 Behavioral,sms message support,1,2020-05-26
 Drug,sng001,1,2020-04-24
+Drug,soc / ifx-1,1,2020-04-01
 Drug,soc / intravenous famotidine,1,2020-04-27
-Drug,soc / placebo,1,2020-04-27
 Drug,sodium bicarbonate,1,2020-05-02
-Drug,sodium nitrite,1,2020-05-21
 Drug,sofosbuvir/daclatasvir,1,2020-08-26
 Device,spartan covid-19 system,1,2020-07-14
 Other,spin-chat program,1,2020-04-01
@@ -1038,8 +1084,12 @@ Behavioral,telesimulation,1,2020-08-12
 Drug,tenofovir disoproxil,1,2020-04-02
 Drug,tetrandrine,1,2020-03-04
 Other,the management of severe covid-19 cases,1,2020-08-05
+Other,therapeutic exercise,1,2020-08-17
+Other,therapeutic exercise/education,1,2020-08-17
 Drug,theraputic heparin,1,2020-08-06
 Behavioral,therapy intervention,1,2020-05-06
+Diagnostic Test,throat swab,1,2020-09-17
+Drug,thymalfasin,1,2020-07-22
 Drug,thymosin,1,2020-03-21
 Biological,tigeraseâ®,1,2020-07-03
 Biological,tigeraseâ®/best available care,1,2020-07-03
@@ -1054,6 +1104,8 @@ Drug,tradipitant,1,2020-03-26
 Drug,traditional chinese medicine,1,2020-01-28
 Other,training clinicians in basic critical care,1,2020-08-05
 Other,training clinicians in basic critical care/the management of severe covid-19 cases,1,2020-08-05
+Behavioral,"training for awareness, resilience,",1,2020-09-11
+Behavioral,"training for awareness, resilience,/action (tara)",1,2020-09-11
 Other,"training of youth, community health assistants",1,2020-08-05
 Other,"training of youth, community health assistants/community health workers.",1,2020-08-05
 Behavioral,training session adressing information,1,2020-06-29
@@ -1091,6 +1143,9 @@ Biological,utooth btc),1,2020-03-28
 Drug,uttr1147a,1,2020-05-11
 Biological,v-sars,1,2020-04-29
 Biological,v591,1,2020-08-03
+Biological,vaccine: recombinant new coronavirus vaccine (cho cell) low-dose group,1,2020-08-16
+Biological,vaccine: recombinant new coronavirus vaccine (cho cells) high-dose group,1,2020-08-16
+placebo,vaccine: recombinant new coronavirus vaccine (cho cells) placebo group,1,2020-08-16
 Drug,vadadustat,1,2020-07-15
 Other,vehicle,1,2020-04-13
 Other,vehicle / heparin along with best supportive care,1,2020-04-13
@@ -1106,6 +1161,8 @@ Other,virtual care at home,1,2020-05-29
 Behavioral,virtual group intervention,1,2020-05-29
 Device,virtual reality,1,2020-07-03
 Device,virtual reality therapy first,1,2020-08-29
+Device,viruxal oral,1,2020-04-20
+Device,viruxal oral/nasal spray,1,2020-04-20
 Dietary Supplement,vitamin b12,1,2020-05-18
 Drug,vitamin c tablets,1,2020-02-15
 Dietary Supplement,vitamins,1,2020-04-11
@@ -1114,10 +1171,12 @@ Dietary Supplement,viusid/asbrip,1,2020-05-25
 Device,volatile organic compounds analysis,1,2020-04-28
 Device,vv-ecmo,1,2020-03-25
 Device,vv-ecmo / cytokine adsorption,1,2020-03-25
+Device,water without an elevated level of kelea,1,2020-07-27
 Other,wearing surgical face mask sprayed with hypertonic saline,1,2020-07-02
 Other,weekly assessment,1,2020-04-07
 Behavioral,who recommendations (waiting condition),1,2020-03-26
 Other,woebot substance use disorder,1,2020-07-01
+Drug,xav-19,1,2020-06-22
 Drug,xcel-umc-beta,1,2020-05-07
 Behavioral,yoga group,1,2020-05-21
 Drug,zanubrutinib,1,2020-05-07

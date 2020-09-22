@@ -1,22 +1,23 @@
 Intervention_type,intervention,Study_count
-Other,questionnaire,58
+Other,questionnaire,62
 Other,no intervention,26
 Other,online survey,9
 Diagnostic Test,serology test,8
+Other,survey,8
 Diagnostic Test,pcr,7
 Other,observational,7
-Other,survey,7
 Behavioral,questionnaire,6
 Biological,blood sample,6
 Other,covid-19,5
 Other,exposure,5
+Biological,saliva,4
 Diagnostic Test,igg antibody test,4
 Diagnostic Test,lung ultrasound,4
 Drug,ace inhibitor,4
 Other,blood sample,4
-Biological,saliva,3
 Diagnostic Test,igm/igg rapid test,3
 Diagnostic Test,questionnaire,3
+Diagnostic Test,saliva,3
 Drug,hydroxychloroquine,3
 Other,biological samples,3
 Other,covid-19 pandemic,3
@@ -25,10 +26,13 @@ Other,data record,3
 Other,interview,3
 Other,non-interventional,3
 Other,other,3
+Other,quality-of-life assessment,3
 Other,serology test,3
 Other,standard care,3
 Other,taste,3
 Other,ultrasound,3
+Behavioral,assessment of work-related stress,2
+Behavioral,emotional stimulation,2
 Behavioral,observation,2
 Biological,biological data,2
 Biological,pcr,2
@@ -39,7 +43,6 @@ Diagnostic Test,igg,2
 Diagnostic Test,igm antibodytest,2
 Diagnostic Test,online survey,2
 Diagnostic Test,rt-pcr,2
-Diagnostic Test,saliva,2
 Diagnostic Test,sars-cov-2 diagnostic rapid test,2
 Diagnostic Test,serum test,2
 Diagnostic Test,standard care,2
@@ -56,13 +59,12 @@ Other,file scanning,2
 Other,observation,2
 Other,practice details,2
 Other,prone positioning,2
-Other,quality-of-life assessment,2
 Other,quality of life,2
 Other,sample collection,2
 Other,serum test,2
 Procedure,biological samples,2
+Procedure,biospecimen collection,2
 Procedure,prone positioning,2
-Behavioral,assessment of work-related stress,1
 Behavioral,change in preference to surgery under covid-19 pandemic.,1
 Behavioral,clinical features,1
 Behavioral,collection of odour samples,1
@@ -71,7 +73,8 @@ Behavioral,covid-19 positive pregnant women,1
 Behavioral,covid-surgres questionaire,1
 Behavioral,covid19,1
 Behavioral,education sessions,1
-Behavioral,emotional stimulation,1
+Behavioral,educational meetings,1
+Behavioral,educational meetings/visual prompts,1
 Behavioral,environmental exposure,1
 Behavioral,environmental exposure/clinical features,1
 Behavioral,examine the impact of covid-19 during pregnancy,1
@@ -95,6 +98,7 @@ Behavioral,social media,1
 Behavioral,social media/news consumption,1
 Behavioral,turkish physicians,1
 Behavioral,views,1
+Behavioral,visual prompts,1
 Biological,biological assays in particular on the lipid metabolism,1
 Biological,biological samples,1
 Biological,blood collection,1
@@ -119,6 +123,8 @@ Device,breath biopsy face masks with removable filters/fitted pva strip,1
 Device,bva-100,1
 Device,c3,1
 Device,c3/ holter monitor,1
+Device,cardiac,1
+Device,cardiac/electrodermal recordings,1
 Device,coviage,1
 Device,covx,1
 Device,device used to record voice for screening,1
@@ -126,6 +132,7 @@ Device,doctor spot,1
 Device,earsats pulse oximeter probe,1
 Device,ecg,1
 Device,echocardiography,1
+Device,electrodermal recordings,1
 Device,extracorporeal membrane oxygenation,1
 Device,faecal sample collector,1
 Device,fitted pva strip,1
@@ -162,6 +169,7 @@ Diagnostic Test,biomarkers expression,1
 Diagnostic Test,blood draw,1
 Diagnostic Test,blood sample for serology to measure past infection with sars-cov-2,1
 Diagnostic Test,blood test,1
+Diagnostic Test,breath test,1
 Diagnostic Test,butterfly,1
 Diagnostic Test,c-reactive protein,1
 Diagnostic Test,cag length <22,1
@@ -186,6 +194,7 @@ Diagnostic Test,diagnosis of sars-cov2 by rt-pcr,1
 Diagnostic Test,"diagnosis of sars-cov2 by rt-pcr/: igg, ig m serologies in the amniotoc fluid, the blood cord/the placenta",1
 Diagnostic Test,diagnostic examination for venous thromboembolism,1
 Diagnostic Test,diagnostic test,1
+Diagnostic Test,diagnostic test: serology test for covid-19,1
 Diagnostic Test,duplex ultrasound/computed tomography angiography,1
 Diagnostic Test,echo-doppler,1
 Diagnostic Test,echocardiogram,1
@@ -230,6 +239,7 @@ Diagnostic Test,magnetic resonance imaging,1
 Diagnostic Test,mcc ims,1
 Diagnostic Test,mri,1
 Diagnostic Test,mrna in urine test,1
+Diagnostic Test,multicapillary column coupled ion mobility spectrometry,1
 Diagnostic Test,muscle,1
 Diagnostic Test,nasal,1
 Diagnostic Test,nasopharyngeal swab,1
@@ -249,6 +259,9 @@ Diagnostic Test,performing ai algorithms on images,1
 Diagnostic Test,peripheral blood sampling,1
 Diagnostic Test,pet-ct of 18f-fdg,1
 Diagnostic Test,phlebotomy,1
+Diagnostic Test,"platelet count, platelet, mean platelet volume",1
+Diagnostic Test,"platelet count, platelet, mean platelet volume/platelet distribution width in covid-19",1
+Diagnostic Test,platelet distribution width in covid-19,1
 Diagnostic Test,point-of-care test for sars-cov-2,1
 Diagnostic Test,polysomnography,1
 Diagnostic Test,post-traumatic stress screening,1
@@ -297,6 +310,7 @@ Diagnostic Test,sars-cov2 testing,1
 Diagnostic Test,scanning chest x-rays/performing ai algorithms on images,1
 Diagnostic Test,self-administered questionnaire,1
 Diagnostic Test,semen qualitative analysis,1
+Diagnostic Test,"serelogy testing, rt pcr",1
 Diagnostic Test,serum neutralization,1
 Diagnostic Test,specimen collection,1
 Diagnostic Test,stc-19,1
@@ -351,7 +365,10 @@ Drug,dornase alfa,1
 Drug,famotidine,1
 Drug,favipiravir,1
 Drug,favorable outcome,1
+Drug,fondaparinux,1
 Drug,guduchi ghan vati,1
+Drug,heparin,1
+Drug,hydroxychloroquine pill,1
 Drug,immunoglubulins,1
 Drug,immunosuppressive,1
 Drug,ketotifen,1
@@ -370,11 +387,13 @@ Drug,ritonavir,1
 Drug,sedation,1
 Drug,standard care,1
 Drug,tcm,1
+Drug,thromboprophylaxis,1
 Drug,tinzaparin,1
 Drug,tinzaparin/dalteparin,1
 Drug,tocilizumab,1
 Genetic,complete thrombophilic profile testing by multiplex pcr,1
 Genetic,covid-19 androgen sensitivity test (covast),1
+Genetic,massive parallel sequencing of host genome,1
 Genetic,next generation sequencing (ngs) analysis,1
 Genetic,sequencing,1
 Genetic,whole exome sequencing,1
@@ -390,6 +409,7 @@ Other,"adaptive immune response, complement activation,",1
 Other,admission to icu for covid-19,1
 Other,after covid-19 pandemic,1
 Other,after the covid-19 outbreak in patients with behã§et,1
+Other,airwave oscillometry,1
 Other,airway pressure release ventilation,1
 Other,all treatment about covid-2019,1
 Other,"analysis of cytokine response, innate",1
@@ -398,10 +418,12 @@ Other,antidiabetic treatment,1
 Other,antithrombotic therapy (anticoagulant and,1
 Other,antithrombotic therapy (anticoagulant and/or antiplatelet) before admission for covid19,1
 Other,anxiety questionnaire,1
+Other,anxiety),1
 Other,arb,1
 Other,assessing impact of covid19,1
 Other,assessment of postnatal depression using the the edinburgh questionnaire between 4,1
 Other,assessment of postnatal depression using the the edinburgh questionnaire between 4/6 weeks after delivery,1
+Other,assessment of the sequelae after hospitalization for sars-cov-2,1
 Other,attendance by ambulance crew,1
 Other,beck depression inventory (bdi),1
 Other,biochemical analysis,1
@@ -434,6 +456,7 @@ Other,covid-19 experience surveys,1
 Other,covid-19 facility,1
 Other,covid-19 infection,1
 Other,covid-19 infection status,1
+Other,covid-19 survey,1
 Other,covid-19 treatments,1
 Other,covid-19/ observational,1
 Other,covid-19/intensive care,1
@@ -443,6 +466,8 @@ Other,cross-sectional observational study,1
 Other,cross-sectional study investigating the association of npis with mental health,1
 Other,cross sectional study using scientifically validated psychometric scales,1
 Other,daily syndromic surveillance,1
+Other,dass-21 instrument (depression,1
+Other,dass-21 instrument (depression/anxiety),1
 Other,data collection from blood draw,1
 Other,data collection from lumbar puncture,1
 Other,data collection from medical files,1
@@ -453,13 +478,16 @@ Other,"data research, database analysis",1
 Other,death with routine,1
 Other,demographic characteristics,1
 Other,depression scale,1
+Other,diagnostic laboratory biomarker analysis,1
 Other,diet tracking,1
 Other,"dietary counselling on food groups according to iyc feeding practices, who",1
 Other,differences in triage,1
+Other,dlco,1
 Other,during covid-19 pandemic,1
 Other,echocardiography,1
 Other,electrodermal recordings,1
 Other,electrolytes,1
+Other,electronic health record review,1
 Other,endoscopic management according to standard of care,1
 Other,epds (edinburgh postnatal depression scale),1
 Other,epidemiological,1
@@ -493,6 +521,7 @@ Other,hospital acquired infection,1
 Other,hospital anxiety,1
 Other,hospital anxiety/depression scale,1
 Other,human milk donors,1
+Other,ier-r (posttraumatic stress),1
 Other,igm/igg rapid test,1
 Other,imaging characteristics of pneumonia,1
 Other,immunoglobulin,1
@@ -521,6 +550,7 @@ Other,measurement of circulating sflt1 concentration,1
 Other,mechanical trombectomy,1
 Other,mhealth assessments,1
 Other,microscopy of defined brain regions on autopsy specimens,1
+Other,mmrc (modified medical research council) dyspnea scale,1
 Other,mobile internet survey on self-test,1
 Other,model building,1
 Other,model validation,1
@@ -563,6 +593,7 @@ Other,oxygen,1
 Other,pandemic control measures,1
 Other,passed infection of sars-cov-2,1
 Other,patient characteristics,1
+Other,patient with sar-cov-2 infection,1
 Other,patients,1
 Other,patients admitted to intensive care unit with sars-cov2,1
 Other,patients received standard of care treatment during hospitalization,1
@@ -576,6 +607,8 @@ Other,phq,1
 Other,phq-9 depression scale,1
 Other,phsyiotherapy,1
 Other,physiotherapy,1
+Other,plethysmography,1
+Other,plethysmography/dlco,1
 Other,post covid-19 functional satus scale,1
 Other,pre-operative screening,1
 Other,predict admission of covid-19 patients to icu,1
@@ -588,14 +621,17 @@ Other,"primary care professionals reports of potential patient safety incidents,
 Other,"pro bnp , vitamin d",1
 Other,prospective chart review,1
 Other,prospective oberservational registry,1
+Other,psqi,1
 Other,pss,1
 Other,psychological,1
 Other,psychological/sociological interviews,1
 Other,pulmonary rehabilitation,1
+Other,q spect-ct,1
 Other,quality of live assessment,1
 Other,questionaire,1
 Other,"quickly avalaible clinical, biological",1
 Other,radiological variables?,1
+Other,rapid-3,1
 Other,rapid molecular test,1
 Other,reactivity,1
 Other,relation between frailty,1
@@ -611,9 +647,12 @@ Other,serial seroconversion measurements in hospital employees during the covid-
 Other,seroprevalence of sars-cov-2 infection in patients with hiv infection,1
 Other,serum neurofilaments as a marker of neurological damage.,1
 Other,simulation of repurposed drugs for covid-19,1
+Other,six-minute walk test (6mwt),1
 Other,SOP,1
 Other,speq (specific psychotic experiences questionnaire) - paranoia,1
 Other,speq (specific psychotic experiences questionnaire) - paranoia/grandiosity subscales,1
+Other,spirometry,1
+Other,st. george's respiratory questionnaire (sgrq),1
 Other,stress,1
 Other,stress/anxiety questionnaire,1
 Other,study a,1
@@ -623,6 +662,7 @@ Other,study d,1
 Other,surge capacity,1
 Other,"surgery: dynamic hip screw, hemiarthroplasty, hip replacement, intramedullary nail",1
 Other,survey/questionnaire,1
+Other,surveys/questionnaires,1
 Other,taste/olfactory function evaluation,1
 Other,telehealth,1
 Other,telemedicine to remote outpatient visit in bariatric patient,1
@@ -631,11 +671,13 @@ Other,there is no intervention in this study,1
 Other,thoracic lung ultrasound,1
 Other,thrombin,1
 Other,transplant patient,1
+Other,v,1
+Other,v/q spect-ct,1
 Other,venipuncture in peripheral vein,1
+Other,whoqol-bref,1
 Other,yoga,1
 Other,zaritt burden interview,1
 Procedure,autopsy,1
-Procedure,biospecimen collection,1
 Procedure,blood draw,1
 Procedure,blood sample,1
 Procedure,blood sample for seroepidemiological investigation,1
