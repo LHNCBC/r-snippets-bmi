@@ -1,81 +1,89 @@
 country,Total_changes,Study_Count,changes_per_study
-Puerto Rico,84,1,84
-Japan,116,4,29
-Peru,28,1,28
-Taiwan,39,3,13
+Puerto Rico,106,1,106
+Peru,40,1,40
+Japan,153,4,38.25
+Taiwan,43,3,14.333333333333334
+Kenya,13,1,13
+"Korea, Republic of",117,9,13
+South Africa,91,7,13
+Singapore,123,10,12.3
+Philippines,12,1,12
 Ireland,11,1,11
-Colombia,41,4,10.25
-Philippines,10,1,10
-Romania,20,2,10
-South Africa,59,6,9.833333333333334
-"Korea, Republic of",82,9,9.11111111111111
-Uganda,9,1,9
-Singapore,82,10,8.2
+Uganda,10,1,10
+Romania,29,3,9.666666666666666
+Chile,67,7,9.571428571428571
 Nigeria,8,1,8
-Netherlands,125,19,6.578947368421052
-Chile,44,7,6.285714285714286
-Thailand,12,2,6
-Ecuador,9,2,4.5
-Argentina,116,26,4.461538461538462
-Germany,222,50,4.44
-Czechia,12,3,4
+Colombia,46,6,7.666666666666667
+Netherlands,143,19,7.526315789473684
+Thailand,13,2,6.5
+Argentina,162,27,6
+French Guiana,12,2,6
+Bahrain,11,2,5.5
+Ecuador,11,2,5.5
+Germany,263,51,5.1568627450980395
+Mexico,234,50,4.68
+Czechia,14,3,4.666666666666667
+United States,2518,541,4.654343807763401
+Brazil,272,59,4.610169491525424
+Tunisia,9,2,4.5
+Russian Federation,160,36,4.444444444444445
+United Arab Emirates,13,3,4.333333333333333
+Hungary,30,7,4.285714285714286
+Denmark,132,31,4.258064516129032
 Gibraltar,4,1,4
-Kenya,4,1,4
 Senegal,4,1,4
-Denmark,114,29,3.9310344827586206
-Hungary,27,7,3.857142857142857
-Hong Kong,52,14,3.7142857142857144
-United States,1917,517,3.7079303675048356
-Tunisia,7,2,3.5
-Poland,32,10,3.2
-Brazil,175,56,3.125
-Spain,331,106,3.1226415094339623
-Canada,192,62,3.096774193548387
-Bahrain,6,2,3
+Canada,249,63,3.9523809523809526
+Hong Kong,59,15,3.933333333333333
+Spain,409,108,3.787037037037037
+Australia,51,14,3.642857142857143
+Israel,51,14,3.642857142857143
+Poland,34,10,3.4
+Greece,44,13,3.3846153846153846
+United Kingdom,316,97,3.2577319587628866
+Bosnia and Herzegovina,3,1,3
 Dominican Republic,3,1,3
+Jordan,6,2,3
 Luxembourg,6,2,3
-Greece,35,13,2.6923076923076925
+Austria,40,15,2.6666666666666665
+Monaco,8,3,2.6666666666666665
 Portugal,8,3,2.6666666666666665
-Mexico,130,49,2.6530612244897958
-Russian Federation,91,35,2.6
-Australia,35,14,2.5
-United Kingdom,240,98,2.4489795918367347
-French Guiana,7,3,2.3333333333333335
-Israel,33,15,2.2
-Austria,29,14,2.0714285714285716
-Sweden,60,29,2.0689655172413794
-Italy,219,108,2.0277777777777777
+Sweden,77,29,2.6551724137931036
+India,69,27,2.5555555555555554
+Vietnam,5,2,2.5
+Italy,264,109,2.4220183486238533
+Ukraine,7,3,2.3333333333333335
+Switzerland,83,36,2.3055555555555554
+Saudi Arabia,39,17,2.2941176470588234
+Belgium,88,39,2.2564102564102564
+Ethiopia,2,1,2
 Honduras,2,1,2
-Monaco,6,3,2
-Switzerland,64,36,1.7777777777777777
-Saudi Arabia,28,16,1.75
-Belgium,56,39,1.435897435897436
-China,155,110,1.4090909090909092
-India,35,26,1.3461538461538463
-France,458,353,1.2974504249291785
-Norway,20,16,1.25
-Malaysia,8,7,1.1428571428571428
-"Iran, Islamic Republic of",21,19,1.105263157894737
+Iraq,4,2,2
+Malaysia,13,7,1.8571428571428572
+France,629,364,1.728021978021978
+China,186,110,1.690909090909091
+"Iran, Islamic Republic of",29,19,1.5263157894736843
+Egypt,160,106,1.509433962264151
+Guinea-Bissau,3,2,1.5
+Iceland,3,2,1.5
+Kazakhstan,3,2,1.5
+Turkey,106,78,1.358974358974359
+Norway,23,17,1.3529411764705883
+Pakistan,34,29,1.1724137931034482
+Indonesia,7,6,1.1666666666666667
+Bangladesh,11,11,1
 Belarus,1,1,1
-Bosnia and Herzegovina,1,1,1
-Iraq,2,2,1
-Ukraine,3,3,1
-United Arab Emirates,3,3,1
-Vietnam,2,2,1
-Turkey,55,74,0.7432432432432432
-Egypt,60,103,0.5825242718446602
-Iceland,1,2,0.5
-Indonesia,2,4,0.5
-Jordan,1,2,0.5
-Pakistan,11,22,0.5
+Burkina Faso,1,1,1
+Guinea,2,2,1
+Kuwait,2,3,0.6666666666666666
+North Macedonia,1,2,0.5
 Slovenia,1,2,0.5
+Qatar,3,8,0.375
 Algeria,0,1,0
-North Macedonia,0,2,0
-Bangladesh,-4,11,-0.36363636363636365
-Qatar,-3,8,-0.375
+Rwanda,0,1,0
 Albania,NA,NA,NA
 Armenia,NA,NA,NA
 Bolivia,NA,NA,NA
+Botswana,NA,NA,NA
 Bulgaria,NA,NA,NA
 Costa Rica,NA,NA,NA
 Finland,NA,NA,NA
@@ -90,7 +98,11 @@ Martinique,NA,NA,NA
 "Moldova, Republic of",NA,NA,NA
 Mongolia,NA,NA,NA
 Mozambique,NA,NA,NA
+New Caledonia,NA,NA,NA
+New Zealand,NA,NA,NA
 San Marino,NA,NA,NA
+Serbia,NA,NA,NA
+Sudan,NA,NA,NA
 Tanzania,NA,NA,NA
 Uruguay,NA,NA,NA
 Venezuela,NA,NA,NA
