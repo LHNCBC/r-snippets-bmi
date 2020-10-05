@@ -1,9 +1,9 @@
 Intervention_type,intervention,Study_count
-Other,questionnaire,65
+Other,questionnaire,66
 Other,no intervention,26
 Diagnostic Test,pcr,16
+Diagnostic Test,serology test,10
 Other,online survey,10
-Diagnostic Test,serology test,9
 Other,observational,8
 Other,survey,8
 Biological,blood sample,7
@@ -34,10 +34,12 @@ Other,serology test,3
 Other,standard care,3
 Other,taste,3
 Other,ultrasound,3
+Procedure,blood sample,3
 Behavioral,assessment of work-related stress,2
 Behavioral,emotional stimulation,2
 Behavioral,observation,2
 Biological,biological data,2
+Biological,convalescent plasma,2
 Biological,pcr,2
 Device,ct-scan,2
 Device,mask,2
@@ -47,6 +49,7 @@ Diagnostic Test,igm,2
 Diagnostic Test,igm antibodytest,2
 Diagnostic Test,online survey,2
 Diagnostic Test,sampling,2
+Diagnostic Test,sars-cov-2,2
 Diagnostic Test,serum test,2
 Diagnostic Test,standard care,2
 Drug,arb,2
@@ -68,7 +71,6 @@ Other,serum test,2
 Procedure,biological samples,2
 Procedure,biospeciman collection,2
 Procedure,biospecimen collection,2
-Procedure,blood sample,2
 Procedure,prone positioning,2
 Behavioral,behavior,1
 Behavioral,change in preference to surgery under covid-19 pandemic.,1
@@ -108,7 +110,6 @@ Biological,biological assays in particular on the lipid metabolism,1
 Biological,biological samples,1
 Biological,chest ct,1
 Biological,collection of blood samples in order to create a biocollection,1
-Biological,convalescent plasma,1
 Biological,exposure,1
 Biological,no intervention,1
 Biological,other clinical symptoms,1
@@ -144,6 +145,7 @@ Device,fecal,1
 Device,fitted pva strip,1
 Device,high flow nasal cannula device,1
 Device,holter monitor,1
+Device,ion mobility spectrometry (ims),1
 Device,iota carrageenan,1
 Device,magec spine rod,1
 Device,"masimo, lidco",1
@@ -151,6 +153,7 @@ Device,multifrequency bioimpedance spectroscopy,1
 Device,musclesound ultrasound,1
 Device,nasal high flow,1
 Device,non-invasive ventilatory support,1
+Device,noninvasive ventilation,1
 Device,olfactory device,1
 Device,oxygen,1
 Device,oxygen hood,1
@@ -291,7 +294,6 @@ Diagnostic Test,reverse transcription polymerase chain reaction,1
 Diagnostic Test,saliva/nps test,1
 Diagnostic Test,salivary,1
 Diagnostic Test,samba ii,1
-Diagnostic Test,sars-cov-2,1
 Diagnostic Test,sars-cov-2 ab,1
 Diagnostic Test,sars-cov-2 antibody immunoassays,1
 Diagnostic Test,sars-cov-2 antibody testing,1
@@ -377,6 +379,7 @@ Drug,retrospective case-control analysis,1
 Drug,ritonavir,1
 Drug,sedation,1
 Drug,standard care,1
+Drug,surfactant,1
 Drug,tcm,1
 Drug,thromboprophylaxis,1
 Drug,tinzaparin,1
@@ -528,7 +531,9 @@ Other,interventional groups,1
 Other,invasive mechanical ventilation,1
 Other,investigation of smell,1
 Other,investigation of smell/taste disorders,1
+Other,investigation of the prevalence of test positivity,1
 Other,its,1
+Other,laboratory test positive for sars-cov-2 virus,1
 Other,labs,1
 Other,lifestyle habits,1
 Other,liver,1
@@ -560,6 +565,7 @@ Other,nil intervention,1
 Other,no intervention (survey study for medical doctors).,1
 Other,no intervention / compare the difference in respiratory rate between h0/h12 of the initiation of morphine between the control/interventional groups,1
 Other,no intervention / evaluation of the ferritin/glycosylated ferritin by standard approved serological tests,1
+Other,no intervention on patients,1
 Other,no intervention. observational cohort study,1
 Other,no interventional study,1
 Other,no interventions,1
@@ -666,6 +672,7 @@ Other,thoracic lung ultrasound,1
 Other,thrombin,1
 Other,transplant patient,1
 Other,treatment for covid-19,1
+Other,ultrasonography,1
 Other,v,1
 Other,v/q spect-ct,1
 Other,venipuncture in peripheral vein,1
@@ -698,6 +705,7 @@ Procedure,surgical procedures performed under general anesthesia,1
 Procedure,symptom,1
 Procedure,symptom/exposure surveys,1
 Procedure,throat swab,1
+Procedure,tracheostomy,1
 Procedure,tracheostomy with aerosol box in covid-19 positive patients,1
 Radiation,non-enhanced ct scan of the chest,1
 Radiation,thoracic ct-scan,1
