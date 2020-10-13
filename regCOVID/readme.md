@@ -4,6 +4,8 @@
 Welcome to the page that collects COVID19 studies registered at ClinicalTrials.gov. This page is updated weekly (each Monday).
 
 - [CLICK HERE FOR REPORT](https://lhncbc.github.io/r-snippets-bmi/regCOVID/regCovid_notebook2.html). This is the most important link on this page.
+- Paper pre-print: [here](https://github.com/lhncbc/r-snippets-bmi/blob/master/regCOVID/Paper-1/Mayer-Huser-2020-June-regCOVID.docx?raw=true)
+- Paper pre-print tables: [here](https://github.com/lhncbc/r-snippets-bmi/blob/master/regCOVID/Paper-1/)
 - To see the R code for the analysis and all input and result files, follow this link: [https://github.com/lhncbc/r-snippets-bmi/tree/master/regCOVID](https://github.com/lhncbc/r-snippets-bmi/tree/master/regCOVID)  
 - [DESCRIPTION OF EACH DATA FILE](https://lhncbc.github.io/r-snippets-bmi/regCOVID/regCOVID_data_file_descript.html). This is provided if you plan to use our data or see the results in table format. (instead of a report above)
 - Old releases (data from previous weeks) are available via GitHub repo release mechanism here: https://github.com/lhncbc/r-snippets-bmi/releases
