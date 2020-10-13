@@ -1,8 +1,8 @@
 Intervention_type,intervention,Study_count
-placebo,placebo,323
+placebo,placebo,331
 Drug,hydroxychloroquine,113
-Other,standard care,109
-Biological,convalescent plasma,94
+Other,standard care,113
+Biological,convalescent plasma,95
 Drug,azithromycin,37
 Drug,tocilizumab,32
 Biological,mesenchymal stem cells,30
@@ -12,13 +12,13 @@ Drug,lopinavir,25
 Drug,ivermectin,24
 Drug,favipiravir,23
 Drug,lopinavir/ritonavir,22
+Drug,remdesivir,20
 Biological,blood sample,19
-Drug,remdesivir,19
 Drug,chloroquine,18
 Drug,enoxaparin,16
+Other,prone positioning,16
 Drug,heparin,15
 Device,oxygen,15
-Other,prone positioning,15
 Drug,colchicine,14
 Drug,control,14
 Drug,methylprednisolone,14
@@ -33,9 +33,9 @@ Other,questionnaire,10
 Dietary Supplement,vitamin d,10
 Drug,anakinra,9
 Biological,bcg,9
+Drug,ruxolitinib,9
 Diagnostic Test,serology test,9
 Drug,nitric oxide,8
-Drug,ruxolitinib,8
 Drug,zinc,8
 Drug,baricitinib,7
 Drug,losartan,7
@@ -45,13 +45,14 @@ Other,telehealth,7
 Other,best available therapy,6
 Diagnostic Test,biological samples,6
 Drug,oseltamivir,6
+Drug,rivaroxaban,6
 Drug,sarilumab,6
 Drug,cholecalciferol,5
 Drug,clazakizumab,5
 Biological,inactivated sars-cov-2 vaccine,5
 Drug,ly3819253,5
+Biological,nk cells,5
 Diagnostic Test,pcr,5
-Drug,rivaroxaban,5
 Diagnostic Test,saliva,5
 Drug,sofosbuvir,5
 Drug,telmisartan,5
@@ -68,7 +69,6 @@ Radiation,low,4
 Drug,mavrilimumab,4
 Combination Product,na-831,4
 Diagnostic Test,nasopharyngeal swab,4
-Biological,nk cells,4
 Drug,peginterferon,4
 Drug,regn10933,4
 Drug,regn10987,4
@@ -82,13 +82,13 @@ Biological,biological,3
 Other,blood,3
 Behavioral,blood donation sms,3
 Biological,bnt162b1,3
+Drug,canakinumab,3
 Biological,chadox1,3
 Drug,ciclesonide,3
 Drug,clopidogrel,3
 Drug,corticosteroid,3
 Drug,daclatasvir,3
 Biological,gam-covid-vac,3
-Drug,imatinib,3
 Drug,immunoglobulin,3
 Behavioral,information,3
 Drug,lenzilumab,3
@@ -102,6 +102,7 @@ Drug,pulmozyme,3
 Diagnostic Test,rapid test,3
 Drug,ribavirin,3
 Drug,sargramostim,3
+Biological,sars-cov-2 rs,3
 Drug,sevoflurane,3
 Drug,sirolimus,3
 Drug,soc,3
@@ -124,7 +125,6 @@ Behavioral,behavior,2
 Behavioral,behavioral,2
 Drug,bevacizumab,2
 Biological,bnt162b2,2
-Drug,canakinumab,2
 Drug,cannabidiol,2
 Device,cellectraâ® 2000,2
 Drug,cenicriviroc,2
@@ -147,6 +147,7 @@ Drug,emtricitabine,2
 Drug,famotidine,2
 placebo,favipiravir placebo,2
 Combination Product,favipiravir/hydroxychloroquine,2
+Drug,fostamatinib,2
 Dietary Supplement,honey,2
 Drug,hormones,2
 Combination Product,hyperbaric oxygen,2
@@ -155,6 +156,7 @@ Drug,ibuprofen,2
 Device,igg,2
 Device,igm antibodytest,2
 Drug,iloprost,2
+Drug,imatinib,2
 Drug,imu-838,2
 Biological,ino-4800,2
 Drug,interleukin,2
@@ -162,7 +164,6 @@ Drug,iodine,2
 Other,kb109,2
 Other,kb109 / self supportive care (ssc),2
 Drug,kg,2
-Biological,lanadelumab,2
 Drug,ledipasvir,2
 Device,lung ultrasound,2
 Device,"magpro x100 stimulator, b70 fluid-cooled coil",2
@@ -194,7 +195,6 @@ Biological,recombinant new coronavirus vaccine (cho cell) low-dose group,2
 Biological,recombinant new coronavirus vaccine (cho cells) high-dose group,2
 Drug,regn10933 / regn10987,2
 Drug,regn10933/regn10987 combination therapy,2
-Biological,sars-cov-2 rs,2
 Biological,sars-cov-2 rs/matrix-m1 adjuvant,2
 Other,self supportive care (ssc),2
 Other,self supportive care (ssc) alone,2
@@ -232,6 +232,7 @@ Other,a vignette intervention,1
 Dietary Supplement,aã§aã­ palm berry extract - natural product,1
 Biological,aapc,1
 Diagnostic Test,aaz covid-19 rapid test,1
+Biological,abatacept,1
 Drug,abx464,1
 Device,accuchek inform ii platform,1
 Drug,"ace inhibitor, angiotensin receptor blocker",1
@@ -247,6 +248,8 @@ Drug,aerosolized dnase,1
 Other,after-each-case room disinfection,1
 Biological,ag0301-covid19,1
 Biological,ag0302-covid19,1
+Drug,agent-797,1
+Other,ai algorithm,1
 Other,albumine,1
 Biological,allocetra-ots,1
 Drug,allogeneic,1
@@ -359,12 +362,14 @@ Diagnostic Test,breath test/cheek swab,1
 Other,"breathing exercise, intensive spirometry use, supported cough, progressive mobilisation",1
 Other,"breathing exercise, intensive spirometry use, supported cough, progressive mobilisation/ambulation",1
 Drug,brequinar,1
+Drug,bridge therapy,1
 Dietary Supplement,bromelain,1
 Drug,bromhexine oral tablet and/or hydroxychloroquine tablet,1
 Drug,broncho-vaxomâ®,1
 Drug,btl-tml-covid,1
 Drug,bucillamine,1
 Drug,c21,1
+Drug,camostat,1
 Drug,candesartan,1
 Other,care as usual,1
 Other,caring contacts,1
@@ -400,6 +405,7 @@ Other,cig tilted,1
 Device,citrox,1
 Biological,ck0802,1
 Drug,clarithromycin,1
+Biological,clbs119,1
 Drug,clevudine,1
 Procedure,clinical examination,1
 Drug,clofazimine,1
@@ -430,6 +436,7 @@ Other,continuation of acei/arb,1
 Other,continuation of arb,1
 Drug,continuation of ras blocker,1
 Device,continuous positive airway pressure,1
+Device,continuous vital sign monitoring - isansys patient status engine,1
 Other,control message,1
 Device,control swab,1
 Drug,convalscent plasma,1
@@ -438,6 +445,7 @@ Drug,"conventional medicines (oxygen therapy, alfa interferon via aerosol inhala
 Device,conventional therapy first,1
 Behavioral,coping strategies video,1
 Device,core warming,1
+Biological,coronavac,1
 Behavioral,cosh self-help smoking cessation booklet,1
 Combination Product,cospherunate,1
 Combination Product,cospherunate/azythromycine,1
@@ -462,8 +470,13 @@ Procedure,csvf,1
 Diagnostic Test,ctus examination,1
 Other,cupping,1
 Other,current care per ucla treating physicians,1
+Biological,cvncov (dose level confirmed in part 1),1
+Biological,cvncov 6 î¼g,1
+Biological,cvncov 8 î¼g,1
+Biological,cvncov 8 î¼g (4 î¼g double dose),1
 Biological,cvncov vaccine,1
 Biological,cyp-001,1
+Drug,cyt107,1
 Diagnostic Test,cytokines,1
 Drug,d,1
 Drug,d followed by enoxaparin,1
@@ -612,10 +625,12 @@ Behavioral,hads,1
 Other,health enhancement program,1
 Behavioral,health literacy,1
 Diagnostic Test,health staff,1
+Other,health supplements,1
 Behavioral,health warning leaflet,1
 Other,healthy lifestyle advise,1
 Behavioral,healthy minds program foundations training,1
 Other,hemodynamics changes at different peep,1
+Biological,hepatitis a vaccine,1
 Drug,herbal phenolic monoterpene,1
 Biological,high-titer convalescent covid-19 plasma (ccp1),1
 Radiation,high dose radiation 100 cgy,1
@@ -630,7 +645,9 @@ Biological,human amniotic fluid,1
 Biological,human cord tissue mesenchymal stromal cells,1
 Drug,hydrocortisone,1
 Device,hydrogen oxygen generator with nebulizer,1
+Drug,hydroxychloroquine / metabolic cofactor supplementation,1
 Drug,hydroxychloroquine / oxygen,1
+Drug,hydroxychloroquine / sorbitol,1
 Combination Product,hydroxychloroquine/azithromycin/ tocilizumab,1
 Drug,hydroxychloroquine/clindamycin,1
 Drug,hydroxychloroquine/clindamycin/primaquine,1
@@ -676,10 +693,12 @@ Biological,intramuscular vaccine,1
 Device,intraosseous,1
 Device,intravenous,1
 Drug,intravenous drug,1
+Biological,intravenous immune globulin,1
 Device,invasive mechanical ventilation using the unisabana-herons ventilator during 24 hours,1
 Drug,iota-carrageenan,1
 Drug,isoflurane inhalant product,1
 Drug,itolizumab,1
+Drug,iv tocillizumab (tcz),1
 Drug,ivermectin (iver pâ®) arm will receive ivm 600 âµg,1
 Drug,ivermectin (iver pâ®) arm will receive ivm 600 âµg / kg once daily/standard care. control arm will receive standard care.,1
 Drug,ivermectin / chloroquine,1
@@ -697,6 +716,7 @@ Behavioral,kundalini yoga,1
 Behavioral,kundalini yoga/anxiety reduction training,1
 Dietary Supplement,lactobaciltus rhamnosus gg,1
 Drug,lambda 180 mcg s.c,1
+Biological,lanadelumab,1
 Procedure,laryngoscopy,1
 Drug,lau-7b,1
 Drug,leaf-4l6715,1
@@ -708,13 +728,17 @@ Drug,levamisole,1
 Drug,levamisole / budesonide/formoterol,1
 Drug,levilimab,1
 Drug,liberase enzyme,1
+Biological,licensed seasonal influenza vaccine,1
 Dietary Supplement,licorice extract,1
+Device,life2000â® ventilator,1
 Behavioral,lifestyle change promotion program,1
 Device,limbix spark,1
 Drug,linagliptin,1
 Drug,linagliptin 5 mg,1
 Drug,liposomal,1
 Biological,longitudinally,1
+Drug,lopinavir 200 mg,1
+Drug,lopinavir 200 mg / ritonavir 50 mg [kaletra],1
 Drug,lopinavir/ ritonavir,1
 Other,lopinavir/ ritonavir placebo,1
 Drug,lopinavir/ritonavir / hydoxychloroquine,1
@@ -731,6 +755,8 @@ Drug,ly3127804,1
 Drug,ly3832479,1
 Drug,m-m-r ii â® vaccine,1
 Drug,m5049,1
+Other,machine learning,1
+Other,machine learning/ai algorithm,1
 Other,magnetic resonance spectroscopy (mrs).,1
 Other,maintenance,1
 Device,makair,1
@@ -739,6 +765,7 @@ Device,marker therapeutics d2000 cartridge (d2000) for use with the spectra opti
 Drug,mas825,1
 Device,mask,1
 Procedure,masseter inhibitory reflex,1
+Biological,matrix m1-adjuvant,1
 Other,maximal effort test,1
 Device,mcgrath videolaryngoscope,1
 Drug,measles-mumps-rubella vaccine,1
@@ -754,14 +781,15 @@ Biological,menacwy,1
 Biological,menacwy vaccine,1
 Behavioral,mencare,1
 Behavioral,mencare//bandebereho fathers'/couples' group education,1
+Behavioral,mental imagery,1
 Behavioral,mental well-being,1
 Drug,meplazumab,1
 Drug,merimepodib,1
 Biological,mesenchymal stem cell,1
 Other,mesenchymal stromal cell-based therapy,1
 Behavioral,messaging,1
-Drug,metabolic cofactors supplementation,1
-Drug,metabolic cofactors supplementation/hydroxychloroquine,1
+Drug,metabolic cofactor supplementation,1
+Device,metanebâ® system,1
 Drug,metenkefalin,1
 Drug,metenkefalin / tridecactide,1
 Drug,methylene blue,1
@@ -770,6 +798,7 @@ Drug,methylprednisolone injectable product,1
 Biological,mf59 adjuvanted sars-cov-2 sclamp vaccine,1
 Behavioral,mindfullness training,1
 Other,mindfulness based intervention,1
+Behavioral,mindfulness program,1
 Behavioral,mindfulness session(s),1
 Behavioral,minimal attention control intervention,1
 Device,miniprobe alveoflex,1
@@ -777,6 +806,7 @@ Drug,ml intravenous solution [actemra]_#1,1
 Drug,ml intravenous solution [actemra]_#1 (2 doses),1
 Drug,ml prefilled syringe [kineret],1
 Device,mls laser,1
+Other,moderate intensity aerobic exercises,1
 Drug,molgramostim nebuliser solution,1
 Drug,mometasone furoate nasal spray,1
 Diagnostic Test,monitoring visit,1
@@ -793,7 +823,6 @@ Drug,mr/m-m-r ii â® vaccine,1
 Drug,mrx-4dp0004,1
 Drug,mstt1041a,1
 Drug,mucodentol,1
-Behavioral,multicomponent treatment virtual fibrowalk,1
 Biological,multistem,1
 Drug,n-acetyl cysteine,1
 Combination Product,na-831/atazanavir,1
@@ -870,31 +899,33 @@ Drug,part 1 - tl-895,1
 Drug,part 2 - tl-895,1
 Diagnostic Test,passive microwave radiometry,1
 Behavioral,patient-centred advice on telephone consultation in tb patients:,1
-Drug,pb1046,1
 Device,pbmt,1
 Device,pbmt/smf,1
 Diagnostic Test,pcr/serology,1
 Behavioral,peer resilience champion,1
 Drug,pegylated interferon-î±2b,1
 Biological,pembrolizumab,1
+Drug,pemziviptadil (pb1046),1
 Drug,pentoxifylline,1
+Device,pep flute,1
 Diagnostic Test,performance evaluation,1
 Device,performing of lung ultrasound,1
 Other,personal freedom message,1
 Device,personal protective equipment,1
 Behavioral,personalized feedback,1
 Behavioral,personalized health education,1
+Drug,pf-07304814,1
 Radiation,phase 1,1
 Radiation,phase 2,1
 Drug,phr160 spray,1
 Other,physiotherapy,1
-Behavioral,physiotherapy part of virtual fibrowalk,1
 Combination Product,phytomedicine,1
 Drug,pioglitazone,1
 Drug,piperacillin,1
 Drug,piperacillin/tazobactam,1
 Drug,pirfenidone,1
 placebo,placebo (0.9% normal saline),1
+placebo,placebo (human albumin 1%),1
 placebo,placebo (pb0),1
 placebo,"placebo (sodium chloride bufus, solvent for the preparation of dosage forms for injection 0.9%)",1
 placebo,placebo comparator: dw-ni,1
@@ -913,6 +944,7 @@ Procedure,placenta-derived mmscs; cryopreserved placenta-derived multipotent mes
 Drug,plant polyphenol,1
 Drug,plitidepsin,1
 Biological,plx-pad,1
+Biological,pneumococcal vaccine,1
 Combination Product,polio vaccine,1
 Drug,poractant alfa,1
 Behavioral,position,1
@@ -991,6 +1023,7 @@ Drug,rhace2,1
 Diagnostic Test,rhinopharyngeal,1
 Drug,rhtpo,1
 Drug,rintatolimod,1
+Drug,ritonavir 50 mg [kaletra],1
 placebo,ritonavir placebo,1
 Drug,ritonavir/oseltamivir,1
 Drug,roactemra,1
@@ -1003,6 +1036,7 @@ Other,saline-sodium citrate (ssc) buffer,1
 Biological,saline containing 1% human serum albuminï¼ˆsolution without uc-mscsï¼‰,1
 Other,saline with baby shampoo nasal irrigation,1
 Drug,saline/standard care,1
+Device,saliva assay,1
 Diagnostic Test,sample collection,1
 Diagnostic Test,sample collection/performance evaluation (a),1
 Diagnostic Test,sample collection/performance evaluation (b),1
@@ -1012,6 +1046,7 @@ Biological,sars-cov-2 antibody based ivig therapy,1
 Other,sars-cov-2 infection,1
 Diagnostic Test,"sars-cov-2 research in nasopharyngeal swab, sperm",1
 Diagnostic Test,"sars-cov-2 research in nasopharyngeal swab, sperm/serologics",1
+Biological,sars-cov-2 rs/matrix m1-adjuvant,1
 Biological,sars-cov-2 specific t cells,1
 Biological,sars-cov-2 vaccine formulation 1 with adjuvant 1,1
 Biological,sars-cov-2 vaccine formulation 1 with adjuvant 2,1
@@ -1033,6 +1068,7 @@ Behavioral,self study,1
 Drug,selinexor,1
 Other,serum,1
 Drug,sessions,1
+Other,severity of lung involvement with covid-19.,1
 Behavioral,shared decision making,1
 Behavioral,shg,1
 Drug,sildenafil,1
@@ -1070,6 +1106,7 @@ Diagnostic Test,stimulation test with arginine infusion in order to verify the p
 Other,sudarshan kriya yoga (sky),1
 Drug,sulfamethoxazole,1
 Drug,sulodexide,1
+Other,supine position,1
 Other,supine positioning,1
 Drug,supportive/symptomatic treatment,1
 Other,surgical facial mask,1
@@ -1079,18 +1116,18 @@ Other,suspension/maintenance of angiotensin receptor blockers/angiotensin-conver
 Biological,swab,1
 Other,sweat samples (covidog ancillary study),1
 Drug,symbicort,1
+Drug,symptomatic drugs,1
 Drug,symptomatic treatment,1
 Drug,symptomatic treatment (paracetamol,1
 Drug,symptomatic treatment (paracetamol),1
 Drug,symptomatic treatment (paracetamol/best symptomatic treatment based on doctor recommendations),1
 Drug,synthetic neutralising antibodies,1
 Biological,t cell derived exosom,1
+Biological,t memory cells,1
+Biological,t memory cells/nk cells,1
 Drug,t3 solution,1
 Drug,tacrolimus,1
 Device,tape-software,1
-Behavioral,tau,1
-Behavioral,tau / multicomponent treatment virtual fibrowalk,1
-Behavioral,tau / physiotherapy part of virtual fibrowalk,1
 Drug,tazobactam,1
 Device,tcc-covid mhealth,1
 Drug,td139,1
@@ -1136,11 +1173,12 @@ Diagnostic Test,transpulmonary pressure measurements,1
 Behavioral,trauma-informed yoga video recording,1
 Drug,treamid,1
 Drug,treatment,1
-Behavioral,treatment as usual (tau),1
 Drug,treatment/prophylaxis,1
+Drug,triazavirin (riamilovir),1
 Drug,tridecactide,1
 Drug,trimethoprim,1
 Drug,trimethoprim/sulfamethoxazole,1
+Drug,trimodulin,1
 Drug,trimoxazole,1
 Other,trust in science message,1
 Procedure,tsvf,1
@@ -1156,6 +1194,7 @@ Drug,umifenovir,1
 Behavioral,unavailable covid test result - hypothetical scenario,1
 Drug,unfractionated heparin iv,1
 Drug,unfractionated heparin sc,1
+Drug,uni911 inhalation,1
 Behavioral,unified protocol for covid-19 parenting stress (up-covid),1
 Other,unsupervised physical activities,1
 Other,usual antibiotic treatment,1
@@ -1205,6 +1244,7 @@ Other,weekly assessment,1
 Behavioral,who recommendations (waiting condition),1
 Device,withings scanwatch,1
 Other,woebot substance use disorder,1
+Behavioral,written summary of rounds,1
 Drug,xav-19,1
 Drug,xc221,1
 Drug,xcel-umc-beta,1

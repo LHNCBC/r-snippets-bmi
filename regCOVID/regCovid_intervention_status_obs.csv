@@ -73,6 +73,7 @@ breath biopsy face masks with removable filters,0,0,0,1
 breath biopsy face masks with removable filters/fitted pva strip,0,0,0,1
 breath test,0,0,0,1
 brushing,0,0,0,1
+burnout,0,0,0,1
 butterfly,0,0,0,1
 bva-100,0,0,0,1
 c-reactive protein,0,0,0,1
@@ -89,6 +90,7 @@ carotid artery reactivity testing,1,0,0,0
 case fatality rate,0,1,0,0
 cellular response,0,0,0,1
 change in preference to surgery under covid-19 pandemic.,0,1,0,0
+chemotherapy,1,0,0,0
 chest ct,0,1,0,0
 chest mri,0,0,0,1
 chlorine dioxide,0,0,0,1
@@ -110,6 +112,8 @@ cobicistat,0,0,0,1
 collection of blood samples in order to create a biocollection,0,0,0,1
 collection of odour samples,0,0,0,1
 collection of swabs,0,0,0,1
+collection of tears,0,0,1,0
+collection of tears/saliva.,0,0,1,0
 community-driven messages to promote covid-19 testing,0,0,1,0
 compare the difference in respiratory rate between h0,0,0,0,1
 complete thrombophilic profile testing by multiplex pcr,0,0,0,1
@@ -221,7 +225,7 @@ examinations for the research:,0,0,0,1
 examine the impact of covid-19 during pregnancy,0,0,0,1
 exercise,0,0,1,2
 experiences of health care professionals working in intensive care units during the covid-19 pandemic,0,0,0,1
-experts consensus,1,0,0,0
+experts consensus,0,1,0,0
 exposure,1,2,0,3
 exposure surveys,1,0,0,0
 exposure to the dutch measures due to the covid-19 pandemic.,0,0,0,1
@@ -257,6 +261,7 @@ glycaemic levels,0,0,0,1
 glycosylated ferritin by standard approved serological tests,0,0,0,1
 "gps reports of potential patient safety incidents, non-covid-19 related",0,0,0,1
 grandiosity subscales,0,0,0,1
+group 1,1,0,0,0
 group1,0,0,0,1
 guduchi ghan vati,0,1,0,0
 gustatory tests,0,0,0,1
@@ -296,6 +301,7 @@ immunoglubulins,0,0,0,1
 immunological,0,0,0,1
 immunosuppressive,0,0,0,1
 impact event score,0,0,0,1
+impulseâ„¢ una e-stethoscope,0,0,0,1
 in-hospital mortality rate,0,1,0,0
 individualized-chinese herbal medicine,0,0,0,1
 infectious disease,0,0,0,1
@@ -323,6 +329,7 @@ laboratory analyses,0,0,0,1
 laboratory diagnostics tests,0,0,0,1
 laboratory test positive for sars-cov-2 virus,0,0,0,1
 labs,0,0,0,1
+lamp,0,0,0,1
 lateral position (left,0,0,0,1
 lateral position (left/right lateral decubitus),0,0,0,1
 lifestyle habits,0,1,0,0
@@ -388,6 +395,8 @@ no intervention / compare the difference in respiratory rate between h0/h12 of t
 no intervention / evaluation of the ferritin/glycosylated ferritin by standard approved serological tests,0,0,0,1
 no intervention on patients,0,0,0,1
 no intervention planned due to the observational study design only a diagnostic testing,0,0,1,0
+"no intervention, this is an observational study that uses validated questionnaires",0,0,0,1
+"no intervention, this is an observational study that uses validated questionnaires/qualitative interviews..",0,0,0,1
 no intervention. observational cohort study,0,0,0,1
 no interventional study,0,0,0,1
 no interventions,1,0,0,0
@@ -409,7 +418,7 @@ nps test,0,0,0,1
 nutrition,1,0,0,0
 nutritional assessment,0,0,0,1
 nutritional intervention,0,0,0,1
-observation,0,1,0,3
+observation,0,1,0,4
 observation of covid 19 pneumonia,0,0,0,1
 observational,2,0,0,7
 observational cohort study on the natural history of hospitalized sars-cov-2 patients.,1,0,0,0
@@ -441,7 +450,7 @@ patient with sar-cov-2 infection,0,0,0,1
 patients,1,0,0,0
 patients admitted to intensive care unit with sars-cov2,1,0,0,0
 patients received standard of care treatment during hospitalization,0,0,0,1
-pcr,0,5,3,11
+pcr,0,5,3,12
 pcr/chest ct,0,1,0,0
 pcr/serology,0,0,0,1
 pct,0,0,0,1
@@ -452,6 +461,7 @@ performing ai algorithms on images,0,0,0,1
 personal protective equipment from biological hazard,0,1,0,0
 personal protective testing booth,1,0,0,0
 pet-ct of 18f-fdg,0,1,0,0
+philips lumify ultrasound system,0,0,0,1
 phlebotomy,0,0,0,1
 phobia questionairre,0,0,0,1
 phq,0,0,0,1
@@ -468,6 +478,8 @@ plethysmography/dlco,0,0,0,1
 point-of-care test for sars-cov-2,0,0,0,1
 polyoxidonium,1,0,0,0
 polysomnography,1,0,0,0
+pool lamp,0,0,0,1
+pool rt-pcr,0,0,0,1
 post-traumatic stress screening,0,0,0,1
 post covid-19 functional satus scale,0,0,0,1
 practice details,0,2,0,0
@@ -490,6 +502,7 @@ psychological,1,0,0,0
 psychological stress,0,1,0,0
 psychological stress/adaptation at work score (psas),0,1,0,0
 psychological/sociological interviews,1,0,0,0
+ptsd,0,0,0,1
 public health england gold standard,0,0,0,1
 pulmonary function tests,0,0,0,1
 pulmonary rehabilitation,0,1,0,0
@@ -497,7 +510,8 @@ pwv,0,0,0,1
 q-nrg metobolic cart device,0,0,0,1
 q spect-ct,0,0,0,1
 qualitative assessments of mental health,0,0,0,1
-quality-of-life assessment,0,0,0,3
+qualitative interviews..,0,0,0,1
+quality-of-life assessment,0,0,0,4
 quality of life,0,0,1,1
 quality of life questionnaires,0,0,0,1
 quality of live assessment,0,0,0,1
@@ -508,7 +522,7 @@ quantitative igg test,1,0,0,0
 quantitative/qualitative assessments of mental health,0,0,0,1
 quantra system,0,0,1,0
 questionaire,0,1,0,0
-questionnaire,7,17,3,49
+questionnaire,7,20,3,50
 "quickly avalaible clinical, biological",1,0,0,0
 radiological,0,0,0,1
 radiological variables?,1,0,0,0
@@ -539,6 +553,7 @@ right lateral decubitus),0,0,0,1
 risk factors,0,1,0,0
 ritonavir,0,0,0,1
 saliva,0,1,1,7
+saliva.,0,0,1,0
 saliva/nps test,0,0,0,1
 salivary,0,1,0,0
 samba ii,0,0,0,1
@@ -548,6 +563,7 @@ sars-cov-2,0,1,0,1
 sars-cov-2 ab,0,1,0,0
 sars-cov-2 antibody immunoassays,1,0,0,0
 sars-cov-2 antibody testing,0,0,0,1
+sars-cov-2 igg,0,0,0,1
 sars-cov-2 s1,0,0,0,1
 sars-cov-2 s1/s2 igg,0,0,0,1
 sars-cov2 infection,0,0,0,1
@@ -556,20 +572,26 @@ satisfaction evaluation,0,0,0,1
 scanning chest x-rays/performing ai algorithms on images,0,0,0,1
 sedation,0,0,0,1
 self-administered questionnaire,0,1,0,0
+self-reported symptom collection,0,0,0,1
 semen qualitative analysis,0,0,0,1
 semi-directive interview,0,0,0,1
+semi-structured telephone questionnaire,0,0,0,1
 sequencing,0,0,0,1
 serial seroconversion measurements in hospital employees during the covid-19 pandemic,0,0,0,1
 serologic assays for antibodies to sars-cov-2,0,0,0,1
 serologic immunoassays to sars-cov-2 antibodies,0,0,0,1
 serology test,1,1,3,9
+serology test for covid-19,0,0,0,1
 seroprevalence of sars-cov-2 infection in patients with hiv infection,0,0,0,1
 serum neurofilaments as a marker of neurological damage.,0,0,0,1
 serum neutralization,0,0,0,1
 serum test,0,1,0,3
+simple chest tomography,0,1,0,0
 simulation of repurposed drugs for covid-19,1,0,0,0
 sivomixx,1,0,0,0
 six-minute walk test (6mwt),0,0,0,1
+smartphone-based voice,0,0,0,1
+smartphone-based voice/self-reported symptom collection,0,0,0,1
 social distancing,0,1,0,0
 social media,0,0,0,1
 social media/news consumption,0,0,0,1
@@ -610,6 +632,7 @@ taste,0,0,0,3
 taste/olfactory function evaluation,0,0,0,1
 tcm,0,1,0,0
 tears swab,0,1,0,0
+teleconsultation,1,0,0,0
 telehealth,0,0,1,0
 telemedicine to remote outpatient visit in bariatric patient,0,1,0,0
 telephone consult,0,0,0,1
@@ -645,6 +668,7 @@ tuberculin,0,0,0,1
 turkish physicians,0,1,0,0
 ultrasonography,0,1,0,1
 ultrasound,0,1,0,3
+"use of the pinpointiq solution (physiq, inc.)",0,0,1,0
 v,0,0,0,1
 v/q spect-ct,0,0,0,1
 venipuncture in peripheral vein,0,0,0,1
@@ -657,4 +681,4 @@ whoqol-bref,0,0,0,1
 x-ray,0,0,0,1
 yoga,0,0,0,1
 zaritt burden interview,0,0,0,1
-NA,32,62,16,254
+NA,33,66,16,257

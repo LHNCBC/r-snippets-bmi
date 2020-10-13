@@ -7,6 +7,7 @@ antibody test,0,0,0,1
 antihypertensives,1,0,0,0
 assessment of cardiovascular diseases,0,0,0,1
 assessment of cardiovascular diseases/cardiovascular risk factors,0,0,0,1
+assessment tests,0,0,0,1
 assessment),0,0,0,1
 at risk for covid-19 infection,0,0,0,1
 azithromycin,0,1,0,0
@@ -15,6 +16,7 @@ biological samples,0,0,0,1
 blood d-dimer assay,0,1,0,0
 blood sample,0,0,0,2
 brief psychiatric rating scale,0,0,0,1
+building of the classification model,0,0,0,1
 cardiopulmonary resuscitation,0,0,0,1
 cardiovascular risk factors,0,0,0,1
 cerebral compliance,0,1,0,0
@@ -28,6 +30,9 @@ connor-davidson resilience scale 10 items (cd-risc 10),0,0,0,1
 copan swabbing,0,0,0,1
 copan swabbing/blood sample collection,0,0,0,1
 coronavirus disease 2019,0,0,0,1
+covid-19,0,0,0,1
+covid-19 diagnostic,0,0,0,1
+covid-19 diagnostic/assessment tests,0,0,0,1
 covid-19 positive via testing,0,0,0,1
 cytosorb,0,0,0,1
 data collection,0,0,0,1
@@ -75,7 +80,7 @@ modified rankin score,0,0,0,1
 muscle,0,0,0,1
 nä°cas,0,0,0,1
 netosis markers,0,0,0,1
-no intervention,1,0,0,6
+no intervention,1,0,0,7
 "no intervention, observational",0,0,0,1
 no interverntion,0,0,0,1
 no special intervention,0,1,0,0
@@ -99,6 +104,8 @@ pregnant women under investigation for coronavirus,0,0,0,1
 pregnant women under investigation for coronavirus/diagnosed with covid-19,0,0,0,1
 pregnant women with laboratory-confirmed 2019-n-cov,0,0,0,2
 questionnaire,0,1,0,4
+"raman analysis of saliva, characterization of the raman database",0,0,0,1
+"raman analysis of saliva, characterization of the raman database/building of the classification model",0,0,0,1
 rapid test,1,0,0,0
 recop unit patient,2,0,0,0
 registery data collection,0,0,0,1
@@ -125,6 +132,7 @@ ultrasound,0,0,0,1
 "urinary ngal, timp-2, igfbp7, il-6, viral load",0,0,0,1
 "urinary ngal, timp-2, igfbp7, il-6, viral load/metabolomic",0,0,0,1
 vitamin d,0,0,1,0
+vitros anti-sars-cov-2 igg test,0,0,0,1
 web-based redcap survey,0,0,0,1
 web application users,0,0,0,1
-NA,4,9,3,61
+NA,5,9,3,61

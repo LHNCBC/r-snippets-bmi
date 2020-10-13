@@ -1,13 +1,13 @@
 Intervention_type,intervention,Study_count
-Other,questionnaire,66
+Other,questionnaire,68
 Other,no intervention,26
-Diagnostic Test,pcr,16
+Diagnostic Test,pcr,17
 Diagnostic Test,serology test,10
 Other,online survey,10
+Behavioral,questionnaire,8
 Other,observational,8
 Other,survey,8
 Biological,blood sample,7
-Behavioral,questionnaire,6
 Other,blood sample,6
 Other,covid-19,6
 Diagnostic Test,igg antibody test,5
@@ -18,6 +18,7 @@ Diagnostic Test,lung ultrasound,4
 Diagnostic Test,saliva,4
 Drug,ace inhibitor,4
 Drug,hydroxychloroquine,4
+Other,quality-of-life assessment,4
 Diagnostic Test,blood sample,3
 Diagnostic Test,igg,3
 Diagnostic Test,questionnaire,3
@@ -28,8 +29,8 @@ Other,data collection,3
 Other,data record,3
 Other,interview,3
 Other,non-interventional,3
+Other,observation,3
 Other,other,3
-Other,quality-of-life assessment,3
 Other,serology test,3
 Other,standard care,3
 Other,taste,3
@@ -62,7 +63,6 @@ Other,ct-scan,2
 Other,dialysis,2
 Other,exercise,2
 Other,file scanning,2
-Other,observation,2
 Other,practice details,2
 Other,prone positioning,2
 Other,quality of life,2
@@ -73,6 +73,7 @@ Procedure,biospeciman collection,2
 Procedure,biospecimen collection,2
 Procedure,prone positioning,2
 Behavioral,behavior,1
+Behavioral,burnout,1
 Behavioral,change in preference to surgery under covid-19 pandemic.,1
 Behavioral,clinical features,1
 Behavioral,collection of odour samples,1
@@ -98,6 +99,7 @@ Behavioral,minnrap peer support program,1
 Behavioral,news,1
 Behavioral,online survey,1
 Behavioral,prone positioning,1
+Behavioral,ptsd,1
 Behavioral,remote pulmonary rehabilitation,1
 Behavioral,saliva,1
 Behavioral,social distancing,1
@@ -145,6 +147,7 @@ Device,fecal,1
 Device,fitted pva strip,1
 Device,high flow nasal cannula device,1
 Device,holter monitor,1
+Device,impulseâ„¢ una e-stethoscope,1
 Device,ion mobility spectrometry (ims),1
 Device,iota carrageenan,1
 Device,magec spine rod,1
@@ -158,6 +161,7 @@ Device,olfactory device,1
 Device,oxygen,1
 Device,oxygen hood,1
 Device,percutaneous coronary revascularization for stemi,1
+Device,philips lumify ultrasound system,1
 Device,"platelet function analyzer scp1, sienco, usa",1
 Device,q-nrg metobolic cart device,1
 Device,respiratory monitor,1
@@ -165,6 +169,7 @@ Device,sonclot coagulation,1
 Device,"sonclot coagulation/platelet function analyzer scp1, sienco, usa",1
 Device,tof protocol,1
 Device,transpulmonary thermodilution,1
+Device,"use of the pinpointiq solution (physiq, inc.)",1
 Device,vv-ecmo,1
 Diagnostic Test,": igg, ig m serologies in the amniotoc fluid, the blood cord",1
 Diagnostic Test,abpm,1
@@ -237,6 +242,7 @@ Diagnostic Test,ip-10,1
 Diagnostic Test,kir phenotype evaluation,1
 Diagnostic Test,laboratory analyses,1
 Diagnostic Test,laboratory diagnostics tests,1
+Diagnostic Test,lamp,1
 Diagnostic Test,lung function test,1
 Diagnostic Test,lung function tests,1
 Diagnostic Test,machine learning model,1
@@ -270,6 +276,8 @@ Diagnostic Test,"platelet count, platelet, mean platelet volume/platelet distrib
 Diagnostic Test,platelet distribution width in covid-19,1
 Diagnostic Test,point-of-care test for sars-cov-2,1
 Diagnostic Test,polysomnography,1
+Diagnostic Test,pool lamp,1
+Diagnostic Test,pool rt-pcr,1
 Diagnostic Test,post-traumatic stress screening,1
 Diagnostic Test,prognostic score,1
 Diagnostic Test,psychological stress,1
@@ -297,6 +305,7 @@ Diagnostic Test,samba ii,1
 Diagnostic Test,sars-cov-2 ab,1
 Diagnostic Test,sars-cov-2 antibody immunoassays,1
 Diagnostic Test,sars-cov-2 antibody testing,1
+Diagnostic Test,sars-cov-2 igg,1
 Diagnostic Test,sars-cov-2 s1,1
 Diagnostic Test,sars-cov-2 s1/s2 igg,1
 Diagnostic Test,sars-cov2 testing,1
@@ -305,7 +314,9 @@ Diagnostic Test,self-administered questionnaire,1
 Diagnostic Test,semen qualitative analysis,1
 Diagnostic Test,serologic assays for antibodies to sars-cov-2,1
 Diagnostic Test,serologic immunoassays to sars-cov-2 antibodies,1
+Diagnostic Test,serology test for covid-19,1
 Diagnostic Test,serum neutralization,1
+Diagnostic Test,simple chest tomography,1
 Diagnostic Test,specimen collection,1
 Diagnostic Test,stc-19,1
 Diagnostic Test,study of immune-mediated mechanisms in patients tested positive for sars-cov-2,1
@@ -347,6 +358,7 @@ Drug,azithromycin,1
 Drug,baricitinib,1
 Drug,baricitinib/anakinra,1
 Drug,calcium channel blockers,1
+Drug,chemotherapy,1
 Drug,chlorine dioxide,1
 Drug,cobicistat,1
 Drug,corticosteroids,1
@@ -505,6 +517,7 @@ Other,glycaemic levels,1
 Other,glycosylated ferritin by standard approved serological tests,1
 Other,"gps reports of potential patient safety incidents, non-covid-19 related",1
 Other,grandiosity subscales,1
+Other,group 1,1
 Other,group1,1
 Other,gustatory tests,1
 Other,h12 of the initiation of morphine between the control,1
@@ -566,6 +579,8 @@ Other,no intervention (survey study for medical doctors).,1
 Other,no intervention / compare the difference in respiratory rate between h0/h12 of the initiation of morphine between the control/interventional groups,1
 Other,no intervention / evaluation of the ferritin/glycosylated ferritin by standard approved serological tests,1
 Other,no intervention on patients,1
+Other,"no intervention, this is an observational study that uses validated questionnaires",1
+Other,"no intervention, this is an observational study that uses validated questionnaires/qualitative interviews..",1
 Other,no intervention. observational cohort study,1
 Other,no interventional study,1
 Other,no interventions,1
@@ -625,6 +640,7 @@ Other,psychological,1
 Other,psychological/sociological interviews,1
 Other,pulmonary rehabilitation,1
 Other,q spect-ct,1
+Other,qualitative interviews..,1
 Other,quality of life questionnaires,1
 Other,quality of live assessment,1
 Other,questionaire,1
@@ -642,12 +658,16 @@ Other,retrospective metagenomics on clinical samples collected during hospitaliz
 Other,risk factors,1
 Other,sars-cov2 infection,1
 Other,satisfaction evaluation,1
+Other,self-reported symptom collection,1
 Other,semi-directive interview,1
+Other,semi-structured telephone questionnaire,1
 Other,serial seroconversion measurements in hospital employees during the covid-19 pandemic,1
 Other,seroprevalence of sars-cov-2 infection in patients with hiv infection,1
 Other,serum neurofilaments as a marker of neurological damage.,1
 Other,simulation of repurposed drugs for covid-19,1
 Other,six-minute walk test (6mwt),1
+Other,smartphone-based voice,1
+Other,smartphone-based voice/self-reported symptom collection,1
 Other,SOP,1
 Other,speq (specific psychotic experiences questionnaire) - paranoia,1
 Other,speq (specific psychotic experiences questionnaire) - paranoia/grandiosity subscales,1
@@ -664,6 +684,7 @@ Other,"surgery: dynamic hip screw, hemiarthroplasty, hip replacement, intramedul
 Other,survey/questionnaire,1
 Other,surveys/questionnaires,1
 Other,taste/olfactory function evaluation,1
+Other,teleconsultation,1
 Other,telehealth,1
 Other,telemedicine to remote outpatient visit in bariatric patient,1
 Other,telephone consult,1
@@ -681,6 +702,8 @@ Other,yoga,1
 Other,zaritt burden interview,1
 Procedure,autopsy,1
 Procedure,blood sample for seroepidemiological investigation,1
+Procedure,collection of tears,1
+Procedure,collection of tears/saliva.,1
 Procedure,continuous renal replacement therapy,1
 Procedure,data collection: clinical care assessments,1
 Procedure,elective cancer surgery,1
@@ -699,6 +722,7 @@ Procedure,orthopaedic surgical procedures,1
 Procedure,osteosynthesis,1
 Procedure,questionnaire,1
 Procedure,right lateral decubitus),1
+Procedure,saliva.,1
 Procedure,study arm,1
 Procedure,surgery,1
 Procedure,surgical procedures performed under general anesthesia,1

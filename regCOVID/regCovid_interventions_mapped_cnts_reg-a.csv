@@ -1,5 +1,5 @@
 Intervention_type,intervention,Study_count
-Other,no intervention,7
+Other,no intervention,8
 Other,questionnaire,4
 Behavioral,telehealth,2
 Diagnostic Test,blood sample,2
@@ -58,6 +58,7 @@ Diagnostic Test,sars-cov-2-test,1
 Diagnostic Test,ultrasound,1
 Diagnostic Test,"urinary ngal, timp-2, igfbp7, il-6, viral load",1
 Diagnostic Test,"urinary ngal, timp-2, igfbp7, il-6, viral load/metabolomic",1
+Diagnostic Test,vitros anti-sars-cov-2 igg test,1
 Dietary Supplement,vitamin d,1
 Drug,ace inhibitor,1
 Drug,antihypertensives,1
@@ -71,10 +72,14 @@ Drug,ivermectin / doxycycline,1
 Drug,methylprednisolone,1
 Drug,patients with the treatment agains covid19,1
 Drug,statins,1
+Genetic,assessment tests,1
+Genetic,covid-19 diagnostic,1
+Genetic,covid-19 diagnostic/assessment tests,1
 Other,at risk for covid-19 infection,1
 Other,biological samples,1
 Other,blood d-dimer assay,1
 Other,brief psychiatric rating scale,1
+Other,building of the classification model,1
 Other,cardiopulmonary resuscitation,1
 Other,chloroquine,1
 Other,chloroquine/hydroxychloroquine,1
@@ -83,6 +88,7 @@ Other,clinical diagnosis of covid-19 by a health care professional,1
 Other,complex diagnostic panel,1
 Other,connor-davidson resilience scale 10 items (cd-risc 10),1
 Other,coronavirus disease 2019,1
+Other,covid-19,1
 Other,covid-19 positive via testing,1
 Other,data collection,1
 Other,"depression, anxiety",1
@@ -116,6 +122,8 @@ Other,postpartum,1
 Other,postpartum women under investigation for coronavirus/diagnosed with covid-19,1
 Other,pregnant women under investigation for coronavirus,1
 Other,pregnant women under investigation for coronavirus/diagnosed with covid-19,1
+Other,"raman analysis of saliva, characterization of the raman database",1
+Other,"raman analysis of saliva, characterization of the raman database/building of the classification model",1
 Other,serology test,1
 Other,stress scale,1
 Other,survey,1
