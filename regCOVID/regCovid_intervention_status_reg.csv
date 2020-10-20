@@ -40,7 +40,7 @@ data registry,0,0,0,1
 "depression, anxiety",0,0,0,1
 "depression, anxiety/stress scale",0,0,0,1
 diabetes type 2,1,0,0,0
-diagnosed with covid-19,0,0,0,1
+diagnosed with covid-19,0,0,1,0
 doxycycline,0,1,0,0
 ecg-holter,0,0,0,1
 elisa,1,0,0,0
@@ -98,10 +98,10 @@ patients with the treatment agains covid19,0,0,0,1
 pcr,0,1,0,1
 pcr/serology,0,0,0,1
 performance evaluation study of realdetect rt-pcr kit for covid-19 detection,0,0,0,1
-postpartum,0,0,0,1
-postpartum women under investigation for coronavirus/diagnosed with covid-19,0,0,0,1
-pregnant women under investigation for coronavirus,0,0,0,1
-pregnant women under investigation for coronavirus/diagnosed with covid-19,0,0,0,1
+postpartum,0,0,1,0
+postpartum women under investigation for coronavirus/diagnosed with covid-19,0,0,1,0
+pregnant women under investigation for coronavirus,0,0,1,0
+pregnant women under investigation for coronavirus/diagnosed with covid-19,0,0,1,0
 pregnant women with laboratory-confirmed 2019-n-cov,0,0,0,2
 questionnaire,0,1,0,4
 "raman analysis of saliva, characterization of the raman database",0,0,0,1
@@ -132,7 +132,7 @@ ultrasound,0,0,0,1
 "urinary ngal, timp-2, igfbp7, il-6, viral load",0,0,0,1
 "urinary ngal, timp-2, igfbp7, il-6, viral load/metabolomic",0,0,0,1
 vitamin d,0,0,1,0
-vitros anti-sars-cov-2 igg test,0,0,0,1
+vitros anti-sars-cov-2 igg test,0,0,1,0
 web-based redcap survey,0,0,0,1
 web application users,0,0,0,1
-NA,5,9,3,61
+NA,5,9,3,62

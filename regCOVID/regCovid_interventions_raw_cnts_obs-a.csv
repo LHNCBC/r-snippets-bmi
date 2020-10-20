@@ -1,5 +1,5 @@
 Intervention_type,intervention,Study_count
-Other,questionnaire,68
+Other,questionnaire,69
 Other,no intervention,26
 Diagnostic Test,pcr,17
 Diagnostic Test,serology test,10
@@ -54,9 +54,8 @@ Diagnostic Test,sars-cov-2,2
 Diagnostic Test,serum test,2
 Diagnostic Test,standard care,2
 Drug,arb,2
+Drug,corticosteroids,2
 Drug,interleukin,2
-Drug,ivermectin,2
-Drug,methylprednisolone,2
 Other,clinical assessment,2
 Other,clinical data,2
 Other,ct-scan,2
@@ -72,6 +71,7 @@ Procedure,biological samples,2
 Procedure,biospeciman collection,2
 Procedure,biospecimen collection,2
 Procedure,prone positioning,2
+Procedure,throat swab,2
 Behavioral,behavior,1
 Behavioral,burnout,1
 Behavioral,change in preference to surgery under covid-19 pandemic.,1
@@ -90,6 +90,8 @@ Behavioral,examine the impact of covid-19 during pregnancy,1
 Behavioral,experiences of health care professionals working in intensive care units during the covid-19 pandemic,1
 Behavioral,fsfi survey,1
 Behavioral,generalized anxiety disorder-7 (gad-7),1
+Behavioral,informational videos,1
+Behavioral,informational videos/social media campaigns encouraging cancer screening.,1
 Behavioral,interview,1
 Behavioral,"knowledge, attitude, practice, awareness, preference",1
 Behavioral,lock-down,1
@@ -104,6 +106,7 @@ Behavioral,remote pulmonary rehabilitation,1
 Behavioral,saliva,1
 Behavioral,social distancing,1
 Behavioral,social media,1
+Behavioral,social media campaigns encouraging cancer screening.,1
 Behavioral,social media/news consumption,1
 Behavioral,turkish physicians,1
 Behavioral,views,1
@@ -120,6 +123,9 @@ Biological,"reporting of anosmia, ageusia",1
 Biological,"reporting of anosmia, ageusia/other clinical symptoms",1
 Biological,serology test,1
 Biological,specific anti-sars-cov-2 antibodies,1
+Combination Product,iota carrageenan nasal spray,1
+Combination Product,iota carrageenan nasal spray/ivermectin oral drops (used as buccal drops),1
+Combination Product,ivermectin oral drops (used as buccal drops),1
 Combination Product,respiratory rehabilitation,1
 Combination Product,systemic,1
 Device,adam sensor,1
@@ -149,7 +155,6 @@ Device,high flow nasal cannula device,1
 Device,holter monitor,1
 Device,impulseâ„¢ una e-stethoscope,1
 Device,ion mobility spectrometry (ims),1
-Device,iota carrageenan,1
 Device,magec spine rod,1
 Device,"masimo, lidco",1
 Device,multifrequency bioimpedance spectroscopy,1
@@ -219,6 +224,7 @@ Diagnostic Test,"evaluation of clinical, instrumental/laboratory diagnostics tes
 Diagnostic Test,even birth year intervention groups,1
 Diagnostic Test,examinations for the research:,1
 Diagnostic Test,exercise,1
+Diagnostic Test,fibreoptic endoscopic evaluation of swallowing (fees),1
 Diagnostic Test,fingertip tests for poc assays,1
 Diagnostic Test,fmd,1
 Diagnostic Test,functional mri,1
@@ -240,6 +246,8 @@ Diagnostic Test,interleuken 6,1
 Diagnostic Test,interleukin,1
 Diagnostic Test,ip-10,1
 Diagnostic Test,kir phenotype evaluation,1
+Diagnostic Test,lab workup (on admission,1
+Diagnostic Test,lab workup (on admission/regularly during follow up).,1
 Diagnostic Test,laboratory analyses,1
 Diagnostic Test,laboratory diagnostics tests,1
 Diagnostic Test,lamp,1
@@ -295,6 +303,7 @@ Diagnostic Test,quantra system,1
 Diagnostic Test,radiological,1
 Diagnostic Test,rarefaction,1
 Diagnostic Test,recombinase,1
+Diagnostic Test,regularly during follow up).,1
 Diagnostic Test,respiratory mechanics measurement,1
 Diagnostic Test,"respiratory symptoms, symptoms of anxiety",1
 Diagnostic Test,"respiratory symptoms, symptoms of anxiety/depression,/post-traumatic stress screening",1
@@ -340,6 +349,7 @@ Diagnostic Test,tomography angiography,1
 Diagnostic Test,tuberculin,1
 Diagnostic Test,ultrasonography,1
 Diagnostic Test,ultrasound,1
+Diagnostic Test,videofluoroscopy,1
 Diagnostic Test,volume rapid test,1
 Diagnostic Test,whole exome sequencing,1
 Diagnostic Test,x-ray,1
@@ -361,11 +371,12 @@ Drug,calcium channel blockers,1
 Drug,chemotherapy,1
 Drug,chlorine dioxide,1
 Drug,cobicistat,1
-Drug,corticosteroids,1
+Drug,corticosteroids/derivatives,1
 Drug,covid-19 treatment,1
 Drug,dalteparin,1
 Drug,darunavir,1
 Drug,darunavir/cobicistat,1
+Drug,derivatives,1
 Drug,dexamethasone,1
 Drug,dornase alfa,1
 Drug,famotidine,1
@@ -376,10 +387,14 @@ Drug,guduchi ghan vati,1
 Drug,heparin,1
 Drug,immunoglubulins,1
 Drug,immunosuppressive,1
+Drug,ivermectin,1
+Drug,"ivermectin 5 mg/ml oral solution, aspirin 250 mg tablets",1
 Drug,ketotifen,1
 Drug,lopinavir,1
 Drug,lopinavir/ritonavir,1
 Drug,management of covid-19,1
+Drug,methylprednisolone,1
+Drug,"ml oral solution, aspirin 250 mg tablets",1
 Drug,no-immunosuppressive,1
 Drug,non-acei,1
 Drug,non-acei/arb,1
@@ -490,6 +505,7 @@ Other,"dietary counselling on food groups according to iyc feeding practices, wh
 Other,differences in triage,1
 Other,dlco,1
 Other,during covid-19 pandemic,1
+Other,dysphagia handicap index (dhi),1
 Other,echocardiography,1
 Other,electrodermal recordings,1
 Other,electrolytes,1
@@ -527,6 +543,7 @@ Other,home-use test,1
 Other,hospital acquired infection,1
 Other,hospital anxiety,1
 Other,hospital anxiety/depression scale,1
+Other,"hospitalisation, necessity of icu, mortality rate, lung involvement",1
 Other,human milk donors,1
 Other,ier-r (posttraumatic stress),1
 Other,igm/igg rapid test,1
@@ -540,12 +557,16 @@ Other,infectious disease,1
 Other,infectious disease/cardiology clinical consultations,1
 Other,informed consent,1
 Other,intensive care,1
+Other,intensive care unit admission ratio,1
 Other,interventional groups,1
 Other,invasive mechanical ventilation,1
 Other,investigation of smell,1
 Other,investigation of smell/taste disorders,1
 Other,investigation of the prevalence of test positivity,1
 Other,its,1
+Other,ivermectin,1
+Other,"ivermectin 5 mg/ml oral solution, dexamethasone 4-mg injection, aspirin 250 mg tablets",1
+Other,"ivermectin 5 mg/ml oral solution, dexamethasone 4-mg injection, enoxaparin injection. inpatient treatment with mechanical ventilation in icu.",1
 Other,laboratory test positive for sars-cov-2 virus,1
 Other,labs,1
 Other,lifestyle habits,1
@@ -559,6 +580,8 @@ Other,measurement of circulating sflt1 concentration,1
 Other,mechanical trombectomy,1
 Other,mhealth assessments,1
 Other,microscopy of defined brain regions on autopsy specimens,1
+Other,"ml oral solution, dexamethasone 4-mg injection, aspirin 250 mg tablets",1
+Other,"ml oral solution, dexamethasone 4-mg injection, enoxaparin injection. inpatient treatment with mechanical ventilation in icu.",1
 Other,mmrc (modified medical research council) dyspnea scale,1
 Other,mobile internet survey on self-test,1
 Other,model building,1
@@ -575,6 +598,7 @@ Other,newborns,1
 Other,nhanes smell,1
 Other,nhanes smell/taste tests,1
 Other,nil intervention,1
+Other,no intervention - quality of life measure,1
 Other,no intervention (survey study for medical doctors).,1
 Other,no intervention / compare the difference in respiratory rate between h0/h12 of the initiation of morphine between the control/interventional groups,1
 Other,no intervention / evaluation of the ferritin/glycosylated ferritin by standard approved serological tests,1
@@ -697,13 +721,17 @@ Other,ultrasonography,1
 Other,v,1
 Other,v/q spect-ct,1
 Other,venipuncture in peripheral vein,1
+Other,voice symptom scale (voiss),1
 Other,whoqol-bref,1
 Other,yoga,1
 Other,zaritt burden interview,1
 Procedure,autopsy,1
+Procedure,blood collection via fingerprick,1
 Procedure,blood sample for seroepidemiological investigation,1
+Procedure,collection of mucosal lining fluid,1
 Procedure,collection of tears,1
 Procedure,collection of tears/saliva.,1
+Procedure,colorectal resections,1
 Procedure,continuous renal replacement therapy,1
 Procedure,data collection: clinical care assessments,1
 Procedure,elective cancer surgery,1
@@ -718,6 +746,8 @@ Procedure,lateral position (left,1
 Procedure,lateral position (left/right lateral decubitus),1
 Procedure,lung ultrasound,1
 Procedure,lung ultrasound (lus),1
+Procedure,nasopharyngeal,1
+Procedure,nasopharyngeal/throat swab,1
 Procedure,orthopaedic surgical procedures,1
 Procedure,osteosynthesis,1
 Procedure,questionnaire,1
@@ -728,7 +758,6 @@ Procedure,surgery,1
 Procedure,surgical procedures performed under general anesthesia,1
 Procedure,symptom,1
 Procedure,symptom/exposure surveys,1
-Procedure,throat swab,1
 Procedure,tracheostomy,1
 Procedure,tracheostomy with aerosol box in covid-19 positive patients,1
 Radiation,non-enhanced ct scan of the chest,1
