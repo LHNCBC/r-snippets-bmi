@@ -47,11 +47,12 @@ elisa,1,0,0,0
 elisa/rapid test to detect antibodies against covid-19,1,0,0,0
 emergency surgery,0,1,0,0
 endoscopic intervention,0,1,0,0
+endoscopic procedure,0,1,0,0
 enhanced hygiene measures,1,0,0,0
 evaluation,0,0,0,1
 evaluation of changes in the diagnostic-therapeutic pathway,0,1,0,0
 face mask sampling,0,0,0,1
-follow up,0,0,0,1
+follow up,1,0,0,0
 gastrointestinal endoscopy,0,1,0,0
 general anesthesia,0,0,0,1
 health care worker survey,0,0,0,1
@@ -61,7 +62,7 @@ hospitalized children with covid19,0,0,0,1
 hydroxychloroquine,0,1,1,0
 hydroxychloroquine / azithromycin,0,1,0,0
 hypertension,1,0,0,0
-icu treatment,0,0,0,1
+icu treatment,0,0,0,2
 igg,1,0,0,0
 igg antibody test,0,0,0,1
 igg test,0,0,0,1
@@ -80,9 +81,7 @@ modified rankin score,0,0,0,1
 muscle,0,0,0,1
 nä°cas,0,0,0,1
 netosis markers,0,0,0,1
-no intervention,1,0,0,7
-"no intervention, observational",0,0,0,1
-no interverntion,0,0,0,1
+no intervention,1,0,0,9
 no special intervention,0,1,0,0
 non-hospitalization procedures,0,0,0,1
 non-interventional study,0,0,0,1
@@ -135,4 +134,4 @@ vitamin d,0,0,1,0
 vitros anti-sars-cov-2 igg test,0,0,1,0
 web-based redcap survey,0,0,0,1
 web application users,0,0,0,1
-NA,5,9,3,62
+NA,4,10,3,64

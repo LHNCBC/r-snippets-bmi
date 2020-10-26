@@ -1,11 +1,13 @@
 intervention,"Active, not recruiting",Completed,Enrolling by invitation,Recruiting
 ": igg, ig m serologies in the amniotoc fluid, the blood cord",0,0,0,1
+[68ga]ga-dota-(rgd)2 pet,0,0,0,1
+[68ga]ga-dota-(rgd)2 pet/ct,0,0,0,1
 [timp-2]*[igfbp-7],0,1,0,0
 6 weeks after delivery,0,0,0,1
 "ä±t will be compared pain, sleep, fatigue, physical activity level",0,0,1,0
 "ä±t will be compared pain, sleep, fatigue, physical activity level/quality of life/questioning exercise habits before/after the covid-19 outbreak in patients with behã§et/fmf.",0,0,1,0
 abpm,0,0,0,1
-ace inhibitor,1,2,0,1
+ace inhibitor,1,2,0,2
 ace inhibitor/arb,1,0,0,0
 ace inhibitors/calcium channel blockers,0,1,0,0
 ace/arb,0,0,0,1
@@ -64,9 +66,7 @@ biological samples,1,0,1,4
 biomarkers expression,0,0,0,1
 biospeciman collection,0,0,0,3
 biospecimen collection,0,0,0,3
-blood collection via fingerprick,0,1,0,0
-blood sample,1,1,0,17
-blood sample for seroepidemiological investigation,0,0,0,1
+blood sample,1,2,0,20
 blood test,1,0,0,1
 "blood tests sputum, nasal lavage",0,0,0,1
 "blood tests sputum, nasal lavage/brushing",0,0,0,1
@@ -110,7 +110,6 @@ closed-loop control of oxygen supplementation by o2matic,0,1,0,0
 clungene rapid test cassette,0,0,0,1
 cns magnetic resonance imaging (mri) imaging,0,0,0,1
 cobicistat,0,0,0,1
-collection of blood samples in order to create a biocollection,0,0,0,1
 collection of mucosal lining fluid,0,1,0,0
 collection of odour samples,0,0,0,1
 collection of swabs,0,0,0,1
@@ -153,10 +152,10 @@ covx,0,1,0,0
 cross-sectional observational study,0,1,0,0
 cross-sectional study investigating the association of npis with mental health,0,1,0,0
 cross sectional study using scientifically validated psychometric scales,0,1,0,0
-ct-scan,1,1,0,3
+ct-scan,1,1,0,4
 cytokines measurement,0,0,0,1
 daily syndromic surveillance,0,0,1,0
-dalteparin,0,1,0,0
+dalteparin,0,2,0,0
 darunavir,0,0,0,1
 darunavir/cobicistat,0,0,0,1
 dass-21 instrument (depression,0,0,0,1
@@ -195,12 +194,13 @@ duplex ultrasound/computed tomography angiography,0,1,0,0
 during covid-19 pandemic,0,0,0,1
 dysphagia handicap index (dhi),0,0,0,1
 earsats pulse oximeter probe,0,0,0,1
+easycov poc,0,0,0,1
 ecg,0,0,0,3
 echo-doppler,0,0,0,1
 echocardiogram,0,0,0,1
-echocardiography,0,1,0,2
+echocardiography,0,2,0,1
+education,0,1,0,0
 education sessions,0,0,0,1
-educational meetings,0,1,0,0
 educational meetings/visual prompts,0,1,0,0
 elective cancer surgery,0,0,0,1
 "electrocardiogram, telemetry, echocardiogram, laboratory values",0,0,0,1
@@ -275,13 +275,14 @@ gustatory tests,0,0,0,1
 h12 of the initiation of morphine between the control,0,0,0,1
 health-related quality of life,0,0,0,1
 heparin,0,0,0,1
-high flow nasal cannula device,0,1,0,0
+high flow nasal cannula,0,1,0,0
 high peep with end inspiratory pause,0,0,0,1
 high peep without end inspiratory pause,0,0,0,1
 holter monitor,0,1,0,0
 home-use test,0,0,0,1
 home sleep apnea testing,1,0,0,0
 home sleep apnea testing/in-hospital polysomnography,1,0,0,0
+home spirometry,0,0,0,1
 hospital acquired infection,0,0,0,1
 hospital anxiety,0,0,0,1
 hospital anxiety/depression scale,0,0,0,1
@@ -291,7 +292,7 @@ hydroxychloroquine,2,2,0,0
 id now vs. accula,0,0,0,1
 ier-r (posttraumatic stress),0,0,0,1
 igg,0,1,1,1
-igg antibody test,1,2,2,0
+igg antibody test,0,2,2,1
 igg sars cov 2 antibodies,1,0,0,0
 igg sars cov2,1,0,0,0
 igg test,0,0,0,1
@@ -333,11 +334,10 @@ iota carrageenan nasal spray,0,1,0,0
 iota carrageenan nasal spray/ivermectin oral drops (used as buccal drops),0,1,0,0
 ip-10,0,1,0,0
 its,0,0,0,1
-ivermectin,0,2,0,0
+ivermectin,0,3,0,0
 "ivermectin 5 mg/ml oral solution, aspirin 250 mg tablets",0,1,0,0
-"ivermectin 5 mg/ml oral solution, dexamethasone 4-mg injection, aspirin 250 mg tablets",0,1,0,0
-"ivermectin 5 mg/ml oral solution, dexamethasone 4-mg injection, enoxaparin injection. inpatient treatment with mechanical ventilation in icu.",0,1,0,0
-ivermectin oral drops (used as buccal drops),0,1,0,0
+ivermectin/deamethisone/aspirin,0,1,0,0
+ivermectin/deamethisone/exoparin,0,1,0,0
 ketotifen,0,1,0,0
 kir phenotype evaluation,0,0,0,1
 "knowledge, attitude, practice, awareness, preference",0,1,0,0
@@ -379,7 +379,6 @@ mechanical trombectomy,0,1,0,0
 methylprednisolone,0,1,0,0
 mhealth assessments,0,0,0,1
 microscopy of defined brain regions on autopsy specimens,0,0,0,1
-minnrap peer support program,0,0,1,0
 "ml oral solution, aspirin 250 mg tablets",0,1,0,0
 "ml oral solution, dexamethasone 4-mg injection, aspirin 250 mg tablets",0,1,0,0
 "ml oral solution, dexamethasone 4-mg injection, enoxaparin injection. inpatient treatment with mechanical ventilation in icu.",0,1,0,0
@@ -392,6 +391,7 @@ monitoring for aggravation,0,0,0,1
 mortality,0,0,0,1
 mr-pro-adm,0,0,0,1
 mri,0,0,0,2
+mri scans,0,0,0,1
 mrna in urine test,1,0,0,0
 multicapillary column coupled ion mobility spectrometry,0,0,0,1
 multifrequency bioimpedance spectroscopy,0,0,0,1
@@ -410,24 +410,14 @@ news,0,0,0,1
 next generation sequencing (ngs) analysis,0,0,0,1
 nhanes smell,0,0,0,1
 nhanes smell/taste tests,0,0,0,1
-nil intervention,0,0,0,1
 no-immunosuppressive,0,0,0,1
-no intervention,4,3,1,20
-no intervention - quality of life measure,0,0,0,1
+no intervention,5,3,1,25
 no intervention (survey study for medical doctors).,0,0,0,1
-no intervention / compare the difference in respiratory rate between h0/h12 of the initiation of morphine between the control/interventional groups,0,0,0,1
-no intervention / evaluation of the ferritin/glycosylated ferritin by standard approved serological tests,0,0,0,1
-no intervention on patients,0,0,0,1
 no intervention planned due to the observational study design only a diagnostic testing,0,0,1,0
-"no intervention, this is an observational study that uses validated questionnaires",0,0,0,1
-"no intervention, this is an observational study that uses validated questionnaires/qualitative interviews..",0,0,0,1
-no intervention. observational cohort study,0,0,0,1
 no interventional study,0,0,0,1
-no interventions,1,0,0,0
 non,0,0,1,0
 non-acei,1,0,0,0
 non-acei/arb,1,0,0,0
-non-enhanced ct scan of the chest,0,1,0,0
 non-interventional,0,0,0,3
 non-invasive ventilatory support,1,0,0,0
 non interventional study,0,0,0,1
@@ -442,9 +432,9 @@ nps test,0,0,0,1
 nutrition,1,0,0,0
 nutritional assessment,0,0,0,1
 nutritional intervention,0,0,0,1
-observation,0,1,0,4
+observation,0,2,0,3
 observation of covid 19 pneumonia,0,0,0,1
-observational,2,0,0,7
+observational,2,0,0,8
 observational cohort study on the natural history of hospitalized sars-cov-2 patients.,1,0,0,0
 "obtainment of nasopharyngeal, oropharyngeal, buccal, nasal",0,0,0,1
 "obtainment of nasopharyngeal, oropharyngeal, buccal, nasal/saliva samples",0,0,0,1
@@ -456,7 +446,7 @@ olfactory function evaluation,0,0,0,1
 olfactory/gustatory tests,0,0,0,1
 online survey,1,2,2,8
 opaganib,0,1,0,0
-or ace inhibitors,0,0,0,1
+optical coherence tomography angiography,0,1,0,0
 or antiplatelet) before admission for covid19,0,1,0,0
 orthopaedic surgical procedures,0,1,0,0
 osteosynthesis,0,1,0,0
@@ -480,6 +470,7 @@ pcr/serology,0,0,0,1
 pct,0,0,0,1
 pct/serology,0,0,1,0
 peep,0,0,0,1
+peer support,0,0,1,0
 percutaneous coronary revascularization for stemi,1,0,0,0
 performing ai algorithms on images,0,0,0,1
 personal protective equipment from biological hazard,0,1,0,0
@@ -546,10 +537,11 @@ quantitative igg test,1,0,0,0
 quantitative/qualitative assessments of mental health,0,0,0,1
 quantra system,0,0,1,0
 questionaire,0,1,0,0
-questionnaire,7,20,3,51
+questionnaire,6,21,3,51
 "quickly avalaible clinical, biological",1,0,0,0
 radiological,0,0,0,1
 radiological variables?,1,0,0,0
+radiotherapy,0,1,0,0
 rapid-3,0,0,0,1
 rapid molecular test,0,0,0,1
 rapid test,1,2,0,0
@@ -586,6 +578,7 @@ sample collection,0,0,0,2
 sampling,0,0,0,2
 sars-cov-2,0,1,0,1
 sars-cov-2 ab,0,1,0,0
+sars-cov-2 antibody analysis,0,0,1,0
 sars-cov-2 antibody immunoassays,1,0,0,0
 sars-cov-2 antibody testing,0,0,0,1
 sars-cov-2 igg,0,0,0,1
@@ -598,6 +591,7 @@ scanning chest x-rays/performing ai algorithms on images,0,0,0,1
 sedation,0,0,0,1
 self-administered questionnaire,0,1,0,0
 self-reported symptom collection,0,0,0,1
+semen analysis,0,1,0,0
 semen qualitative analysis,0,0,0,1
 semi-directive interview,0,0,0,1
 semi-structured telephone questionnaire,0,0,0,1
@@ -621,6 +615,7 @@ social distancing,0,1,0,0
 social media,0,0,0,1
 social media campaigns encouraging cancer screening.,0,0,0,1
 social media/news consumption,0,0,0,1
+soluble urokinase plasminogen activator receptor,0,0,0,1
 sonclot coagulation,0,1,0,0
 "sonclot coagulation/platelet function analyzer scp1, sienco, usa",0,1,0,0
 SOP,0,0,0,1
@@ -629,6 +624,7 @@ specimen collection,0,0,0,1
 speq (specific psychotic experiences questionnaire) - paranoia,0,0,0,1
 speq (specific psychotic experiences questionnaire) - paranoia/grandiosity subscales,0,0,0,1
 spirometry,0,0,0,1
+"spirometry, thoracic ct, cpet, 6 minute walking test, sf-36 questionnaire",0,0,1,0
 st. george's respiratory questionnaire (sgrq),0,0,0,1
 standard care,0,1,0,5
 stc-19,0,1,0,0
@@ -659,8 +655,7 @@ taste/olfactory function evaluation,0,0,0,1
 tcm,0,1,0,0
 tears swab,0,1,0,0
 teleconsultation,1,0,0,0
-telehealth,0,0,1,0
-telemedicine to remote outpatient visit in bariatric patient,0,1,0,0
+telehealth,0,1,1,0
 telephone consult,0,0,0,1
 tem-tpa,0,0,0,1
 testing for sars-cov-2,1,0,0,0
@@ -677,8 +672,8 @@ throat swab,0,1,0,1
 throat swab sample for measuring current infection with sars-cov-2,0,0,0,1
 thrombin,0,0,0,1
 thromboprophylaxis,0,1,0,0
-tinzaparin,0,1,0,0
-tinzaparin/dalteparin,0,1,0,0
+tinzaparin,0,2,0,0
+tinzaparin/dalteparin,0,2,0,0
 titanium blood test,0,0,0,1
 tlrs activation measurement,0,0,0,1
 tocilizumab,0,0,0,1
@@ -704,9 +699,11 @@ visual prompts,0,1,0,0
 voice symptom scale (voiss),0,0,0,1
 volume rapid test,0,0,0,1
 vv-ecmo,0,0,0,1
+web based questionnaire,0,0,1,0
+weck-cel swab collection,0,0,1,0
 whole exome sequencing,0,0,0,2
 whoqol-bref,0,0,0,1
 x-ray,0,0,0,1
 yoga,0,0,0,1
 zaritt burden interview,0,0,0,1
-NA,33,67,16,260
+NA,33,68,16,263

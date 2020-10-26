@@ -1,5 +1,5 @@
 Intervention_type,intervention,Study_count
-Other,no intervention,8
+Other,no intervention,10
 Other,questionnaire,4
 Behavioral,telehealth,2
 Diagnostic Test,blood sample,2
@@ -7,6 +7,7 @@ Diagnostic Test,igm,2
 Diagnostic Test,igm/igg rapid test,2
 Diagnostic Test,pcr,2
 Diagnostic Test,serology test,2
+Other,icu treatment,2
 Other,pregnant women with laboratory-confirmed 2019-n-cov,2
 Other,recop unit patient,2
 Other,standard care,2
@@ -101,12 +102,9 @@ Other,hospital admission,1
 Other,hospitalized children with covid19,1
 Other,hydroxychloroquine,1
 Other,hypertension,1
-Other,icu treatment,1
 Other,impact of event scale-revised,1
 Other,interview,1
 Other,modified rankin score,1
-Other,"no intervention, observational",1
-Other,no interverntion,1
 Other,no special intervention,1
 Other,non-hospitalization procedures,1
 Other,non-interventional study,1
@@ -138,6 +136,7 @@ Procedure,airway management during sedation,1
 Procedure,airway management during sedation/general anesthesia,1
 Procedure,emergency surgery,1
 Procedure,endoscopic intervention,1
+Procedure,endoscopic procedure,1
 Procedure,evaluation of changes in the diagnostic-therapeutic pathway,1
 Procedure,gastrointestinal endoscopy,1
 Procedure,general anesthesia,1
