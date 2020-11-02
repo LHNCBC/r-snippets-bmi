@@ -12,13 +12,14 @@ Other,blood sample,7
 Other,covid-19,6
 Diagnostic Test,igg antibody test,5
 Diagnostic Test,igm/igg rapid test,5
+Diagnostic Test,saliva,5
 Other,exposure,5
 Procedure,blood sample,5
 Biological,saliva,4
 Diagnostic Test,lung ultrasound,4
-Diagnostic Test,saliva,4
 Drug,ace inhibitor,4
 Drug,hydroxychloroquine,4
+Other,data collection,4
 Other,quality-of-life assessment,4
 Diagnostic Test,blood sample,3
 Diagnostic Test,igg,3
@@ -26,7 +27,6 @@ Diagnostic Test,questionnaire,3
 Diagnostic Test,rapid test,3
 Other,biological samples,3
 Other,covid-19 pandemic,3
-Other,data collection,3
 Other,data record,3
 Other,interview,3
 Other,non-interventional,3
@@ -49,6 +49,7 @@ Diagnostic Test,ecg,2
 Diagnostic Test,flow cytometry,2
 Diagnostic Test,igm,2
 Diagnostic Test,igm antibodytest,2
+Diagnostic Test,nasopharyngeal swab,2
 Diagnostic Test,online survey,2
 Diagnostic Test,sampling,2
 Diagnostic Test,sars-cov-2,2
@@ -245,6 +246,7 @@ Diagnostic Test,id now vs. accula,1
 Diagnostic Test,igg sars cov 2 antibodies,1
 Diagnostic Test,igg sars cov2,1
 Diagnostic Test,igg test,1
+Diagnostic Test,"igg, aaz, boulogne-billancourt, france)",1
 Diagnostic Test,igm test,1
 Diagnostic Test,imaging,1
 Diagnostic Test,imaging by thoracic scanner,1
@@ -269,7 +271,6 @@ Diagnostic Test,mrna in urine test,1
 Diagnostic Test,multicapillary column coupled ion mobility spectrometry,1
 Diagnostic Test,muscle,1
 Diagnostic Test,nasal,1
-Diagnostic Test,nasopharyngeal swab,1
 Diagnostic Test,neural network diagnosis algorithm,1
 Diagnostic Test,no intervention,1
 Diagnostic Test,no intervention planned due to the observational study design only a diagnostic testing,1
@@ -313,6 +314,7 @@ Diagnostic Test,radiological,1
 Diagnostic Test,rarefaction,1
 Diagnostic Test,recombinase,1
 Diagnostic Test,regularly during follow up).,1
+Diagnostic Test,repeat sars-cov-2 igg antibodies at 45-65 days,1
 Diagnostic Test,respiratory mechanics measurement,1
 Diagnostic Test,"respiratory symptoms, symptoms of anxiety",1
 Diagnostic Test,"respiratory symptoms, symptoms of anxiety/depression,/post-traumatic stress screening",1
@@ -325,6 +327,8 @@ Diagnostic Test,sars-cov-2 antibody analysis,1
 Diagnostic Test,sars-cov-2 antibody immunoassays,1
 Diagnostic Test,sars-cov-2 antibody testing,1
 Diagnostic Test,sars-cov-2 igg,1
+Diagnostic Test,sars-cov-2 rapid diagnostic test (covid-prestoâ® igm,1
+Diagnostic Test,"sars-cov-2 rapid diagnostic test (covid-prestoâ® igm/igg, aaz, boulogne-billancourt, france)",1
 Diagnostic Test,sars-cov-2 s1,1
 Diagnostic Test,sars-cov-2 s1/s2 igg,1
 Diagnostic Test,sars-cov2 testing,1
@@ -477,11 +481,16 @@ Other,clinical examination,1
 Other,clinical interview,1
 Other,clinical outcomes in elderly patients with covid-19.,1
 Other,clinical testing of subjects,1
+Other,"clinical, functional",1
+Other,"clinical, functional/radiological lung involvement evolution",1
 Other,"clinical, laboratory",1
 Other,"clinical, laboratory/imaging characteristics of pneumonia",1
 Other,cns magnetic resonance imaging (mri) imaging,1
 Other,community-driven messages to promote covid-19 testing,1
 Other,compare the difference in respiratory rate between h0,1
+Other,completion of post telemedicine encounter survey,1
+Other,completion of pre-pandemic survey,1
+Other,completion of survey after peak of pandemic,1
 Other,comprehensive treatment,1
 Other,convalescent plasma,1
 Other,covicu,1
@@ -535,6 +544,7 @@ Other,experts consensus,1
 Other,exposure to the dutch measures due to the covid-19 pandemic.,1
 Other,fibrin generation markers assays,1
 Other,fmf.,1
+Other,follow-up of patients with covid-19,1
 Other,further processing of health data,1
 Other,gad-7 (7-item generalized anxiety disorder),1
 Other,gad-7 (general anxiety disorder) scale,1
@@ -670,7 +680,9 @@ Other,qualitative interviews..,1
 Other,quality of life questionnaires,1
 Other,quality of live assessment,1
 Other,questionaire,1
+Other,"questionnaire, phone call",1
 Other,"quickly avalaible clinical, biological",1
+Other,radiological lung involvement evolution,1
 Other,radiological variables?,1
 Other,rapid-3,1
 Other,rapid molecular test,1
@@ -690,6 +702,7 @@ Other,semi-structured telephone questionnaire,1
 Other,serial seroconversion measurements in hospital employees during the covid-19 pandemic,1
 Other,seroprevalence of sars-cov-2 infection in patients with hiv infection,1
 Other,serum neurofilaments as a marker of neurological damage.,1
+Other,severe acute respiratory syndrome coronavirus 2 detection,1
 Other,simulation of repurposed drugs for covid-19,1
 Other,six-minute walk test (6mwt),1
 Other,smartphone-based voice,1
@@ -715,6 +728,7 @@ Other,telephone consult,1
 Other,there is no intervention in this study,1
 Other,thoracic lung ultrasound,1
 Other,thrombin,1
+Other,training load,1
 Other,transplant patient,1
 Other,treatment for covid-19,1
 Other,ultrasonography,1
