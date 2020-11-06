@@ -1,4 +1,4 @@
-# regCOVIDpublications- Linked publications to registered COVID-19 Clinical Studies
+# regCOVIDpublications- Linked publications to COVID-19 Clinical Studies
 
 [Report](https://lhncbc.github.io/r-snippets-bmi/regCOVID/regCOVIDpublications/regCOVIDpublications.html)
 
