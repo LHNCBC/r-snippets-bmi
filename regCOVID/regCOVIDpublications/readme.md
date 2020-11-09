@@ -1,6 +1,6 @@
 # regCOVIDpublications- Linked publications to COVID-19 Clinical Studies
 
-[Report](https://lhncbc.github.io/r-snippets-bmi/regCOVID/regCOVIDpublications/regCOVIDpublications.html)
+[regCOVIDpublications Report](https://lhncbc.github.io/r-snippets-bmi/regCOVID/regCOVIDpublications/regCOVIDpublications.html)
 
 ## Trial List:
 Set of registered COVID-19 trials with at least one linked publication.
