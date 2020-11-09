@@ -1,8 +1,8 @@
 Intervention_type,intervention,Study_count
-Other,questionnaire,69
+Other,questionnaire,70
 Other,no intervention,32
-Diagnostic Test,pcr,17
-Diagnostic Test,serology test,10
+Diagnostic Test,pcr,18
+Diagnostic Test,serology test,11
 Other,online survey,10
 Other,observational,9
 Behavioral,questionnaire,8
@@ -21,10 +21,13 @@ Drug,ace inhibitor,4
 Drug,hydroxychloroquine,4
 Other,data collection,4
 Other,quality-of-life assessment,4
+Biological,convalescent plasma,3
 Diagnostic Test,blood sample,3
 Diagnostic Test,igg,3
+Diagnostic Test,nasopharyngeal swab,3
 Diagnostic Test,questionnaire,3
 Diagnostic Test,rapid test,3
+Diagnostic Test,serum test,3
 Other,biological samples,3
 Other,covid-19 pandemic,3
 Other,data record,3
@@ -40,7 +43,6 @@ Behavioral,assessment of work-related stress,2
 Behavioral,emotional stimulation,2
 Behavioral,observation,2
 Biological,biological data,2
-Biological,convalescent plasma,2
 Biological,pcr,2
 Device,ct-scan,2
 Device,mask,2
@@ -49,11 +51,9 @@ Diagnostic Test,ecg,2
 Diagnostic Test,flow cytometry,2
 Diagnostic Test,igm,2
 Diagnostic Test,igm antibodytest,2
-Diagnostic Test,nasopharyngeal swab,2
 Diagnostic Test,online survey,2
 Diagnostic Test,sampling,2
 Diagnostic Test,sars-cov-2,2
-Diagnostic Test,serum test,2
 Diagnostic Test,standard care,2
 Drug,arb,2
 Drug,corticosteroids,2
@@ -87,6 +87,7 @@ Behavioral,covid-19,1
 Behavioral,covid-19 infection will be conducted.,1
 Behavioral,covid-19 positive pregnant women,1
 Behavioral,covid-surgres questionaire,1
+Behavioral,early rehabilitation,1
 Behavioral,education,1
 Behavioral,education sessions,1
 Behavioral,educational meetings/visual prompts,1
@@ -103,9 +104,12 @@ Behavioral,"knowledge, attitude, practice, awareness, preference",1
 Behavioral,lock-down,1
 Behavioral,lock-down/social distancing,1
 Behavioral,maslach burnout inventory (mbi),1
+Behavioral,mindfulness training,1
 Behavioral,news,1
+Behavioral,occupational health workers,1
 Behavioral,online survey,1
 Behavioral,peer support,1
+Behavioral,personalized ambulatory training,1
 Behavioral,prone positioning,1
 Behavioral,ptsd,1
 Behavioral,remote pulmonary rehabilitation,1
@@ -114,6 +118,7 @@ Behavioral,social distancing,1
 Behavioral,social media,1
 Behavioral,social media campaigns encouraging cancer screening.,1
 Behavioral,social media/news consumption,1
+Behavioral,subacute rehabilitation,1
 Behavioral,turkish physicians,1
 Behavioral,views,1
 Behavioral,visual prompts,1
@@ -210,6 +215,7 @@ Diagnostic Test,covid-19 antibody testing,1
 Diagnostic Test,covid-19 presto test,1
 Diagnostic Test,covid 19 diagnostic test,1
 Diagnostic Test,covidseq test,1
+Diagnostic Test,cystatin c,1
 Diagnostic Test,cytokines measurement,1
 Diagnostic Test,data,1
 Diagnostic Test,"depression,",1
@@ -340,6 +346,8 @@ Diagnostic Test,serologic assays for antibodies to sars-cov-2,1
 Diagnostic Test,serologic immunoassays to sars-cov-2 antibodies,1
 Diagnostic Test,serology test for covid-19,1
 Diagnostic Test,serum neutralization,1
+Diagnostic Test,serum ngal,1
+Diagnostic Test,serum ngal/cystatin c,1
 Diagnostic Test,simple chest tomography,1
 Diagnostic Test,soluble urokinase plasminogen activator receptor,1
 Diagnostic Test,specimen collection,1
@@ -385,6 +393,7 @@ Drug,arb blocker,1
 Drug,azithromycin,1
 Drug,baricitinib,1
 Drug,baricitinib/anakinra,1
+Drug,beta interferon,1
 Drug,calcium channel blockers,1
 Drug,chemotherapy,1
 Drug,chlorine dioxide,1
@@ -406,6 +415,8 @@ Drug,immunoglubulins,1
 Drug,immunosuppressive,1
 Drug,ivermectin,1
 Drug,"ivermectin 5 mg/ml oral solution, aspirin 250 mg tablets",1
+Drug,kaletra,1
+Drug,kaletra/beta interferon,1
 Drug,ketotifen,1
 Drug,lopinavir,1
 Drug,lopinavir/ritonavir,1
@@ -434,6 +445,7 @@ Genetic,next generation sequencing (ngs) analysis,1
 Genetic,sequencing,1
 Genetic,whole exome sequencing,1
 Other,[timp-2]*[igfbp-7],1
+Other,40ml blood sample,1
 Other,6 weeks after delivery,1
 Other,"ä±t will be compared pain, sleep, fatigue, physical activity level",1
 Other,"ä±t will be compared pain, sleep, fatigue, physical activity level/quality of life/questioning exercise habits before/after the covid-19 outbreak in patients with behã§et/fmf.",1
@@ -504,6 +516,7 @@ Other,covid-19 treatments,1
 Other,covid-19/ observational,1
 Other,covid-19/intensive care,1
 Other,covid 19 impact,1
+Other,cries 13 questionnaire,1
 Other,cross-sectional observational study,1
 Other,cross-sectional study investigating the association of npis with mental health,1
 Other,cross sectional study using scientifically validated psychometric scales,1
@@ -535,6 +548,7 @@ Other,endoscopic management according to standard of care,1
 Other,epds (edinburgh postnatal depression scale),1
 Other,epidemiological,1
 Other,epidemiological/demographic characteristics,1
+Other,equipment with smartwatch throughout hospital stay on the general ward,1
 Other,evaluate hacor score effectivity in this patients,1
 Other,evaluation of skin microvascular flow,1
 Other,evaluation of skin microvascular flow/reactivity,1
@@ -652,6 +666,7 @@ Other,peep,1
 Other,personal protective equipment from biological hazard,1
 Other,personal protective testing booth,1
 Other,phobia questionairre,1
+Other,phone interviews,1
 Other,phq,1
 Other,phq-9 depression scale,1
 Other,phsyiotherapy,1
@@ -702,6 +717,7 @@ Other,semi-structured telephone questionnaire,1
 Other,serial seroconversion measurements in hospital employees during the covid-19 pandemic,1
 Other,seroprevalence of sars-cov-2 infection in patients with hiv infection,1
 Other,serum neurofilaments as a marker of neurological damage.,1
+Other,service of questionnaire,1
 Other,severe acute respiratory syndrome coronavirus 2 detection,1
 Other,simulation of repurposed drugs for covid-19,1
 Other,six-minute walk test (6mwt),1
@@ -722,6 +738,7 @@ Other,surge capacity,1
 Other,"surgery: dynamic hip screw, hemiarthroplasty, hip replacement, intramedullary nail",1
 Other,survey/questionnaire,1
 Other,surveys/questionnaires,1
+Other,symptoms,1
 Other,taste/olfactory function evaluation,1
 Other,teleconsultation,1
 Other,telephone consult,1
@@ -740,6 +757,7 @@ Other,whoqol-bref,1
 Other,yoga,1
 Other,zaritt burden interview,1
 Procedure,autopsy,1
+Procedure,bariatric procedures,1
 Procedure,collection of mucosal lining fluid,1
 Procedure,collection of tears,1
 Procedure,collection of tears/saliva.,1
@@ -754,6 +772,8 @@ Procedure,facial fractures reduction,1
 Procedure,facial fractures reduction/osteosynthesis,1
 Procedure,gloves,1
 Procedure,intracorporeal left hemicolectomy anastomosis,1
+Procedure,laparoscopic,1
+Procedure,laparoscopic/open appendicectomy,1
 Procedure,lateral position (left,1
 Procedure,lateral position (left/right lateral decubitus),1
 Procedure,lung ultrasound,1
@@ -761,6 +781,7 @@ Procedure,lung ultrasound (lus),1
 Procedure,mri scans,1
 Procedure,nasopharyngeal,1
 Procedure,nasopharyngeal/throat swab,1
+Procedure,open appendicectomy,1
 Procedure,orthopaedic surgical procedures,1
 Procedure,osteosynthesis,1
 Procedure,questionnaire,1

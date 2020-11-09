@@ -1,35 +1,35 @@
 country,Total_changes,Study_Count,changes_per_study
+India,3,1,3
 Singapore,3,1,3
 Australia,2,1,2
-China,5,4,1.25
+Brazil,4,4,1
+Canada,2,2,1
+China,4,4,1
 Hungary,1,1,1
-India,1,1,1
+Israel,1,1,1
 South Africa,1,1,1
-Tunisia,1,1,1
-Denmark,2,3,0.6666666666666666
-Egypt,3,6,0.5
-Mexico,2,4,0.5
-Russian Federation,1,2,0.5
-France,13,28,0.4642857142857143
-Spain,6,22,0.2727272727272727
-United States,4,29,0.13793103448275862
-Italy,1,13,0.07692307692307693
-Austria,0,2,0
-Belgium,0,5,0
-Canada,0,2,0
+Mexico,3,4,0.75
+Egypt,5,7,0.7142857142857143
+Austria,1,2,0.5
+France,15,30,0.5
+Poland,1,2,0.5
+United Kingdom,2,4,0.5
+Denmark,1,3,0.3333333333333333
+United States,4,30,0.13333333333333333
+Spain,2,22,0.09090909090909091
 Iceland,0,1,0
-Israel,0,1,0
-Netherlands,0,3,0
-Norway,0,3,0
-Poland,0,2,0
+Qatar,0,1,0
 Switzerland,0,4,0
-United Kingdom,0,4,0
-Germany,-1,7,-0.14285714285714285
-Brazil,-1,4,-0.25
+Tunisia,0,1,0
+Italy,-2,13,-0.15384615384615385
+Sweden,-1,6,-0.16666666666666666
+Germany,-2,8,-0.25
 Turkey,-3,12,-0.25
-Sweden,-2,6,-0.3333333333333333
-Argentina,-1,2,-0.5
+Belgium,-2,6,-0.3333333333333333
+Netherlands,-1,3,-0.3333333333333333
 Bangladesh,-1,2,-0.5
+Russian Federation,-1,2,-0.5
+Norway,-2,3,-0.6666666666666666
 Colombia,NA,NA,NA
 Hong Kong,NA,NA,NA
 Indonesia,NA,NA,NA
@@ -37,4 +37,5 @@ Japan,NA,NA,NA
 Malaysia,NA,NA,NA
 Martinique,NA,NA,NA
 Pakistan,NA,NA,NA
+Serbia,NA,NA,NA
 NA,NA,NA,NA

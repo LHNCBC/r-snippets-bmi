@@ -1,37 +1,37 @@
 Country,Study_Count
-United States,410
-France,115
-China,70
-Spain,59
-Brazil,52
-Canada,48
+United States,416
+France,119
+China,71
+Spain,60
+Brazil,53
+Canada,49
+Mexico,44
 United Kingdom,43
-Mexico,41
-Italy,36
-Egypt,34
+Italy,39
+Egypt,35
 Russian Federation,27
 Pakistan,26
-Turkey,23
+Turkey,25
+Germany,22
 Belgium,21
-Germany,21
 Argentina,18
 "Iran, Islamic Republic of",18
-Denmark,16
+Denmark,17
 India,16
 Sweden,15
 Australia,13
-Netherlands,13
-Israel,12
-Switzerland,11
+Israel,13
+Netherlands,12
+Switzerland,12
 Bangladesh,10
 "Korea, Republic of",10
 Saudi Arabia,10
 Greece,9
 Colombia,8
+Indonesia,8
 Hong Kong,7
-Indonesia,7
 South Africa,7
-United States|Brazil,6
+United States|Brazil,7
 Poland,5
 Singapore,5
 United States|Canada,5
@@ -48,6 +48,7 @@ Romania,3
 Bahrain,2
 Belarus,2
 Finland,2
+France|Monaco,2
 French Guiana,2
 Guinea,2
 Guinea-Bissau,2
@@ -57,6 +58,7 @@ North Macedonia,2
 Taiwan,2
 Thailand,2
 Ukraine,2
+United States|Israel,2
 Vietnam,2
 Argentina|Brazil|Canada|Chile|France|Germany|Israel|Italy|Japan|Russian Federation|Spain,1
 Argentina|Brazil|Chile|Mexico|Russian Federation,1
@@ -85,8 +87,9 @@ Czechia,1
 Denmark|India|Sweden|Switzerland,1
 Dominican Republic,1
 Ecuador,1
-France|Monaco,1
 French Guiana|Guadeloupe|New Caledonia,1
+Germany|Israel,1
+Germany|Netherlands,1
 Germany|Netherlands|Spain,1
 Germany|Sweden,1
 Gibraltar,1
@@ -106,6 +109,7 @@ Kyrgyzstan,1
 "NA",1
 Nigeria,1
 Panama|Peru,1
+Peru,1
 Philippines,1
 Puerto Rico,1
 Russian Federation|Spain,1
@@ -141,12 +145,12 @@ United States|Brazil|Russian Federation,1
 United States|Canada|Denmark|France|Germany|Italy|Netherlands|Spain|United Kingdom,1
 United States|Canada|Ghana|Ireland|Netherlands|South Africa|Uganda|United Kingdom|Zambia|Zimbabwe,1
 United States|Chile|Peru,1
+United States|Denmark,1
 "United States|Denmark|Germany|Greece|Japan|Korea, Republic of|Mexico|Singapore|Spain|United Kingdom",1
 "United States|Denmark|Japan|Korea, Republic of|Mexico|Singapore|Spain|United Kingdom",1
-United States|Denmark|Singapore,1
+United States|Denmark|Singapore|Spain,1
 United States|France|Italy|Russian Federation|Spain|United Kingdom,1
 United States|France|Japan|Spain|United Kingdom,1
-United States|Israel,1
 United States|Israel|United Kingdom,1
 United States|Italy,1
 "United States|Japan|Korea, Republic of|Mexico|Singapore",1
@@ -157,3 +161,5 @@ United States|Russian Federation,1
 United States|Spain,1
 "United States|Spain|China|France|Germany|Hong Kong|Italy|Japan|Korea, Republic of|Netherlands|Singapore|Sweden|Switzerland|Taiwan|United Kingdom",1
 United States|Spain|United Kingdom,1
+United States|Switzerland,1
+United States|Turkey,1

@@ -1,27 +1,27 @@
 intervention_type,Study_Count
 Drug,359
-Drug|placebo,260
-Other,127
-Biological,126
-Behavioral,78
-Biological|placebo,71
-Device,69
-Drug|Other,62
-Diagnostic Test,54
+Drug|placebo,268
+Other,136
+Biological,132
+Behavioral,80
+Biological|placebo,73
+Device,71
+Drug|Other,63
+Diagnostic Test,56
 Procedure,29
 Biological|Drug,21
-Biological|Other,20
-Dietary Supplement,14
-Dietary Supplement|placebo,10
+Biological|Other,21
+Dietary Supplement,15
+Dietary Supplement|placebo,11
+Device|Other,10
 Radiation,10
-Device|Other,9
 Dietary Supplement|Drug,9
 Combination Product,8
 Drug|Other|placebo,7
 Behavioral|Other,5
 Other|placebo,5
 Biological|Drug|placebo,4
-Combination Product|Drug,3
+Combination Product|Drug,4
 Device|Drug|Procedure,3
 Device|placebo,3
 Dietary Supplement|Drug|placebo,3
@@ -50,5 +50,4 @@ Diagnostic Test|Other,1
 Dietary Supplement|Drug|Other,1
 Drug|placebo|Radiation,1
 Other|Radiation,1
-placebo|Procedure,1
 placebo|Radiation,1

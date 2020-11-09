@@ -1,10 +1,10 @@
 intervention,"Active, not recruiting",Completed,Enrolling by invitation,Recruiting,Terminated,Total
-NA,33,71,18,265,1,388
-questionnaire,5,22,3,51,0,81
+NA,35,74,19,263,1,392
+questionnaire,6,23,3,50,0,82
 no intervention,5,3,1,25,0,34
 blood sample,1,2,0,20,0,23
-pcr,0,5,3,12,0,20
-serology test,1,1,3,9,0,14
+pcr,1,5,3,12,0,21
+serology test,1,1,3,10,0,15
 online survey,1,2,2,8,0,13
 observational,2,0,0,8,0,10
 saliva,0,1,1,8,0,10
@@ -20,24 +20,25 @@ igg antibody test,0,2,2,1,0,5
 lung ultrasound,0,0,1,4,0,5
 observation,0,2,0,3,0,5
 prone positioning,2,2,0,1,0,5
+serum test,0,1,0,4,0,5
+convalescent plasma,1,1,0,2,0,4
 data collection,0,0,0,4,0,4
 hydroxychloroquine,2,2,0,0,0,4
 interview,1,1,0,2,0,4
 quality-of-life assessment,0,0,0,4,0,4
-serum test,0,1,0,3,0,4
 ultrasound,0,1,0,3,0,4
 arb,1,0,0,2,0,3
 biospeciman collection,0,0,0,3,0,3
 biospecimen collection,0,0,0,3,0,3
-convalescent plasma,1,0,0,2,0,3
 covid-19 pandemic,1,1,0,1,0,3
 data record,0,0,0,3,0,3
 ecg,0,0,0,3,0,3
 echocardiography,0,2,0,1,0,3
 exercise,0,0,1,2,0,3
 igg,0,1,1,1,0,3
-interleukin,0,0,0,3,0,3
+interleukin,1,0,0,2,0,3
 ivermectin,0,3,0,0,0,3
+nasopharyngeal swab,0,0,0,3,0,3
 non-interventional,0,0,0,3,0,3
 other,0,1,0,2,0,3
 rapid test,1,2,0,0,0,3
@@ -61,7 +62,6 @@ igm antibodytest,0,2,0,0,0,2
 mask,0,1,0,1,0,2
 mri,0,0,0,2,0,2
 nasal,0,0,0,2,0,2
-nasopharyngeal swab,0,0,0,2,0,2
 oxygen,0,0,0,2,0,2
 practice details,0,2,0,0,0,2
 quality of life,0,0,1,1,0,2
@@ -78,6 +78,7 @@ whole exome sequencing,0,0,0,2,0,2
 [68ga]ga-dota-(rgd)2 pet,0,0,0,1,0,1
 [68ga]ga-dota-(rgd)2 pet/ct,0,0,0,1,0,1
 [timp-2]*[igfbp-7],0,1,0,0,0,1
+40ml blood sample,0,0,1,0,0,1
 6 weeks after delivery,0,0,0,1,0,1
 "ä±t will be compared pain, sleep, fatigue, physical activity level",0,0,1,0,0,1
 "ä±t will be compared pain, sleep, fatigue, physical activity level/quality of life/questioning exercise habits before/after the covid-19 outbreak in patients with behã§et/fmf.",0,0,1,0,0,1
@@ -126,10 +127,12 @@ attendance by ambulance crew,0,0,0,1,0,1
 autopsy,0,1,0,0,0,1
 ayurvedic kadha,0,1,0,0,0,1
 azithromycin,1,0,0,0,0,1
+bariatric procedures,0,0,0,1,0,1
 baricitinib,0,0,0,1,0,1
 baricitinib/anakinra,0,0,0,1,0,1
 beck depression inventory (bdi),0,1,0,0,0,1
 behavior,1,0,0,0,0,1
+beta interferon,0,0,0,1,0,1
 biochemical analysis,0,1,0,0,0,1
 biological assays in particular on the lipid metabolism,0,1,0,0,0,1
 biological sample/clinical data collection,0,0,0,1,0,1
@@ -212,9 +215,11 @@ covid 19 diagnostic test,1,0,0,0,0,1
 covid 19 impact,0,1,0,0,0,1
 covidseq test,0,0,1,0,0,1
 covx,0,1,0,0,0,1
+cries 13 questionnaire,0,0,0,1,0,1
 cross-sectional observational study,0,1,0,0,0,1
 cross-sectional study investigating the association of npis with mental health,0,1,0,0,0,1
 cross sectional study using scientifically validated psychometric scales,0,1,0,0,0,1
+cystatin c,0,0,0,1,0,1
 cytokines measurement,0,0,0,1,0,1
 daily syndromic surveillance,0,0,1,0,0,1
 darunavir,0,0,0,1,0,1
@@ -251,6 +256,7 @@ dornase alfa,1,0,0,0,0,1
 duplex ultrasound/computed tomography angiography,0,1,0,0,0,1
 during covid-19 pandemic,0,0,0,1,0,1
 dysphagia handicap index (dhi),0,0,0,1,0,1
+early rehabilitation,0,0,0,1,0,1
 earsats pulse oximeter probe,0,0,0,1,0,1
 easycov poc,0,0,0,1,0,1
 echo-doppler,0,0,0,1,0,1
@@ -272,6 +278,7 @@ environmental exposure/clinical features,0,0,0,1,0,1
 epds (edinburgh postnatal depression scale),0,1,0,0,0,1
 epidemiological,0,1,0,0,0,1
 epidemiological/demographic characteristics,0,1,0,0,0,1
+equipment with smartwatch throughout hospital stay on the general ward,0,0,0,1,0,1
 euroimmun assay,0,0,0,1,0,1
 evaluate hacor score effectivity in this patients,0,0,0,1,0,1
 "evaluation of clinical, instrumental",0,0,0,1,0,1
@@ -381,6 +388,8 @@ its,0,0,0,1,0,1
 "ivermectin 5 mg/ml oral solution, aspirin 250 mg tablets",0,1,0,0,0,1
 ivermectin/deamethisone/aspirin,0,1,0,0,0,1
 ivermectin/deamethisone/exoparin,0,1,0,0,0,1
+kaletra,0,0,0,1,0,1
+kaletra/beta interferon,0,0,0,1,0,1
 ketotifen,0,1,0,0,0,1
 kir phenotype evaluation,0,0,0,1,0,1
 "knowledge, attitude, practice, awareness, preference",0,1,0,0,0,1
@@ -391,6 +400,8 @@ laboratory diagnostics tests,0,0,0,1,0,1
 laboratory test positive for sars-cov-2 virus,0,0,1,0,0,1
 labs,0,0,0,1,0,1
 lamp,0,0,0,1,0,1
+laparoscopic,0,1,0,0,0,1
+laparoscopic/open appendicectomy,0,1,0,0,0,1
 lateral position (left,0,0,0,1,0,1
 lateral position (left/right lateral decubitus),0,0,0,1,0,1
 lifestyle habits,0,1,0,0,0,1
@@ -420,6 +431,7 @@ mechanical trombectomy,0,1,0,0,0,1
 methylprednisolone,0,1,0,0,0,1
 mhealth assessments,0,0,0,1,0,1
 microscopy of defined brain regions on autopsy specimens,0,0,0,1,0,1
+mindfulness training,0,0,0,1,0,1
 "ml oral solution, aspirin 250 mg tablets",0,1,0,0,0,1
 "ml oral solution, dexamethasone 4-mg injection, aspirin 250 mg tablets",0,1,0,0,0,1
 "ml oral solution, dexamethasone 4-mg injection, enoxaparin injection. inpatient treatment with mechanical ventilation in icu.",0,1,0,0,0,1
@@ -451,7 +463,7 @@ nhanes smell/taste tests,0,0,0,1,0,1
 no-immunosuppressive,0,0,0,1,0,1
 no intervention (survey study for medical doctors).,0,0,0,1,0,1
 no intervention planned due to the observational study design only a diagnostic testing,0,0,1,0,0,1
-no interventional study,0,0,0,1,0,1
+no interventional study,1,0,0,0,0,1
 non,0,0,1,0,0,1
 non-acei,1,0,0,0,0,1
 non-acei/arb,1,0,0,0,0,1
@@ -472,6 +484,7 @@ observation of covid 19 pneumonia,0,0,0,1,0,1
 observational cohort study on the natural history of hospitalized sars-cov-2 patients.,1,0,0,0,0,1
 "obtainment of nasopharyngeal, oropharyngeal, buccal, nasal",0,0,0,1,0,1
 "obtainment of nasopharyngeal, oropharyngeal, buccal, nasal/saliva samples",0,0,0,1,0,1
+occupational health workers,0,0,0,1,0,1
 odd,0,0,0,1,0,1
 odd/even birth year intervention groups,0,0,0,1,0,1
 olfactory,0,0,0,1,0,1
@@ -479,6 +492,7 @@ olfactory device,0,0,0,1,0,1
 olfactory function evaluation,0,0,0,1,0,1
 olfactory/gustatory tests,0,0,0,1,0,1
 opaganib,0,1,0,0,0,1
+open appendicectomy,0,1,0,0,0,1
 optical coherence tomography angiography,0,1,0,0,0,1
 or antiplatelet) before admission for covid19,0,1,0,0,0,1
 orthopaedic surgical procedures,0,1,0,0,0,1
@@ -505,10 +519,12 @@ percutaneous coronary revascularization for stemi,1,0,0,0,0,1
 performing ai algorithms on images,0,0,0,1,0,1
 personal protective equipment from biological hazard,0,1,0,0,0,1
 personal protective testing booth,1,0,0,0,0,1
+personalized ambulatory training,0,0,0,1,0,1
 pet-ct of 18f-fdg,0,1,0,0,0,1
 philips lumify ultrasound system,0,0,0,1,0,1
 phlebotomy,0,0,0,1,0,1
 phobia questionairre,0,0,0,1,0,1
+phone interviews,0,0,0,1,0,1
 phq,0,0,0,1,0,1
 phq-9 depression scale,0,0,0,1,0,1
 phsyiotherapy,0,0,0,1,0,1
@@ -617,7 +633,7 @@ sedation,0,0,0,1,0,1
 self-administered questionnaire,0,1,0,0,0,1
 self-reported symptom collection,0,0,0,1,0,1
 semen analysis,0,1,0,0,0,1
-semen qualitative analysis,0,0,0,1,0,1
+semen qualitative analysis,1,0,0,0,0,1
 semi-directive interview,0,0,0,1,0,1
 semi-structured telephone questionnaire,0,0,0,1,0,1
 sequencing,0,0,0,1,0,1
@@ -628,6 +644,9 @@ serology test for covid-19,0,0,0,1,0,1
 seroprevalence of sars-cov-2 infection in patients with hiv infection,0,0,0,1,0,1
 serum neurofilaments as a marker of neurological damage.,0,0,0,1,0,1
 serum neutralization,0,0,0,1,0,1
+serum ngal,0,0,0,1,0,1
+serum ngal/cystatin c,0,0,0,1,0,1
+service of questionnaire,0,0,0,1,0,1
 severe acute respiratory syndrome coronavirus 2 detection,1,0,0,0,0,1
 simple chest tomography,0,1,0,0,0,1
 simulation of repurposed drugs for covid-19,1,0,0,0,0,1
@@ -659,6 +678,7 @@ study b,0,0,0,1,0,1
 study c,0,0,0,1,0,1
 study d,0,0,0,1,0,1
 study of immune-mediated mechanisms in patients tested positive for sars-cov-2,0,0,0,1,0,1
+subacute rehabilitation,0,0,0,1,0,1
 surfactant,0,0,0,1,0,1
 surge capacity,0,1,0,0,0,1
 surgery,0,0,0,1,0,1
@@ -671,6 +691,7 @@ swallowing evaluation with the eat-10,0,0,0,1,0,1
 swallowing evaluation with the eat-10/the volume-viscosity swallowing test (v-vst),0,0,0,1,0,1
 symptom,1,0,0,0,0,1
 symptom/exposure surveys,1,0,0,0,0,1
+symptoms,0,0,0,1,0,1
 systemic,0,0,0,1,0,1
 taste/olfactory function evaluation,0,0,0,1,0,1
 tcm,0,1,0,0,0,1
@@ -714,7 +735,7 @@ views,0,0,0,1,0,1
 visual prompts,0,1,0,0,0,1
 voice symptom scale (voiss),0,0,0,1,0,1
 volume rapid test,0,0,0,1,0,1
-vv-ecmo,0,0,0,1,0,1
+vv-ecmo,0,1,0,0,0,1
 web based questionnaire,0,0,1,0,0,1
 weck-cel swab collection,0,0,1,0,0,1
 whoqol-bref,0,0,0,1,0,1

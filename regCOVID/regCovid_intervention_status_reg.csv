@@ -42,6 +42,7 @@ data registry,0,0,0,1
 diabetes type 2,1,0,0,0
 diagnosed with covid-19,0,0,1,0
 doxycycline,0,1,0,0
+duplex sonography,0,0,0,1
 ecg-holter,0,0,0,1
 elisa,1,0,0,0
 elisa/rapid test to detect antibodies against covid-19,1,0,0,0
@@ -52,7 +53,9 @@ enhanced hygiene measures,1,0,0,0
 evaluation,0,0,0,1
 evaluation of changes in the diagnostic-therapeutic pathway,0,1,0,0
 face mask sampling,0,0,0,1
+follow-up phone call,0,1,0,0
 follow up,1,0,0,0
+follow up calls,0,0,0,1
 gastrointestinal endoscopy,0,1,0,0
 general anesthesia,0,0,0,1
 health care worker survey,0,0,0,1
@@ -106,11 +109,12 @@ questionnaire,0,1,0,4
 "raman analysis of saliva, characterization of the raman database",0,0,0,1
 "raman analysis of saliva, characterization of the raman database/building of the classification model",0,0,0,1
 rapid test,1,0,0,0
-recop unit patient,2,0,0,0
+recop unit patient,1,1,0,0
 registery data collection,0,0,0,1
 ria-device (remote investigation,0,0,0,1
 ria-device (remote investigation/assessment),0,0,0,1
 sars-cov-2-test,0,0,0,1
+sars-cov-2 serological assessment (igg),0,0,0,1
 savr,1,0,0,0
 seraph,0,0,0,1
 seraphâ®-100 microbindâ® affinity blood filter,0,0,0,1
@@ -134,4 +138,4 @@ vitamin d,0,0,1,0
 vitros anti-sars-cov-2 igg test,0,0,1,0
 web-based redcap survey,0,0,0,1
 web application users,0,0,0,1
-NA,5,11,3,66
+NA,6,12,3,67
