@@ -3,6 +3,7 @@ abdominal ultrasound,0,1,0,0
 ace inhibitor,0,0,0,1
 airway management during sedation,0,0,0,1
 airway management during sedation/general anesthesia,0,0,0,1
+angiogenic biomarkers,0,0,0,1
 antibody test,0,0,0,1
 antihypertensives,1,0,0,0
 assessment of cardiovascular diseases,0,0,0,1
@@ -17,7 +18,7 @@ blood d-dimer assay,0,1,0,0
 blood sample,0,0,0,2
 brief psychiatric rating scale,0,0,0,1
 building of the classification model,0,0,0,1
-cardiopulmonary resuscitation,0,0,0,1
+cardiopulmonary resuscitation,0,1,0,0
 cardiovascular risk factors,0,0,0,1
 cerebral compliance,0,1,0,0
 cerebral compliance/hemodynamics monitoring,0,1,0,0
@@ -25,6 +26,7 @@ chloroquine,0,0,1,0
 chloroquine/hydroxychloroquine,0,0,1,0
 clinical data,0,0,0,1
 clinical diagnosis of covid-19 by a health care professional,0,0,0,1
+comparative observational cohort study,0,0,0,1
 complex diagnostic panel,0,0,1,0
 connor-davidson resilience scale 10 items (cd-risc 10),0,0,0,1
 copan swabbing,0,0,0,1
@@ -49,6 +51,8 @@ elisa/rapid test to detect antibodies against covid-19,1,0,0,0
 emergency surgery,0,1,0,0
 endoscopic intervention,0,1,0,0
 endoscopic procedure,0,1,0,0
+endothelial damage,0,0,0,1
+endothelial damage/angiogenic biomarkers,0,0,0,1
 enhanced hygiene measures,1,0,0,0
 evaluation,0,0,0,1
 evaluation of changes in the diagnostic-therapeutic pathway,0,1,0,0
@@ -80,7 +84,7 @@ ivermectin / doxycycline,0,1,0,0
 laboratory,0,0,0,1
 metabolomic,0,0,0,1
 methylprednisolone,0,1,0,0
-modified rankin score,0,0,0,1
+modified rankin score,0,1,0,0
 muscle,0,0,0,1
 nä°cas,0,0,0,1
 netosis markers,0,0,0,1
@@ -119,6 +123,7 @@ savr,1,0,0,0
 seraph,0,0,0,1
 seraphâ®-100 microbindâ® affinity blood filter,0,0,0,1
 serology test,1,0,0,3
+single passive leg movement,0,0,0,1
 standard care,0,2,0,0
 statins,1,0,0,0
 stress scale,0,0,0,1
@@ -138,4 +143,4 @@ vitamin d,0,0,1,0
 vitros anti-sars-cov-2 igg test,0,0,1,0
 web-based redcap survey,0,0,0,1
 web application users,0,0,0,1
-NA,6,12,3,67
+NA,6,14,3,67
