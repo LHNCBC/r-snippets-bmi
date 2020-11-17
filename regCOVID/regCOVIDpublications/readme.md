@@ -2,7 +2,7 @@
 
 [regCOVIDpublications Report](https://lhncbc.github.io/r-snippets-bmi/regCOVID/regCOVIDpublications/regCOVIDpublications.html)
 
-[User Friendly regCOVID Landing Page] (https://lhncbc.github.io/r-snippets-bmi/regCOVID/)
+[User Friendly regCOVID Landing Page](https://lhncbc.github.io/r-snippets-bmi/regCOVID/)
 
 [User Friendly regCOVIDpublications Landing Page](https://lhncbc.github.io/r-snippets-bmi/regCOVID/regCOVIDpublications/)
 
