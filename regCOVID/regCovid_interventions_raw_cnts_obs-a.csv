@@ -1,7 +1,7 @@
 Intervention_type,intervention,Study_count
-Other,questionnaire,71
-Other,no intervention,32
-Diagnostic Test,pcr,18
+Other,questionnaire,72
+Other,no intervention,33
+Diagnostic Test,pcr,19
 Diagnostic Test,serology test,11
 Other,online survey,10
 Other,observational,9
@@ -13,6 +13,7 @@ Other,covid-19,6
 Diagnostic Test,igg antibody test,5
 Diagnostic Test,igm/igg rapid test,5
 Diagnostic Test,saliva,5
+Other,biological samples,5
 Other,exposure,5
 Procedure,blood sample,5
 Biological,saliva,4
@@ -20,10 +21,10 @@ Diagnostic Test,blood sample,4
 Diagnostic Test,lung ultrasound,4
 Drug,ace inhibitor,4
 Drug,hydroxychloroquine,4
-Other,biological samples,4
 Other,data collection,4
 Other,interview,4
 Other,quality-of-life assessment,4
+Other,standard care,4
 Biological,convalescent plasma,3
 Diagnostic Test,igg,3
 Diagnostic Test,igm,3
@@ -31,13 +32,13 @@ Diagnostic Test,nasopharyngeal swab,3
 Diagnostic Test,questionnaire,3
 Diagnostic Test,rapid test,3
 Diagnostic Test,serum test,3
+Other,clinical assessment,3
 Other,covid-19 pandemic,3
 Other,data record,3
 Other,non-interventional,3
 Other,observation,3
 Other,other,3
 Other,serology test,3
-Other,standard care,3
 Other,taste,3
 Other,ultrasound,3
 Behavioral,assessment of work-related stress,2
@@ -63,7 +64,6 @@ Drug,methylprednisolone,2
 Drug,tinzaparin,2
 Drug,tinzaparin/dalteparin,2
 Drug,tocilizumab,2
-Other,clinical assessment,2
 Other,clinical data,2
 Other,ct-scan,2
 Other,dialysis,2
@@ -137,6 +137,7 @@ Biological,biological assays in particular on the lipid metabolism,1
 Biological,biological samples,1
 Biological,chest ct,1
 Biological,exposure,1
+Biological,flu shot,1
 Biological,no intervention,1
 Biological,other clinical symptoms,1
 Biological,pcr/chest ct,1
@@ -151,6 +152,7 @@ Combination Product,respiratory rehabilitation,1
 Combination Product,systemic,1
 Device,adam sensor,1
 Device,alexa amazon,1
+Device,anne one,1
 Device,apple watch,1
 Device,audio-visual triage system (avt),1
 Device,breath biopsy face masks with removable filters,1
@@ -213,6 +215,7 @@ Diagnostic Test,assessment of ventilator-associated pneumonia criteria,1
 Diagnostic Test,asynchronies detection,1
 Diagnostic Test,biomarkers expression,1
 Diagnostic Test,blood test,1
+Diagnostic Test,bloodwork,1
 Diagnostic Test,breath test,1
 Diagnostic Test,butterfly,1
 Diagnostic Test,c-reactive protein,1
@@ -291,7 +294,9 @@ Diagnostic Test,lung function tests,1
 Diagnostic Test,machine learning model,1
 Diagnostic Test,magnetic resonance imaging,1
 Diagnostic Test,mcc ims,1
+Diagnostic Test,microcirculation recording,1
 Diagnostic Test,mri,1
+Diagnostic Test,"mri (heart, brain, lungs, liver)",1
 Diagnostic Test,mrna in urine test,1
 Diagnostic Test,multicapillary column coupled ion mobility spectrometry,1
 Diagnostic Test,muscle,1
@@ -373,6 +378,7 @@ Diagnostic Test,simple chest tomography,1
 Diagnostic Test,soluble urokinase plasminogen activator receptor,1
 Diagnostic Test,spartan covid-19 test,1
 Diagnostic Test,specimen collection,1
+Diagnostic Test,spirometry,1
 Diagnostic Test,"spirometry, thoracic ct, cpet, 6 minute walking test, sf-36 questionnaire",1
 Diagnostic Test,stc-19,1
 Diagnostic Test,study of immune-mediated mechanisms in patients tested positive for sars-cov-2,1
@@ -382,6 +388,7 @@ Diagnostic Test,swallowing evaluation with the eat-10,1
 Diagnostic Test,swallowing evaluation with the eat-10/the volume-viscosity swallowing test (v-vst),1
 Diagnostic Test,tears swab,1
 Diagnostic Test,tem-tpa,1
+Diagnostic Test,test,1
 Diagnostic Test,testing for sars-cov-2,1
 Diagnostic Test,testing sensitivity for sars-cov-2 virus in symptomatic individuals,1
 Diagnostic Test,"the demographic, clinical, laboratory,",1
@@ -417,6 +424,7 @@ Drug,azithromycin,1
 Drug,baricitinib,1
 Drug,baricitinib/anakinra,1
 Drug,beta interferon,1
+Drug,bovhyaluronidase azoxymer,1
 Drug,calcium channel blockers,1
 Drug,chemotherapy,1
 Drug,chlorine dioxide,1
@@ -462,6 +470,7 @@ Drug,tcm,1
 Drug,thromboprophylaxis,1
 Genetic,complete thrombophilic profile testing by multiplex pcr,1
 Genetic,covid-19 androgen sensitivity test (covast),1
+Genetic,genetic,1
 Genetic,massive parallel sequencing of host genome,1
 Genetic,next generation sequencing (ngs) analysis,1
 Genetic,sequencing,1
@@ -523,6 +532,7 @@ Other,"clinical, functional/radiological lung involvement evolution",1
 Other,"clinical, laboratory",1
 Other,"clinical, laboratory/imaging characteristics of pneumonia",1
 Other,cns magnetic resonance imaging (mri) imaging,1
+Other,cognitive testing,1
 Other,community-driven messages to promote covid-19 testing,1
 Other,compare the difference in respiratory rate between h0,1
 Other,completion of post telemedicine encounter survey,1
@@ -582,6 +592,7 @@ Other,evaluation of skin microvascular flow/reactivity,1
 Other,evaluation of the epidemiological characteristics of coronavirus infection (sars-cov-2),1
 Other,evaluation of the ferritin,1
 Other,experts consensus,1
+Other,exposure to disinfectants during the coronavirus pandemic,1
 Other,exposure to the dutch measures due to the covid-19 pandemic.,1
 Other,fibrin generation markers assays,1
 Other,fmf.,1
@@ -607,6 +618,7 @@ Other,hospital acquired infection,1
 Other,hospital anxiety,1
 Other,hospital anxiety/depression scale,1
 Other,"hospitalisation, necessity of icu, mortality rate, lung involvement",1
+Other,hospitalized patients for covid-19 infection,1
 Other,human milk donors,1
 Other,ier-r (posttraumatic stress),1
 Other,igm/igg rapid test,1
@@ -619,6 +631,7 @@ Other,individualized-chinese herbal medicine,1
 Other,infectious disease,1
 Other,infectious disease/cardiology clinical consultations,1
 Other,informed consent,1
+Other,integrated clinical evaluation,1
 Other,intensive care,1
 Other,intensive care unit admission ratio,1
 Other,interventional groups,1
@@ -638,6 +651,8 @@ Other,low peep - fio2 high,1
 Other,low peep - fio2 low,1
 Other,lung ct scan analysis in covid-19 patients,1
 Other,management strategy of outpatient with mild to moderate sars-cov-2 pneumonia,1
+Other,"maternal attachment, edinburgh depression scoring",1
+Other,"maternal attachment, edinburgh depression scoring/postpartum anxiety scale scores",1
 Other,maternal stress,1
 Other,measurement of circulating sflt1 concentration,1
 Other,mechanical trombectomy,1
@@ -674,6 +689,7 @@ Other,nutritional assessment,1
 Other,nutritional intervention,1
 Other,observation of covid 19 pneumonia,1
 Other,observational cohort study on the natural history of hospitalized sars-cov-2 patients.,1
+Other,olfaction testing,1
 Other,olfactory,1
 Other,olfactory function evaluation,1
 Other,olfactory/gustatory tests,1
@@ -702,6 +718,7 @@ Other,physiotherapy,1
 Other,plethysmography,1
 Other,plethysmography/dlco,1
 Other,post covid-19 functional satus scale,1
+Other,postpartum anxiety scale scores,1
 Other,pre-operative screening,1
 Other,predict admission of covid-19 patients to icu,1
 Other,"predict admission of covid-19 patients to icu/death with routine/quickly avalaible clinical, biological/radiological variables?",1
@@ -746,6 +763,7 @@ Other,satisfaction evaluation,1
 Other,self-reported symptom collection,1
 Other,semi-directive interview,1
 Other,semi-structured telephone questionnaire,1
+Other,sending thorax ct video images via smartphone applications,1
 Other,serial seroconversion measurements in hospital employees during the covid-19 pandemic,1
 Other,seroprevalence of sars-cov-2 infection in patients with hiv infection,1
 Other,serum neurofilaments as a marker of neurological damage.,1
@@ -784,6 +802,8 @@ Other,training load,1
 Other,transplant patient,1
 Other,treatment for covid-19,1
 Other,ultrasonography,1
+Other,use,1
+Other,use/exposure to disinfectants during the coronavirus pandemic,1
 Other,v,1
 Other,v/q spect-ct,1
 Other,validation of the lamp assays,1
@@ -792,6 +812,7 @@ Other,validation of the poct antigen tests,1
 Other,venipuncture in peripheral vein,1
 Other,vitamin d,1
 Other,voice symptom scale (voiss),1
+Other,walk test,1
 Other,whoqol-bref,1
 Other,yoga,1
 Other,zaritt burden interview,1
@@ -832,6 +853,7 @@ Procedure,surgery,1
 Procedure,surgical procedures performed under general anesthesia,1
 Procedure,symptom,1
 Procedure,symptom/exposure surveys,1
+Procedure,thyroidectomy,1
 Procedure,tracheostomy,1
 Procedure,tracheostomy with aerosol box in covid-19 positive patients,1
 Radiation,radiotherapy,1

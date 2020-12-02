@@ -1,8 +1,8 @@
 Intervention_type,intervention,Study_count
 Other,no intervention,10
 Other,questionnaire,4
+Diagnostic Test,blood sample,3
 Behavioral,telehealth,2
-Diagnostic Test,blood sample,2
 Diagnostic Test,igm,2
 Diagnostic Test,igm/igg rapid test,2
 Diagnostic Test,pcr,2
@@ -41,6 +41,9 @@ Diagnostic Test,"biomarker (tropt, myoglobin, ck, ck-mb, ldh, d-dimer, crp, pct)
 Diagnostic Test,cardiovascular risk factors,1
 Diagnostic Test,copan swabbing,1
 Diagnostic Test,copan swabbing/blood sample collection,1
+Diagnostic Test,"covid-19 pcr , igm",1
+Diagnostic Test,covid-19 test,1
+Diagnostic Test,covid-19 testing,1
 Diagnostic Test,duplex sonography,1
 Diagnostic Test,elisa,1
 Diagnostic Test,elisa/rapid test to detect antibodies against covid-19,1
@@ -95,6 +98,7 @@ Other,clinical diagnosis of covid-19 by a health care professional,1
 Other,comparative observational cohort study,1
 Other,complex diagnostic panel,1
 Other,connor-davidson resilience scale 10 items (cd-risc 10),1
+Other,"coronavirus anxiety scale , covid-19 phobia scale",1
 Other,coronavirus disease 2019,1
 Other,covid-19,1
 Other,covid-19 positive via testing,1
@@ -129,6 +133,7 @@ Other,postpartum,1
 Other,postpartum women under investigation for coronavirus/diagnosed with covid-19,1
 Other,pregnant women under investigation for coronavirus,1
 Other,pregnant women under investigation for coronavirus/diagnosed with covid-19,1
+Other,prone positioning,1
 Other,"raman analysis of saliva, characterization of the raman database",1
 Other,"raman analysis of saliva, characterization of the raman database/building of the classification model",1
 Other,serology test,1

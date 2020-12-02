@@ -15,7 +15,7 @@ azithromycin,0,1,0,0
 biological samples,0,0,0,1
 "biomarker (tropt, myoglobin, ck, ck-mb, ldh, d-dimer, crp, pct)",0,0,0,1
 blood d-dimer assay,0,1,0,0
-blood sample,0,0,0,2
+blood sample,0,0,0,3
 brief psychiatric rating scale,0,0,0,1
 building of the classification model,0,0,0,1
 cardiopulmonary resuscitation,0,1,0,0
@@ -31,11 +31,15 @@ complex diagnostic panel,0,0,1,0
 connor-davidson resilience scale 10 items (cd-risc 10),0,0,0,1
 copan swabbing,0,0,0,1
 copan swabbing/blood sample collection,0,0,0,1
+"coronavirus anxiety scale , covid-19 phobia scale",0,1,0,0
 coronavirus disease 2019,0,0,0,1
 covid-19,0,0,0,1
 covid-19 diagnostic,0,0,0,1
 covid-19 diagnostic/assessment tests,0,0,0,1
+"covid-19 pcr , igm",1,0,0,0
 covid-19 positive via testing,0,0,0,1
+covid-19 test,0,0,0,1
+covid-19 testing,0,0,0,1
 cytosorb,0,0,0,1
 data collection,0,0,0,1
 data registry,0,0,0,1
@@ -109,6 +113,7 @@ postpartum women under investigation for coronavirus/diagnosed with covid-19,0,0
 pregnant women under investigation for coronavirus,0,0,1,0
 pregnant women under investigation for coronavirus/diagnosed with covid-19,0,0,1,0
 pregnant women with laboratory-confirmed 2019-n-cov,0,0,0,2
+prone positioning,0,1,0,0
 questionnaire,0,1,0,4
 "raman analysis of saliva, characterization of the raman database",0,0,0,1
 "raman analysis of saliva, characterization of the raman database/building of the classification model",0,0,0,1
@@ -143,4 +148,4 @@ vitamin d,0,0,1,0
 vitros anti-sars-cov-2 igg test,0,0,1,0
 web-based redcap survey,0,0,0,1
 web application users,0,0,0,1
-NA,6,14,3,67
+NA,6,15,3,68
