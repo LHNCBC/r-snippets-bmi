@@ -9,7 +9,7 @@ antihypertensives,1,0,0,0
 assessment of cardiovascular diseases,0,0,0,1
 assessment of cardiovascular diseases/cardiovascular risk factors,0,0,0,1
 assessment tests,0,0,0,1
-assessment),0,0,0,1
+assessment),0,1,0,0
 at risk for covid-19 infection,0,0,0,1
 azithromycin,0,1,0,0
 biological samples,0,0,0,1
@@ -74,6 +74,7 @@ hydroxychloroquine,0,1,1,0
 hydroxychloroquine / azithromycin,0,1,0,0
 hypertension,1,0,0,0
 icu treatment,0,0,0,2
+identification of genetic variants,0,0,0,1
 igg,1,0,0,0
 igg antibody test,0,0,0,1
 igg test,0,0,0,1
@@ -86,6 +87,7 @@ interview,0,0,0,1
 ivermectin,0,1,0,0
 ivermectin / doxycycline,0,1,0,0
 laboratory,0,0,0,1
+lung ultrasound,0,0,0,1
 metabolomic,0,0,0,1
 methylprednisolone,0,1,0,0
 modified rankin score,0,1,0,0
@@ -114,14 +116,14 @@ pregnant women under investigation for coronavirus,0,0,1,0
 pregnant women under investigation for coronavirus/diagnosed with covid-19,0,0,1,0
 pregnant women with laboratory-confirmed 2019-n-cov,0,0,0,2
 prone positioning,0,1,0,0
-questionnaire,0,1,0,4
+questionnaire,0,1,0,5
 "raman analysis of saliva, characterization of the raman database",0,0,0,1
 "raman analysis of saliva, characterization of the raman database/building of the classification model",0,0,0,1
 rapid test,1,0,0,0
 recop unit patient,1,1,0,0
 registery data collection,0,0,0,1
-ria-device (remote investigation,0,0,0,1
-ria-device (remote investigation/assessment),0,0,0,1
+ria-device (remote investigation,0,1,0,0
+ria-device (remote investigation/assessment),0,1,0,0
 sars-cov-2-test,0,0,0,1
 sars-cov-2 serological assessment (igg),0,0,0,1
 savr,1,0,0,0
@@ -132,7 +134,7 @@ single passive leg movement,0,0,0,1
 standard care,0,2,0,0
 statins,1,0,0,0
 stress scale,0,0,0,1
-survey,0,0,0,2
+survey,1,0,0,1
 "symptomatology, treatment. daily activities",0,0,0,1
 taking biological samples,0,0,0,1
 tavr,1,0,0,0
@@ -148,4 +150,4 @@ vitamin d,0,0,1,0
 vitros anti-sars-cov-2 igg test,0,0,1,0
 web-based redcap survey,0,0,0,1
 web application users,0,0,0,1
-NA,6,15,3,68
+NA,6,14,3,71

@@ -1,29 +1,29 @@
 Intervention_type,intervention,Study_count
-Other,questionnaire,72
-Other,no intervention,33
+Other,questionnaire,76
+Other,no intervention,34
 Diagnostic Test,pcr,19
 Diagnostic Test,serology test,11
-Other,online survey,10
+Other,online survey,11
 Other,observational,9
 Behavioral,questionnaire,8
 Biological,blood sample,8
 Other,survey,8
 Other,blood sample,7
-Other,covid-19,6
+Other,covid-19,7
+Other,exposure,6
 Diagnostic Test,igg antibody test,5
 Diagnostic Test,igm/igg rapid test,5
+Diagnostic Test,lung ultrasound,5
 Diagnostic Test,saliva,5
 Other,biological samples,5
-Other,exposure,5
+Other,quality-of-life assessment,5
 Procedure,blood sample,5
 Biological,saliva,4
 Diagnostic Test,blood sample,4
-Diagnostic Test,lung ultrasound,4
 Drug,ace inhibitor,4
 Drug,hydroxychloroquine,4
 Other,data collection,4
 Other,interview,4
-Other,quality-of-life assessment,4
 Other,standard care,4
 Biological,convalescent plasma,3
 Diagnostic Test,igg,3
@@ -44,6 +44,7 @@ Other,ultrasound,3
 Behavioral,assessment of work-related stress,2
 Behavioral,emotional stimulation,2
 Behavioral,observation,2
+Behavioral,prone positioning,2
 Biological,biological data,2
 Biological,pcr,2
 Device,ct-scan,2
@@ -71,6 +72,7 @@ Other,exercise,2
 Other,file scanning,2
 Other,practice details,2
 Other,prone positioning,2
+Other,pulmonary rehabilitation,2
 Other,quality of life,2
 Other,sample collection,2
 Other,serum test,2
@@ -115,7 +117,6 @@ Behavioral,occupational health workers,1
 Behavioral,online survey,1
 Behavioral,peer support,1
 Behavioral,personalized ambulatory training,1
-Behavioral,prone positioning,1
 Behavioral,ptsd,1
 Behavioral,questionnaire : preparedness for caregiving scale,1
 Behavioral,remote pulmonary rehabilitation,1
@@ -151,6 +152,7 @@ Combination Product,ivermectin,1
 Combination Product,respiratory rehabilitation,1
 Combination Product,systemic,1
 Device,adam sensor,1
+Device,aerosol box,1
 Device,alexa amazon,1
 Device,anne one,1
 Device,apple watch,1
@@ -198,6 +200,7 @@ Device,respiratory monitor,1
 Device,sonclot coagulation,1
 Device,"sonclot coagulation/platelet function analyzer scp1, sienco, usa",1
 Device,tof protocol,1
+Device,transparent sheet,1
 Device,transpulmonary thermodilution,1
 Device,"use of the pinpointiq solution (physiq, inc.)",1
 Device,vv-ecmo,1
@@ -214,6 +217,7 @@ Diagnostic Test,antibody test,1
 Diagnostic Test,assessment of ventilator-associated pneumonia criteria,1
 Diagnostic Test,asynchronies detection,1
 Diagnostic Test,biomarkers expression,1
+Diagnostic Test,blood sampling (venesection),1
 Diagnostic Test,blood test,1
 Diagnostic Test,bloodwork,1
 Diagnostic Test,breath test,1
@@ -224,8 +228,11 @@ Diagnostic Test,cambridge validated viral detection,1
 Diagnostic Test,cardiac ct,1
 Diagnostic Test,cardiac mri,1
 Diagnostic Test,carotid artery reactivity testing,1
+Diagnostic Test,cellular immunity,1
 Diagnostic Test,cellular response,1
 Diagnostic Test,chest mri,1
+Diagnostic Test,clinical features,1
+Diagnostic Test,clinical features/laboratory values,1
 Diagnostic Test,clinico-biological parameters in routine care,1
 Diagnostic Test,clungene rapid test cassette,1
 Diagnostic Test,collection of breath sample,1
@@ -268,6 +275,8 @@ Diagnostic Test,health-related quality of life,1
 Diagnostic Test,home sleep apnea testing,1
 Diagnostic Test,home sleep apnea testing/in-hospital polysomnography,1
 Diagnostic Test,home spirometry,1
+Diagnostic Test,humoral,1
+Diagnostic Test,humoral/cellular immunity,1
 Diagnostic Test,id now vs. accula,1
 Diagnostic Test,igg antibodies assay,1
 Diagnostic Test,igg sars cov 2 antibodies,1
@@ -288,6 +297,7 @@ Diagnostic Test,lab workup (on admission,1
 Diagnostic Test,lab workup (on admission/regularly during follow up).,1
 Diagnostic Test,laboratory analyses,1
 Diagnostic Test,laboratory diagnostics tests,1
+Diagnostic Test,laboratory values,1
 Diagnostic Test,lamp,1
 Diagnostic Test,lung function test,1
 Diagnostic Test,lung function tests,1
@@ -314,11 +324,13 @@ Diagnostic Test,odd/even birth year intervention groups,1
 Diagnostic Test,optical coherence tomography angiography,1
 Diagnostic Test,oxidative stress elisa kit,1
 Diagnostic Test,paraclinical test,1
+Diagnostic Test,pcr value,1
 Diagnostic Test,pcr/serology,1
 Diagnostic Test,pct,1
 Diagnostic Test,performing ai algorithms on images,1
 Diagnostic Test,pet-ct of 18f-fdg,1
 Diagnostic Test,phlebotomy,1
+Diagnostic Test,physical examination,1
 Diagnostic Test,pilot a rapid sars-cov-2 testing strategy,1
 Diagnostic Test,plasma igg levels,1
 Diagnostic Test,"platelet count, platelet, mean platelet volume",1
@@ -363,6 +375,7 @@ Diagnostic Test,sars-cov-2 rapid diagnostic test (covid-prestoâ® igm,1
 Diagnostic Test,"sars-cov-2 rapid diagnostic test (covid-prestoâ® igm/igg, aaz, boulogne-billancourt, france)",1
 Diagnostic Test,sars-cov-2 s1,1
 Diagnostic Test,sars-cov-2 s1/s2 igg,1
+Diagnostic Test,sars-cov-2 serology,1
 Diagnostic Test,sars-cov2 testing,1
 Diagnostic Test,scanning chest x-rays/performing ai algorithms on images,1
 Diagnostic Test,self-administered questionnaire,1
@@ -377,6 +390,7 @@ Diagnostic Test,serum ngal/cystatin c,1
 Diagnostic Test,simple chest tomography,1
 Diagnostic Test,soluble urokinase plasminogen activator receptor,1
 Diagnostic Test,spartan covid-19 test,1
+Diagnostic Test,spartan covid-19 v2 system,1
 Diagnostic Test,specimen collection,1
 Diagnostic Test,spirometry,1
 Diagnostic Test,"spirometry, thoracic ct, cpet, 6 minute walking test, sf-36 questionnaire",1
@@ -403,7 +417,10 @@ Diagnostic Test,tomography angiography,1
 Diagnostic Test,tuberculin,1
 Diagnostic Test,ultrasonography,1
 Diagnostic Test,ultrasound,1
+Diagnostic Test,venous blood was collected for biochemistry testing,1
+Diagnostic Test,venous blood was collected for biochemistry testing.,1
 Diagnostic Test,videofluoroscopy,1
+Diagnostic Test,visual analogue scale,1
 Diagnostic Test,volume rapid test,1
 Diagnostic Test,weck-cel swab collection,1
 Diagnostic Test,whole exome sequencing,1
@@ -418,6 +435,7 @@ Drug,anakinra,1
 Drug,angiotensin-converting enzyme inhibitors (ace-i)/angiotensin ii receptor blockers (arb),1
 Drug,angiotensin ii,1
 Drug,antirheumatic drugs,1
+Drug,antithrombin iii,1
 Drug,any drug used to treat covid-19,1
 Drug,arb blocker,1
 Drug,azithromycin,1
@@ -429,6 +447,8 @@ Drug,calcium channel blockers,1
 Drug,chemotherapy,1
 Drug,chlorine dioxide,1
 Drug,cobicistat,1
+Drug,corticosteroid with,1
+Drug,corticosteroid with/without colchicine,1
 Drug,corticosteroids/derivatives,1
 Drug,covid-19 treatment,1
 Drug,darunavir,1
@@ -468,6 +488,7 @@ Drug,standard care,1
 Drug,surfactant,1
 Drug,tcm,1
 Drug,thromboprophylaxis,1
+Drug,without colchicine,1
 Genetic,complete thrombophilic profile testing by multiplex pcr,1
 Genetic,covid-19 androgen sensitivity test (covast),1
 Genetic,genetic,1
@@ -525,6 +546,7 @@ Other,case fatality rate,1
 Other,clinical data collection,1
 Other,clinical examination,1
 Other,clinical interview,1
+Other,clinical observation,1
 Other,clinical outcomes in elderly patients with covid-19.,1
 Other,clinical testing of subjects,1
 Other,"clinical, functional",1
@@ -702,6 +724,7 @@ Other,passed infection of sars-cov-2,1
 Other,patient characteristics,1
 Other,patient with sar-cov-2 infection,1
 Other,patients,1
+Other,patients admitted in intensive care units,1
 Other,patients admitted to intensive care unit with sars-cov2,1
 Other,patients received standard of care treatment during hospitalization,1
 Other,pcr,1
@@ -714,6 +737,7 @@ Other,phone interviews,1
 Other,phq,1
 Other,phq-9 depression scale,1
 Other,phsyiotherapy,1
+Other,physical activity program,1
 Other,physiotherapy,1
 Other,plethysmography,1
 Other,plethysmography/dlco,1
@@ -734,7 +758,6 @@ Other,psqi,1
 Other,pss,1
 Other,psychological,1
 Other,psychological/sociological interviews,1
-Other,pulmonary rehabilitation,1
 Other,q spect-ct,1
 Other,qualitative interviews..,1
 Other,quality of life questionnaires,1
@@ -753,6 +776,7 @@ Other,relation between frailty/clinical outcomes in elderly patients with covid-
 Other,research specific blood sample,1
 Other,respiratory physiotherapy,1
 Other,retrospective,1
+Other,retrospective data collection,1
 Other,retrospective metagenomics on clinical samples collected during hospitalization,1
 Other,risk factors,1
 Other,saliva based assay: crude rna extraction,1
@@ -790,6 +814,7 @@ Other,"surgery: dynamic hip screw, hemiarthroplasty, hip replacement, intramedul
 Other,survey/questionnaire,1
 Other,surveys/questionnaires,1
 Other,symptoms,1
+Other,t-detectâ„¢ sars-cov-2 assay,1
 Other,taste/olfactory function evaluation,1
 Other,teleconsultation,1
 Other,teleconsultation either by phone,1
@@ -806,6 +831,7 @@ Other,use,1
 Other,use/exposure to disinfectants during the coronavirus pandemic,1
 Other,v,1
 Other,v/q spect-ct,1
+Other,vaccine coverage assessment,1
 Other,validation of the lamp assays,1
 Other,validation of the ngs method,1
 Other,validation of the poct antigen tests,1
@@ -816,6 +842,7 @@ Other,walk test,1
 Other,whoqol-bref,1
 Other,yoga,1
 Other,zaritt burden interview,1
+Procedure,appendectomy,1
 Procedure,autopsy,1
 Procedure,bariatric procedures,1
 Procedure,collection of mucosal lining fluid,1
