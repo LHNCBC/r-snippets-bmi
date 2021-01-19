@@ -6,12 +6,14 @@ airway management during sedation/general anesthesia,0,0,0,1
 angiogenic biomarkers,0,0,0,1
 antibody test,0,0,0,1
 antihypertensives,1,0,0,0
+art,0,0,0,1
 assessment of cardiovascular diseases,0,0,0,1
 assessment of cardiovascular diseases/cardiovascular risk factors,0,0,0,1
 assessment tests,0,0,0,1
 assessment),0,1,0,0
 at risk for covid-19 infection,0,0,0,1
 azithromycin,0,1,0,0
+baseline spirometry,0,0,0,1
 biological samples,0,0,0,1
 "biomarker (tropt, myoglobin, ck, ck-mb, ldh, d-dimer, crp, pct)",0,0,0,1
 blood d-dimer assay,0,1,0,0
@@ -22,6 +24,8 @@ cardiopulmonary resuscitation,0,1,0,0
 cardiovascular risk factors,0,0,0,1
 cerebral compliance,0,1,0,0
 cerebral compliance/hemodynamics monitoring,0,1,0,0
+chest ct,0,0,0,1
+chest ct scan / baseline spirometry,0,0,0,1
 chloroquine,0,0,1,0
 chloroquine/hydroxychloroquine,0,0,1,0
 clinical data,0,0,0,1
@@ -31,9 +35,10 @@ complex diagnostic panel,0,0,1,0
 connor-davidson resilience scale 10 items (cd-risc 10),0,0,0,1
 copan swabbing,0,0,0,1
 copan swabbing/blood sample collection,0,0,0,1
+coromec registry with ecl-19,0,0,1,0
 "coronavirus anxiety scale , covid-19 phobia scale",0,1,0,0
 coronavirus disease 2019,0,0,0,1
-covid-19,0,0,0,1
+covid-19,0,0,0,2
 covid-19 diagnostic,0,0,0,1
 covid-19 diagnostic/assessment tests,0,0,0,1
 "covid-19 pcr , igm",1,0,0,0
@@ -49,7 +54,7 @@ diabetes type 2,1,0,0,0
 diagnosed with covid-19,0,0,1,0
 doxycycline,0,1,0,0
 duplex sonography,0,0,0,1
-ecg-holter,0,0,0,1
+ecg-holter,0,1,0,0
 elisa,1,0,0,0
 elisa/rapid test to detect antibodies against covid-19,1,0,0,0
 emergency surgery,0,1,0,0
@@ -68,6 +73,7 @@ gastrointestinal endoscopy,0,1,0,0
 general anesthesia,0,0,0,1
 health care worker survey,0,0,0,1
 hemodynamics monitoring,0,1,0,0
+hiv,0,0,0,1
 hospital admission,0,0,0,1
 hospitalized children with covid19,0,0,0,1
 hydroxychloroquine,0,1,1,0
@@ -75,7 +81,7 @@ hydroxychloroquine / azithromycin,0,1,0,0
 hypertension,1,0,0,0
 icu treatment,0,0,0,2
 identification of genetic variants,0,0,0,1
-igg,1,0,0,0
+igg,0,1,0,0
 igg antibody test,0,0,0,1
 igg test,0,0,0,1
 igm,0,0,0,2
@@ -94,7 +100,7 @@ modified rankin score,0,1,0,0
 muscle,0,0,0,1
 nä°cas,0,0,0,1
 netosis markers,0,0,0,1
-no intervention,1,0,0,9
+no intervention,2,1,0,7
 no special intervention,0,1,0,0
 non-hospitalization procedures,0,0,0,1
 non-interventional study,0,0,0,1
@@ -126,11 +132,13 @@ ria-device (remote investigation,0,1,0,0
 ria-device (remote investigation/assessment),0,1,0,0
 sars-cov-2-test,0,0,0,1
 sars-cov-2 serological assessment (igg),0,0,0,1
+sars-cov2 infection,1,0,0,0
 savr,1,0,0,0
 seraph,0,0,0,1
 seraphâ®-100 microbindâ® affinity blood filter,0,0,0,1
-serology test,1,0,0,3
+serology test,0,1,0,4
 single passive leg movement,0,0,0,1
+sonoclot,0,0,0,1
 standard care,0,2,0,0
 statins,1,0,0,0
 stress scale,0,0,0,1
@@ -146,8 +154,9 @@ thromboprofylaxis protocol,0,1,0,0
 ultrasound,0,0,0,1
 "urinary ngal, timp-2, igfbp7, il-6, viral load",0,0,0,1
 "urinary ngal, timp-2, igfbp7, il-6, viral load/metabolomic",0,0,0,1
+vascular occlusion test,0,0,0,1
 vitamin d,0,0,1,0
 vitros anti-sars-cov-2 igg test,0,0,1,0
 web-based redcap survey,0,0,0,1
 web application users,0,0,0,1
-NA,6,14,3,71
+NA,6,15,3,80

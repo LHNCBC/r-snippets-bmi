@@ -1,65 +1,69 @@
 Country,Study_Count
-United States,468
-France,143
-China,77
-Spain,65
-Brazil,64
-Canada,56
-United Kingdom,51
-Mexico,46
-Italy,42
-Egypt,40
-Turkey,29
-Russian Federation,28
-Germany,26
-Pakistan,26
-Belgium,25
-Argentina,19
-Denmark,19
-India,19
+United States,492
+France,150
+China,78
+Spain,69
+Brazil,66
+Canada,63
+United Kingdom,57
+Mexico,48
+Italy,44
+Egypt,41
+Turkey,32
+Germany,30
+Pakistan,30
+Belgium,28
+Russian Federation,27
+Argentina,21
+Denmark,21
+India,21
 "Iran, Islamic Republic of",18
 Israel,17
+Sweden,17
 Australia,16
-Sweden,16
-Netherlands,12
-Switzerland,12
-Bangladesh,11
+Bangladesh,13
+Netherlands,13
+Switzerland,13
+Indonesia,12
+"Korea, Republic of",12
+Colombia,11
+Greece,11
 Saudi Arabia,11
-Colombia,10
-"Korea, Republic of",10
-Greece,9
+Japan,9
+South Africa,9
 Hong Kong,8
-Indonesia,8
-Japan,7
-Singapore,7
-South Africa,7
-United States|Brazil,7
+Singapore,8
+United States|Canada,8
 United States|Puerto Rico,7
 Chile,6
 Poland,6
+United States|Brazil,6
+Austria,5
 Qatar,5
-Austria,4
 Hungary,4
 Iraq,4
 Jordan,4
 Norway,4
 Taiwan,4
-United States|Canada,4
+Bahrain,3
+Kazakhstan,3
 Malaysia,3
 Peru,3
 Romania,3
-Bahrain,2
+Thailand,3
+Ukraine,3
 Belarus,2
+Belgium|Germany,2
 Finland,2
 France|Monaco,2
 French Guiana,2
 Guinea,2
 Guinea-Bissau,2
-Kazakhstan,2
 Kuwait,2
 North Macedonia,2
-Thailand,2
-Ukraine,2
+United States|Brazil|Russian Federation|Spain,2
+United States|Romania,2
+United States|Spain,2
 Vietnam,2
 Argentina|Brazil|Canada|Chile|France|Germany|Israel|Italy|Japan|Russian Federation|Spain,1
 Argentina|Brazil|Chile|France|Germany|India|Italy|Mexico|Peru|Russian Federation|South Africa|Spain|Turkey,1
@@ -67,35 +71,39 @@ Argentina|Brazil|Chile|Mexico|Russian Federation,1
 Argentina|Brazil|Denmark|Germany|Hungary|India|Mexico|Netherlands|Peru|Russian Federation|South Africa|Spain,1
 Argentina|Chile|Mexico|Pakistan|Russian Federation,1
 Argentina|Egypt,1
+Argentina|Spain,1
+Australia|India,1
 Australia|Netherlands|Spain|United Kingdom,1
-Austria|Belgium|France|Luxembourg,1
 Austria|Denmark|Germany|Russian Federation|United Kingdom,1
 Austria|Germany,1
 Bahrain|Egypt|Jordan|United Arab Emirates,1
+Belgium|Austria|France|Luxembourg|Portugal,1
 Belgium|Brazil|France|Germany|Italy|Mexico|Spain|United Kingdom,1
 Belgium|France,1
 Belgium|France|Monaco,1
-Belgium|Germany,1
+Belgium|Germany|Netherlands,1
 Bosnia and Herzegovina,1
 Brazil|Canada|Chile|Colombia|Ecuador|Egypt|India|Pakistan|Philippines|Russian Federation|Saudi Arabia|United Arab Emirates,1
 Brazil|Israel|Mexico|Russian Federation,1
 Brazil|Italy,1
+Brazil|United States,1
+Bulgaria,1
 Bulgaria|Germany,1
 CÃ´te D'Ivoire,1
-Canada|Germany|Netherlands|Spain,1
+Canada|Germany|Netherlands|Spain|United Kingdom,1
 Canada|Israel,1
 Canada|Mongolia,1
 Canada|Saudi Arabia,1
-Canada|United States,1
 Cape Verde|Guinea-Bissau|Mozambique,1
 China|Indonesia,1
 China|Italy,1
 Costa Rica,1
 Czechia,1
+Czechia|United Kingdom,1
 Denmark|India|Sweden|Switzerland,1
+Denmark|Sweden,1
 Dominican Republic,1
 Ecuador,1
-"France|United States|China|Germany|Hong Kong|Italy|Japan|Korea, Republic of|Netherlands|Singapore|Spain|Sweden|Switzerland|Taiwan|United Kingdom",1
 French Guiana|Guadeloupe|New Caledonia,1
 Germany|Israel,1
 Germany|Netherlands,1
@@ -105,28 +113,35 @@ Honduras,1
 Iceland,1
 India|Israel,1
 India|United Kingdom,1
-India|United States|Argentina|Belgium|Brazil|Canada|Chile|France|Japan|Mexico|Netherlands|Peru|Poland|Russian Federation|South Africa|Spain|United Kingdom,1
 Indonesia|Italy|Lao People's Democratic Republic|Pakistan|Thailand|United Kingdom,1
 Ireland,1
+Italy|Russian Federation,1
 Italy|Spain,1
+Jamaica,1
 Kenya,1
 Kyrgyzstan,1
 "Moldova, Republic of",1
 "Moldova, Republic of|Romania|Ukraine|United Kingdom",1
 "NA",1
+Nepal,1
+Netherlands|United States|Argentina|Belgium|Brazil|Canada|Chile|France|India|Japan|Mexico|Peru|Poland|Russian Federation|South Africa|Spain|United Kingdom,1
 New Zealand,1
 Nigeria,1
 Panama|Peru,1
+Paraguay,1
 Philippines,1
 Puerto Rico,1
+Russian Federation|Slovakia,1
 Russian Federation|Spain,1
 Rwanda,1
 Senegal,1
+"Singapore|United States|China|France|Germany|Hong Kong|Italy|Japan|Korea, Republic of|Netherlands|Spain|Sweden|Switzerland|Taiwan|United Kingdom",1
 Slovenia,1
-Spain|United States|Canada|Denmark|France|Germany|Italy|Netherlands|United Kingdom,1
+Taiwan|Vietnam,1
 Tunisia,1
 Uganda,1
 United Arab Emirates,1
+United States|Argentina|Brazil|Canada|India|Mexico|United Kingdom,1
 United States|Argentina|Brazil|Chile|Colombia|Mexico|Peru|South Africa,1
 United States|Argentina|Brazil|Colombia|France|Germany|Mexico|Peru|Russian Federation|Spain|Turkey|United Kingdom,1
 "United States|Argentina|Brazil|Germany|India|Italy|Japan|Korea, Republic of|Mexico|Puerto Rico|Russian Federation|Spain|United Kingdom",1
@@ -145,19 +160,20 @@ United States|Belgium|Canada|France|Japan|Spain,1
 United States|Belgium|Colombia|France|Germany|Philippines|South Africa|Spain|United Kingdom,1
 United States|Belgium|France|Netherlands,1
 United States|Belgium|France|Spain|United Kingdom,1
+United States|Brazil|Canada|Chile|Colombia|France|Germany|Israel|Philippines|Russian Federation|South Africa|Spain|Ukraine|United Kingdom,1
+"United States|Brazil|Canada|Chile|Colombia|France|Israel|Korea, Republic of|Mexico|Philippines|Poland|Russian Federation|South Africa|Spain|Ukraine|United Kingdom",1
 United States|Brazil|Canada|Mexico,1
 United States|Brazil|Canada|South Africa|Spain,1
-"United States|Brazil|Chile|Colombia|France|Israel|Korea, Republic of|Poland|Russian Federation|South Africa|Spain|Ukraine|United Kingdom",1
-United States|Brazil|Chile|Colombia|France|Israel|Russian Federation|South Africa|Spain|Ukraine|United Kingdom,1
-"United States|Brazil|Chile|Moldova, Republic of|Romania",1
+"United States|Brazil|Chile|Mexico|Moldova, Republic of|Romania",1
 United States|Brazil|Chile|Peru|South Africa,1
-United States|Brazil|France|Russian Federation|Spain,1
 United States|Brazil|Kenya|Mexico|Peru|South Africa,1
 United States|Brazil|Mexico,1
+United States|Brazil|Mexico|Puerto Rico|Spain,1
 United States|Brazil|Mexico|Spain,1
-United States|Brazil|Russian Federation,1
+United States|Canada|Denmark|France|Germany|Italy|Netherlands|Spain|United Kingdom,1
 United States|Canada|Ghana|Ireland|Netherlands|South Africa|Uganda|United Kingdom|Zambia|Zimbabwe,1
-United States|Denmark,1
+United States|Canada|Turkey,1
+"United States|China|France|Germany|Hong Kong|Italy|Japan|Korea, Republic of|Netherlands|Singapore|Spain|Sweden|Switzerland|Taiwan|United Kingdom",1
 "United States|Denmark|Germany|Greece|Japan|Korea, Republic of|Mexico|Singapore|Spain|United Kingdom",1
 United States|Denmark|Greece|Japan|Nigeria|Spain|United Kingdom,1
 "United States|Denmark|Japan|Korea, Republic of|Mexico|Singapore|Spain|United Kingdom",1
@@ -165,15 +181,17 @@ United States|Denmark|Singapore|Spain,1
 United States|France|Italy|Russian Federation|Spain|United Kingdom,1
 United States|France|Japan|Spain|United Kingdom,1
 United States|Israel,1
+United States|Israel|Netherlands,1
 United States|Italy,1
 United States|Italy|Spain|United Kingdom,1
 "United States|Japan|Korea, Republic of|Mexico|Singapore",1
+"United States|Japan|Korea, Republic of|Singapore",1
+United States|Mexico|Puerto Rico,1
 "United States|Moldova, Republic of|Romania",1
 United States|New Zealand,1
-United States|Romania,1
 United States|Russian Federation,1
-United States|Spain,1
+United States|Russian Federation|Ukraine,1
+United States|Singapore,1
+United States|South Africa,1
 United States|Switzerland,1
-United States|Turkey,1
 United States|United Kingdom,1
-"United States|United Kingdom|China|France|Germany|Hong Kong|Italy|Japan|Korea, Republic of|Netherlands|Singapore|Spain|Sweden|Switzerland|Taiwan",1

@@ -2,11 +2,11 @@ Intervention_type,intervention,Study_count
 Other,no intervention,10
 Other,questionnaire,5
 Diagnostic Test,blood sample,3
+Diagnostic Test,serology test,3
 Behavioral,telehealth,2
 Diagnostic Test,igm,2
 Diagnostic Test,igm/igg rapid test,2
 Diagnostic Test,pcr,2
-Diagnostic Test,serology test,2
 Other,icu treatment,2
 Other,pregnant women with laboratory-confirmed 2019-n-cov,2
 Other,recop unit patient,2
@@ -16,6 +16,8 @@ Behavioral,enhanced hygiene measures,1
 Behavioral,health care worker survey,1
 Behavioral,registery data collection,1
 Behavioral,survey,1
+Biological,covid-19,1
+Biological,hiv,1
 Biological,serology test,1
 Combination Product,observational,1
 Device,assessment),1
@@ -32,13 +34,17 @@ Device,seraph,1
 Device,seraphâ®-100 microbindâ® affinity blood filter,1
 Device,tavr,1
 Device,tavr/savr,1
+Device,vascular occlusion test,1
 Device,web application users,1
 Diagnostic Test,angiogenic biomarkers,1
 Diagnostic Test,antibody test,1
 Diagnostic Test,assessment of cardiovascular diseases,1
 Diagnostic Test,assessment of cardiovascular diseases/cardiovascular risk factors,1
+Diagnostic Test,baseline spirometry,1
 Diagnostic Test,"biomarker (tropt, myoglobin, ck, ck-mb, ldh, d-dimer, crp, pct)",1
 Diagnostic Test,cardiovascular risk factors,1
+Diagnostic Test,chest ct,1
+Diagnostic Test,chest ct scan / baseline spirometry,1
 Diagnostic Test,copan swabbing,1
 Diagnostic Test,copan swabbing/blood sample collection,1
 Diagnostic Test,"covid-19 pcr , igm",1
@@ -66,6 +72,7 @@ Diagnostic Test,rapid test,1
 Diagnostic Test,sars-cov-2-test,1
 Diagnostic Test,sars-cov-2 serological assessment (igg),1
 Diagnostic Test,single passive leg movement,1
+Diagnostic Test,sonoclot,1
 Diagnostic Test,ultrasound,1
 Diagnostic Test,"urinary ngal, timp-2, igfbp7, il-6, viral load",1
 Diagnostic Test,"urinary ngal, timp-2, igfbp7, il-6, viral load/metabolomic",1
@@ -73,7 +80,9 @@ Diagnostic Test,vitros anti-sars-cov-2 igg test,1
 Dietary Supplement,vitamin d,1
 Drug,ace inhibitor,1
 Drug,antihypertensives,1
+Drug,art,1
 Drug,azithromycin,1
+Drug,coromec registry with ecl-19,1
 Drug,doxycycline,1
 Drug,hydroxychloroquine,1
 Drug,hydroxychloroquine / azithromycin,1
@@ -138,6 +147,7 @@ Other,pregnant women under investigation for coronavirus/diagnosed with covid-19
 Other,prone positioning,1
 Other,"raman analysis of saliva, characterization of the raman database",1
 Other,"raman analysis of saliva, characterization of the raman database/building of the classification model",1
+Other,sars-cov2 infection,1
 Other,serology test,1
 Other,stress scale,1
 Other,survey,1
