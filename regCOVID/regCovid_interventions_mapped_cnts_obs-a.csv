@@ -1,6 +1,6 @@
 Intervention_type,intervention,Study_count
 Other,questionnaire,79
-Other,no intervention,38
+Other,no intervention,39
 Diagnostic Test,pcr,21
 Other,online survey,13
 Diagnostic Test,serology test,11
@@ -16,13 +16,13 @@ Diagnostic Test,blood sample,5
 Diagnostic Test,igg antibody test,5
 Diagnostic Test,igm/igg rapid test,5
 Diagnostic Test,saliva,5
+Drug,hydroxychloroquine,5
 Other,biological samples,5
 Other,data collection,5
 Other,quality-of-life assessment,5
 Procedure,blood sample,5
 Biological,saliva,4
 Drug,ace inhibitor,4
-Drug,hydroxychloroquine,4
 Other,covid-19 pandemic,4
 Other,interview,4
 Other,observation,4
@@ -67,6 +67,7 @@ Drug,azithromycin,2
 Drug,corticosteroids,2
 Drug,dalteparin,2
 Drug,interleukin,2
+Drug,ivermectin,2
 Drug,methylprednisolone,2
 Drug,remdesivir,2
 Drug,tinzaparin,2
@@ -521,7 +522,6 @@ Drug,guduchi ghan vati,1
 Drug,heparin,1
 Drug,immunoglubulins,1
 Drug,immunosuppressive,1
-Drug,ivermectin,1
 Drug,"ivermectin 5 mg/ml oral solution, aspirin 250 mg tablets",1
 Drug,kaletra,1
 Drug,kaletra/beta interferon,1
@@ -531,6 +531,7 @@ Drug,lopinavir,1
 Drug,lopinavir/ritonavir,1
 Drug,management of covid-19,1
 Drug,"ml oral solution, aspirin 250 mg tablets",1
+Drug,montelukast,1
 Drug,no-immunosuppressive,1
 Drug,non-acei,1
 Drug,non-acei/arb,1

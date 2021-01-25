@@ -1,7 +1,7 @@
 intervention,"Active, not recruiting",Completed,Enrolling by invitation,Recruiting,Terminated,Total
-NA,43,107,28,296,1,475
+NA,43,109,29,299,1,481
 questionnaire,6,29,3,53,1,92
-no intervention,6,6,2,26,0,40
+no intervention,6,6,2,27,0,41
 blood sample,1,2,0,23,0,26
 pcr,4,7,2,11,0,24
 online survey,1,3,2,10,0,16
@@ -20,6 +20,7 @@ observation,0,2,0,4,0,6
 prone positioning,2,3,0,1,0,6
 ace inhibitor,1,2,0,2,0,5
 data collection,0,0,0,5,0,5
+hydroxychloroquine,2,3,0,0,0,5
 igg antibody test,0,2,2,1,0,5
 interview,1,1,0,3,0,5
 quality-of-life assessment,0,0,0,5,0,5
@@ -29,7 +30,7 @@ biospecimen collection,0,0,0,4,0,4
 convalescent plasma,1,1,0,2,0,4
 covid-19 pandemic,1,1,0,2,0,4
 exercise,0,0,1,3,0,4
-hydroxychloroquine,2,2,0,0,0,4
+ivermectin,0,4,0,0,0,4
 ultrasound,0,1,0,3,0,4
 arb,1,0,0,2,0,3
 clinical assessment,0,2,0,1,0,3
@@ -40,9 +41,8 @@ flow cytometry,0,2,0,1,0,3
 igg,0,1,1,1,0,3
 igm,0,0,1,2,0,3
 interleukin,1,0,0,2,0,3
-ivermectin,0,3,0,0,0,3
 nasopharyngeal swab,0,0,0,3,0,3
-non-interventional,0,0,0,3,0,3
+non-interventional,0,1,0,2,0,3
 other,0,1,0,2,0,3
 rapid test,1,2,0,0,0,3
 taste,0,0,0,3,0,3
@@ -396,7 +396,7 @@ gad-7 (7-item generalized anxiety disorder),0,0,0,1,0,1
 gad-7 (general anxiety disorder) scale,0,1,0,0,0,1
 gad-7 general anxiety disorder scale,0,0,0,1,0,1
 gas exchange measurement,0,1,0,0,0,1
-general public cohort,0,0,0,1,0,1
+general public cohort,0,1,0,0,0,1
 generalized anxiety disorder-7 (gad-7),0,1,0,0,0,1
 genetic,0,0,0,1,0,1
 geneva emotional competence test (geco),0,0,1,0,0,1
@@ -544,8 +544,9 @@ mmrc (modified medical research council) dyspnea scale,0,0,0,1,0,1
 mobile internet survey on self-test,0,1,0,0,0,1
 model building,0,1,0,0,0,1
 model validation,0,1,0,0,0,1
-modification,0,0,0,1,0,1
+modification,0,1,0,0,0,1
 monitoring for aggravation,0,0,0,1,0,1
+montelukast,0,1,0,0,0,1
 month 12 after first symptoms from sars-cov-2 infection,0,0,0,1,0,1
 mortality,0,0,0,1,0,1
 mr-pro-adm,0,0,0,1,0,1

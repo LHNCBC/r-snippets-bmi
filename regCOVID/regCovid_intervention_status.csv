@@ -1,18 +1,18 @@
 intervention,"Active, not recruiting",Completed,Enrolling by invitation,Recruiting,Terminated,Total
-NA,49,122,31,376,1,579
-placebo,62,45,15,328,14,464
-standard care,14,30,6,105,5,160
-hydroxychloroquine,18,23,7,55,16,119
+NA,49,124,32,379,1,585
+placebo,63,45,15,328,14,465
+standard care,14,32,6,103,5,160
+hydroxychloroquine,18,24,7,55,16,120
 questionnaire,6,31,4,66,1,108
-convalescent plasma,12,20,4,69,1,106
+convalescent plasma,12,21,4,68,1,106
+no intervention,8,8,2,34,0,52
 blood sample,2,3,0,46,0,51
-no intervention,8,8,2,33,0,51
 azithromycin,7,6,2,24,3,42
-saline,8,0,2,29,0,39
-tocilizumab,8,8,0,18,3,37
-ivermectin,0,15,1,20,0,36
+saline,7,2,2,28,0,39
+tocilizumab,8,8,0,18,4,38
+ivermectin,0,16,1,20,0,37
+mesenchymal stem cells,6,5,2,19,0,32
 remdesivir,3,6,0,21,2,32
-mesenchymal stem cells,6,4,2,19,0,31
 pcr,4,8,2,17,0,31
 serology test,1,4,3,23,0,31
 favipiravir,4,3,1,20,0,28
@@ -51,7 +51,7 @@ radiotherapy,2,1,0,7,0,10
 ruxolitinib,2,1,0,6,1,10
 zinc,0,2,1,6,0,9
 ace inhibitor,1,2,1,4,0,8
-camostat mesilate,0,0,0,8,0,8
+camostat mesilate,1,0,0,7,0,8
 ct-scan,1,2,0,5,0,8
 data collection,0,1,0,7,0,8
 losartan,1,2,0,5,0,8
@@ -61,7 +61,7 @@ best available therapy,0,2,0,5,0,7
 blood test,1,1,0,5,0,7
 exposure,1,2,0,4,0,7
 nasopharyngeal swab,0,1,0,6,0,7
-povidone/iodine,0,3,0,4,0,7
+povidone/iodine,0,4,0,3,0,7
 rapid test,2,3,1,1,0,7
 sarilumab,2,2,0,2,1,7
 serum test,0,2,0,5,0,7
@@ -163,7 +163,7 @@ nafamostat mesilate,0,0,0,3,0,3
 nasal,0,0,0,3,0,3
 niclosamide,0,0,0,3,0,3
 nigella sativa,0,1,0,2,0,3
-non-interventional,0,0,0,3,0,3
+non-interventional,0,1,0,2,0,3
 nutrition,1,0,0,2,0,3
 opaganib,1,1,0,1,0,3
 other,0,1,0,2,0,3
@@ -217,7 +217,7 @@ biological data,2,0,0,0,0,2
 blood collection on their first consultation/10 to 14 days later,0,0,0,2,0,2
 blood draw,0,0,0,2,0,2
 breath test,0,0,0,2,0,2
-brequinar,0,0,0,2,0,2
+brequinar,0,1,0,1,0,2
 camostat,0,0,0,2,0,2
 cannabidiol,2,0,0,0,0,2
 cardiac,0,1,0,1,0,2
@@ -665,6 +665,7 @@ bicalutamide 150 mg oral tablet,0,0,0,1,0,1
 bidirectional oxygenation mouthpiece,0,0,0,1,0,1
 bio 300 oral suspension,0,0,0,1,0,1
 bio101,0,0,0,1,0,1
+bioargininaâ®,0,0,0,1,0,1
 biochemical analysis,0,1,0,0,0,1
 biological assays in particular on the lipid metabolism,0,1,0,0,0,1
 biological sample/clinical data collection,0,0,0,1,0,1
@@ -959,9 +960,10 @@ covx,0,1,0,0,0,1
 cpc0.05 oral rinse (perioaidactive control),0,1,0,0,0,1
 cpi-006,0,0,0,1,0,1
 cretan iama,0,1,0,0,0,1
+cri management,0,0,1,0,0,1
 cries 13 questionnaire,0,0,0,1,0,1
 crisis intervention therapy,0,0,1,0,0,1
-crizanlizumab,1,0,0,0,0,1
+crizanlizumab,0,1,0,0,0,1
 cross-sectional observational study,0,1,0,0,0,1
 cross-sectional study investigating the association of npis with mental health,0,1,0,0,0,1
 cross sectional study using scientifically validated psychometric scales,0,1,0,0,0,1
@@ -990,6 +992,7 @@ daily monitoring,0,0,0,1,0,1
 daily room disinfection,0,1,0,0,0,1
 daily syndromic surveillance,0,0,1,0,0,1
 dalargin,1,0,0,0,0,1
+dalcetrapib,0,0,0,1,0,1
 danoprevir,0,1,0,0,0,1
 danoprevir/ritonavir,0,1,0,0,0,1
 dapansutrile capsules,0,0,0,1,0,1
@@ -1287,7 +1290,7 @@ gc5131,0,0,0,1,0,1
 general anesthesia,0,0,0,1,0,1
 general communication message,0,0,0,1,0,1
 general health education,0,0,0,1,0,1
-general public cohort,0,0,0,1,0,1
+general public cohort,0,1,0,0,0,1
 general recommendation,0,0,0,1,0,1
 generalized anxiety disorder-7 (gad-7),0,1,0,0,0,1
 genetic,0,0,0,1,0,1
@@ -1579,6 +1582,8 @@ licensed seasonal influenza vaccine,0,0,0,1,0,1
 licorice extract,0,0,0,1,0,1
 life2000â® ventilator,0,0,0,1,0,1
 lifesignals biosensor 1ax*,0,0,0,1,0,1
+lifestyle (exercise),0,1,0,0,0,1
+lifestyle (meditation),0,1,0,0,0,1
 lifestyle change promotion program,0,0,0,1,0,1
 lifestyle habits,0,1,0,0,0,1
 limbix spark,0,0,0,1,0,1
@@ -1639,6 +1644,7 @@ machine learning,0,0,0,1,0,1
 machine learning model,0,1,0,0,0,1
 machine learning/ai algorithm,0,0,0,1,0,1
 magec spine rod,0,0,0,1,0,1
+magnesium stearate),0,0,0,1,0,1
 magnetic resonance imaging,0,0,0,1,0,1
 magnetic resonance spectroscopy (mrs).,0,0,0,1,0,1
 maintenance,0,0,0,1,0,1
@@ -1732,7 +1738,7 @@ mobile internet survey on self-test,0,1,0,0,0,1
 model building,0,1,0,0,0,1
 model validation,0,1,0,0,0,1
 moderate intensity aerobic exercises,0,1,0,0,0,1
-modification,0,0,0,1,0,1
+modification,0,1,0,0,0,1
 modified ipac-uhn ppe,0,0,0,1,0,1
 modified rankin score,0,1,0,0,0,1
 molgramostim nebuliser solution,0,0,0,1,0,1
@@ -1742,6 +1748,7 @@ monitoring,0,0,0,1,0,1
 monitoring for aggravation,0,0,0,1,0,1
 monitoring visit,0,0,0,0,1,1
 monoclonal antibody,0,0,0,1,0,1
+montelukast,0,1,0,0,0,1
 month 12 after first symptoms from sars-cov-2 infection,0,0,0,1,0,1
 montmorrillonite,0,1,0,0,0,1
 mortality,0,0,0,1,0,1
@@ -2022,6 +2029,8 @@ piperacillin/tazobactam,0,0,0,1,0,1
 placebo-lde phase 2,0,0,0,1,0,1
 placebo - phase i,1,0,0,0,0,1
 placebo (methylcellulose) capsule,0,0,0,1,0,1
+placebo (potato starch,0,0,0,1,0,1
+placebo (potato starch/magnesium stearate),0,0,0,1,0,1
 placebo (saline),0,0,0,1,0,1
 placebo (standard therapy),0,0,0,1,0,1
 "placebo (two doses), priming",0,0,0,1,0,1
@@ -2092,6 +2101,7 @@ pro-sero-cov,1,0,0,0,0,1
 "pro bnp , vitamin d",0,0,0,1,0,1
 probiorinse,0,0,0,1,0,1
 probiotics,0,0,0,1,0,1
+probiotics (2 strains 10x10^9 ufc),0,0,0,1,0,1
 problem-solving,0,0,0,1,0,1
 problem-solving/relationship improvement intervention.,0,0,0,1,0,1
 procalcitonin,0,0,0,1,0,1

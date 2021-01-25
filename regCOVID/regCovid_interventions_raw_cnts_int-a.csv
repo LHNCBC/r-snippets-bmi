@@ -1,13 +1,13 @@
 Intervention_type,intervention,Study_count
-placebo,placebo,464
+placebo,placebo,465
 Other,standard care,151
 Drug,hydroxychloroquine,113
 Biological,convalescent plasma,102
 Drug,azithromycin,39
 Drug,saline,39
-Drug,tocilizumab,35
+Drug,tocilizumab,36
 Drug,ivermectin,32
-Biological,mesenchymal stem cells,31
+Biological,mesenchymal stem cells,32
 Drug,remdesivir,30
 Drug,favipiravir,27
 Drug,ritonavir,27
@@ -500,6 +500,7 @@ Drug,bicalutamide 150 mg oral tablet,1
 Device,bidirectional oxygenation mouthpiece,1
 Drug,bio 300 oral suspension,1
 Drug,bio101,1
+Dietary Supplement,bioargininaâ®,1
 Biological,biological test,1
 Biological,biological/vaccine: recombinant new coronavirus vaccine (cho cell) low-dose group,1
 Biological,biological/vaccine: recombinant new coronavirus vaccine (cho cells) high-dose group,1
@@ -673,6 +674,7 @@ Device,covsurf drug delivery system,1
 Other,cpc0.05 oral rinse (perioaidactive control),1
 Drug,cpi-006,1
 Dietary Supplement,cretan iama,1
+Device,cri management,1
 Behavioral,crisis intervention therapy,1
 Drug,crizanlizumab,1
 Procedure,csvf,1
@@ -696,6 +698,7 @@ Behavioral,daily coping toolkit,1
 Behavioral,daily monitoring,1
 Other,daily room disinfection,1
 Procedure,dalargin,1
+Drug,dalcetrapib,1
 Drug,danoprevir,1
 Drug,danoprevir/ritonavir,1
 Drug,dapansutrile capsules,1
@@ -1053,6 +1056,8 @@ Biological,licensed seasonal influenza vaccine,1
 Dietary Supplement,licorice extract,1
 Device,life2000â® ventilator,1
 Device,lifesignals biosensor 1ax*,1
+Behavioral,lifestyle (exercise),1
+Behavioral,lifestyle (meditation),1
 Behavioral,lifestyle change promotion program,1
 Device,limbix spark,1
 Drug,linagliptin,1
@@ -1100,6 +1105,7 @@ Drug,m-m-r ii â® vaccine,1
 Drug,m5049,1
 Other,machine learning,1
 Other,machine learning/ai algorithm,1
+Dietary Supplement,magnesium stearate),1
 Other,magnetic resonance spectroscopy (mrs).,1
 Other,maintenance,1
 Device,makair,1
@@ -1348,6 +1354,8 @@ Drug,piperacillin/tazobactam,1
 placebo,placebo-lde phase 2,1
 placebo,placebo - phase i,1
 placebo,placebo (methylcellulose) capsule,1
+placebo,placebo (potato starch,1
+Dietary Supplement,placebo (potato starch/magnesium stearate),1
 placebo,placebo (saline),1
 placebo,placebo (standard therapy),1
 placebo,"placebo (two doses), priming",1
@@ -1389,6 +1397,7 @@ Biological,primepro,1
 Other,pro-sero-cov,1
 Other,probiorinse,1
 Dietary Supplement,probiotics,1
+Dietary Supplement,probiotics (2 strains 10x10^9 ufc),1
 Behavioral,problem-solving,1
 Behavioral,problem-solving/relationship improvement intervention.,1
 Procedure,procalcitonin,1

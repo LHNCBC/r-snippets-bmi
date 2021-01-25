@@ -1,13 +1,13 @@
 Intervention_type,intervention,Study_count,Date of First Study
-placebo,placebo,464,2020-01-31
+placebo,placebo,465,2020-01-31
 Other,standard care,151,2020-01-23
 Drug,hydroxychloroquine,113,2020-02-06
 Biological,convalescent plasma,102,2020-03-23
 Drug,azithromycin,39,2020-03-23
 Drug,saline,39,2020-03-25
-Drug,tocilizumab,35,2020-03-09
+Drug,tocilizumab,36,2020-03-09
 Drug,ivermectin,32,2020-04-05
-Biological,mesenchymal stem cells,31,2020-01-27
+Biological,mesenchymal stem cells,32,2020-01-27
 Drug,remdesivir,30,2020-01-31
 Drug,favipiravir,27,2020-03-09
 Drug,ritonavir,27,2020-01-28
@@ -500,6 +500,7 @@ Drug,bicalutamide 150 mg oral tablet,1,2020-08-07
 Device,bidirectional oxygenation mouthpiece,1,2020-03-25
 Drug,bio 300 oral suspension,1,2020-07-17
 Drug,bio101,1,2020-07-06
+Dietary Supplement,bioargininaâ®,1,2020-11-18
 Biological,biological test,1,2020-04-21
 Biological,biological/vaccine: recombinant new coronavirus vaccine (cho cell) low-dose group,1,2020-08-16
 Biological,biological/vaccine: recombinant new coronavirus vaccine (cho cells) high-dose group,1,2020-08-16
@@ -673,6 +674,7 @@ Device,covsurf drug delivery system,1,2020-04-20
 Other,cpc0.05 oral rinse (perioaidactive control),1,2020-09-22
 Drug,cpi-006,1,2020-07-07
 Dietary Supplement,cretan iama,1,2021-01-06
+Device,cri management,1,2020-06-24
 Behavioral,crisis intervention therapy,1,2020-05-03
 Drug,crizanlizumab,1,2020-06-16
 Procedure,csvf,1,2020-03-26
@@ -696,6 +698,7 @@ Behavioral,daily coping toolkit,1,2020-05-20
 Behavioral,daily monitoring,1,2020-07-06
 Other,daily room disinfection,1,2020-05-19
 Procedure,dalargin,1,2020-04-08
+Drug,dalcetrapib,1,2020-12-17
 Drug,danoprevir,1,2020-04-10
 Drug,danoprevir/ritonavir,1,2020-04-10
 Drug,dapansutrile capsules,1,2020-08-13
@@ -1053,6 +1056,8 @@ Biological,licensed seasonal influenza vaccine,1,2020-10-09
 Dietary Supplement,licorice extract,1,2020-07-24
 Device,life2000â® ventilator,1,2020-08-19
 Device,lifesignals biosensor 1ax*,1,2020-06-02
+Behavioral,lifestyle (exercise),1,2021-01-08
+Behavioral,lifestyle (meditation),1,2021-01-08
 Behavioral,lifestyle change promotion program,1,2020-06-09
 Device,limbix spark,1,2020-08-20
 Drug,linagliptin,1,2020-09-03
@@ -1100,6 +1105,7 @@ Drug,m-m-r ii â® vaccine,1,2020-03-31
 Drug,m5049,1,2020-06-25
 Other,machine learning,1,2020-05-04
 Other,machine learning/ai algorithm,1,2020-05-04
+Dietary Supplement,magnesium stearate),1,2020-11-05
 Other,magnetic resonance spectroscopy (mrs).,1,2020-09-10
 Other,maintenance,1,2020-04-07
 Device,makair,1,2020-07-15
@@ -1348,6 +1354,8 @@ Drug,piperacillin/tazobactam,1,2020-05-15
 placebo,placebo-lde phase 2,1,2020-10-24
 placebo,placebo - phase i,1,2020-07-11
 placebo,placebo (methylcellulose) capsule,1,2020-05-15
+placebo,placebo (potato starch,1,2020-11-05
+Dietary Supplement,placebo (potato starch/magnesium stearate),1,2020-11-05
 placebo,placebo (saline),1,2020-12-09
 placebo,placebo (standard therapy),1,2020-05-12
 placebo,"placebo (two doses), priming",1,2020-11-25
@@ -1389,6 +1397,7 @@ Biological,primepro,1,2020-09-23
 Other,pro-sero-cov,1,2020-06-09
 Other,probiorinse,1,2020-07-01
 Dietary Supplement,probiotics,1,2020-08-16
+Dietary Supplement,probiotics (2 strains 10x10^9 ufc),1,2020-11-05
 Behavioral,problem-solving,1,2020-04-12
 Behavioral,problem-solving/relationship improvement intervention.,1,2020-04-12
 Procedure,procalcitonin,1,2020-04-02

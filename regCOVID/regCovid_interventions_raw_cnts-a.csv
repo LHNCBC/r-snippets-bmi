@@ -1,14 +1,14 @@
 Intervention_type,intervention,Study_count
-placebo,placebo,464
-Drug,hydroxychloroquine,113
+placebo,placebo,465
+Drug,hydroxychloroquine,114
 Other,questionnaire,92
 Other,standard care,91
 Biological,convalescent plasma,83
 Drug,standard care,56
-Other,no intervention,48
+Other,no intervention,49
 Drug,azithromycin,38
 Drug,tocilizumab,37
-Drug,ivermectin,34
+Drug,ivermectin,35
 Drug,remdesivir,31
 Drug,ritonavir,28
 Diagnostic Test,pcr,27
@@ -509,6 +509,8 @@ Behavioral,"knowledge, attitude, practice, awareness, preference",1
 Behavioral,kundalini yoga,1
 Behavioral,kundalini yoga/anxiety reduction training,1
 Behavioral,lay telephone coaching,1
+Behavioral,lifestyle (exercise),1
+Behavioral,lifestyle (meditation),1
 Behavioral,lifestyle change promotion program,1
 Behavioral,lock-down,1
 Behavioral,lock-down/social distancing,1
@@ -890,6 +892,7 @@ Biological,"three doses of high-dose recombinant sars-cov-2 vaccine (cho cell) a
 Biological,"three doses of middle-dose recombinant sars-cov-2 vaccine (cho cell) at the schedule of day 0, 14, 28",1
 Biological,tigeraseâ®,1
 Biological,tigeraseâ®/best available care,1
+Biological,tocilizumab,1
 Biological,trv027,1
 Biological,two covid-19 vaccine candidate (tmv-083) administrations - high dose,1
 Biological,two covid-19 vaccine candidate (tmv-083) administrations - low dose,1
@@ -997,6 +1000,7 @@ Device,core warming,1
 Device,covid-19 barrier box,1
 Device,covsurf drug delivery system,1
 Device,covx,1
+Device,cri management,1
 Device,current ipac-uhn ppe,1
 Device,device used to record voice for screening,1
 Device,dexcom,1
@@ -1508,6 +1512,7 @@ Dietary Supplement,artemesia annua,1
 Dietary Supplement,ascorbic acid/zinc gluconate,1
 Dietary Supplement,ayurveda,1
 Dietary Supplement,ayurvedic kadha,1
+Dietary Supplement,bioargininaâ®,1
 Dietary Supplement,bromelain,1
 Dietary Supplement,cbd isolate,1
 Dietary Supplement,cod liver oil,1
@@ -1524,6 +1529,7 @@ Dietary Supplement,l-citrulline,1
 Dietary Supplement,lactobaciltus rhamnosus gg,1
 Dietary Supplement,"lactoferrin, green tea extract",1
 Dietary Supplement,licorice extract,1
+Dietary Supplement,magnesium stearate),1
 Dietary Supplement,manremyc,1
 Dietary Supplement,micronized,1
 Dietary Supplement,"micronized/ultra-micronized palmitoylethanolamide (mpea/umpea, 300mg / 600mg) oral suspension",1
@@ -1536,9 +1542,11 @@ Dietary Supplement,nricm101,1
 Dietary Supplement,omnibiotic aad,1
 Dietary Supplement,oxaloacetate medical food,1
 Dietary Supplement,oxaloacetate medical food/dietary supplement,1
+Dietary Supplement,placebo (potato starch/magnesium stearate),1
 Dietary Supplement,preservision areds formulation soft gels,1
 Dietary Supplement,preservision areds formulation soft gels/tablets,1
 Dietary Supplement,probiotics,1
+Dietary Supplement,probiotics (2 strains 10x10^9 ufc),1
 Dietary Supplement,proper diet,1
 Dietary Supplement,quadramune(tm),1
 Dietary Supplement,quercetin,1
@@ -1728,6 +1736,7 @@ Drug,cyt107,1
 Drug,d,1
 Drug,d followed by enoxaparin,1
 Drug,daclatasvir 200mg,1
+Drug,dalcetrapib,1
 Drug,danoprevir,1
 Drug,danoprevir/ritonavir,1
 Drug,dapansutrile capsules,1
@@ -1921,6 +1930,7 @@ Drug,ml prefilled syringe [kineret],1
 Drug,molgramostim nebuliser solution,1
 Drug,mometasone furoate nasal spray,1
 Drug,monalizumab,1
+Drug,montelukast,1
 Drug,montmorrillonite,1
 Drug,mr,1
 Drug,mr/m-m-r ii â® vaccine,1
@@ -2521,6 +2531,7 @@ Other,mechanical trombectomy,1
 Other,media intervention,1
 Other,medical record review - inpatient treatment,1
 Other,mesenchymal stromal cell-based therapy,1
+Other,mesenchymal stem cells,1
 Other,methylene-blue photodisinfection,1
 Other,mhealth assessments,1
 Other,microscopy of defined brain regions on autopsy specimens,1
@@ -2854,6 +2865,7 @@ placebo,"patch, placebo",1
 placebo,placebo-lde phase 2,1
 placebo,placebo - phase i,1
 placebo,placebo (methylcellulose) capsule,1
+placebo,placebo (potato starch,1
 placebo,placebo (saline),1
 placebo,placebo (standard therapy),1
 placebo,"placebo (two doses), priming",1
