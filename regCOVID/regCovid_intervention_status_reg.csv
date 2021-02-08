@@ -6,6 +6,8 @@ airway management during sedation/general anesthesia,0,0,0,1
 angiogenic biomarkers,0,0,0,1
 antibody test,0,0,0,1
 antihypertensives,1,0,0,0
+ards,0,1,0,0
+ards/covid19 treatments,0,1,0,0
 art,0,0,0,1
 assessment of cardiovascular diseases,0,0,0,1
 assessment of cardiovascular diseases/cardiovascular risk factors,0,0,0,1
@@ -21,6 +23,7 @@ blood sample,0,0,0,3
 brief psychiatric rating scale,0,0,0,1
 building of the classification model,0,0,0,1
 cardiopulmonary resuscitation,0,1,0,0
+cardiovascular magnetic resonance (cmr) imaging,0,0,0,1
 cardiovascular risk factors,0,0,0,1
 cerebral compliance,0,1,0,0
 cerebral compliance/hemodynamics monitoring,0,1,0,0
@@ -45,6 +48,7 @@ covid-19 diagnostic/assessment tests,0,0,0,1
 covid-19 positive via testing,0,0,0,1
 covid-19 test,0,0,0,1
 covid-19 testing,0,0,0,1
+covid19 treatments,0,1,0,0
 cytosorb,0,0,0,1
 data collection,0,0,0,1
 data registry,0,0,0,1
@@ -54,6 +58,7 @@ diabetes type 2,1,0,0,0
 diagnosed with covid-19,0,0,1,0
 doxycycline,0,1,0,0
 duplex sonography,0,0,0,1
+"during the pandemic, the patient's job status, physical activity conditions, pain status",0,0,0,1
 ecg-holter,0,1,0,0
 elisa,1,0,0,0
 elisa/rapid test to detect antibodies against covid-19,1,0,0,0
@@ -66,6 +71,7 @@ enhanced hygiene measures,1,0,0,0
 evaluation,0,0,0,1
 evaluation of changes in the diagnostic-therapeutic pathway,0,1,0,0
 face mask sampling,0,0,0,1
+fibromyalgia impact questionnaire,0,0,0,1
 follow-up phone call,0,1,0,0
 follow up,1,0,0,0
 follow up calls,0,0,0,1
@@ -108,21 +114,23 @@ non intervention,0,0,0,1
 not applicable (observational study),0,0,0,1
 obesity,1,0,0,0
 observation,0,0,0,1
-observational,0,0,0,2
+observational,0,1,0,1
 online questionnaires,0,1,0,0
 optimized management of covid-19 positive kidney transplant recipients: single center experience from the middle east,0,1,0,0
 patient sampling,0,0,0,1
 patients with the treatment agains covid19,0,0,0,1
 pcr,0,1,0,1
 pcr/serology,0,0,0,1
+perceived stress scale,0,0,0,1
 performance evaluation study of realdetect rt-pcr kit for covid-19 detection,0,0,0,1
 postpartum,0,0,1,0
 postpartum women under investigation for coronavirus/diagnosed with covid-19,0,0,1,0
 pregnant women under investigation for coronavirus,0,0,1,0
 pregnant women under investigation for coronavirus/diagnosed with covid-19,0,0,1,0
 pregnant women with laboratory-confirmed 2019-n-cov,0,0,0,2
+presence of specific anti-sars-cov-2 antibodies,0,1,0,0
 prone positioning,0,1,0,0
-questionnaire,0,1,0,5
+questionnaire,0,1,1,5
 "raman analysis of saliva, characterization of the raman database",0,0,0,1
 "raman analysis of saliva, characterization of the raman database/building of the classification model",0,0,0,1
 rapid test,1,0,0,0
@@ -150,7 +158,10 @@ tavr/savr,1,0,0,0
 telehealth,0,2,0,0
 telephone interview,1,0,0,0
 tested for sars-cov-2 (regardless of the result),0,0,0,1
+the drugs used before,0,0,0,1
+"the drugs used before/during the pandemic, the patient's job status, physical activity conditions, pain status",0,0,0,1
 thromboprofylaxis protocol,0,1,0,0
+transthoracic echocardiogram (tte),0,0,0,1
 ultrasound,0,0,0,1
 "urinary ngal, timp-2, igfbp7, il-6, viral load",0,0,0,1
 "urinary ngal, timp-2, igfbp7, il-6, viral load/metabolomic",0,0,0,1
@@ -159,4 +170,4 @@ vitamin d,0,0,1,0
 vitros anti-sars-cov-2 igg test,0,0,1,0
 web-based redcap survey,0,0,0,1
 web application users,0,0,0,1
-NA,6,15,3,80
+NA,6,15,3,85

@@ -1,6 +1,6 @@
 Intervention_type,intervention,Study_count
 Other,no intervention,10
-Other,questionnaire,5
+Other,questionnaire,6
 Diagnostic Test,blood sample,3
 Diagnostic Test,serology test,3
 Behavioral,telehealth,2
@@ -67,6 +67,7 @@ Diagnostic Test,metabolomic,1
 Diagnostic Test,muscle,1
 Diagnostic Test,netosis markers,1
 Diagnostic Test,pcr/serology,1
+Diagnostic Test,presence of specific anti-sars-cov-2 antibodies,1
 Diagnostic Test,questionnaire,1
 Diagnostic Test,rapid test,1
 Diagnostic Test,sars-cov-2-test,1
@@ -95,12 +96,15 @@ Drug,statins,1
 Genetic,assessment tests,1
 Genetic,covid-19 diagnostic,1
 Genetic,covid-19 diagnostic/assessment tests,1
+Other,ards,1
+Other,ards/covid19 treatments,1
 Other,at risk for covid-19 infection,1
 Other,biological samples,1
 Other,blood d-dimer assay,1
 Other,brief psychiatric rating scale,1
 Other,building of the classification model,1
 Other,cardiopulmonary resuscitation,1
+Other,cardiovascular magnetic resonance (cmr) imaging,1
 Other,chloroquine,1
 Other,chloroquine/hydroxychloroquine,1
 Other,clinical data,1
@@ -112,12 +116,15 @@ Other,"coronavirus anxiety scale , covid-19 phobia scale",1
 Other,coronavirus disease 2019,1
 Other,covid-19,1
 Other,covid-19 positive via testing,1
+Other,covid19 treatments,1
 Other,data collection,1
 Other,"depression, anxiety",1
 Other,"depression, anxiety/stress scale",1
 Other,diabetes type 2,1
 Other,diagnosed with covid-19,1
+Other,"during the pandemic, the patient's job status, physical activity conditions, pain status",1
 Other,ecg-holter,1
+Other,fibromyalgia impact questionnaire,1
 Other,follow-up phone call,1
 Other,follow up,1
 Other,follow up calls,1
@@ -140,6 +147,7 @@ Other,observational,1
 Other,online questionnaires,1
 Other,optimized management of covid-19 positive kidney transplant recipients: single center experience from the middle east,1
 Other,patient sampling,1
+Other,perceived stress scale,1
 Other,postpartum,1
 Other,postpartum women under investigation for coronavirus/diagnosed with covid-19,1
 Other,pregnant women under investigation for coronavirus,1
@@ -155,7 +163,10 @@ Other,"symptomatology, treatment. daily activities",1
 Other,taking biological samples,1
 Other,telephone interview,1
 Other,tested for sars-cov-2 (regardless of the result),1
+Other,the drugs used before,1
+Other,"the drugs used before/during the pandemic, the patient's job status, physical activity conditions, pain status",1
 Other,thromboprofylaxis protocol,1
+Other,transthoracic echocardiogram (tte),1
 Other,web-based redcap survey,1
 Procedure,abdominal ultrasound,1
 Procedure,airway management during sedation,1
