@@ -1,0 +1,45 @@
+---
+title: "Report"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+options(DT.options = list(pageLength = 1500, language = list(search = 'Filter:')))
+```
+
+# Functions
+
+
+```{r cars}
+
+library(magrittr);library(tidyverse)
+library(DT)
+export_path<-'c:/snomed/'
+options(scipen=999)
+
+#load(file.path(export_path,'snomedct.rda'))
+source('CodeToRun.R')
+release='20210131'
+```
+
+# release `r release`
+```{r}
+new = getNewConcepts(release)
+nrow(new)
+#str(new)
+
+#what types of concepts are new
+new %>% count(tag,sort=TRUE) %>% datatable()
+
+
+#We load all concepts
+cl=sct_concept_list()
+# oc=cl %>% filter(tag=='occupation')
+
+
+#we can see overview of all tags in all of active SCT content
+tags=cl %>% count(tag,sort=TRUE)
+tags %>% datatable()
+tags %>% write_csv('demo/tags.csv')
+```

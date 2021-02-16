@@ -1,9 +1,10 @@
 library(tidyverse)
-export_path<-'n:/snomed/'
+export_path<-'c:/snomed/'
 options(scipen=999)
 
 load(file.path(export_path,'snomedct.rda'))
 
+release='20210131'
 
 
 #-------------------definition of functions -------------------------

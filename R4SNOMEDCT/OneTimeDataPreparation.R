@@ -4,9 +4,10 @@ library(tidyverse)
 #release='20180131'
 release='20180731'
 release='20180731'
-    
+release='20210131'
+
 #modify the start of the path  point to downloaded SNOMED CT release files
-base_folder<-'n:/snomed/SnomedCT_InternationalRF2_PRODUCTION_' #release goes here
+base_folder<-'c:/snomed/SnomedCT_InternationalRF2_PRODUCTION_' #release goes here
 suffix<-'T120000Z/Snapshot/Terminology'
 
 #note how the path is constructed
@@ -16,7 +17,7 @@ folder<-paste0(base_folder,release,suffix)
 folder
 
 
-export_folder<-'n:/snomed/'
+export_folder<-'c:/snomed/'
 #---------------end of specifying user entered parameters ----------------
 
 
