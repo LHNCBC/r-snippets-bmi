@@ -1,3 +1,5 @@
+#regCOVIDpublications-Linked publications to COVID-19 Clinical studies Code
+
 # Load required libraries
 library(easyPubMed)
 library(dplyr)
@@ -8,35 +10,33 @@ library(stringr)
 library(lubridate)
 library(tibble)
 
-#Read in of all COVID19 Studies
+#Read in of all COVID-19 Studies generated from regCOVID
 covid9<-read_csv('regCovid_all_studies-a.csv')
 
-#---- Chapter 1: Abstract-Linked search
-# Searching PubMed for linked publications by NCT in secondary identifier
+#---- Chapter 1: Abstract-Linked search (PubMED)
+# Searching PubMed for linked publications by NCT ID (CLinicalTrials.gov identifier) in secondary identifier
+# Identify linked publications
 covid9_df<-data.frame(covid9)
 nct<-covid9_df[,1]
-
 pubmed<-function(nct){
   out <- tryCatch({
     my_id<-data.frame()
-    
     my_query <- paste0(nct,'[si]')
     my_entrez_id <- get_pubmed_ids(my_query)
     my_id<-data.frame(my_entrez_id$IdList)
     my_id$nct_id<-nct
     return(my_id)
-    
-    
   }
   , error=function(e) {write(nct,file="pubmed_error.txt",append=TRUE)})}
 
 ids<-lapply(nct, pubmed)    %>% bind_rows()
 
+#To ensure better formatting and find all useful information run each Pubmed ID again
+#Second search due to aggregating to one row per publication/NCT ID
 
 ids2<-melt( ids, id.vars='nct_id')
 ids3<-ids2 %>%filter(value!='NA')
 ids4<-ids3[,3]
-#Second search due to article type search
 my_id2<-data.frame()
 pubmed2<-function(ids4){
   out <- tryCatch({
@@ -45,35 +45,22 @@ pubmed2<-function(ids4){
     my_mesh2<-' '
     my_entrez_id <- get_pubmed_ids(ids4)
     my_id<-data.frame(my_entrez_id$IdList)
-    
-    
-    
-    
     my_abstracts_xml <- fetch_pubmed_data(pubmed_id_list = my_entrez_id)
     my_type <- data.frame(custom_grep(my_abstracts_xml, "PublicationType", "char"))
     colnames(my_type)<-'ArticleType'
     my_type <- my_type%>% arrange(-ArticleType)
-    
-    #my_titles <- data.frame(custom_grep(my_abstracts_xml, "ArticleTitle", "char"))
-    #my_journal <- data.frame(custom_grep(my_abstracts_xml, "Title", "char"))
     my_substance<- data.frame(custom_grep(my_abstracts_xml, "NameOfSubstance", "char"))
     my_substance<-rbind(my_substance,my_substance2)
     my_mesh<- data.frame(custom_grep(my_abstracts_xml, "DescriptorName", "char"))
     my_mesh<-rbind(my_mesh,my_mesh2)
-    
-    #my_year <- data.frame(custom_grep(my_abstracts_xml, "PubDate", "char"))
-    my_abstracts_xml_list <- articles_to_list(my_abstracts_xml)
+        my_abstracts_xml_list <- articles_to_list(my_abstracts_xml)
     article_df<-article_to_df(pubmedArticle = my_abstracts_xml_list[[1]], autofill = FALSE)
     date<-article_df[1,5:7]
     my_year<-paste0(date$year,'-',date$month, '-',date$day)
     my_journal <- article_df$journal[1]
     my_titles <- article_df$title[1]
-    
-    
-    
     pubmed_pub_list<-  cbind(my_id,  my_type)
     pubmed_pub_list_1<-aggregate(pubmed_pub_list, list(pubmed_pub_list$Id), paste, collapse="|")%>%select(,c(1,3))
-    
     pubmed_pub_list2<-cbind(my_id, my_substance)
     pubmed_pub_list2_1<-aggregate(pubmed_pub_list2, list(pubmed_pub_list2$Id), paste, collapse="|")%>%select(,c(1,3))
     pubmed_pub_list3<-cbind(my_id, my_mesh)
@@ -91,16 +78,12 @@ pubmed2<-function(ids4){
 result_pubmed<-lapply(ids4, pubmed2)    %>% bind_rows()
 
 
-
+# Link NCT ID to PMID
 pubmed_pubs_all<-merge(x=result_pubmed, y=ids3,  by.x='pmid',by.y='value')
 result2_1 <- pubmed_pubs_all [!duplicated(pubmed_pubs_all[c(1,8)]),]
 
 
-#Connect to ClinicalTrials.gov record to include study features
-#result2<-left_join(pubmed_pubs_all, covid9, by ='nct_id') %>%select(,c(1:8,29, 39, 42,44,46, 49))
-
-
-
+#Add source and include useful columns
 result2_1$pub_source<-'Abstract'
 result2_2<-result2_1%>%select(,c(1:8,10))
 
@@ -110,14 +93,12 @@ result2_2<-result2_1%>%select(,c(1:8,10))
 #------ Chapter 2: Registry-Linked Search
 # Search on ClinicalTrials.gov (CTG) for results publications
 
-
-
-# FInd study references
 # COnnect to AACT relational CTG version
 
 drv <- dbDriver('PostgreSQL')
 con <- dbConnect(drv, dbname="aact",host="aact-db.ctti-clinicaltrials.org", port=5432, user= user, password= psw)
 
+# FInd study references
 pub_q<-'select * from study_references'
 pub_ctg<-dbGetQuery(con, pub_q)
 
@@ -125,15 +106,14 @@ pub_ctg<-dbGetQuery(con, pub_q)
 covid_ctgpub<-left_join(covid9, pub_ctg, by = 'nct_id')
 covid_ctgpub_res<-covid_ctgpub %>% filter(reference_type =='results_reference')
 covid_ctgpub_res2<-covid_ctgpub_res %>% select(,c(1,31,36,66))
-
 names(covid_ctgpub_res2)
 
 # Only use PubMed indexed publications
 ctg_pubs<-covid_ctgpub_res2 %>% filter(pmid!='NA')
-
 ctg_pubs2<-data.frame(ctg_pubs)
 pmid<-ctg_pubs2[,4]
 # Connect referenced publications to the PubMed record
+#Find useul publication data
 my_id2<-data.frame()
 pubmed3<-function(pmid){
   out <- tryCatch({
@@ -142,15 +122,11 @@ pubmed3<-function(pmid){
     my_mesh2<-' '
     my_entrez_id <- get_pubmed_ids(pmid)
     my_id<-data.frame(my_entrez_id$IdList)
-    
-    
-    
-    
+   
     my_abstracts_xml <- fetch_pubmed_data(pubmed_id_list = my_entrez_id)
     my_type <- data.frame(custom_grep(my_abstracts_xml, "PublicationType", "char"))
     colnames(my_type)<-'ArticleType'
     my_type <- my_type%>% arrange(-ArticleType)
-    
     
     my_substance<- data.frame(custom_grep(my_abstracts_xml, "NameOfSubstance", "char"))
     my_substance<-rbind(my_substance,my_substance2)
@@ -163,9 +139,6 @@ pubmed3<-function(pmid){
     my_year<-paste0(date$year,'-',date$month, '-',date$day)    
     my_journal <- article_df$journal[1]
     my_titles <- article_df$title[1]
-    
-    
-    
     
     pubmed_pub_list<-  cbind(my_id,  my_type)
     pubmed_pub_list_1<-aggregate(pubmed_pub_list, list(pubmed_pub_list$Id), paste, collapse="|")%>%select(,c(1,3))
@@ -186,8 +159,6 @@ pubmed3<-function(pmid){
 
 result_ctg<-lapply(pmid, pubmed3)    %>% bind_rows()
 
-
-
 ctg_pubs_all<-merge(result_ctg, ctg_pubs,  by ='pmid')%>%select(,c(1:8))
 ctg_pubs_all2_1 <- ctg_pubs_all [!duplicated(ctg_pubs_all[c(1,8)]),]
 
@@ -195,7 +166,7 @@ ctg_pubs_all2_1$pub_source<-'Registry'
 
 
 
-#--- CHapter 3: Combine results from PubMed and CTG
+#-----CHapter 3: Combine results from PubMed and CTG
 # Combine registry and abstract linked results
 
 regCOVIDpubs2<-rbind(result2_2,ctg_pubs_all2_1 )
@@ -207,7 +178,8 @@ regCOVID_pubs$pubmed_links<-paste0('https://pubmed.ncbi.nlm.nih.gov/',regCOVID_p
 regCOVID_pubs$ctg_links<-paste0('https://clinicaltrials.gov/ct2/show/',regCOVID_pubs$nct_id)
 
 
-
+#--------Book 2: Analysis
+#--------Chapter 4. COunts of publications for each study
 #Counts of publications by source and in total
 regCOVID_pubs_cnts<-regCOVID_pubs %>% group_by(nct_id,pub_source) %>% count()
 regCOVID_pubs_cnts2<-regCOVID_pubs_cnts%>%dcast( nct_id ~ pub_source,sum)
@@ -216,7 +188,8 @@ regCOVID_pubs2$Total_pubs<-regCOVID_pubs2$Abstract+regCOVID_pubs2$Registry
 
 
 
-
+#--------Chapter 5. Adding key information and flags for useful criteria
+# Flags: 1=True, 0=False
 
 #Adding Vaccines flag for subset
 covid9_vacc<-read_csv('regCovid_vaccines.csv')
@@ -234,11 +207,12 @@ trial_list2_updtes$n<-trial_list2_updtes$n-1
 colnames(trial_list2_updtes)[79]<-"Number_of_updates"
 
 
-# COuntry of Sites
+# COuntry of Sites and US site flag
 facil_q<-"select * from facilities"
 facil<-dbGetQuery(con, facil_q)
 facil_uniq<- facil [!duplicated(facil[c(2,8)]),]
 
+#US site flag: does the study have at least one site in US
 covid9_facil_us<-facil_uniq %>% filter(country=='United States') 
 trial_list2_updtes$US_site_flag<-0
 trial_list3<- left_join(trial_list2_updtes,covid9_facil_us, by='nct_id' )
@@ -246,9 +220,6 @@ trial_list3 <- within(trial_list3, US_site_flag[country != 'NA'] <- 1)
 trial_list4<-trial_list3%>%select(,c(1:80))
 facil_country<-aggregate(facil_uniq, list(facil_uniq$nct_id), paste, collapse="|")
 trial_list5<-left_join(trial_list4, facil_country, by=c('nct_id'= 'Group.1'))%>%select(,c(1:80, 88))
-
-
-
 
 
 # Add flag for CTG deposited results
@@ -264,7 +235,7 @@ intervention<-read_csv('regCOVID_intervention_per_row.csv')%>% select(,c(1,70))
 intervention_group<-aggregate(intervention, list(intervention$nct_id), paste, collapse="|")
 trial_list7_expanded<-left_join(trial_list6, intervention_group, by=c('nct_id'= 'Group.1'))
 
-#Final list organization
+#-Final master file organization
 trial_list8<-trial_list7_expanded%>%select(,c(1:9,29,37,39,42,44,46,49,53,73:82,84))
 colnames(trial_list8)[10]<-'start_date'
 colnames(trial_list8)[11]<-'primary_completion__date'
@@ -284,7 +255,7 @@ trial_list9%>%write_csv('regCOVIDpubs_Master_G.csv')
 
 
 
-#------Chapter: Trial list one line by trial
+#------Chapter 5. Trial list one line by trial
 #All
 all_trials<-aggregate(trial_list9, list(trial_list9$nct_id), paste, collapse="/")%>%select(,c(1,3))
 all_trials2<- trial_list9 [!duplicated(trial_list9[c(8)]),]
@@ -294,7 +265,7 @@ all_trials4<-all_trials3%>%select(,c(1:9, 11:21))
 #all_trials4%>%write_csv('regCOVIDpublications_trial_list.csv')
 
 
-# No pubs
+# No publications
 covid9_0pubs<-anti_join(covid9,all_trials4, by ='nct_id')
 
 # Add links to article and CTG page
@@ -347,7 +318,7 @@ colnames(zero_list8)[9]<-'why_stopped'
 zero_list8$start_date<-as.Date(zero_list8$start_date, '%m/%d/%Y')
 zero_list8$ArticleType<-NA
 
-#-------Combine trials with pubs and without for complete list
+#Final list: Combine trials with pubs and without for complete list
 Full_trials<-rbind(all_trials4, zero_list8)
 Full_trials%>% write_csv('regCOVIDpublications_trials_all.csv')
 
@@ -360,10 +331,15 @@ obs_trials3%>%write_csv('regCOVIDpublications_trials_obs.csv')
 reg_trials3<-Full_trials%>%filter(study_type=='Observational [Patient Registry]')
 reg_trials3%>%write_csv('regCOVIDpublications_trials_reg.csv')
 
-# ---------Book: All Trials: Publications
-#Overall publications list for report
-trial_list9_rep<-trial_list9%>%select(,c(1,8,9, 2:7,18:19))
-trial_list9_rep%>%write_csv('regCOVIDpublications_publication_list_all.csv')
+
+
+
+# ---------Chapter 6. Publications from all trials
+
+
+#------Section 6.1: All Trial Publications
+trial_list9_rep<-trial_list9%>%select(,c(1,8,5, 2:4,6:7,9,18:19))
+trial_list9%>%write_csv('regCOVIDpublications_publication_list_all.csv')
 
 #Article_type
 type <- trial_list9 [!duplicated(trial_list9[c(1)]),]
@@ -373,10 +349,10 @@ type2<-type2%>%arrange(-n)
 colnames(type2)[2]<-'Article_Count'
 type2%>%write_csv('regCOVIDpublications_articletype_cnt_all.csv')
 
-#------Chapter: interventional Trials Publications
+#------Section 6.2: interventional Trials Publications
 pub_int<-trial_list9%>%filter(study_type=='Interventional')
-pub_int_rep<-pub_int%>%select(,c(1,8,9, 2:7,18:19))
-pub_int_rep%>%write_csv('regCOVIDpublications_publication_list_int.csv')
+pub_int_rep<-pub_int%>%select(,c(1,8,5, 2:4,6:7,9,18:19))
+pub_int%>%write_csv('regCOVIDpublications_publication_list_int.csv')
 
 
 #interventional Article type
@@ -387,10 +363,10 @@ type2_int<-type2_int%>%arrange(-n)
 colnames(type2_int)[2]<-'Article_Count'
 type2_int%>%write_csv('regCOVIDpublications_articletype_cnt_int.csv')
 
-#------Chapter: observational Publications
+#------Section 6.3: observational Publications
 pub_obs<-trial_list9%>%filter(study_type=='Observational')
-pub_obs_rep<-pub_obs%>%select(,c(1,8,9, 2:7,18:19))
-pub_obs_rep%>%write_csv('regCOVIDpublications_publication_list_obs.csv')
+pub_obs_rep<-pub_obs%>%select(,c(1,8,5, 2:4,6:7,9,18:19))
+pub_obs%>%write_csv('regCOVIDpublications_publication_list_obs.csv')
 
 
 #observational Article type
@@ -401,10 +377,10 @@ type2_obs<-type2_obs%>%arrange(-n)
 colnames(type2_obs)[2]<-'Article_Count'
 type2_obs%>%write_csv('regCOVIDpublications_articletype_cnt_obs.csv')
 
-#------Chapter: Registry Trials Publications
+#------Section 6.4: Registry Trials Publications
 pub_reg<-trial_list9%>%filter(study_type=='Observational [Patient Registry]')
-pub_reg_rep<-pub_reg%>%select(,c(1,8,9, 2:7,18:19))
-pub_reg_rep%>%write_csv('regCOVIDpublications_publication_list_reg.csv')
+pub_reg_rep<-pub_reg%>%select(,c(1,8,5, 2:4,6:7,9,18:19))
+pub_reg%>%write_csv('regCOVIDpublications_publication_list_reg.csv')
 
 
 #Registry Article type
@@ -418,7 +394,7 @@ type2_reg%>%write_csv('regCOVIDpublications_articletype_cnt_reg.csv')
 
 
 
-#------Book: Effectively Completed Studies
+#------Chapter 7: Effectively Completed Studies (studies past their primary completion date)
 Full_trials$primary_completion__date<-as.Date(Full_trials0$primary_completion__date, '%m/%d/%Y')
 Full_trials_ec<-Full_trials%>%filter(Sys.Date()>primary_completion__date)
 
@@ -428,17 +404,17 @@ Full_trials_ec%>% write_csv('regCOVIDpublications_trials_ec_all.csv')
 int_trials3_ec<-Full_trials_ec%>%filter(study_type=='Interventional')
 int_trials3_ec%>%write_csv('regCOVIDpublications_trials_ec_int.csv')
 obs_trials3_ec<-Full_trials_ec%>%filter(study_type=='Observational')
-obs_trials3_ec%>%write_csv('regCOVIDpublications_trials_ec_int.csv')
+obs_trials3_ec%>%write_csv('regCOVIDpublications_trials_ec_obs.csv')
 reg_trials3_ec<-Full_trials_ec%>%filter(study_type=='Observational [Patient Registry]')
 reg_trials3_ec%>%write_csv('regCOVIDpublications_trials__ec_reg.csv')
 
-# ---------Book: EC Trials: Publications
+# ---------Section 7.1: EC Trials: Publications
 #Overall publications list for report
 trial_list9$primary_completion__date<-as.Date(trial_list9$primary_completion__date, '%m/%d/%Y')
 trial_list9_ec<-trial_list9%>%filter(Sys.Date()>primary_completion__date)
 
-trial_list9_rep_ec<-trial_list9_ec%>%select(,c(1,8,9, 2:7,18:19))
-trial_list9_rep_ec%>%write_csv('regCOVIDpublications_publication_list_ec_all.csv')
+trial_list9_rep_ec<-trial_list9_ec%>%select(,c(1,8,5, 2:4,6:7,9,18:19))
+trial_list9_ec%>%write_csv('regCOVIDpublications_publication_list_ec_all.csv')
 
 #Article_type
 type_ec <- trial_list9_ec [!duplicated(trial_list9[c(1)]),]
@@ -448,24 +424,25 @@ type2_ec<-type2_ec%>%arrange(-n)
 colnames(type2_ec)[2]<-'Article_Count'
 type2_ec%>%write_csv('regCOVIDpublications_articletype_cnt_ec_all.csv')
 
-#------Chapter: interventional Trials Publications
+#------Section 7.2: interventional Trials Publications
 pub_int_ec<-trial_list9_ec%>%filter(study_type=='Interventional')
-pub_int_rep_ec<-pub_int_ec%>%select(,c(1,8,9, 2:7,18:19))
-pub_int_rep_ec%>%write_csv('regCOVIDpublications_publication_list_ec_int.csv')
+pub_int_rep_ec<-pub_int_ec%>%select(,c(1,8,5, 2:4,6:7,9,18:19))
+pub_int_ec%>%write_csv('regCOVIDpublications_publication_list_ec_int.csv')
 
 
 #interventional Article type
 type_int_ec <- pub_int_ec [!duplicated(pub_int_ec[c(1)]),]
+
 type1_int_ec<-type_int_ec%>%filter(pmid!='NA')
 type2_int_ec<-type1_int_ec%>% group_by(ArticleType)%>% count()
 type2_int_ec<-type2_int_ec%>%arrange(-n)
 colnames(type2_int_ec)[2]<-'Article_Count'
 type2_int_ec%>%write_csv('regCOVIDpublications_articletype_cnt_ec_int.csv')
 
-#------Chapter: Observational Publications
+#------Section 7.3: Observational Publications
 pub_obs_ec<-trial_list9_ec%>%filter(study_type=='Observational')
-pub_obs_rep_ec<-pub_obs_ec%>%select(,c(1,8,9, 2:7,18:19))
-pub_obs_rep_ec%>%write_csv('regCOVIDpublications_publication_list_ec_obs.csv')
+pub_obs_rep_ec<-pub_obs_ec%>%select(,c(1,8,5, 2:4,6:7,9,18:19))
+pub_obs_ec%>%write_csv('regCOVIDpublications_publication_list_ec_obs.csv')
 
 
 #observational Article type
@@ -476,10 +453,10 @@ type2_obs_ec<-type2_obs_ec%>%arrange(-n)
 colnames(type2_obs_ec)[2]<-'Article_Count'
 type2_obs_ec%>%write_csv('regCOVIDpublications_articletype_cnt_ec_obs.csv')
 
-#------Chapter: Registry Trials Publications
+#------Section 7.4: Registry Trials Publications
 pub_reg_ec<-trial_list9_ec%>%filter(study_type=='Observational [Patient Registry]')
-pub_reg_rep_ec<-pub_reg_ec%>%select(,c(1,8,9, 2:7,18:19))
-pub_reg_rep_ec%>%write_csv('regCOVIDpublications_publication_list_ec_reg.csv')
+pub_reg_rep_ec<-pub_reg_ec%>%select(,c(1,8,5, 2:4,6:7,9,18:19))
+pub_reg_ec%>%write_csv('regCOVIDpublications_publication_list_ec_reg.csv')
 
 
 #Registry Article type
@@ -490,31 +467,42 @@ type2_reg_ec<-type2_reg_ec%>%arrange(-n)
 colnames(type2_reg_ec)[2]<-'Article_Count'
 type2_reg_ec%>%write_csv('regCOVIDpublications_articletype_cnt_ec_reg.csv')
 
-
+#--------Chapter 8 Studies in Writing Phase
 #Studies in writing phase
 #interventional Trials
 # Days past COmpletion
+#int_trials3_ec$days_past_completion<-Sys.Date()- int_trials3_ec$primary_completion__date
 int_trials3_ec$days_past_completion<-Sys.Date()- int_trials3_ec$primary_completion__date
+
 int_trials3_ec$Total_pubs2<-int_trials3_ec$Total_pubs
 int_trials3_ec<- within(int_trials3_ec, Total_pubs2[grepl("Protocol",ArticleType)& Total_pubs==1] <- 0)
 int_trials3_ec<- within(int_trials3_ec, Total_pubs2[Total_pubs2>0] <- 1)
 within_30_int<-int_trials3_ec%>%filter(days_past_completion<31)
 within_60_int<-int_trials3_ec%>%filter(days_past_completion<61)
 within_90_int<-int_trials3_ec%>%filter(days_past_completion<91)
-within_120_int<-int_trials3_ec%>%filter(days_past_completion<121)                                    
-more_than_120_int<-int_trials3_ec%>%filter(days_past_completion>120) 
+within_120_int<-int_trials3_ec%>%filter(days_past_completion<121) 
+within_180_int<-int_trials3_ec%>%filter(days_past_completion<181) 
+within_365_int<-int_trials3_ec%>%filter(days_past_completion<366) 
+
+more_than_365_int<-int_trials3_ec%>%filter(days_past_completion>365) 
 within_30cnt_int<-within_30_int%>%group_by(Total_pubs2)%>%count()
 within_60cnt_int<-within_60_int%>%group_by(Total_pubs2)%>%count()
 within_90cnt_int<-within_90_int%>%group_by(Total_pubs2)%>%count()
 within_1200cnt_int<-within_120_int%>%group_by(Total_pubs2)%>%count()
-within_morecnt_int<-more_than_120_int%>%group_by(Total_pubs2)%>%count()
+within_180cnt_int<-within_180_int%>%group_by(Total_pubs2)%>%count()
+within_365cnt_int<-within_365_int%>%group_by(Total_pubs2)%>%count()
+within_morecnt_int<-more_than_365_int%>%group_by(Total_pubs2)%>%count()
 Days_past_int<-merge(within_30cnt_int,within_60cnt_int, by ='Total_pubs2' )%>%merge(within_90cnt_int)
-Days_past2_int<-merge(Days_past_int,within_1200cnt_int, by ='Total_pubs2')%>%merge(within_morecnt_int)
-colnames(Days_past2_int)<-c('Days_since_completion', 'Within_30', 'Between_31_60', 'Between_61_90', 'Between_91_120', 'More_than_120')
-Days_past3_int<-t(Days_past2_int)
+Days_past2_int<-merge(Days_past_int,within_1200cnt_int, by ='Total_pubs2')
+Days_past2_1_int<-merge(Days_past2_int,within_180cnt_int, by ='Total_pubs2')
+Days_past2_2_int<-merge(Days_past2_1_int,within_365cnt_int, by ='Total_pubs2')#%>%merge(within_morecnt_int)
+
+
+colnames(Days_past2_2_int)<-c('Days_since_completion', 'under_30', 'under_60', 'under_90', 'under_120',  'under_180' , 'under_365')
+Days_past3_int<-t(Days_past2_2_int)
 colnames(Days_past3_int)<-c( 'Studies_with_no_pubs', 'Studies_with_pubs')
-Days_past4_int<-data.frame(Days_past3[2:6,])
-Days_past4_int$Total_studies<-Days_past4$Studies_with_no_pubs+Days_past4_int$Studies_with_pubs
+Days_past4_int<-data.frame(Days_past3_int[2:7,])
+Days_past4_int$Total_studies<-Days_past4_int$Studies_with_no_pubs+Days_past4_int$Studies_with_pubs
 Days_past5_int<- Days_past4_int %>% rownames_to_column("Days_since_completion")
 Days_past5_int%>%write_csv('regCOVIDpublications_results_writing_phase_int.csv')
 
@@ -523,26 +511,36 @@ Days_past5_int%>%write_csv('regCOVIDpublications_results_writing_phase_int.csv')
 #Observational Trials
 # Days past COmpletion
 obs_trials3_ec$days_past_completion<-Sys.Date()- obs_trials3_ec$primary_completion__date
+
 obs_trials3_ec$Total_pubs2<-obs_trials3_ec$Total_pubs
 obs_trials3_ec<- within(obs_trials3_ec, Total_pubs2[grepl("Protocol",ArticleType)& Total_pubs==1] <- 0)
 obs_trials3_ec<- within(obs_trials3_ec, Total_pubs2[Total_pubs2>0] <- 1)
 within_30_obs<-obs_trials3_ec%>%filter(days_past_completion<31)
 within_60_obs<-obs_trials3_ec%>%filter(days_past_completion<61)
 within_90_obs<-obs_trials3_ec%>%filter(days_past_completion<91)
-within_120_obs<-obs_trials3_ec%>%filter(days_past_completion<121)                                    
-more_than_120_obs<-obs_trials3_ec%>%filter(days_past_completion>120) 
+within_120_obs<-obs_trials3_ec%>%filter(days_past_completion<121) 
+within_180_obs<-obs_trials3_ec%>%filter(days_past_completion<181) 
+within_365_obs<-obs_trials3_ec%>%filter(days_past_completion<366) 
+
+more_than_365_obs<-obs_trials3_ec%>%filter(days_past_completion>365) 
 within_30cnt_obs<-within_30_obs%>%group_by(Total_pubs2)%>%count()
 within_60cnt_obs<-within_60_obs%>%group_by(Total_pubs2)%>%count()
 within_90cnt_obs<-within_90_obs%>%group_by(Total_pubs2)%>%count()
 within_1200cnt_obs<-within_120_obs%>%group_by(Total_pubs2)%>%count()
-within_morecnt_obs<-more_than_120_obs%>%group_by(Total_pubs2)%>%count()
+within_180cnt_obs<-within_180_obs%>%group_by(Total_pubs2)%>%count()
+within_365cnt_obs<-within_365_obs%>%group_by(Total_pubs2)%>%count()
+within_morecnt_obs<-more_than_365_obs%>%group_by(Total_pubs2)%>%count()
 Days_past_obs<-merge(within_30cnt_obs,within_60cnt_obs, by ='Total_pubs2' )%>%merge(within_90cnt_obs)
-Days_past2_obs<-merge(Days_past_obs,within_1200cnt_obs, by ='Total_pubs2')%>%merge(within_morecnt_obs)
-colnames(Days_past2_obs)<-c('Days_since_completion', 'Within_30', 'Between_31_60', 'Between_61_90', 'Between_91_120', 'More_than_120')
-Days_past3_obs<-t(Days_past2_obs)
+Days_past2_obs<-merge(Days_past_obs,within_1200cnt_obs, by ='Total_pubs2')
+Days_past2_1_obs<-merge(Days_past2_obs,within_180cnt_obs, by ='Total_pubs2')
+Days_past2_2_obs<-merge(Days_past2_1_obs,within_365cnt_obs, by ='Total_pubs2')#%>%merge(within_morecnt_obs)
+
+
+colnames(Days_past2_2_obs)<-c('Days_since_completion', 'under_30', 'under_60', 'under_90', 'under_120',  'under_180' , 'under_365')
+Days_past3_obs<-t(Days_past2_2_obs)
 colnames(Days_past3_obs)<-c( 'Studies_with_no_pubs', 'Studies_with_pubs')
-Days_past4_obs<-data.frame(Days_past3[2:6,])
-Days_past4_obs$Total_studies<-Days_past4$Studies_with_no_pubs+Days_past4_obs$Studies_with_pubs
+Days_past4_obs<-data.frame(Days_past3_obs[2:7,])
+Days_past4_obs$Total_studies<-Days_past4_obs$Studies_with_no_pubs+Days_past4_obs$Studies_with_pubs
 Days_past5_obs<- Days_past4_obs %>% rownames_to_column("Days_since_completion")
 Days_past5_obs%>%write_csv('regCOVIDpublications_results_writing_phase_obs.csv')
 
@@ -555,20 +553,29 @@ reg_trials3_ec<- within(reg_trials3_ec, Total_pubs2[Total_pubs2>0] <- 1)
 within_30_reg<-reg_trials3_ec%>%filter(days_past_completion<31)
 within_60_reg<-reg_trials3_ec%>%filter(days_past_completion<61)
 within_90_reg<-reg_trials3_ec%>%filter(days_past_completion<91)
-within_120_reg<-reg_trials3_ec%>%filter(days_past_completion<121)                                    
-more_than_120_reg<-reg_trials3_ec%>%filter(days_past_completion>120) 
+within_120_reg<-reg_trials3_ec%>%filter(days_past_completion<121) 
+within_180_reg<-reg_trials3_ec%>%filter(days_past_completion<181) 
+within_365_reg<-reg_trials3_ec%>%filter(days_past_completion<366) 
+
+more_than_365_reg<-reg_trials3_ec%>%filter(days_past_completion>365) 
 within_30cnt_reg<-within_30_reg%>%group_by(Total_pubs2)%>%count()
 within_60cnt_reg<-within_60_reg%>%group_by(Total_pubs2)%>%count()
 within_90cnt_reg<-within_90_reg%>%group_by(Total_pubs2)%>%count()
 within_1200cnt_reg<-within_120_reg%>%group_by(Total_pubs2)%>%count()
-within_morecnt_reg<-more_than_120_reg%>%group_by(Total_pubs2)%>%count()
+within_180cnt_reg<-within_180_reg%>%group_by(Total_pubs2)%>%count()
+within_365cnt_reg<-within_365_reg%>%group_by(Total_pubs2)%>%count()
+within_morecnt_reg<-more_than_365_reg%>%group_by(Total_pubs2)%>%count()
 Days_past_reg<-merge(within_30cnt_reg,within_60cnt_reg, by ='Total_pubs2' )%>%merge(within_90cnt_reg)
-Days_past2_reg<-merge(Days_past_reg,within_1200cnt_reg, by ='Total_pubs2')%>%merge(within_morecnt_reg)
-colnames(Days_past2_reg)<-c('Days_since_completion', 'Within_30', 'Between_31_60', 'Between_61_90', 'Between_91_120', 'More_than_120')
-Days_past3_reg<-t(Days_past2_reg)
+Days_past2_reg<-merge(Days_past_reg,within_1200cnt_reg, by ='Total_pubs2')
+Days_past2_1_reg<-merge(Days_past2_reg,within_180cnt_reg, by ='Total_pubs2')
+Days_past2_2_reg<-merge(Days_past2_1_reg,within_365cnt_reg, by ='Total_pubs2')#%>%merge(within_morecnt_reg)
+
+
+colnames(Days_past2_2_reg)<-c('Days_since_completion', 'under_30', 'under_60', 'under_90', 'under_120',  'under_180' , 'under_365')
+Days_past3_reg<-t(Days_past2_2_reg)
 colnames(Days_past3_reg)<-c( 'Studies_with_no_pubs', 'Studies_with_pubs')
-Days_past4_reg<-data.frame(Days_past3[2:6,])
-Days_past4_reg$Total_studies<-Days_past4$Studies_with_no_pubs+Days_past4_reg$Studies_with_pubs
+Days_past4_reg<-data.frame(Days_past3_reg[2:7,])
+Days_past4_reg$Total_studies<-Days_past4_reg$Studies_with_no_pubs+Days_past4_reg$Studies_with_pubs
 Days_past5_reg<- Days_past4_reg %>% rownames_to_column("Days_since_completion")
 Days_past5_reg%>%write_csv('regCOVIDpublications_results_writing_phase_reg.csv')
 
@@ -583,27 +590,35 @@ Full_trials_ec<- within(Full_trials_ec, Total_pubs2[Total_pubs2>0] <- 1)
 within_30_all<-Full_trials_ec%>%filter(days_past_completion<31)
 within_60_all<-Full_trials_ec%>%filter(days_past_completion<61)
 within_90_all<-Full_trials_ec%>%filter(days_past_completion<91)
-within_120_all<-Full_trials_ec%>%filter(days_past_completion<121)                                    
-more_than_120_all<-Full_trials_ec%>%filter(days_past_completion>120) 
+within_120_all<-Full_trials_ec%>%filter(days_past_completion<121) 
+within_180_all<-Full_trials_ec%>%filter(days_past_completion<181) 
+within_365_all<-Full_trials_ec%>%filter(days_past_completion<366) 
+
+more_than_365_all<-Full_trials_ec%>%filter(days_past_completion>365) 
 within_30cnt_all<-within_30_all%>%group_by(Total_pubs2)%>%count()
 within_60cnt_all<-within_60_all%>%group_by(Total_pubs2)%>%count()
 within_90cnt_all<-within_90_all%>%group_by(Total_pubs2)%>%count()
 within_1200cnt_all<-within_120_all%>%group_by(Total_pubs2)%>%count()
-within_morecnt_all<-more_than_120_all%>%group_by(Total_pubs2)%>%count()
+within_180cnt_all<-within_180_all%>%group_by(Total_pubs2)%>%count()
+within_365cnt_all<-within_365_all%>%group_by(Total_pubs2)%>%count()
+within_morecnt_all<-more_than_365_all%>%group_by(Total_pubs2)%>%count()
 Days_past_all<-merge(within_30cnt_all,within_60cnt_all, by ='Total_pubs2' )%>%merge(within_90cnt_all)
-Days_past2_all<-merge(Days_past_all,within_1200cnt_all, by ='Total_pubs2')%>%merge(within_morecnt_all)
-colnames(Days_past2_all)<-c('Days_since_completion', 'Within_30', 'Between_31_60', 'Between_61_90', 'Between_91_120', 'More_than_120')
-Days_past3_all<-t(Days_past2_all)
+Days_past2_all<-merge(Days_past_all,within_1200cnt_all, by ='Total_pubs2')
+Days_past2_1_all<-merge(Days_past2_all,within_180cnt_all, by ='Total_pubs2')
+Days_past2_2_all<-merge(Days_past2_1_all,within_365cnt_all, by ='Total_pubs2')#%>%merge(within_morecnt_all)
+
+
+colnames(Days_past2_2_all)<-c('Days_since_completion', 'under_30', 'under_60', 'under_90', 'under_120',  'under_180' , 'under_365')
+Days_past3_all<-t(Days_past2_2_all)
 colnames(Days_past3_all)<-c( 'Studies_with_no_pubs', 'Studies_with_pubs')
-Days_past4_all<-data.frame(Days_past3[2:6,])
-Days_past4_all$Total_studies<-Days_past4$Studies_with_no_pubs+Days_past4_all$Studies_with_pubs
+Days_past4_all<-data.frame(Days_past3_all[2:7,])
+Days_past4_all$Total_studies<-Days_past4_all$Studies_with_no_pubs+Days_past4_all$Studies_with_pubs
 Days_past5_all<- Days_past4_all %>% rownames_to_column("Days_since_completion")
-Days_past5_all%>%write_csv('allCOVIDpublications_results_writing_phase_all.csv')
+Days_past5_all%>%write_csv('regCOVIDpublications_results_writing_phase_all.csv')
 
 
 
-
-#------Chapter:Status and scenarios
+#------Chapter 9:Status overview, Subsets, and scenarios
 
 #-----All
 #All Interventional trials by status and scenario
@@ -731,7 +746,7 @@ Totals_t_all<-data.frame(Totals_t_all)
 Totals_t_all<-Totals_t_all%>%select(,c(10,1:9))
 colnames(Totals_t_all)<-names(status_comb5_all)
 status_comb6_all<-rbind(status_comb5_all,Totals_t_all)
-status_comb6_all%>%write_csv('allCOVIDpublications_status_overview_all.csv')
+status_comb6_all%>%write_csv('regCOVIDpublications_status_overview_all.csv')
 
 
 
@@ -862,8 +877,9 @@ Totals_t_all_ec<-data.frame(Totals_t_all_ec)
 Totals_t_all_ec<-Totals_t_all_ec%>%select(,c(10,1:9))
 colnames(Totals_t_all_ec)<-names(status_comb5_all_ec)
 status_comb6_all_ec<-rbind(status_comb5_all_ec,Totals_t_all_ec)
-status_comb6_all_ec%>%write_csv('allCOVIDpublications_status_overview_ec_all.csv')
+status_comb6_all_ec%>%write_csv('regCOVIDpublications_status_overview_ec_all.csv')
 
+#-------Chaoter 9. Miscellaneous analysis
 #Pub source overlap
 overlap_int<-pub_obs%>%group_by(pmid, nct_id)%>%count()
 overlap2_int<-overlap_int%>%filter(n!=1)
