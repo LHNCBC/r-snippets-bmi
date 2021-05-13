@@ -1,61 +1,31 @@
 intervention_type,Study_Count
-"NA",574
-Other,449
-Diagnostic Test,215
-Drug,47
-Device,46
-Behavioral,44
-Procedure,37
-Biological,32
-Other|Other,28
-Diagnostic Test|Diagnostic Test,18
-Diagnostic Test|Other,10
-Drug|Drug,9
-Other|Other|Other|Other,8
-Other|Other|Other,6
-Behavioral|Behavioral,5
-Biological|Other,5
-Diagnostic Test|Diagnostic Test|Diagnostic Test|Diagnostic Test,5
+"NA",619
+Other,528
+Diagnostic Test,269
+Drug,66
+Device,56
+Behavioral,54
+Procedure,44
+Biological,40
+Diagnostic Test|Other,17
+Biological|Other,6
+Other|Procedure,6
 Dietary Supplement,5
 Genetic,5
-Procedure|Procedure,5
 Combination Product,4
-Device|Device,4
-Drug|Drug|Drug,3
-Other|Other|Other|Procedure,3
-Behavioral|Behavioral|Behavioral,2
-Behavioral|Diagnostic Test|Diagnostic Test,2
-Device|Device|Device,2
-Diagnostic Test|Diagnostic Test|Diagnostic Test|Diagnostic Test|Diagnostic Test,2
-Diagnostic Test|Diagnostic Test|Other|Other,2
-Other|Other|Other|Other|Other,2
-Other|Other|Other|Other|Other|Other|Other,2
-Procedure|Procedure|Procedure,2
+Device|Diagnostic Test,3
+Behavioral|Diagnostic Test,2
+Biological|Diagnostic Test,2
 Radiation,2
-Behavioral|Behavioral|Behavioral|Behavioral,1
-Behavioral|Behavioral|Biological|Device,1
-Behavioral|Behavioral|Biological|Other,1
+Behavioral|Biological|Device,1
+Behavioral|Biological|Other,1
 Behavioral|Other,1
-Biological|Biological,1
-Biological|Biological|Other,1
-Biological|Diagnostic Test,1
-Biological|Diagnostic Test|Diagnostic Test,1
 Biological|Diagnostic Test|Genetic,1
-Device|Diagnostic Test,1
-Device|Diagnostic Test|Diagnostic Test,1
-Diagnostic Test|Diagnostic Test|Diagnostic Test|Diagnostic Test|Diagnostic Test|Diagnostic Test,1
-Diagnostic Test|Diagnostic Test|Diagnostic Test|Diagnostic Test|Diagnostic Test|Diagnostic Test|Diagnostic Test|Diagnostic Test,1
-Diagnostic Test|Diagnostic Test|Diagnostic Test|Diagnostic Test|Radiation|Radiation,1
-Diagnostic Test|Diagnostic Test|Diagnostic Test|Other,1
-Diagnostic Test|Diagnostic Test|Diagnostic Test|Other|Other|Other,1
-Diagnostic Test|Diagnostic Test|Other,1
 Diagnostic Test|Drug,1
 Diagnostic Test|Genetic,1
 Diagnostic Test|Procedure,1
-Dietary Supplement|Drug|Drug,1
-Drug|Drug|Drug|Drug,1
-Drug|Drug|Drug|Drug|Drug|Drug,1
-Drug|Other|Other,1
+Diagnostic Test|Radiation,1
+Dietary Supplement|Drug,1
+Drug|Other,1
 Drug|Other|Procedure,1
-Genetic|Other|Other|Other,1
-Other|Procedure,1
+Genetic|Other,1

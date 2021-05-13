@@ -1,11 +1,12 @@
 intervention,"Active, not recruiting",Completed,Enrolling by invitation,Recruiting
+10 ml (20 mg,0,1,0,0
 4c mortality score,0,0,0,2
 abdominal ultrasound,0,1,0,0
 ace inhibitor,0,0,0,1
 airway management during sedation,0,0,0,1
 airway management during sedation/general anesthesia,0,0,0,1
 angiogenic biomarkers,0,0,0,1
-antibody test,0,0,0,1
+antibody test,0,0,0,2
 antihypertensives,1,0,0,0
 ards,0,1,0,0
 ards/covid19 treatments,0,1,0,0
@@ -34,8 +35,9 @@ care modalities. quantitative,0,0,0,1
 care modalities. quantitative/qualitative approaches to analysis,0,0,0,1
 cerebral compliance,0,1,0,0
 cerebral compliance/hemodynamics monitoring,0,1,0,0
-chest ct,0,0,0,1
+chest ct,1,0,0,1
 chest ct scan / baseline spirometry,0,0,0,1
+chest cta,1,0,0,0
 chiropractic care,1,0,0,0
 chloroquine,0,0,1,0
 chloroquine/hydroxychloroquine,0,0,1,0
@@ -59,16 +61,18 @@ covid-19 test,0,0,0,1
 covid-19 testing,0,0,0,1
 covid19 treatments,0,1,0,0
 cytosorb,0,0,0,1
-data collection,0,0,1,1
+data collection,0,0,1,2
 data registry,0,0,0,1
 "depression, anxiety",0,0,0,1
 "depression, anxiety/stress scale",0,0,0,1
 diabetes type 2,1,0,0,0
-diagnosed with covid-19,0,0,2,0
+diagnosed with covid-19,0,0,1,0
 doxycycline,0,1,0,0
 duplex sonography,0,0,0,1
 "during the pandemic, the patient's job status, physical activity conditions, pain status",0,1,0,0
+ecg,0,0,0,1
 ecg-holter,0,1,0,0
+echocardiography,0,0,0,1
 elisa,1,0,0,0
 elisa/rapid test to detect antibodies against covid-19,1,0,0,0
 emergency surgery,0,1,0,0
@@ -78,7 +82,7 @@ endothelial damage,0,0,0,1
 endothelial damage/angiogenic biomarkers,0,0,0,1
 enhanced hygiene measures,1,0,0,0
 epidemiology of admissions,0,0,0,1
-evaluation,0,0,0,2
+evaluation,0,1,0,1
 evaluation of changes in the diagnostic-therapeutic pathway,0,1,0,0
 face mask sampling,0,0,0,1
 fibromyalgia impact questionnaire,0,1,0,0
@@ -90,7 +94,8 @@ general anesthesia,0,0,0,1
 health care worker survey,0,0,0,1
 hemodynamics monitoring,0,1,0,0
 hiv,0,0,0,1
-hospital admission,0,0,0,1
+hospital admission,1,0,0,0
+hospital treatment of covid disease,0,0,0,1
 hospitalized children with covid19,0,0,0,1
 hydroxychloroquine,0,1,1,0
 hydroxychloroquine / azithromycin,0,1,0,0
@@ -101,20 +106,25 @@ igg,0,1,0,0
 igg antibody test,0,0,0,1
 igg test,0,0,0,1
 igm,0,0,0,2
-igm/igg rapid test,0,0,0,3
+igm/igg rapid test,0,0,0,2
 immunosuppressive agents,0,0,0,1
 impact of event scale-revised,0,0,0,1
 indirect calorimetry,0,0,0,1
+intellivent asv,0,0,0,1
 interview,0,0,0,1
 ivermectin,0,1,1,0
 ivermectin / doxycycline,0,1,0,0
 laboratory,0,0,0,1
+laboratory blood tests,0,0,0,1
 low molecular weight heparin as standard of care treatment,0,0,0,1
 lung ultrasound,0,0,0,1
+machine based evaluation,0,0,0,1
+machine learning,0,0,0,1
 metabolomic,0,0,0,1
 methylprednisolone,0,1,0,0
+ml) intraven vial (ml),0,1,0,0
 modified rankin score,0,1,0,0
-mri,0,0,0,1
+mri,0,0,0,2
 multisystem inflammatory syndrome in children (mis-c),0,0,0,1
 muscle,0,0,0,1
 nä°cas,0,0,0,2
@@ -122,12 +132,12 @@ netosis markers,0,0,0,1
 neuropsychological assessment,0,0,0,1
 no intervention,2,1,0,8
 no special intervention,0,1,0,0
-non-hospitalization procedures,0,0,0,1
+non-hospitalization procedures,1,0,0,0
 non-interventional study,0,0,0,1
 non intervention,0,0,0,1
 not applicable (observational study),0,0,0,1
 obesity,1,0,0,0
-observation,2,0,0,0
+observation,1,0,0,0
 observational,0,1,0,1
 observational study: this registry data will provide more specific information about how people with blood cancer respond to covid-19 virus and,0,0,0,1
 observational study: this registry data will provide more specific information about how people with blood cancer respond to covid-19 virus and/or a covid-19 vaccination.,0,0,0,1
@@ -135,9 +145,11 @@ online questionnaires,0,1,0,0
 optimized management of covid-19 positive kidney transplant recipients: single center experience from the middle east,0,1,0,0
 or a covid-19 vaccination.,0,0,0,1
 other vaccine against sars-cov-2,0,0,0,1
+participation,0,1,0,0
 patient sampling,0,0,0,1
+patients with hemopathy,0,0,0,1
 patients with the treatment agains covid19,0,0,0,1
-pcr,0,1,0,1
+pcr,0,1,0,2
 pcr/serology,0,0,0,1
 perceived stress scale,0,1,0,0
 performance evaluation study of realdetect rt-pcr kit for covid-19 detection,0,0,0,1
@@ -148,8 +160,8 @@ pregnant women under investigation for coronavirus/diagnosed with covid-19,0,0,1
 pregnant women with laboratory-confirmed 2019-n-cov,0,0,0,2
 presence of specific anti-sars-cov-2 antibodies,0,1,0,0
 prone positioning,0,1,0,0
-qualitative approaches to analysis,0,0,0,2
-questionnaire,0,2,0,6
+qualitative approaches to analysis,0,0,0,1
+questionnaire,0,2,0,5
 questionnaires family,0,0,0,1
 questionnaires patient,0,0,0,1
 "raman analysis of saliva, characterization of the raman database",0,0,0,1
@@ -168,13 +180,13 @@ savr,1,0,0,0
 senior fitness test,0,1,0,0
 seraph,0,0,0,1
 seraphâ®-100 microbindâ® affinity blood filter,0,0,0,2
-serology test,0,2,0,4
+serology test,0,1,0,4
 single passive leg movement,0,0,0,1
 sonoclot,0,0,0,1
 standard care,0,2,0,0
 statins,1,0,0,0
 stress scale,0,0,0,1
-survey,1,0,0,2
+survey,0,1,0,1
 "symptomatology, treatment. daily activities",0,0,0,1
 taking biological samples,0,0,0,1
 tavr,1,0,0,0
@@ -186,16 +198,23 @@ telephone interview,1,0,0,0
 tested for sars-cov-2 (regardless of the result),0,0,0,1
 the drugs used before,0,1,0,0
 "the drugs used before/during the pandemic, the patient's job status, physical activity conditions, pain status",0,1,0,0
+the leisure time activity,0,1,0,0
 thromboprofylaxis protocol,0,1,0,0
+time management,0,1,0,0
+time management/participation/the leisure time activity,0,1,0,0
+tocilizumab 200 mg,0,1,0,0
+tocilizumab 200 mg/10 ml (20 mg/ml) intraven vial (ml),0,1,0,0
 transthoracic echocardiogram (tte),0,0,0,1
-ultrasound,0,0,0,2
+ultrasound,0,0,0,1
 "urinary ngal, timp-2, igfbp7, il-6, viral load",0,0,0,1
 "urinary ngal, timp-2, igfbp7, il-6, viral load/metabolomic",0,0,0,1
 urine collection,0,0,0,1
+users,0,1,0,0
+vã§ac,0,2,0,0
 vascular occlusion test,0,0,0,1
 vitamin d,0,0,1,0
 vitros anti-sars-cov-2 igg test,0,0,1,0
 web-application,0,0,0,1
 web-based redcap survey,0,0,0,1
-web application users,0,0,0,1
-NA,6,22,3,86
+web application users,0,1,0,0
+NA,7,22,3,90

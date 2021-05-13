@@ -1,373 +1,351 @@
 intervention,"Active, not recruiting",Completed,Enrolling by invitation,Recruiting,Terminated,Total
-NA,56,164,33,437,1,691
-placebo,100,88,15,351,22,576
-standard care,20,51,5,117,7,200
-hydroxychloroquine,23,33,7,49,25,137
-questionnaire,12,44,4,68,1,129
-convalescent plasma,18,27,3,66,2,116
-no intervention,8,9,3,45,0,65
-blood sample,3,4,1,51,1,60
-azithromycin,10,11,6,20,3,50
-tocilizumab,6,12,0,25,4,47
-ivermectin,0,22,1,23,0,46
-saline,13,4,2,26,0,45
-remdesivir,4,8,0,26,2,40
-favipiravir,12,3,0,21,0,36
-mesenchymal stem cells,10,5,1,19,0,35
-pcr,3,11,2,18,0,34
-serology test,3,8,3,20,0,34
-enoxaparin,2,0,0,29,1,32
-ritonavir,2,6,2,19,1,30
-lopinavir,2,4,2,18,1,27
-prone positioning,3,5,1,17,0,26
+NA,65,183,35,457,1,741
+placebo,111,97,11,336,31,586
+standard care,22,49,4,104,9,188
+questionnaire,8,45,4,68,1,126
+hydroxychloroquine,20,30,6,43,24,123
+convalescent plasma,16,31,2,63,3,115
+no intervention,8,12,3,45,0,68
+blood sample,3,4,1,50,1,59
+ivermectin,0,20,1,25,0,46
+remdesivir,4,13,1,26,2,46
+saline,12,7,2,24,0,45
+azithromycin,9,10,2,18,4,43
+tocilizumab,6,12,0,21,4,43
+pcr,2,12,2,19,0,35
+mesenchymal stem cells,9,6,1,18,0,34
+serology test,5,7,3,18,0,33
+favipiravir,6,4,0,19,0,29
+ritonavir,2,7,2,16,1,28
+prone positioning,4,8,0,14,0,26
+lopinavir,2,5,2,15,1,25
 vitamin d,4,4,2,14,0,24
-exercise,0,9,1,13,0,23
-heparin,2,3,2,15,0,22
-methylprednisolone,1,8,0,13,0,22
-control,2,3,0,13,3,21
-colchicine,0,3,0,17,0,20
-inactivated sars-cov-2 vaccine,5,0,5,10,0,20
-oxygen,5,1,0,13,1,20
-lopinavir/ritonavir,2,4,2,10,1,19
-survey,4,7,0,8,0,19
-vitamin c,2,6,0,10,1,19
+enoxaparin,2,0,0,20,1,23
+methylprednisolone,1,9,0,13,0,23
+exercise,1,8,1,12,0,22
+control,3,3,0,11,4,21
+dexamethasone,2,2,0,15,2,21
+heparin,3,3,2,13,0,21
+oxygen,4,2,0,12,2,20
+colchicine,0,5,0,13,1,19
+lopinavir/ritonavir,2,5,2,9,1,19
+nitazoxanide,2,6,0,10,1,19
+saliva,2,4,1,12,0,19
+biological samples,3,2,0,13,0,18
 chloroquine,1,4,1,7,5,18
-dexamethasone,1,2,0,13,2,18
-nitazoxanide,2,5,0,11,0,18
-anakinra,1,2,0,9,5,17
-plasma,2,4,1,10,0,17
-biological samples,2,2,0,12,0,16
-interferon,1,6,1,8,0,16
-online survey,1,5,2,8,0,16
-saliva,2,3,1,10,0,16
-telehealth,2,6,1,7,0,16
-igm/igg rapid test,0,5,5,5,0,15
-observational,0,5,0,8,1,14
-povidone/iodine,0,5,0,8,0,13
+vitamin c,2,5,0,10,1,18
+plasma,4,4,0,8,1,17
+online survey,1,6,2,7,0,16
+survey,2,8,0,6,0,16
+telehealth,1,6,1,8,0,16
+anakinra,2,2,0,7,4,15
+interferon,1,5,1,8,0,15
+observational,0,5,0,9,1,15
+data collection,0,3,1,10,0,14
+lung ultrasound,2,0,1,10,0,13
 covid-19,1,2,0,8,1,12
 hydroxychloroquine / azithromycin,3,5,2,1,1,12
-lung ultrasound,1,0,1,10,0,12
-ace inhibitor,2,2,2,5,0,11
-baricitinib,0,2,0,9,0,11
-chadox1,5,0,0,6,0,11
-data collection,1,2,1,7,0,11
-nitric oxide,7,2,0,2,0,11
-observation,2,2,0,7,0,11
-radiotherapy,2,2,0,7,0,11
-ruxolitinib,1,2,0,6,2,11
-bcg,3,0,0,7,0,10
-sars-cov-2 rs,8,0,0,2,0,10
-zinc,0,4,0,6,0,10
-best available therapy,1,4,0,4,0,9
-blood test,1,1,0,7,0,9
-camostat mesilate,2,0,0,7,0,9
-rivaroxaban,2,0,0,7,0,9
-28-day schedule,0,0,4,4,0,8
-arb,3,0,0,5,0,8
-cellectraâ® 2000,6,0,0,2,0,8
-cholecalciferol,0,1,0,7,0,8
-ct-scan,1,2,0,5,0,8
-exposure,1,2,0,5,0,8
+baricitinib,2,2,0,7,0,11
+blood test,1,2,0,8,0,11
+radiotherapy,1,3,0,6,1,11
+bcg,4,0,0,6,0,10
+igm/igg rapid test,0,4,2,4,0,10
+ruxolitinib,1,2,0,4,3,10
+ace inhibitor,0,4,0,5,0,9
+best available therapy,1,3,0,5,0,9
+bnt162b2,2,0,0,7,0,9
+camostat mesilate,1,1,0,7,0,9
+mrna-1273,3,0,0,6,0,9
+nasopharyngeal swab,0,4,0,5,0,9
+observation,1,2,0,6,0,9
+rivaroxaban,1,0,0,7,1,9
+zinc,0,3,0,6,0,9
+ct-scan,1,3,0,4,0,8
+exposure,1,3,0,4,0,8
 losartan,0,4,0,4,0,8
-oseltamivir,1,0,0,7,0,8
-three dose regimen,0,0,0,8,0,8
-two dose regimen,0,0,0,8,0,8
-bnt162b2,3,0,0,4,0,7
-interleukin,1,0,0,6,0,7
-nasopharyngeal swab,0,2,0,5,0,7
-paracetamol,1,0,0,6,0,7
-povidone-iodine,0,0,0,7,0,7
+nitric oxide,5,1,0,2,0,8
+biospeciman collection,0,0,0,7,0,7
+biospecimen collection,0,0,0,7,0,7
+cholecalciferol,0,2,0,5,0,7
+covid-19 vaccine,0,0,0,7,0,7
+igg,0,3,1,3,0,7
+mindfulness,0,2,1,4,0,7
+povidone/iodine,0,4,0,3,0,7
 quality-of-life assessment,0,0,0,7,0,7
-rapid test,2,3,1,1,0,7
 sarilumab,2,3,0,1,1,7
-serum test,0,2,0,5,0,7
-adjuvant,5,0,0,1,0,6
+serum test,0,3,0,4,0,7
 aspirin,0,0,1,5,0,6
-best supportive care,1,3,0,2,0,6
-clazakizumab,3,1,0,2,0,6
-covid-19 vaccine,0,0,0,6,0,6
-dose) - stage 1,0,0,0,6,0,6
-famotidine,1,2,0,3,0,6
-igg,0,3,1,2,0,6
+azd7442,4,0,0,2,0,6
+bamlanivimab,1,1,0,4,0,6
+camostat,0,0,2,4,0,6
+cellectraâ® 2000,4,0,0,2,0,6
+chest ct,1,3,0,2,0,6
+famotidine,2,2,0,2,0,6
+gam-covid-vac,3,1,0,2,0,6
 igg antibody test,0,2,2,2,0,6
+inactivated sars-cov-2 vaccine,2,0,2,2,0,6
 interview,0,3,0,3,0,6
-lenzilumab,2,0,0,4,0,6
-mindfulness,0,2,0,4,0,6
-nasal rinse,0,0,0,6,0,6
-omega-3,0,0,0,6,0,6
-plitidepsin,0,6,0,0,0,6
-sars-cov-2 rs/matrix-m1 adjuvant,5,0,0,1,0,6
+lenzilumab,3,0,0,3,0,6
+niclosamide,0,0,0,6,0,6
+oseltamivir,1,0,0,5,0,6
+pulmozyme,0,0,0,6,0,6
+rapid test,1,3,1,1,0,6
 sofosbuvir,0,2,0,4,0,6
-telmisartan,0,2,0,4,0,6
 therapeutic plasma exchange (tpe),0,4,0,2,0,6
-ultrasound,0,2,0,4,0,6
-,0,3,1,1,0,5
-ad26.cov2.s,3,0,0,2,0,5
+ultrasound,0,3,0,3,0,6
 adenovirus type 5 vector,3,0,0,2,0,5
-arbidol,1,1,0,3,0,5
-azd7442,1,0,0,4,0,5
-biological,3,0,0,2,0,5
-biospecimen collection,0,0,0,5,0,5
-camostat,0,0,0,5,0,5
-chest ct,0,3,0,2,0,5
-dalargin,0,4,0,1,0,5
-doxycycline,0,4,0,1,0,5
-gam-covid-vac,3,1,0,1,0,5
+arb,0,1,0,4,0,5
+best supportive care,1,2,0,2,0,5
+clazakizumab,2,1,0,2,0,5
+echocardiography,0,2,0,3,0,5
 igm,0,1,1,3,0,5
-kg,0,2,0,3,0,5
-ly3819253,0,1,0,4,0,5
-mask,0,3,0,0,2,5
+interleukin,1,0,0,4,0,5
+ly3819253,1,1,0,3,0,5
 melatonin,1,0,0,4,0,5
-mrna-1273,3,0,0,2,0,5
-nigella sativa oil,0,0,0,5,0,5
 nk cells,1,0,0,4,0,5
-pulmozyme,0,0,0,5,0,5
-regn10933,2,0,0,3,0,5
-regn10987,2,0,0,3,0,5
+regn10933,3,0,0,2,0,5
+regn10987,3,0,0,2,0,5
+sargramostim,1,1,0,3,0,5
 supportive care,2,2,0,1,0,5
-14-day schedule,0,0,0,4,0,4
+telmisartan,0,1,0,4,0,5
+,0,2,1,1,0,4
+ad26.cov2.s,4,0,0,0,0,4
+ampion,1,1,0,2,0,4
+antibody test,0,1,0,3,0,4
 anticoagulation,0,0,0,3,1,4
-apixaban,0,1,0,3,0,4
-atorvastatin,0,0,0,4,0,4
-atyr1923,0,4,0,0,0,4
+arbidol,1,1,0,2,0,4
+atorvastatin,1,0,0,3,0,4
+azd1222,2,0,0,2,0,4
 bacille calmette-guã©rin (bcg),0,0,0,4,0,4
-behavior,0,1,0,3,0,4
-behavioral intervention,0,0,0,4,0,4
+biological,1,0,0,3,0,4
 bromhexine hydrochloride,1,1,1,1,0,4
 budesonide,1,0,0,2,1,4
-canakinumab,2,1,0,1,0,4
+chadox1,2,0,1,1,0,4
 chloroquine/hydroxychloroquine,0,0,1,3,0,4
-ciclesonide,0,0,0,4,0,4
+ciclesonide,0,1,0,3,0,4
+coronavac,0,0,0,4,0,4
+corticosteroid,0,0,0,4,0,4
 covid-19 pandemic,1,1,0,2,0,4
 daclatasvir,0,0,0,4,0,4
 data record,0,0,0,4,0,4
-echocardiography,0,2,0,2,0,4
+doxycycline,0,4,0,0,0,4
+ecg,0,0,0,4,0,4
 education,0,2,1,1,0,4
+electronic health record review,0,0,0,4,0,4
 fluvoxamine,0,1,0,3,0,4
-hyperbaric oxygen,0,0,0,3,1,4
+had5-s-fusion,0,0,0,4,0,4
 igm antibodytest,0,3,0,1,0,4
 immunoglobulin,0,2,0,2,0,4
+infliximab,0,1,0,3,0,4
+information,3,0,0,1,0,4
+mask,0,3,0,0,1,4
 mavrilimumab,2,0,0,2,0,4
 mesenchymalÂ stem cells,0,1,0,3,0,4
+mri,0,0,0,4,0,4
 n-acetylcysteine,0,0,0,4,0,4
 na-831,0,0,2,2,0,4
 nafamostat mesilate,0,1,0,3,0,4
-niclosamide,0,0,0,4,0,4
-normal saline (0.9% sodium chloride solution) - stage 1,0,0,0,4,0,4
-nutrition,1,0,0,3,0,4
+nasal rinse,0,0,0,4,0,4
 other,0,2,0,2,0,4
 peginterferon,1,0,1,2,0,4
+phone call,0,0,1,3,0,4
+pirfenidone,0,0,0,4,0,4
+proxalutamide,2,1,0,1,0,4
 pulmonary rehabilitation,1,1,1,1,0,4
-sample collection,0,0,0,4,0,4
-sampling,0,0,0,4,0,4
-sargramostim,1,1,0,2,0,4
+sars-cov-2 rs,1,0,0,3,0,4
 sodium,0,0,0,4,0,4
 spirometry,0,0,1,3,0,4
-thromboprophylaxis,0,2,0,2,0,4
-1200 mg),3,0,0,0,0,3
+tinzaparin,0,2,0,2,0,4
+vir-7831,1,0,0,3,0,4
 acalabrutinib,0,2,0,0,1,3
-ag0302-covid19,3,0,0,0,0,3
-antibody test,0,1,0,2,0,3
-anxiety reduction training,0,0,0,3,0,3
+apixaban,0,1,0,2,0,3
 apixaban 2.5 mg,0,0,0,3,0,3
-atazanavir,0,0,0,3,0,3
 ayurveda,0,3,0,0,0,3
-bamlanivimab,1,0,0,2,0,3
 bcg-denmark,1,0,0,2,0,3
+behavior,0,1,0,2,0,3
 behavioral,0,0,2,0,1,3
 blood,0,0,0,3,0,3
 blood donation sms,0,1,2,0,0,3
-bnt162b1,2,0,0,1,0,3
+bnt162b1,1,0,0,2,0,3
 breath test,0,1,0,2,0,3
+canakinumab,0,2,0,1,0,3
 cannabidiol,2,0,0,1,0,3
 cenicriviroc,0,0,0,3,0,3
 clinical assessment,0,2,0,1,0,3
 clinical data,2,0,0,1,0,3
 clopidogrel,0,1,0,2,0,3
-corticosteroid,0,0,0,3,0,3
 coviage,0,3,0,0,0,3
-cpap,1,0,0,2,0,3
-cyclosporine,0,0,0,3,0,3
-cytosorb,0,0,0,3,0,3
+cpap,1,0,0,1,1,3
+cyclosporine,1,0,0,2,0,3
+cytosorb,1,0,0,2,0,3
 dalteparin,0,2,0,1,0,3
-day,0,3,0,0,0,3
 defibrotide,0,0,0,3,0,3
-dose)- stage 2,0,0,0,3,0,3
-dzif-10c,0,0,0,3,0,3
-ecg,0,0,0,3,0,3
+distilled water,0,1,0,2,0,3
 eidd-2801,0,2,0,1,0,3
 elisa,1,2,0,0,0,3
 emtricitabine,0,0,0,3,0,3
-exhaled breath sampling,0,3,0,0,0,3
+exercise training,0,0,0,3,0,3
 flow cytometry,0,2,0,1,0,3
 fostamatinib,1,0,0,2,0,3
-gargle,0,0,0,3,0,3
-had5-s-fusion,0,0,0,3,0,3
+had5-s-fusion/n-etsd vaccine,0,0,0,3,0,3
 high flow nasal cannula,0,2,0,1,0,3
 honey,0,1,0,2,0,3
-infliximab,0,1,0,2,0,3
-information,0,0,2,1,0,3
+hyperbaric oxygen,0,0,0,2,1,3
 ino-4800,2,0,0,1,0,3
-iodine,0,0,0,3,0,3
 kb109,1,0,0,2,0,3
+kg,0,1,0,2,0,3
 low,1,0,0,2,0,3
-ly3832479,0,0,0,3,0,3
-mechanical ventilation,1,0,0,2,0,3
-medium dosage inactivated sars-cov-2 vaccine on a 0-,0,0,1,2,0,3
-menacwy,2,0,0,1,0,3
-methylene blue,0,0,0,3,0,3
-mf59 adjuvanted sars-cov-2 sclamp vaccine,0,0,0,3,0,3
-monitoring visit,0,0,0,0,3,3
-mri,0,0,0,3,0,3
+ly3832479,1,0,0,2,0,3
+moderna covid-19 vaccine,1,0,0,2,0,3
+n-etsd vaccine,0,0,0,3,0,3
 naltrexone,0,0,1,2,0,3
 nasal,0,1,0,2,0,3
 non-interventional,0,1,0,2,0,3
+nutrition,1,0,0,2,0,3
 opaganib,0,2,0,1,0,3
+paracetamol,1,0,0,2,0,3
 pcr/serology,0,0,0,3,0,3
-phase 2,0,0,0,3,0,3
-phone call,0,0,0,3,0,3
-pirfenidone,0,0,0,3,0,3
 prednisone,0,1,0,1,1,3
 probiotic,0,0,0,3,0,3
 quality of life,0,0,1,2,0,3
-quercetin,0,2,0,1,0,3
+quercetin,0,1,0,2,0,3
 ravulizumab,1,0,0,2,0,3
 regn10933/regn10987 combination therapy,1,0,0,2,0,3
 ribavirin,0,1,0,2,0,3
+sample collection,1,0,0,2,0,3
+sampling,0,0,0,3,0,3
 self supportive care (ssc) alone,1,0,0,2,0,3
 sevoflurane,0,0,0,3,0,3
 sng001,1,0,0,2,0,3
-stool collection,0,1,0,2,0,3
 suspension of heat killed (autoclaved) mycobacterium w,0,1,0,2,0,3
 taste,0,2,0,1,0,3
 throat swab,0,1,0,2,0,3
-tinzaparin,0,2,0,1,0,3
+thromboprophylaxis,0,1,0,2,0,3
 tofacitinib,1,1,0,1,0,3
-ty027,1,0,0,2,0,3
-vir-7831,1,0,0,2,0,3
-vitamin super b-complex,2,0,0,1,0,3
+vitamin super b-complex,2,1,0,0,0,3
 vpm1002,3,0,0,0,0,3
-vv-ecmo,0,3,0,0,0,3
+water,0,1,0,0,2,3
 yoga,0,0,0,3,0,3
-- tocilizumab,0,2,0,0,0,2
 [18f]f-arag (2'-deoxy-2'-fluoro-9-î²-d-arabinofuranosylguanine),0,0,0,2,0,2
+0.5 ml vaccine,0,0,0,2,0,2
 1 âµg cov2 sam (lnp),0,0,0,2,0,2
 10 âµg cov2 sam (lnp),0,0,0,2,0,2
 10 to 14 days later,0,0,0,2,0,2
 100 mg,0,0,0,2,0,2
 18f-î±vî²6-bp,0,0,2,0,0,2
+28-day schedule,0,0,1,1,0,2
 3 âµg cov2 sam (lnp),0,0,0,2,0,2
 30 âµg cov2 sam (lnp),0,0,0,2,0,2
 300 mg of omega3-fa,0,0,1,1,0,2
 4c mortality score,0,0,0,2,0,2
+6 minute walk test,0,0,1,1,0,2
 99mtc-pertechnetate aerosol,0,0,0,2,0,2
+a questionnaire,0,1,0,1,0,2
 aã§aã­ palm berry extract - natural product,0,0,0,2,0,2
 abatacept,0,0,0,2,0,2
+acebilustat,0,0,2,0,0,2
 acetylsalicylic acid,0,1,0,1,0,2
-activase,2,0,0,0,0,2
+acupressure,0,0,0,2,0,2
 acute kidney injury,0,1,0,1,0,2
-adsorbed covid-19 (inactivated) vaccine,1,0,1,0,0,2
+adg20,1,0,0,1,0,2
+adjuvant,1,0,0,1,0,2
+adsorbed covid-19 (inactivated) vaccine,2,0,0,0,0,2
 aeonose,0,2,0,0,0,2
-ag0301-covid19,2,0,0,0,0,2
 allocetra-ots,1,0,0,1,0,2
-"alpha-interferon, abidol, ribavirin, buzhong yiqi plus",2,0,0,0,0,2
 ambrisentan,0,0,0,2,0,2
-ampion,1,1,0,0,0,2
-angiotensin peptide (1-7) derived plasma,0,0,0,2,0,2
 antibiotics,0,1,0,1,0,2
 antihypertensives,1,0,0,1,0,2
 appendectomy,0,2,0,0,0,2
-apremilast,0,0,0,2,0,2
 artecomâ® (pyronaridine-artesunate),0,0,0,2,0,2
 asbrip,0,2,0,0,0,2
 assessment of work-related stress,0,1,0,1,0,2
 at-527,0,0,0,2,0,2
+atazanavir,0,0,0,2,0,2
 autopsy,0,1,0,1,0,2
-av-covid-19,1,0,0,1,0,2
+av-covid-19,0,1,0,1,0,2
 avdoralimab,1,0,0,1,0,2
 avigan,1,0,0,1,0,2
-azd1222,2,0,0,0,0,2
-basic feedback,2,0,0,0,0,2
-bat,0,0,0,2,0,2
-bemiparin,0,0,0,2,0,2
+aviptadil,0,1,0,1,0,2
+bbv152,1,0,0,1,0,2
 bevacizumab,0,1,0,1,0,2
 bioargininaâ®,0,0,0,2,0,2
 biological data,2,0,0,0,0,2
+biosensor,0,0,0,2,0,2
 blood collection on their first consultation/10 to 14 days later,0,0,0,2,0,2
 blood draw,0,0,0,2,0,2
+breath biopsy face masks with removable filters,0,2,0,0,0,2
+breath biopsy face masks with removable filters/fitted pva strip,0,2,0,0,0,2
 brequinar,1,1,0,0,0,2
 brescä°a-covä°d respiratory severity scale,0,0,0,2,0,2
 brii-196,0,0,0,2,0,2
 brii-196/brii-198,0,0,0,2,0,2
 brii-198,0,0,0,2,0,2
-broncho-vaxomâ®,0,0,0,2,0,2
-bucillamine,0,0,2,0,0,2
-cag,0,0,0,2,0,2
+broncho-vaxomâ®,2,0,0,0,0,2
+c144-ls,1,0,0,1,0,2
 canine odor detection of volatile organic compounds,0,0,0,2,0,2
 cardiac,0,1,0,1,0,2
 cardiac/electrodermal recordings,0,1,0,1,0,2
 caring contacts,0,0,1,1,0,2
-chlorhexidine,0,0,0,2,0,2
 chlorine dioxide,0,0,0,2,0,2
-citrox,0,2,0,0,0,2
 clinical examination,1,0,0,1,0,2
 clinical features,0,1,0,1,0,2
+clinical testing of subjects,0,1,0,1,0,2
 clorhexidine dental phbâ©,0,2,0,0,0,2
 cobicistat,0,0,0,2,0,2
+colgate peroxylâ® -1.5% hydrogen peroxide,0,0,0,2,0,2
 conjunctival swab,0,1,0,1,0,2
-continuation of arb,0,0,2,0,0,2
-"conventional medicines (oxygen therapy, alfa interferon via aerosol inhalation,",0,0,0,2,0,2
 "conventional medicines (oxygen therapy, alfa interferon via aerosol inhalation,/lopinavir/ritonavir)/traditional chinese medicines (tcms) granules",0,0,0,2,0,2
 conventional oxygen therapy,0,1,0,1,0,2
-coronary angiography,0,2,0,0,0,2
-coronavac,0,0,0,2,0,2
+corsodylâ® alcohol free -0.2 % chlorhexidine digluconate,0,0,0,2,0,2
 corticosteroids,1,0,0,1,0,2
-cospherunate,0,0,2,0,0,2
+covi-amg,0,0,0,2,0,2
 covid-19 antigen,1,0,0,1,0,2
 covid-19 infection,1,0,0,1,0,2
 covid-19 patients,0,0,0,2,0,2
-covid-19 symptom monitoring system,0,0,0,2,0,2
+covid-19 test,0,0,0,2,0,2
+covid-19 vaccines,0,0,0,2,0,2
 covid-viroâ® test,0,2,0,0,0,2
 ct-p59,1,0,0,1,0,2
 curosurfâ® (poractant alfa),0,0,0,2,0,2
+cvncov,0,0,0,2,0,2
 cvncov 12 î¼g,2,0,0,0,0,2
 cvncov 12î¼g,2,0,0,0,0,2
 cvncov 6 î¼g,2,0,0,0,0,2
 cvncov vaccine,1,0,0,1,0,2
 cyt107,0,0,0,2,0,2
 cytokine adsorption,0,1,0,1,0,2
+dalargin,0,1,0,1,0,2
 dapagliflozin,1,0,0,1,0,2
 darunavir,0,0,0,2,0,2
 darunavir/cobicistat,0,0,0,2,0,2
+data collection/clinical testing of subjects,0,1,0,1,0,2
 data extraction from medical files,0,1,0,1,0,2
-diagnosed with covid-19,0,0,2,0,0,2
 diagnostic laboratory biomarker analysis,0,0,0,2,0,2
 diagnostic test,0,1,0,1,0,2
 dialysis,1,0,0,1,0,2
 dipyridamole,0,1,0,1,0,2
-discontinuation of arb,0,0,2,0,0,2
-discussion board for social support,2,0,0,0,0,2
-distilled water,0,1,0,1,0,2
 dornase alfa,0,2,0,0,0,2
-dose),2,0,0,0,0,2
+dose)- stage 2,0,0,0,2,0,2
+dose) - stage 1,0,0,0,2,0,2
 dose) - stage 2,0,0,0,2,0,2
 doxycycline tablets,0,0,0,2,0,2
 drã¤ger antigen test sars-cov-2,0,0,0,2,0,2
 duvelisib,0,0,0,2,0,2
+dzif-10c,0,0,0,2,0,2
 ðžxygen therapy,0,0,0,2,0,2
 early-dexamethasone,0,0,0,2,0,2
+ec-18,0,0,0,2,0,2
 edp1815,0,0,0,2,0,2
 electrodermal recordings,0,1,0,1,0,2
-electronic health record review,0,0,0,2,0,2
+elispot,0,0,0,2,0,2
 emotional stimulation,0,1,0,1,0,2
+ensovibep,0,0,0,2,0,2
 entrã©e: behavioral skills,0,0,0,2,0,2
 entrã©e: cognitive skills,0,0,0,2,0,2
 entrã©e: interpersonal skills,0,0,0,2,0,2
 epivaccorona (epivaccorona vaccine based on peptide antigens for the prevention of covid-19),2,0,0,0,0,2
 essential oils,0,1,0,1,0,2
-evaluation,0,0,0,2,0,2
-exercise training,0,0,0,2,0,2
-exercise/nutrition,0,0,0,2,0,2
+evaluation,0,1,0,1,0,2
 exo 1 inhalation,0,1,1,0,0,2
 exo 2 inhalation,0,1,1,0,0,2
 experimental group,1,1,0,0,0,2
@@ -377,150 +355,146 @@ favipiravir/hydroxychloroquine,1,0,0,1,0,2
 fear of covid-19 scale,0,1,0,1,0,2
 file scanning,0,1,0,1,0,2
 fit test,0,2,0,0,0,2
+fitted pva strip,0,2,0,0,0,2
 folic acid,1,0,0,1,0,2
 fondaparinux,0,2,0,0,0,2
+fultiumâ® -d3 800,0,0,0,2,0,2
 fuzheng huayu,0,1,0,1,0,2
 gammacoreâ® (vagus nerve stimulation),2,0,0,0,0,2
 gammacoreâ® sapphire (non-invasive vagus nerve stimulator),0,0,0,2,0,2
-gbp510 (rbd 25î¼g,0,0,0,2,0,2
-gbp510 adjuvanted with alum (rbd 10î¼g,0,0,0,2,0,2
-gbp510 adjuvanted with alum (rbd 25î¼g,0,0,0,2,0,2
-gbp510 adjuvanted with as03 (rbd 10î¼g,0,0,0,2,0,2
-gbp510 adjuvanted with as03 (rbd 25î¼g,0,0,0,2,0,2
 glycine,0,0,0,2,0,2
-group hydroxychloroquine,0,2,0,0,0,2
+grad-cov2,2,0,0,0,0,2
 guduchi ghan vati,0,2,0,0,0,2
 gx-i7,0,0,0,2,0,2
-had5-s-fusion/n-etsd vaccine,0,0,0,2,0,2
 health supplements,0,0,0,2,0,2
-high-dose placebo (18-59 years),0,0,0,2,0,2
-high-dose placebo (60-85 years),0,0,0,2,0,2
-high-dose recombinant covid-19 vaccine (sf9 cells) (18-59 years),0,0,0,2,0,2
-high-dose recombinant covid-19 vaccine (sf9 cells) (60-85 years),0,0,0,2,0,2
 high dosage inactivated sars-cov-2 vaccine,2,0,0,0,0,2
-high flow nasal cannula (hfnc),0,0,0,2,0,2
+high flow nasal cannula (hfnc),0,1,0,1,0,2
 hormones,1,0,0,1,0,2
 human amniotic fluid,0,0,0,2,0,2
-hydroxychloroquine/clindamycin/primaquine,0,2,0,0,0,2
 hzvsf-v13,0,0,0,2,0,2
+î²-hydroxy î²-methyl butyrate (hmb) enriched amino acid,0,0,0,2,0,2
 "ib10 sphingotestâ® bio-admâ® apparatus (sphingotec gmbh, hennigsdorf, germany)",0,0,0,2,0,2
-ibrutinib,0,0,0,2,0,2
+ibrutinib,1,0,0,1,0,2
 ibuprofen,0,0,0,2,0,2
 icu treatment,0,0,0,2,0,2
 id nowâ„¢ covid-19 screening test,2,0,0,0,0,2
 igg test,0,1,0,1,0,2
 iloprost,1,0,0,1,0,2
 imatinib,0,0,0,2,0,2
-immunological,0,0,0,2,0,2
+imdevimab,0,0,0,2,0,2
 impulseâ„¢ una e-stethoscope,0,2,0,0,0,2
-imu-838,0,0,0,2,0,2
+imu-838,0,1,0,1,0,2
 indicators of central sensitisation,0,0,0,2,0,2
-interferon-ãÿ-1a,0,0,0,2,0,2
+interferon-ãÿ-1a,0,0,0,0,2,2
 interferon-î² 1a,0,0,2,0,0,2
 interferon î²-1b,0,0,0,2,0,2
-interleuken 6,0,0,0,2,0,2
 intramuscular vaccine,1,0,0,1,0,2
-ion mobility spectrometry (ims),0,0,0,2,0,2
+iodine,0,0,0,2,0,2
+ion mobility spectrometry (ims),0,1,0,1,0,2
 iota-carrageenan,0,1,0,1,0,2
 kb109 / self supportive care (ssc),1,0,0,1,0,2
+kg),0,0,0,2,0,2
 l-citrulline,0,0,0,2,0,2
-lanadelumab,0,0,0,2,0,2
-laryngoscopy,0,2,0,0,0,2
+laboratory,0,0,0,2,0,2
+lanadelumab,0,1,0,1,0,2
 ledipasvir,0,2,0,0,0,2
 leflunomide,0,0,0,2,0,2
 life2000â® ventilator,0,0,0,2,0,2
 longitudinally,0,0,0,2,0,2
 lopinavir/ ritonavir,0,0,0,2,0,2
-low-dose placebo (18-59 years),0,0,0,2,0,2
-low-dose placebo (60-85 years),0,0,0,2,0,2
-low-dose recombinant covid-19 vaccine (sf9 cells) (18-59 years),0,0,0,2,0,2
-low-dose recombinant covid-19 vaccine (sf9 cells) (60-85 years),0,0,0,2,0,2
-lucira covid-19 all-in-one test kit,0,1,0,1,0,2
+lucira covid-19 all-in-one test kit,0,2,0,0,0,2
 lung ultrasound (lus),0,0,0,2,0,2
-m5049,0,0,0,2,0,2
+machine learning,0,0,0,2,0,2
 "magpro x100 stimulator, b70 fluid-cooled coil",0,0,0,2,0,2
 maraviroc,0,1,0,1,0,2
 marker therapeutics d2000 cartridge (d2000) for use with the spectra optiaâ® apheresis system (optia spd protocol),0,0,0,2,0,2
+mechanical ventilation,1,0,0,1,0,2
 meditation,0,0,1,1,0,2
 meditation (1 x 20-minute guided audio training),0,0,0,2,0,2
 medium dosage inactivated sars-cov-2 vaccine,2,0,0,0,0,2
+medium dosage inactivated sars-cov-2 vaccine on a 0-,0,0,1,1,0,2
 medium dosage inactivated sars-cov-2 vaccine on a 0-/28-day schedule,0,0,1,1,0,2
 mefloquine,0,2,0,0,0,2
+menacwy,1,0,0,1,0,2
 metanebâ® system,0,0,0,2,0,2
-"minus formula, huhuang detoxicity paste, baimu qingre jiedu paste",2,0,0,0,0,2
-moderna covid-19 vaccine,0,0,0,2,0,2
+methylene blue,0,0,0,2,0,2
+"moderna covid-19 vaccine, mrna-1273 (100 î¼g)",0,0,0,2,0,2
 molnupiravir,0,0,0,2,0,2
-motivational interviewing,0,0,0,2,0,2
+mrna-1273.351,1,0,0,1,0,2
 muscle,1,0,0,1,0,2
 n-acetyl cysteine,1,0,0,1,0,2
-n-etsd vaccine,0,0,0,2,0,2
 nä°cas,0,0,0,2,0,2
 nanomix elabâ® covid-19 rapid antigen panel (non-interventional),0,0,0,2,0,2
+nasafytolâ®,0,0,0,2,0,2
 nasopharyngeal,0,1,0,1,0,2
 nasopharyngeal swabs,0,0,0,2,0,2
 neuromuscular electrical stimulation,0,0,0,2,0,2
 news,0,1,0,0,1,2
-nigella sativa,0,1,0,1,0,2
+nigella sativa oil,0,1,0,1,0,2
+nintedanib,0,0,0,2,0,2
 nioâ® (intraosseous access),0,2,0,0,0,2
 nitric oxide delivered via lungfitâ„¢ system,0,0,0,2,0,2
+non,0,1,1,0,0,2
 normal saline (0.9% sodium chloride solution)- stage 2,0,0,0,2,0,2
-nosocomial,0,0,0,2,0,2
+normal saline (0.9% sodium chloride solution) - stage 1,0,0,0,2,0,2
+nowdx covid-19 test,0,1,0,1,0,2
 nusepinâ® 0.1 mg,0,0,0,2,0,2
 nusepinâ® 0.2 mg,0,0,0,2,0,2
-ocat,0,0,0,2,0,2
 octagam,1,1,0,0,0,2
+omega-3,0,0,0,2,0,2
 omegavenâ®,0,0,0,2,0,2
 online questionnaires,0,1,0,1,0,2
 online support group,1,1,0,0,0,2
 ophthalmologic exam,0,1,0,1,0,2
-oral polio vaccine,0,0,2,0,0,2
-osoc,0,0,0,0,2,2
+oral,0,0,1,1,0,2
+oral polio vaccine,1,0,1,0,0,2
 oximenâ® 3%,0,2,0,0,0,2
-oxygen-ozone,0,0,0,2,0,2
 patient-reported online questionnaire on olfactory,0,1,0,1,0,2
 patient-reported online questionnaire on olfactory/taste disturbances,0,1,0,1,0,2
+pcr test,0,0,0,2,0,2
 pegylated interferon-î±2b,0,0,0,2,0,2
-performance evaluation,0,0,0,2,0,2
-personalized feedback,2,0,0,0,0,2
-phase 1,0,0,0,2,0,2
+pfizer-biontech covid-19 vaccine bnt162b2 (30 âµg)( comirnatyâ®),0,0,0,2,0,2
 physical therapy,1,0,0,1,0,2
 physiotherapy,0,2,0,0,0,2
 placebo (normal saline solution),0,0,0,2,0,2
 plx-pad,0,0,0,2,0,2
+povidone-iodine,0,0,0,2,0,2
 practice details,0,2,0,0,0,2
 prayer,0,0,0,2,0,2
 pregnant women with laboratory-confirmed 2019-n-cov,0,0,0,2,0,2
 preventive information,2,0,0,0,0,2
-proxalutamide,1,1,0,0,0,2
+probiotics,0,2,0,0,0,2
 psychological,0,1,0,1,0,2
 pul-042,0,0,0,2,0,2
 pulmonary function tests,0,0,0,2,0,2
 pulse oximeter,1,0,0,1,0,2
-pyronaridine-artesunate,0,0,0,2,0,2
+pyronaridine-artesunate,0,1,0,1,0,2
 qazcovid-inâ®-vaccine against covid-19,2,0,0,0,0,2
 qazcovid-inâ® - covid-19 inactivated vaccine,0,2,0,0,0,2
-qualitative approaches to analysis,0,0,0,2,0,2
 radiological,0,0,0,2,0,2
 rapid diagnostic test vs pcr,0,0,0,2,0,2
 recombinant human interferon î±2b spray,2,0,0,0,0,2
 recombinant new coronavirus vaccine (cho cell) low-dose group,2,0,0,0,0,2
 recombinant new coronavirus vaccine (cho cells) high-dose group,2,0,0,0,0,2
 recop unit patient,1,1,0,0,0,2
-regn10933 / regn10987,1,0,0,1,0,2
+regn10933 / regn10987,2,0,0,0,0,2
 rehabilitation,0,1,0,1,0,2
+"resp301, a nitric oxide generating solution",0,0,0,2,0,2
 resveratrol,2,0,0,0,0,2
 retrospective data collection,0,0,0,2,0,2
 rhea health toneâ®,0,0,0,2,0,2
-ribaroxaban,0,0,0,2,0,2
 rivaroxaban 10 mg,0,0,0,2,0,2
-roactemra,0,0,0,0,2,2
 rosuvastatin,0,0,0,2,0,2
+rothâ´s test,0,2,0,0,0,2
 rtb101,1,0,0,0,1,2
 ruconest,0,0,0,2,0,2
 saline containing 1% human serum albuminï¼ˆsolution without uc-mscsï¼‰,0,2,0,0,0,2
 sars-cov-2,0,1,0,1,0,2
+sars-cov-2 rs/matrix-m1 adjuvant,1,0,0,1,0,2
+sars-cov-2 vaccine,0,0,0,2,0,2
 sars-cov2 infection,1,0,0,1,0,2
-sedation,0,0,0,2,0,2
+sars-cov2 testing,0,1,0,1,0,2
+scta01,0,1,0,1,0,2
 self supportive care (ssc),1,0,0,1,0,2
 selinexor,0,1,0,1,0,2
 semi-directive interview,0,0,0,2,0,2
@@ -528,57 +502,61 @@ seraphâ®-100 microbindâ® affinity blood filter,0,0,0,2,0,2
 silmitasertib,0,0,0,2,0,2
 siltuximab,1,0,0,1,0,2
 silymarin,0,0,0,2,0,2
-simple cognitive task intervention,0,0,0,2,0,2
+simple cognitive task intervention,0,1,0,1,0,2
 sirolimus,0,0,0,2,0,2
 sivomixx,1,0,0,1,0,2
-smf,0,2,0,0,0,2
 soc / placebo,0,1,0,1,0,2
 sodium bicarbonate,1,0,0,1,0,2
 sofosbuvir/daclatasvir,0,0,0,2,0,2
 sofosbuvir/ledipasvir,0,2,0,0,0,2
-splenic ultrasound,0,0,1,1,0,2
-standard covid-19 care,0,0,0,2,0,2
-stp,0,0,0,2,0,2
+splenic ultrasound,0,1,0,1,0,2
+standard covid-19 care,0,1,0,1,0,2
+stool collection,0,1,0,1,0,2
 surgical mask,0,1,0,1,0,2
 swab,0,0,0,2,0,2
 t-detectâ„¢ sars-cov-2 assay,0,2,0,0,0,2
 tacrolimus,0,0,0,2,0,2
+targeted wellness formula câ„¢ sublingual drops - 1200mg - 30 ml (formula c),0,0,0,2,0,2
 taste disturbances,0,1,0,1,0,2
 td-0903,0,1,0,1,0,2
 tele-yoga,0,2,0,0,0,2
 teleconsultation either by phone,0,1,0,1,0,2
 tenofovir disoproxil,0,0,0,2,0,2
-testing,0,0,0,2,0,2
 "three doses of placebo at the schedule of day 0, 14, 28ï¼ˆhigh-dose groupï¼‰",2,0,0,0,0,2
 thymalfasin,0,0,0,2,0,2
 tinzaparin/dalteparin,0,2,0,0,0,2
 traditional chinese medicine,0,0,0,2,0,2
+transcranial direct current stimulation,0,0,0,2,0,2
 tricorâ® 145mg tablets,0,0,0,2,0,2
-two dose chadox1 ncov-19,0,0,0,2,0,2
 "two doses of low dosage inactivated sars-cov-2 vaccine at the schedule of day 0,28",1,0,0,1,0,2
 "two doses of medium dosage inactivated sars-cov-2 vaccine at the schedule of day 0,28",1,0,0,1,0,2
 "two doses of placebo at the schedule of day 0, 28ï¼ˆhigh-dose groupï¼‰",2,0,0,0,0,2
 "two doses of placebo at the schedule of day 0, 28ï¼ˆmiddle-dose groupï¼‰",2,0,0,0,0,2
-ub-612,0,0,0,2,0,2
+ty027,0,1,0,1,0,2
+ub-612,2,0,0,0,0,2
 ultrasonography,0,1,0,1,0,2
 uvc irradiation,0,2,0,0,0,2
+vã§ac,0,2,0,0,0,2
 vehicle control,0,0,0,2,0,2
-video chat,2,0,0,0,0,2
-views,0,0,0,2,0,2
-virazole,0,0,0,2,0,2
 vitis xtra forteâ©,0,2,0,0,0,2
 viusid,0,2,0,0,0,2
+vla2001,1,0,0,1,0,2
 volatile organic compounds analysis,0,0,0,2,0,2
-water,0,1,0,0,1,2
+vv-ecmo,0,2,0,0,0,2
 whole exome sequencing,0,0,0,2,0,2
 zilucoplanâ®,2,0,0,0,0,2
+zinc acetate,0,0,0,2,0,2
+zyesamiâ„¢ (aviptadil acetate),0,0,0,2,0,2
+- tocilizumab,0,1,0,0,0,1
 -interferon nebulization,0,1,0,0,0,1
 """calm"" is a mindfulness meditation mobile app",0,1,0,0,0,1
 """sham""-block with placebo (isotone nacl)",0,0,0,1,0,1
 ),0,0,1,0,0,1
 ": igg, ig m serologies in the amniotoc fluid, the blood cord",0,0,0,1,0,1
-[68ga]ga-dota-(rgd)2 pet,0,0,0,1,0,1
-[68ga]ga-dota-(rgd)2 pet/ct,0,0,0,1,0,1
+[11c]sl25.1188 pet scan,0,0,0,1,0,1
+[18f]feppa pet scan,0,0,0,1,0,1
+[68ga]ga-dota-(rgd)2 pet,0,1,0,0,0,1
+[68ga]ga-dota-(rgd)2 pet/ct,0,1,0,0,0,1
 [timp-2]*[igfbp-7],0,1,0,0,0,1
 0.07% cetylpyridinium chloride (cpc) in mouthwash,0,0,0,1,0,1
 0.075% cetylpyridinium chloride,0,0,0,1,0,1
@@ -589,30 +567,41 @@ zilucoplanâ®,2,0,0,0,0,2
 0.12% chlorhexidine gluconate mouth rinse,0,0,0,1,0,1
 0.4ml inj syringe 0.4ml,0,0,0,1,0,1
 0.5% povidone iodine,0,0,0,1,0,1
+0.5% w,0,0,0,1,0,1
+0.5% w/v povidone-iodide,0,0,0,1,0,1
 0.5ml,0,0,0,1,0,1
+0.6% pvp-i oral,0,0,1,0,0,1
+0.6% pvp-i oral/nasal spray to asymptomatic to mild covid-19 patient having multiple comorbidity,0,0,1,0,0,1
+0.6% pvp-i oral/nasal spray to healthy volunteer,0,0,1,0,0,1
+0.6% pvp-i oral/nasal spray to moderately ill covid-19 positive patient,0,0,1,0,0,1
+0.67ml inj syringe,0,0,0,0,1,1
 0.9% (w,1,0,0,0,0,1
 0.9% (w/v) saline,1,0,0,0,0,1
 0.9% normal saline,0,0,0,1,0,1
+1 minute sit to stand test,0,0,0,1,0,1
 1% hydrogen peroxide,0,0,0,1,0,1
 1% povidone iodine (pvp-i),0,0,0,1,0,1
-1% w,0,0,0,1,0,1
-1% w/v povidone-iodide,0,0,0,1,0,1
-1.5-2% w,0,0,0,1,0,1
-1.5-2% w/v hydrogen peroxide,0,0,0,1,0,1
 1.5% hydrogen peroxide (h2o2),0,0,0,1,0,1
+1.5% w,0,0,0,1,0,1
+1.5% w/v hydrogen peroxide,0,0,0,1,0,1
+10 ml (20 mg,0,1,0,0,0,1
 100 mg/ml virazole,0,0,0,1,0,1
 "12.7% fio2, hypercapnia 7% co2, inspiratory mechanical constraint",0,0,0,1,0,1
+1200 mg),1,0,0,0,0,1
+14-day schedule,0,0,0,1,0,1
 15mg,0,0,0,1,0,1
 1600 mg),1,0,0,0,0,1
 2 post-mortem transcutaneous lung biopsies (1 anterior ; 1 posterior) using anatomical landmarks,0,0,0,1,0,1
 2.2x10^10vp (qpcr) boost,0,0,0,1,0,1
 21 - phase 2,1,0,0,0,0,1
-21% ethanol,0,0,0,1,0,1
-21% ethanol/essential oils,0,0,0,1,0,1
 24 hour holter ecg,0,0,0,1,0,1
 24h transdermal patch - 24 hour,0,0,0,1,0,1
+25 âµg spfn_1b-06-pl,0,0,0,1,0,1
+25 âµg spfn_1b-06-pl / alfq (qs21 adjuvant),0,0,0,1,0,1
 25 post icu-patients,0,0,0,1,0,1
 25 post non-icu patients,0,0,0,1,0,1
+27% ethanol,0,0,0,1,0,1
+27% ethanol/essential oils,0,0,0,1,0,1
 28),0,0,0,1,0,1
 2nd dose),0,0,0,1,0,1
 3),0,0,0,0,1,1
@@ -623,18 +612,27 @@ zilucoplanâ®,2,0,0,0,0,2
 4plants/azythromycin,0,0,1,0,0,1
 5-ala-phosphate,0,0,0,1,0,1
 5-ala-phosphate / sfc (5-ala / sfc),0,0,0,1,0,1
+5-week prevention program,1,0,0,0,0,1
+5 times sit to stand test,0,0,0,1,0,1
 5% glucose,1,0,0,0,0,1
+50 âµg spfn_1b-06-pl,0,0,0,1,0,1
+50 âµg spfn_1b-06-pl / alfq (qs21 adjuvant),0,0,0,1,0,1
 50 mg,0,0,0,1,0,1
 50 mg/ml virazole,0,0,0,1,0,1
-6 minute walk test,0,0,1,0,0,1
+6-min-walk fpp2,0,1,0,0,0,1
+6-min-walk surgical mask,0,1,0,0,0,1
+6-min-walk without mask,0,1,0,0,0,1
+6-minute walk test,0,0,0,1,0,1
 6 minutes walk test,0,0,0,1,0,1
 6 months later,0,0,0,1,0,1
+6 point likert scale,0,0,0,1,0,1
 6 weeks after delivery,0,1,0,0,0,1
 600mg) oral suspension,0,0,0,1,0,1
 99mtc-pertechnetate,0,0,0,1,0,1
 a - samples collected along routine care samples only,0,0,0,1,0,1
 a $10 survey incentive,1,0,0,0,0,1
 a $20 survey incentive,1,0,0,0,0,1
+a 940-nm diode laser,0,0,0,1,0,1
 "a high-dose placebo (18-59 years) at the schedule of day 0, 28, 56",0,0,0,1,0,1
 "a high-dose placebo (60-85 years) at the schedule of day 0, 28, 56",0,0,0,1,0,1
 "a high-dose recombinant covid-19 vaccine (cho cell) (18-59 years) at the schedule of day 0, 28, 56",0,0,0,1,0,1
@@ -643,8 +641,8 @@ a $20 survey incentive,1,0,0,0,0,1
 "a middle-dose placebo (60-85 years) at the schedule of day 0, 28, 56",0,0,0,1,0,1
 "a middle-dose recombinant covid-19 vaccine (cho cell) (18-59 years) at the schedule of day 0, 28, 56",0,0,0,1,0,1
 "a middle-dose recombinant covid-19 vaccine (cho cell) (60-85 years) at the schedule of day 0, 28, 56",0,0,0,1,0,1
-a questionnaire,0,0,0,1,0,1
 a questionnaire/scales,0,0,0,1,0,1
+a questionnaire/scales.,0,1,0,0,0,1
 a short video intervention,0,0,0,1,0,1
 a survey of 60 questions was created through the internet-based 'google forms surveys' site.,0,0,1,0,0,1
 a vignette intervention,0,0,0,1,0,1
@@ -657,22 +655,26 @@ abbc1 immunoessential,0,0,0,1,0,1
 abbv-2b04,0,0,0,1,0,1
 abbv-47d11,0,0,0,1,0,1
 abdominal ultrasound,0,1,0,0,0,1
-abivertinib,0,0,0,1,0,1
+abivertinib,1,0,0,0,0,1
+abncov2 vaccine,0,0,0,1,0,1
 abpm,0,0,0,1,0,1
 abx464,0,0,0,1,0,1
 accuchek inform ii platform,0,1,0,0,0,1
 "ace inhibitor, angiotensin receptor blocker",0,1,0,0,0,1
-ace inhibitor/arb,1,0,0,0,0,1
+ace inhibitor/arb,0,1,0,0,0,1
 ace inhibitors/calcium channel blockers,0,1,0,0,0,1
 ace/arb,0,0,0,1,0,1
 acknowledgement racial injustice ama,1,0,0,0,0,1
 actigraphy,0,0,0,1,0,1
 action (tara),0,1,0,0,0,1
+activase,1,0,0,0,0,1
 active comparator,0,0,0,1,0,1
 active control:healthy living,0,1,0,0,0,1
 active covid-19 disease,0,0,0,1,0,1
 activity,0,1,0,0,0,1
-activity list,1,0,0,0,0,1
+activity list,0,1,0,0,0,1
+acupuncture,0,1,0,0,0,1
+acupuncture/standard care,0,1,0,0,0,1
 ad5-ncov,1,0,0,0,0,1
 adam sensor,0,0,0,1,0,1
 adaptation at work score (psas),0,1,0,0,0,1
@@ -682,13 +684,14 @@ adcovid,0,0,0,1,0,1
 additional,0,0,0,1,0,1
 additional/minimal collection of products of the human body carried out during a sample for standard of care,0,0,0,1,0,1
 adenovirus type-5 vectored covid-19 vaccine,1,0,0,0,0,1
-adg20,0,0,0,1,0,1
 adimrsc-2f,0,0,0,1,0,1
 adjunctive therapies,1,0,0,0,0,1
 adm03820,0,0,0,1,0,1
 administration of equine immunoglobulin anti sars-cov-2,0,1,0,0,0,1
 admission to icu for covid-19,0,1,0,0,0,1
 adsorbed sars-cov-2 (inactivated) vaccine,0,0,0,1,0,1
+adx-629,0,0,0,1,0,1
+aerobic exercise therapy,0,0,0,1,0,1
 aerobic exercises,0,0,1,0,0,1
 aerobic training,0,0,0,1,0,1
 aerosol box,0,1,0,0,0,1
@@ -698,14 +701,18 @@ african american sender in informational videos.,1,0,0,0,0,1
 after-each-case room disinfection,0,1,0,0,0,1
 after covid-19 pandemic,0,0,0,1,0,1
 after the covid-19 outbreak in patients with behã§et,0,0,1,0,0,1
+ag0301-covid19,1,0,0,0,0,1
+ag0302-covid19,1,0,0,0,0,1
 agent-797,0,0,0,1,0,1
 ai algorithm,0,0,0,1,0,1
 ai model,1,0,0,0,0,1
+airflo2,0,0,0,1,0,1
 airwave oscillometry,0,0,0,1,0,1
 airway management during sedation,0,0,0,1,0,1
 airway management during sedation/general anesthesia,0,0,0,1,0,1
 airway pressure release ventilation,0,1,0,0,0,1
 ak119,0,0,0,1,0,1
+aks-452,0,0,1,0,0,1
 alanine,0,0,0,1,0,1
 albumine,0,1,0,0,0,1
 albuterol sulfate (mdi),0,0,0,1,0,1
@@ -713,12 +720,15 @@ albuterol sulfate (nebulizer),0,0,0,1,0,1
 alcohol mouthwash (listerine) (d) mouth rinse with the solution provided,0,0,0,1,0,1
 aldesleukin,0,0,0,1,0,1
 alexa amazon,0,0,0,1,0,1
+alfq (qs21 adjuvant),0,0,0,1,0,1
+algorithm,1,0,0,0,0,1
 all treatment about covid-2019,0,0,0,1,0,1
 allogeneic,1,0,0,0,0,1
 allogeneic mesenchymal stem cell,0,1,0,0,0,1
 almitrine,0,0,0,1,0,1
 "alpha-interferon alpha, abidol, ribavirin, buzhong yiqi plus",1,0,0,0,0,1
 "alpha-interferon alpha, abidol, ribavirin, buzhong yiqi plus/minus formula, huhuang detoxicity paste, baimu qingre jiedu paste, fumigation/inhalation of vitamin c",1,0,0,0,0,1
+"alpha-interferon, abidol, ribavirin, buzhong yiqi plus",1,0,0,0,0,1
 "alpha-interferon, abidol, ribavirin, buzhong yiqi plus/minus formula, huhuang detoxicity paste, baimu qingre jiedu paste/5% glucose",1,0,0,0,0,1
 "alpha-interferon, abidol, ribavirin, buzhong yiqi plus/minus formula, huhuang detoxicity paste, baimu qingre jiedu paste/high-dose vitamin c treatment",1,0,0,0,0,1
 alpha one antitrypsin,0,0,0,1,0,1
@@ -729,6 +739,7 @@ aluminum adjuvant of inactivated sars-cov-2 vaccine,1,0,0,0,0,1
 alvelestat,0,0,0,1,0,1
 alveolar,0,0,0,1,0,1
 ama acknowledgement drug pricing,1,0,0,0,0,1
+amantadine hydrochloride,0,0,0,1,0,1
 ambulation,0,0,0,1,0,1
 amh sampling,0,0,0,1,0,1
 amiodarone,0,0,0,1,0,1
@@ -742,7 +753,7 @@ analysis of blood samples,0,0,0,1,0,1
 "analysis of cytokine response, innate",0,0,0,1,0,1
 "analysis of cytokine response, innate/adaptive immune response, complement activation,/serum neurofilaments as a marker of neurological damage.",0,0,0,1,0,1
 anesthesia management,0,1,0,0,0,1
-ang-3777,0,0,0,1,0,1
+ang-3777,1,0,0,0,0,1
 anger message,0,1,0,0,0,1
 angiogenic biomarkers,0,0,0,1,0,1
 angiography scanner,0,0,0,1,0,1
@@ -751,18 +762,23 @@ angiotensin-(1-7),0,0,0,1,0,1
 angiotensin-converting enzyme inhibitors (ace-i)/angiotensin ii receptor blockers (arb),0,1,0,0,0,1
 angiotensin ii,0,0,0,1,0,1
 angiotensin ii receptor blockers,0,0,0,1,0,1
+angiotensin peptide (1-7) derived plasma,0,0,0,1,0,1
 anise,0,0,0,1,0,1
 anluohuaxian,0,0,0,1,0,1
 anne one,0,0,1,0,0,1
 anti-cd14,0,0,0,1,0,1
 anti-coronavirus antibodies (immunoglobulins)obtained with dfpp from convalescent patients,0,0,0,1,0,1
 anti-covid test,1,0,0,0,0,1
+anti-sars-cov-2 antibody testing,0,0,0,1,0,1
 anti-sars-cov-2 igt seropositivity,0,1,0,0,0,1
 anti-sars-cov-2 igy,0,1,0,0,0,1
 anti-sars-cov2 serological controls,1,0,0,0,0,1
 anti-sars-cov2 serological controls/serum neutralization,1,0,0,0,0,1
+anti-spike sars-cov-2 igg,0,0,0,1,0,1
 anti covid19 igg antibodies,0,0,0,1,0,1
 antibiotic,1,0,0,0,0,1
+antibodies testing,0,1,0,0,0,1
+antibody testing for sars-cov-2 igg,0,0,0,1,0,1
 antibody tests,0,0,0,1,0,1
 "antibody tests,",1,0,0,0,0,1
 anticoagulation agents (edoxaban and,0,0,0,1,0,1
@@ -778,13 +794,17 @@ antithrombotic therapy (anticoagulant and/or antiplatelet) before admission for 
 antroquinonol,0,0,0,1,0,1
 anxiety,0,0,0,1,0,1
 anxiety questionnaire,0,0,0,1,0,1
+anxiety reduction training,0,0,0,1,0,1
 anxiety),0,0,1,0,0,1
 any drug used to treat covid-19,0,0,0,1,0,1
+ap-23,0,0,0,1,0,1
 apilimod dimesylate,0,0,0,1,0,1
 apixaban 5mg,0,0,0,1,0,1
 apl-9,0,0,0,1,0,1
 apple watch,0,0,0,1,0,1
+application of cdss to provide nutritional care in breast cancer patients from home,0,1,0,0,0,1
 apps,0,0,0,1,0,1
+apremilast,0,0,0,1,0,1
 apremilast placebo,0,0,0,1,0,1
 aprepitant injectable emulsion,0,0,0,1,0,1
 aprotinin,1,0,0,0,0,1
@@ -821,27 +841,30 @@ aspirin 25mg orally,0,0,0,1,0,1
 assembled mask,1,0,0,0,0,1
 "assessing antibody responses, neutralizing capacity",1,0,0,0,0,1
 "assessing antibody responses, neutralizing capacity/memory b-cell function",1,0,0,0,0,1
-assessing impact of covid19,0,0,1,0,0,1
+assessing the impact of covid-19,0,1,0,0,0,1
 assessment of cardiovascular diseases,0,0,0,1,0,1
 assessment of cardiovascular diseases/cardiovascular risk factors,0,0,0,1,0,1
 assessment of postnatal depression using the the edinburgh questionnaire between 4,0,1,0,0,0,1
 assessment of postnatal depression using the the edinburgh questionnaire between 4/6 weeks after delivery,0,1,0,0,0,1
+assessment of proinflammatory cytokine production,0,0,0,1,0,1
+assessment of proinflammatory cytokine production/immunophenotypic analysis after stimulation with overlapping s-peptides in peripheral blood mononuclear cells (pbmc),0,0,0,1,0,1
 assessment of the sequelae after hospitalization for sars-cov-2,0,0,1,0,0,1
 assessment of ventilator-associated pneumonia criteria,0,0,0,1,0,1
 assessment tests,0,0,0,1,0,1
 assessment),0,1,0,0,0,1
-assigned strategies: active choice,0,0,0,1,0,1
-assigned strategies: enhanced active choice,0,0,0,1,0,1
-assigned strategies: opt-in,0,0,0,1,0,1
+assigned strategies: active choice,0,1,0,0,0,1
+assigned strategies: enhanced active choice,0,1,0,0,0,1
+assigned strategies: opt-in,0,1,0,0,0,1
 asunercept,0,0,0,1,0,1
 asunercept 100mg,0,0,0,1,0,1
 asunercept 25mg,0,0,0,1,0,1
 asunercept 400mg,0,0,0,1,0,1
 asynchronies detection,0,1,0,0,0,1
+asynchronous telerehabilitation programme,0,0,0,1,0,1
 at-001,0,1,0,0,0,1
 at risk for covid-19 infection,1,0,0,0,0,1
 atazanavir/dexamethasone,0,0,0,1,0,1
-ati-450,0,0,0,1,0,1
+ati-450,1,0,0,0,0,1
 atorvastatin / l-arginine / folic acid / nicorandil / nebivolol,0,0,0,1,0,1
 atorvastatin 20 mg oral tablet,0,0,0,1,0,1
 atovaquone,0,0,0,1,0,1
@@ -849,11 +872,12 @@ atovaquone/azithromycin,0,0,0,1,0,1
 atr-002,0,0,0,1,0,1
 attendance by ambulance crew,0,0,0,1,0,1
 attention bias modification (abm),0,1,0,0,0,1
+atyr1923,0,1,0,0,0,1
 audio-visual triage system (avt),0,1,0,0,0,1
 audio for relaxation techniques,0,0,0,1,0,1
-auditory evoked potentials (aep),0,0,0,1,0,1
+auditory evoked potentials (aep),0,1,0,0,0,1
 augmented message,0,0,0,1,0,1
-auricular neuromodulation,0,0,0,1,0,1
+auricular neuromodulation,0,0,0,0,1,1
 auricular percutaneous neurostimulation,0,0,0,1,0,1
 auricular stimulation,0,0,0,1,0,1
 auscul-x,0,0,0,1,0,1
@@ -861,33 +885,40 @@ autologous activated platelet-rich plasma,0,0,0,1,0,1
 autologous non-hematopoietic peripheral blood stem cells (nhpbsc),0,1,0,0,0,1
 autophagy inhibitor (gns651),0,0,0,1,0,1
 auxora,0,0,0,1,0,1
-aviptadil,0,1,0,0,0,1
+aviptadil placebo,0,0,0,1,0,1
 aviptadil/standard care,0,1,0,0,0,1
 award,0,0,0,1,0,1
 award advice,0,0,0,1,0,1
 award/covid-specific advice,0,0,0,1,0,1
 axillary sweat sample,0,0,0,1,0,1
 ayurvedic kadha,0,1,0,0,0,1
-azd1656,0,0,0,1,0,1
+azd1656,1,0,0,0,0,1
 azd7442 (im),0,0,0,1,0,1
 azd7442 (iv),0,0,0,1,0,1
 azithromycin / ivermectin / ribaroxaban / paracetamol,0,0,0,1,0,1
 azithromycin / ribaroxaban / paracetamol,0,0,0,1,0,1
 azoximer bromide,1,0,0,0,0,1
+azvudine,0,0,0,1,0,1
+azvudine placebo,0,0,0,1,0,1
 b: placebo,0,0,0,1,0,1
+background questionnaire,0,0,0,1,0,1
 bactek-r,0,0,0,1,0,1
 bactrl-spike,1,0,0,0,0,1
+baf312,0,0,0,1,0,1
+balanced amino acid,0,0,0,1,0,1
 bandebereho fathers',0,0,1,0,0,1
 bardoxolone methyl,0,1,0,0,0,1
 bariatric procedures,0,0,0,1,0,1
 baricitinib/anakinra,0,0,0,1,0,1
 baseline,0,0,0,1,0,1
 baseline blood sample,0,0,0,1,0,1
+baseline disease modifying therapies (dmts),0,0,0,1,0,1
 baseline message,0,1,0,0,0,1
 baseline spirometry,0,0,0,1,0,1
 baseline/during hospitalization blood samples,0,0,0,1,0,1
+basic feedback,0,1,0,0,0,1
+bat,0,0,0,1,0,1
 bat / calcifediol,0,0,0,1,0,1
-bbv152,1,0,0,0,0,1
 bbv152a - phase i,1,0,0,0,0,1
 bbv152a - phase ii,1,0,0,0,0,1
 bbv152b - phase i,1,0,0,0,0,1
@@ -897,11 +928,16 @@ bbv154 vaccine,1,0,0,0,0,1
 bcg-10 vaccine,0,0,0,1,0,1
 bd lyotubes,0,0,0,1,0,1
 bdb-001 injection,0,0,0,1,0,1
+beck anxiety inventory,0,0,0,1,0,1
+beck depression inventory,0,0,0,1,0,1
 beck depression inventory (bdi),0,1,0,0,0,1
 behavioral activation ssi,1,0,0,0,0,1
 behavioral economics,0,0,0,1,0,1
+behavioral intervention,0,0,0,1,0,1
 behavioral/cognitive assessment,0,0,1,0,0,1
 behaviour change technique intervention to improve quality of life,0,0,0,1,0,1
+beijing,1,0,0,0,0,1
+bemiparin,0,0,0,1,0,1
 bemiparin sodium,0,0,0,1,0,1
 bempegaldesleukin,0,0,0,1,0,1
 berberine,0,1,0,0,0,1
@@ -909,6 +945,7 @@ bereavement virtual support group,0,0,1,0,0,1
 best message,0,0,0,1,0,1
 best message / augmented message/implementation strategy,0,0,0,1,0,1
 best message alone,0,0,0,1,0,1
+best standard of care / cardio,0,0,0,1,0,1
 best symptomatic treatment based on doctor recommendations),0,0,0,1,0,1
 beta interferon,0,0,0,1,0,1
 betadine (c) mouth rinse with the solution provided,0,0,0,1,0,1
@@ -917,7 +954,9 @@ betadineâ© bucal 100 mg/ml,0,1,0,0,0,1
 bgb-dxp593,0,1,0,0,0,1
 bgb dxp593,0,0,0,1,0,1
 bge-175,0,0,0,1,0,1
-bi 764198,0,0,0,1,0,1
+bi 764198,0,0,0,0,1,1
+bi 767551 inhaled,0,0,0,1,0,1
+bi 767551 intravenous,0,0,0,1,0,1
 bicalutamide 150 mg,0,0,0,1,0,1
 bicalutamide 150 mg oral tablet,0,0,0,1,0,1
 bidirectional oxygenation mouthpiece,0,0,0,1,0,1
@@ -930,6 +969,7 @@ biocollection,0,0,0,1,0,1
 biological assays in particular on the lipid metabolism,0,1,0,0,0,1
 biological sample/clinical data collection,0,0,0,1,0,1
 biological test,0,0,0,1,0,1
+biological/vaccine: bnt162b2 10mcg,0,0,0,1,0,1
 biological/vaccine: recombinant new coronavirus vaccine (cho cell) low-dose group,1,0,0,0,0,1
 biological/vaccine: recombinant new coronavirus vaccine (cho cells) high-dose group,1,0,0,0,0,1
 biological/vaccine: recombinant new coronavirus vaccine (cho cells) placebo group,1,0,0,0,0,1
@@ -937,19 +977,22 @@ biological: mrna-1273,1,0,0,0,0,1
 "biomarker (tropt, myoglobin, ck, ck-mb, ldh, d-dimer, crp, pct)",0,0,0,1,0,1
 biomarkers expression,0,0,0,1,0,1
 biomarkers of inflammation,0,0,0,1,0,1
-biosensor,0,0,0,1,0,1
 biovitals,0,0,0,1,0,1
 biozek covid-19 antigen rapid test,0,0,0,1,0,1
 bivalirudin,0,0,0,1,0,1
 bld-2660,1,0,0,0,0,1
-blink,0,0,0,1,0,1
-blink/masseter inhibitory reflex,0,0,0,1,0,1
+blink,0,1,0,0,0,1
+blink/masseter inhibitory reflex,0,1,0,0,0,1
 "blood collection at day 8, day 16, day 24, month 6",0,0,0,1,0,1
 "blood collection at day 8, day 16, day 24, month 6/month 12 after first symptoms from sars-cov-2 infection",0,0,0,1,0,1
+blood count,0,0,0,1,0,1
 blood d-dimer assay,0,1,0,0,0,1
 blood group determination,0,0,0,1,0,1
 blood sample analyses,0,0,0,1,0,1
 blood sample/data record,0,0,0,1,0,1
+blood sample/salivary sample,0,0,0,1,0,1
+blood samples for the study of the humoral response to sars-cov-2 variants,0,0,0,1,0,1
+blood samples for the study of the humoral response to sars-cov-2 variants/of the cellular response after vaccination against covid-19,0,0,0,1,0,1
 blood sampling (venesection),0,0,0,1,0,1
 blood test for sars-cov2 serology,0,0,0,1,0,1
 "blood tests sputum, nasal lavage",0,0,0,1,0,1
@@ -959,21 +1002,24 @@ bloodwork,0,0,0,1,0,1
 bms-986253,0,0,0,1,0,1
 bno 1030,0,1,0,0,0,1
 bnt162a1,0,0,0,1,0,1
+bnt162b2 20mcg,0,0,0,1,0,1
+bnt162b2 30mcg,0,0,0,1,0,1
 bnt162b2 mrna covid-19 vaccine,0,0,0,1,0,1
+bnt162b2sa,0,0,0,1,0,1
 bnt162b3,1,0,0,0,0,1
 bnt162c2,0,0,0,1,0,1
 body position change,0,0,0,1,0,1
 boost,0,0,0,1,0,1
 botulinum neurotoxin,0,1,0,0,0,1
 bovhyaluronidase azoxymer,0,0,0,1,0,1
+bovine lactoferrin,0,0,0,1,0,1
 bovine plasma-derived immunoglobulin concentrate,0,0,0,1,0,1
 brain mri,0,0,0,1,0,1
 brain parenchyma biopsies,0,0,0,1,0,1
 brazilian green propolis extract (epp-af),0,1,0,0,0,1
 breast feeding adherence,0,0,0,1,0,1
-breath biopsy,0,0,0,1,0,1
-breath biopsy face masks with removable filters,0,1,0,0,0,1
-breath biopsy face masks with removable filters/fitted pva strip,0,1,0,0,0,1
+breath biopsy,0,1,0,0,0,1
+breath biopsy analysis,0,0,0,1,0,1
 breath test/cheek swab,0,1,0,0,0,1
 "breathing exercise, intensive spirometry use, supported cough, progressive mobilisation",0,0,0,1,0,1
 "breathing exercise, intensive spirometry use, supported cough, progressive mobilisation/ambulation",0,0,0,1,0,1
@@ -990,11 +1036,14 @@ brief skills for safer living,0,0,0,1,0,1
 brilacidin,0,0,0,1,0,1
 broad-spectrum cbd oil,0,0,0,1,0,1
 bromelain,0,0,0,1,0,1
-bromhexine 8 mg placebo,0,0,1,0,0,1
 bromhexine oral tablet and/or hydroxychloroquine tablet,0,0,0,1,0,1
+bronchial fibroscopy,0,0,0,1,0,1
 bronchoalveolar lavage,0,0,0,1,0,1
 brushing,0,0,0,1,0,1
-btl-tml-covid,0,0,0,1,0,1
+btl-tml-covid,0,1,0,0,0,1
+bucillamine,0,0,1,0,0,1
+buddy,1,0,0,0,0,1
+buddy assigned in community,1,0,0,0,0,1
 building of the classification model,0,0,0,1,0,1
 burnout,0,0,0,1,0,1
 butterfly,0,0,0,1,0,1
@@ -1004,28 +1053,34 @@ by computer consultation,0,1,0,0,0,1
 by computer consultation. quantitative,0,0,0,1,0,1
 c-135-ls,1,0,0,0,0,1
 c-reactive protein,0,0,0,1,0,1
-c144-ls,1,0,0,0,0,1
+c135-ls,0,0,0,1,0,1
+c135-ls / c144-ls,0,0,0,1,0,1
 c144-ls/c-135-ls,1,0,0,0,0,1
 c21,0,1,0,0,0,1
 c3,0,1,0,0,0,1
 c3/ holter monitor,0,1,0,0,0,1
+cag,0,0,0,1,0,1
 calcifediol,0,0,0,1,0,1
 calcium channel blockers,0,1,0,0,0,1
 cam-icu 7 score,0,0,0,1,0,1
 cambridge validated viral detection,0,0,0,1,0,1
 camostat mesylate,0,0,0,1,0,1
 candesartan,0,0,0,1,0,1
+"cannabidiol, pharmaceutically produced with < 5 ppm thc",0,0,0,1,0,1
 canswab,0,0,0,1,0,1
 cap-1002,0,0,0,1,0,1
 capillary collection,0,0,0,1,0,1
 capillary collection/testing,0,0,0,1,0,1
 capnography,0,0,0,1,0,1
 cardiac ct,0,0,0,1,0,1
+cardiac magnetic resonance imaging (cmr),0,0,0,1,0,1
 cardiac mri,0,0,0,1,0,1
 cardiac surgery,0,0,0,1,0,1
+cardio,0,0,0,1,0,1
 cardiology clinical consultations,0,0,0,1,0,1
 cardiopulmonary exercise test,0,0,0,1,0,1
 cardiopulmonary resuscitation,0,1,0,0,0,1
+cardiopulmonary stress test (cpet),0,0,0,1,0,1
 cardiovascular,0,0,0,1,0,1
 cardiovascular magnetic resonance (cmr) imaging,0,0,0,1,0,1
 cardiovascular magnetic resonance imaging,0,0,0,1,0,1
@@ -1038,15 +1093,20 @@ care modalities. quantitative/qualitative approaches to analysis,0,0,0,1,0,1
 caring contacts without an introductory phone call (cc),0,0,1,0,0,1
 caring contacts/introductory phone call (cc/),0,0,1,0,0,1
 carotid artery reactivity testing,1,0,0,0,0,1
+carrageenan nasal,0,0,0,1,0,1
+carrageenan nasal/throat spray,0,0,0,1,0,1
 carragelose,0,0,0,1,0,1
+carrimycin,0,0,0,1,0,1
 case fatality rate,0,1,0,0,0,1
 cash transfer,1,0,0,0,0,1
+casirivimab,0,0,0,1,0,1
 castem,0,0,0,1,0,1
 cbc-diff monocyte volume width distribution,0,0,0,1,0,1
 cbd isolate,0,0,0,1,0,1
 ccp,0,0,0,1,0,1
 cd24fc,0,1,0,0,0,1
 cefditoren pivoxil 400mg,0,0,0,1,0,1
+celecoxib famotidine,0,0,0,1,0,1
 cell therapy protocol 1,0,0,0,1,0,1
 cell therapy protocol 2,0,0,0,1,0,1
 cellular immune response after anti-sars-cov-2 vaccine administration,0,0,0,1,0,1
@@ -1056,6 +1116,7 @@ centricyte 1000,0,0,0,1,0,1
 cerc-002,0,1,0,0,0,1
 cerebral compliance,0,1,0,0,0,1
 cerebral compliance/hemodynamics monitoring,0,1,0,0,0,1
+cerebrolysin,0,1,0,0,0,1
 "cerebrospinal fluid sampling, meningeal",0,0,0,1,0,1
 "cerebrospinal fluid sampling, meningeal/brain parenchyma biopsies",0,0,0,1,0,1
 certified cloth face mask,1,0,0,0,0,1
@@ -1068,6 +1129,8 @@ chadox1 ncov-19 two dose,0,0,0,1,0,1
 chadox1 ncov-19 two dose / paracetamol,0,0,0,1,0,1
 chadv68-s,0,0,0,1,0,1
 chadv68-s-tce,0,0,0,1,0,1
+change in kidney function,0,1,0,0,0,1
+change in kidney function/proteinuria,0,1,0,0,0,1
 "change in knowledge, motivation, skills, resources",0,0,0,1,0,1
 change in preference to surgery under covid-19 pandemic.,0,1,0,0,0,1
 chart review,0,0,0,1,0,1
@@ -1075,10 +1138,12 @@ chat-based instant messaging support,0,1,0,0,0,1
 chat-based support,0,0,0,1,0,1
 check-list including lung ultrasound,0,0,0,1,0,1
 cheek swab,0,1,0,0,0,1
+chelsea critical care physical assessment tool,0,0,0,1,0,1
 chemokines profiles of patients with dexmedetomidine administration,0,0,0,1,0,1
 chemotherapy,1,0,0,0,0,1
 chest computed tomography,0,0,0,1,0,1
 chest ct scan / baseline spirometry,0,0,0,1,0,1
+chest cta,1,0,0,0,0,1
 chest mri,0,0,0,1,0,1
 chest physiotherapy post-covid19,0,0,0,1,0,1
 chest radiography,0,0,1,0,0,1
@@ -1087,14 +1152,17 @@ chiropractic care,1,0,0,0,0,1
 chiropractic care (more than one visit),0,1,0,0,0,1
 chiropractic care (one visit),0,1,0,0,0,1
 chitotriosidase activity,1,0,0,0,0,1
+chlorhexidine,0,0,0,1,0,1
 chlorhexidine gluconate (a) mouth rinse with the solution provided,0,0,0,1,0,1
-choice of assignment: active choice,0,0,0,1,0,1
-choice of assignment: enhanced active choice,0,0,0,1,0,1
-choice of assignment: opt-in,0,0,0,1,0,1
+choice of assignment: active choice,0,1,0,0,0,1
+choice of assignment: enhanced active choice,0,1,0,0,0,1
+choice of assignment: opt-in,0,1,0,0,0,1
+christmas holiday,1,0,0,0,0,1
 chx0.12,0,1,0,0,0,1
 chx0.12/cpc0.05 oral rinse (perioaidactive control),0,1,0,0,0,1
 cig axial,0,1,0,0,0,1
 cig tilted,0,1,0,0,0,1
+citrox,0,1,0,0,0,1
 ck0802,0,0,0,1,0,1
 clarithromycin,0,1,0,0,0,1
 clarithromycin 500mg,0,1,0,0,0,1
@@ -1106,25 +1174,26 @@ clinical features/laboratory values,0,1,0,0,0,1
 clinical interview,1,0,0,0,0,1
 clinical observation,0,0,0,1,0,1
 clinical outcomes in elderly patients with covid-19.,0,0,0,1,0,1
-clinical testing of subjects,1,0,0,0,0,1
 "clinical, functional",0,0,0,1,0,1
 "clinical, functional/radiological lung involvement evolution",0,0,0,1,0,1
 "clinical, laboratory",0,0,0,1,0,1
 "clinical, laboratory/imaging characteristics of pneumonia",0,0,0,1,0,1
+clinician endorsement,0,0,1,0,0,1
 clinico-biological parameters in routine care,0,0,0,1,0,1
 cliniporator,1,0,0,0,0,1
 cliniporatorâ®,0,0,0,1,0,1
 cliniporatorâ®/epsgun,0,0,0,1,0,1
 clofazimine,0,0,0,1,0,1
 closed-loop control of oxygen supplementation by o2matic,0,1,0,0,0,1
-closed face shield with surgical face mask use,1,0,0,0,0,1
+closed face shield with surgical face mask use,0,1,0,0,0,1
+closys ultra sensitive rinse mouthwash,0,0,0,1,0,1
 clungene rapid test cassette,0,0,0,1,0,1
 cm4620-ie (injectable emulsion),0,0,0,1,0,1
 cns magnetic resonance imaging (mri) imaging,0,0,0,1,0,1
-co-mestring (co-coping),0,0,0,1,0,1
+co-mestring (co-coping),0,1,0,0,0,1
 cod liver oil,0,0,0,1,0,1
 cognitive,0,0,0,1,0,1
-cognitive activity,0,0,0,1,0,1
+cognitive activity,0,1,0,0,0,1
 cognitive assessment,0,0,1,0,0,1
 "cognitive behavior therapy (cbt), specifically using the facing your fears (fyf) curriculum",0,0,0,1,0,1
 cognitive behavioral brief-telepsychotherapy,0,0,1,0,0,1
@@ -1133,11 +1202,12 @@ cognitive testing,0,0,0,1,0,1
 colchicine 0.5 mg,0,0,0,1,0,1
 colchicine 0.6 mg,0,0,1,0,0,1
 colchicine pill,0,0,0,1,0,1
-colchicine/herbal phenolic monoterpene fractions,0,0,0,1,0,1
+colchicine/herbal phenolic monoterpene fractions,0,1,0,0,0,1
 colchicine/symptomatic treatment (paracetamol),0,0,0,1,0,1
 colgate periogard mouthwash,0,0,1,0,0,1
 colgate peroxyl mouthwash,0,0,1,0,0,1
 colgate total mouthwash,0,0,1,0,0,1
+colgate total zero,0,0,0,0,1,1
 collagen-polyvinylpyrrolidone,0,0,0,1,0,1
 "collection of blood, salivary",0,0,0,1,0,1
 "collection of blood, salivary/nasopharyngeal samples.",0,0,0,1,0,1
@@ -1150,9 +1220,11 @@ combination,0,1,0,0,0,1
 combined art,0,0,0,1,0,1
 combined art/hydroxychloroquine,0,0,0,1,0,1
 comet assay,0,0,0,1,0,1
+comirnaty,1,0,0,0,0,1
 comirnaty - biontech manufacturing gmbh,0,0,0,1,0,1
 "comirnaty (covid-19, mrna vaccine)",0,0,0,1,0,1
 communication,0,0,1,0,0,1
+communication during the covid-19 pandemic,0,0,0,1,0,1
 communication type,0,1,0,0,0,1
 "community-based, mobile van testing",0,0,1,0,0,1
 community-driven messages to promote covid-19 testing,0,0,1,0,0,1
@@ -1173,19 +1245,26 @@ completion of pre-pandemic survey,0,1,0,0,0,1
 completion of survey after peak of pandemic,0,1,0,0,0,1
 complex diagnostic panel,0,0,1,0,0,1
 comprehensive treatment,0,0,0,1,0,1
+computerized cognitive training,1,0,0,0,0,1
+concentrated rehabilitation for patients with persistent symptoms post covid-19,0,0,0,1,0,1
 conestat alfa,0,0,0,1,0,1
+confinement,0,0,0,1,0,1
+confinement/communication during the covid-19 pandemic,0,0,0,1,0,1
 conjunctival swab/nasopharyngeal swab,0,0,0,1,0,1
 connected devices measurements,0,0,0,1,0,1
 connor-davidson resilience scale 10 items (cd-risc 10),0,0,0,1,0,1
 contain covid anxiety ssi,0,1,0,0,0,1
 continuation of acei,0,0,0,1,0,1
 continuation of acei/arb,0,0,0,1,0,1
-continuation of ras blocker,0,0,0,1,0,1
+continuation of arb,0,1,0,0,0,1
+continuation of ras blocker,0,0,0,0,1,1
 continued self-enhancement (enhance) for covid-19,0,0,1,0,0,1
 continuous blind glucose measurement device (free style pro),0,0,0,1,0,1
 continuous glucose monitor (cgm),0,0,0,1,0,1
+"continuous glucose monitoring (cgm, dexcom g6)",0,0,1,0,0,1
 continuous positive airway pressure,0,0,0,1,0,1
-continuous positive airway pressure (cpap) treatment,0,0,0,1,0,1
+continuous positive airway pressure (cpap) therapy using oxyjet,0,0,0,1,0,1
+continuous positive airway pressure (cpap) treatment,0,1,0,0,0,1
 continuous renal replacement therapy,0,0,0,1,0,1
 continuous vital sign monitoring - isansys patient status engine,0,0,0,1,0,1
 contrast-enhanced cmr,0,0,0,1,0,1
@@ -1201,9 +1280,12 @@ control test,0,0,0,1,0,1
 control treatment schedule,0,0,0,1,0,1
 controls,0,0,0,1,0,1
 convalescent plasma infusion,0,0,0,1,0,1
+convalescent plasma treatment,0,0,0,1,0,1
 convalescent plasma with antibody against sars-cov-2.,0,0,0,1,0,1
 convalescent plasma/standard care,0,0,0,1,0,1
 convalscent plasma,0,0,0,1,0,1
+conventional,0,1,0,0,0,1
+"conventional medicines (oxygen therapy, alfa interferon via aerosol inhalation,",0,0,0,1,0,1
 "conventional medicines (oxygen therapy, alfa interferon via aerosol inhalation,/lopinavir/ritonavir)",0,0,0,1,0,1
 conventional n95 respirator,0,0,0,1,0,1
 conventional therapy first,1,0,0,0,0,1
@@ -1215,6 +1297,7 @@ core warming,0,0,0,1,0,1
 corn oil (placebo),0,0,0,1,0,1
 coromec registry with ecl-19,0,0,1,0,0,1
 coronacheck device,0,0,0,1,0,1
+coronary angiography,0,1,0,0,0,1
 "coronavirus anxiety scale , covid-19 phobia scale",0,1,0,0,0,1
 coronavirus disease 2019,0,0,0,1,0,1
 corticosteroid alone,0,0,0,1,0,1
@@ -1223,6 +1306,7 @@ corticosteroid with/without colchicine,0,1,0,0,0,1
 corticosteroids/derivatives,1,0,0,0,0,1
 corvax,1,0,0,0,0,1
 cosh self-help smoking cessation booklet,0,0,0,1,0,1
+cospherunate,0,0,1,0,0,1
 cospherunate/azythromycine,0,0,1,0,0,1
 cospherunate/phytomedicine/azythromycien,0,0,1,0,0,1
 cost-benefit frame,1,0,0,0,0,1
@@ -1230,7 +1314,7 @@ counselling,1,0,0,0,0,1
 "couple hopes guided, internet-delivered, self-help intervention",0,0,0,1,0,1
 couples' group education,0,0,1,0,0,1
 cov-scan rapid covid-19 antigen test,0,0,0,1,0,1
-covi-vac,0,0,0,1,0,1
+covi-vac,1,0,0,0,0,1
 covicu,0,0,0,1,0,1
 covid-19 / patients,1,0,0,0,0,1
 covid-19 androgen sensitivity test (covast),0,0,1,0,0,1
@@ -1238,7 +1322,7 @@ covid-19 antibody testing,0,0,0,1,0,1
 "covid-19 antigen/antibody rapid testing, mobile device image capture/telemedicine support",0,0,0,1,0,1
 "covid-19 antigen/antibody tests,/influenza rapid test",1,0,0,0,0,1
 covid-19 barrier box,0,1,0,0,0,1
-covid-19 convalescent plasma (cp),0,0,0,1,0,1
+covid-19 convalescent plasma (cp),1,0,0,0,0,1
 covid-19 diagnostic,0,0,0,1,0,1
 covid-19 diagnostic test,0,1,0,0,0,1
 covid-19 diagnostic/assessment tests,0,0,0,1,0,1
@@ -1264,7 +1348,7 @@ covid-19 related health warning leaflet,0,0,0,1,0,1
 covid-19 serology igg,0,0,0,1,0,1
 covid-19 survey,0,0,1,0,0,1
 covid-19 swab,0,0,0,1,0,1
-covid-19 test,0,0,0,1,0,1
+covid-19 symptom monitoring system,0,0,0,1,0,1
 covid-19 testing,0,0,0,1,0,1
 covid-19 treatment,0,0,0,1,0,1
 covid-19 treatments,0,1,0,0,0,1
@@ -1276,6 +1360,7 @@ covid-19/ observational,0,0,0,0,1,1
 covid-19/intensive care,0,1,0,0,0,1
 covid-antibody test,1,0,0,0,0,1
 covid-evax,0,0,0,1,0,1
+covid-globulin,0,0,0,1,0,1
 covid-higiv,0,0,0,1,0,1
 covid-specific advice,0,0,0,1,0,1
 covid-surgres questionaire,0,1,0,0,0,1
@@ -1283,14 +1368,17 @@ covid 19 diagnostic test,1,0,0,0,0,1
 covid 19 impact,0,1,0,0,0,1
 covid 19 self-questionnaire,0,0,0,1,0,1
 covid 19 serology,0,0,0,1,0,1
+covid detect,0,1,0,0,0,1
 covid icu containment measures,0,0,0,1,0,1
 covid rehabilitation program for the elderly (core),0,0,1,0,0,1
 covid vaccines,0,0,1,0,0,1
 covid watch,1,0,0,0,0,1
 covid19 rt-pcr,0,0,0,1,0,1
 covid19 treatments,0,1,0,0,0,1
-covid19 vaccine,0,0,0,1,0,1
+covid19 vaccine,0,1,0,0,0,1
 covidseq test,0,0,1,0,0,1
+covigenix vax-001,0,0,0,1,0,1
+covigenix vax-001 placebo,0,0,0,1,0,1
 covishield,0,0,0,1,0,1
 covishield 0.25ml,0,0,0,1,0,1
 covishield 0.5ml,0,0,0,1,0,1
@@ -1298,7 +1386,9 @@ coviv,0,0,0,1,0,1
 coviv only (1st,0,0,0,1,0,1
 coviv only (1st/2nd dose),0,0,0,1,0,1
 coviv/iiv4; coviv/ppv23,0,0,0,1,0,1
+covivac,0,0,0,1,0,1
 covsurf drug delivery system,0,0,0,1,0,1
+covvr,0,0,0,1,0,1
 covx,0,1,0,0,0,1
 cpc0.05 oral rinse (perioaidactive control),0,1,0,0,0,1
 cpi-006,0,0,0,1,0,1
@@ -1306,6 +1396,7 @@ cpi-006 1 mg,0,0,0,1,0,1
 cpi-006 1 mg/kg / soc,0,0,0,1,0,1
 cpi-006 2 mg,0,0,0,1,0,1
 cpi-006 2 mg/kg / soc,0,0,0,1,0,1
+crest pro-health multi-protection mouthwash,0,0,0,1,0,1
 cretan iama,0,1,0,0,0,1
 cri management,0,0,1,0,0,1
 cries 13 questionnaire,0,0,0,1,0,1
@@ -1321,6 +1412,7 @@ cryo lung biopsies,0,0,1,0,0,1
 csl760,0,0,0,1,0,1
 cst-2: eidd-2801,0,0,0,1,0,1
 cst-2: placebo,0,0,0,1,0,1
+cst-5: placebo,0,0,0,1,0,1
 csvf,0,0,0,1,0,1
 ct-p59/placebo,0,0,0,1,0,1
 ct scan,0,0,0,1,0,1
@@ -1333,12 +1425,12 @@ current care per ucla treating physicians,0,0,0,1,0,1
 current clinical practices of participating physicians,0,1,0,0,0,1
 current health,0,0,0,1,0,1
 current ipac-uhn ppe,0,0,0,1,0,1
-cvncov,0,0,0,1,0,1
 cyp-001,0,0,0,1,0,1
 cystatin c,0,0,0,1,0,1
 cytokines,0,0,0,1,0,1
 cytokines measurement,0,1,0,0,0,1
 d,1,0,0,0,0,1
+"d-beta-hydroxybutyrate-(r)-1,3 butanediol monoester",0,0,0,1,0,1
 d followed by enoxaparin,1,0,0,0,0,1
 d region,0,0,0,1,0,1
 daclatasvir 200mg,0,0,0,1,0,1
@@ -1346,7 +1438,7 @@ daily coping toolkit,0,0,0,1,0,1
 daily monitoring,0,0,0,1,0,1
 daily room disinfection,0,1,0,0,0,1
 daily syndromic surveillance,0,0,1,0,0,1
-dalcetrapib,0,0,0,1,0,1
+dalcetrapib,1,0,0,0,0,1
 danoprevir,0,1,0,0,0,1
 danoprevir/ritonavir,0,1,0,0,0,1
 dapansutrile capsules,0,0,0,1,0,1
@@ -1356,19 +1448,21 @@ dass-21 instrument (depression/anxiety),0,0,1,0,0,1
 dass questionnaire,0,1,0,0,0,1
 data,0,0,0,1,0,1
 data collecting,0,0,0,1,0,1
+data collection (,0,0,0,1,0,1
 data collection from blood draw,0,0,0,1,0,1
 data collection from lumbar puncture,0,0,0,1,0,1
 data collection from medical files,0,0,0,1,0,1
 data collection up to 1 year,0,0,0,1,0,1
-data collection/clinical testing of subjects,1,0,0,0,0,1
 data collection/rhinopharyngeal swab,0,1,0,0,0,1
 data collection: clinical care assessments,1,0,0,0,0,1
 data monitoring for 48h within the first 24 hours of admission for covid-19,0,0,0,1,0,1
 data registry,0,0,0,1,0,1
 "data research, database analysis",0,1,0,0,0,1
+day,0,1,0,0,0,1
 ddpcr,0,0,0,1,0,1
 death with routine,1,0,0,0,0,1
-decision science-based design,0,0,0,1,0,1
+decidual stromal cells (dsc),0,0,0,1,0,1
+decision science-based design,1,0,0,0,0,1
 decision tool for clinicians,0,0,0,1,0,1
 decisions of limitations,0,0,0,1,0,1
 decisions of limitations/stop processing,0,0,0,1,0,1
@@ -1379,6 +1473,7 @@ deferoxamine,0,0,0,1,0,1
 defibrotide 25 mg/kg 24 hours continuous infusion for 15 days,0,0,0,1,0,1
 degarelix,0,0,0,1,0,1
 deglycyrrhizinated licorice,0,0,0,1,0,1
+delns1-ncov-rbd laiv,0,0,0,1,0,1
 demographic characteristics,0,1,0,0,0,1
 depression scale,0,0,0,1,0,1
 "depression,",0,0,0,1,0,1
@@ -1387,7 +1482,7 @@ depression scale,0,0,0,1,0,1
 derivatives,1,0,0,0,0,1
 derivatives.,0,0,0,1,0,1
 description of groups caracteristics,0,1,0,0,0,1
-desidustat,1,0,0,0,0,1
+desidustat,0,1,0,0,0,1
 desmond,1,0,0,0,0,1
 determination of sars-cov2 presence in cns,0,0,0,1,0,1
 device used to record voice for screening,0,0,0,1,0,1
@@ -1400,6 +1495,7 @@ dexamethasone/hydroxychloroquine,0,0,0,1,0,1
 dexcom,0,0,0,1,0,1
 dfv890,0,1,0,0,0,1
 diabetes type 2,1,0,0,0,0,1
+diagnosed with covid-19,0,0,1,0,0,1
 "diagnosis of sars-cov2 by rt-pcr/: igg, ig m serologies in the amniotoc fluid, the blood cord/the placenta",0,0,0,1,0,1
 diagnostic,0,0,0,1,0,1
 diagnostic examination for venous thromboembolism,0,1,0,0,0,1
@@ -1407,16 +1503,19 @@ diagnostic test covid-19,1,0,0,0,0,1
 diagnostic test for detection of sars-cov-2,0,0,1,0,0,1
 diagnostic test for sars-cov2 for patients,0,0,0,1,0,1
 diagnostic test for sars-cov2 for patients/health staff,0,0,0,1,0,1
+diagnostic tests,0,0,0,1,0,1
 diagnostic tests for covid-19 infection,0,0,0,1,0,1
 dialectical behavioral therapy (dbt) skills,0,0,0,1,0,1
 diet,0,0,0,0,1,1
 diet tracking,1,0,0,0,0,1
 diet/sun exposure,0,0,0,0,1,1
-"dietary counselling on food groups according to iyc feeding practices, who",0,0,0,1,0,1
+"dietary counselling on food groups according to iyc feeding practices, who",1,0,0,0,0,1
 dietary supplement,0,0,0,1,0,1
 dietary supplement containing resistant starch,0,0,0,1,0,1
 dietary supplementation in patients with covid disease admitted to hospital,0,0,0,1,0,1
 differences in triage,0,1,0,0,0,1
+differential leucocyte count (cldc) device,1,0,0,0,0,1
+differential leucocyte count (cldc) device/algorithm,1,0,0,0,0,1
 difficulties lived by disabled children's parents in the period of covid-19 pandemic,0,1,0,0,0,1
 diffusing capacity of carbon monoxide,0,0,1,0,0,1
 dig axial,0,1,0,0,0,1
@@ -1434,12 +1533,13 @@ diovan,0,0,0,1,0,1
 dipyridamole er 200mg,0,0,0,1,0,1
 dipyridamole er 200mg/ aspirin 25mg orally/enterally/standard of care,0,0,0,1,0,1
 direct antigen tests for covid-19,0,1,0,0,0,1
-direct antigen tests for sars-cov-2,0,1,0,0,0,1
 discontinuation of acei,0,0,0,1,0,1
 discontinuation of acei/arb,0,0,0,1,0,1
-discontinuation of ras blocker,0,0,0,1,0,1
-discussion board for social support /basic feedback,1,0,0,0,0,1
-discussion board for social support/personalized feedback,1,0,0,0,0,1
+discontinuation of arb,0,1,0,0,0,1
+discontinuation of ras blocker,0,0,0,0,1,1
+discussion board for social support,0,1,0,0,0,1
+discussion board for social support /basic feedback,0,1,0,0,0,1
+discussion board for social support/personalized feedback,0,1,0,0,0,1
 distance learning,0,0,1,0,0,1
 distilled water with the same colorant as the experimental product,0,0,0,1,0,1
 disulfiram,0,0,0,1,0,1
@@ -1448,6 +1548,7 @@ dociparstat sodium,0,0,0,1,0,1
 doctor spot,0,1,0,0,0,1
 doppler echo,0,0,0,1,0,1
 dose finding phase (mtd),0,0,0,1,0,1
+dose),1,0,0,0,0,1
 double-blind nt-i7,0,0,0,1,0,1
 doxycyclin,0,0,0,1,0,1
 doxycycline hcl,0,0,0,1,0,1
@@ -1460,6 +1561,7 @@ duact,0,0,0,1,0,1
 duplex sonography,0,0,0,1,0,1
 duplex ultrasound/computed tomography angiography,0,1,0,0,0,1
 dur-928,0,0,0,0,1,1
+"duration of hospitalization, mortality rate",0,1,0,0,0,1
 during covid-19 pandemic,0,0,0,1,0,1
 during hospitalization blood samples,0,0,0,1,0,1
 "during the pandemic, the patient's job status, physical activity conditions, pain status",0,1,0,0,0,1
@@ -1475,7 +1577,6 @@ earsats pulse oximeter probe,0,0,0,1,0,1
 easycov poc,0,0,0,1,0,1
 eat-26 questionnaire,0,1,0,0,0,1
 eating habits,0,0,0,1,0,1
-ec-18,0,0,0,1,0,1
 ecco2r,0,0,0,1,0,1
 ecg-holter,0,1,0,0,0,1
 echo-doppler,0,0,0,1,0,1
@@ -1489,12 +1590,18 @@ education sessions,0,0,0,1,0,1
 educational meetings/visual prompts,0,1,0,0,0,1
 educational program (cartoon),0,0,0,1,0,1
 educational video,1,0,0,0,0,1
+educational vocal health modules,0,0,0,1,0,1
 "educational, culturally appropriate covid-19 messages",1,0,0,0,0,1
 eeg,0,1,0,0,0,1
+eeg based protocol for deep sedation,0,0,0,1,0,1
+ehealth for covid-19 prevention,0,0,0,1,0,1
+ehealth for covid-19 prevention/support,0,0,0,1,0,1
 ei open ended pre-survey,0,0,1,0,0,1
 ei open ended pre-survey/semi structured interview,0,0,1,0,0,1
 eit-group,0,0,0,1,0,1
 ejaculated semen sample,0,0,0,1,0,1
+"elecsys anti-sars-cov-2 s (roche diagnostics gmbh, mannheim, germany), 2) access sars-cov-2 igg ii (beckman coulter, inc. usa)",0,0,0,1,0,1
+elecsys semi-quantitative anti-sars-cov-2 antibody test,0,0,0,1,0,1
 elective cancer surgery,0,0,0,1,0,1
 electric pad for human external pain therapy,0,0,0,1,0,1
 electrical impedance tomography,0,0,0,1,0,1
@@ -1508,10 +1615,9 @@ electrocardiogram (ecg),0,0,0,1,0,1
 "electrocardiography ,tomographic imaging",0,1,0,0,0,1
 electrolytes,1,0,0,0,0,1
 elisa/rapid test to detect antibodies against covid-19,1,0,0,0,0,1
-elispot,0,0,0,1,0,1
-elmo project at covid-19: proof of concept,0,0,0,1,0,1
-elmo project at covid-19: proof of concept/usability,0,0,0,1,0,1
-elmo project at covid-19: study in humans,0,0,0,1,0,1
+elmo project at covid-19: proof of concept,0,1,0,0,0,1
+elmo project at covid-19: proof of concept/usability,0,1,0,0,0,1
+elmo project at covid-19: study in humans,0,1,0,0,0,1
 eltrombopag,0,0,0,1,0,1
 emapalumab,0,0,0,0,1,1
 embarrassment message,0,1,0,0,0,1
@@ -1530,6 +1636,7 @@ emricasan,0,0,0,1,0,1
 emtricitabine 200 mg oral tablet,0,0,0,1,0,1
 emtricitabine/tenofovir,0,0,0,1,0,1
 emtricitabine/tenofovir disoproxil,0,0,0,1,0,1
+enamel care -cetylpyridinium chloride,0,0,0,1,0,1
 endoscopic intervention,0,1,0,0,0,1
 endoscopic management according to standard of care,0,1,0,0,0,1
 endoscopic procedure,0,1,0,0,0,1
@@ -1543,6 +1650,7 @@ enduring happiness/continued self-enhancement (enhance) for covid-19,0,0,1,0,0,1
 enhanced follow through message,0,0,1,0,0,1
 enhanced hygiene measures,1,0,0,0,0,1
 enisamium iodide,0,0,0,1,0,1
+eno breathe group,0,0,0,1,0,1
 enoxaparin/lovenox,0,0,0,1,0,1
 enriched survey feedback,1,0,0,0,0,1
 ensifentrine,1,0,0,0,0,1
@@ -1552,6 +1660,7 @@ environmental exposure,0,0,0,1,0,1
 environmental exposure/clinical features,0,0,0,1,0,1
 enzalutamide,0,0,0,1,0,1
 ep,0,1,0,0,0,1
+epa,0,0,0,1,0,1
 epds (edinburgh postnatal depression scale),0,1,0,0,0,1
 epic risk score display,0,0,0,1,0,1
 epidemiological,0,1,0,0,0,1
@@ -1559,16 +1668,22 @@ epidemiological/demographic characteristics,0,1,0,0,0,1
 epidemiology of admissions,0,0,0,1,0,1
 eproms assessment,0,1,0,0,0,1
 epsgun,0,0,0,1,0,1
+equine covid-19 antiserum,0,0,0,1,0,1
 equipment with smartwatch throughout hospital stay on the general ward,0,0,0,1,0,1
 erucov-vac,0,0,0,1,0,1
+erucov-vac 3 âµg,0,0,0,1,0,1
+erucov-vac 3 âµg/0.5 ml vaccine,0,0,0,1,0,1
+erucov-vac 6 âµg,0,0,0,1,0,1
+erucov-vac 6 âµg/0.5 ml vaccine,0,0,0,1,0,1
 escin,0,0,0,1,0,1
 essence oils,0,0,1,0,0,1
 essential oil blend,0,0,0,1,0,1
 estetrol monohydrate 15 mg,0,0,0,1,0,1
 estradiol,0,0,0,1,0,1
 estrogen therapy,0,0,0,1,0,1
+etesevimab,0,0,0,1,0,1
 ethnic frame,1,0,0,0,0,1
-etoposide,0,0,0,1,0,1
+etoposide,1,0,0,0,0,1
 eucorvac-19,0,0,0,1,0,1
 euroimmun assay,0,0,0,1,0,1
 evaluate hacor score effectivity in this patients,0,0,0,1,0,1
@@ -1585,11 +1700,19 @@ examine the impact of covid-19 during pregnancy,0,0,0,1,0,1
 exercise booklet,0,0,0,1,0,1
 exercise program,0,0,0,1,0,1
 exercise test ecg,0,0,0,1,0,1
+exercise/nutrition,0,0,0,1,0,1
+exg-5003,0,0,0,1,0,1
+exhaled breath sampling,0,1,0,0,0,1
 exo-cd24,0,0,0,1,0,1
 expanded hemodialysis for covid19 maintenance hemodialysis patients,0,0,0,1,0,1
+experience of pandemic,0,0,0,1,0,1
+experiences in close relationship scale questionnaire (ecr-s),0,0,0,1,0,1
 experiences of health care professionals working in intensive care units during the covid-19 pandemic,0,0,0,1,0,1
+experimental,0,0,0,1,0,1
 experimental: questionnaire without precaution information,0,1,0,0,0,1
 experts consensus,0,1,0,0,0,1
+expiratory muscle training group,0,0,0,1,0,1
+expiratory muscle training placebo group,0,0,0,1,0,1
 exposure surveys,0,1,0,0,0,1
 exposure to covid-19,0,0,0,1,0,1
 exposure to covid19,0,0,0,1,0,1
@@ -1598,28 +1721,35 @@ exposure to the dutch measures due to the covid-19 pandemic.,0,0,0,1,0,1
 extended post anaesthetic care in pacu,0,0,0,1,0,1
 extra-cvd virtual care,0,0,0,1,0,1
 extracorporeal left hemicolectomy anastomosis,0,0,0,1,0,1
-extracorporeal membrane oxygenation,0,0,0,1,0,1
+extracorporeal membrane oxygenation,0,1,0,0,0,1
 extract psidii guava,0,1,0,0,0,1
 eye movement desensitisation,0,0,0,1,0,1
 eye movement desensitisation/reprocessing recent traumatic event protocol,0,0,0,1,0,1
 f-652,0,0,0,1,0,1
 face-mask niv,0,0,0,1,0,1
+face-to-face rehabilitation,0,0,0,1,0,1
 face mask,0,0,0,1,0,1
 face mask awareness,0,0,0,1,0,1
 face mask sampling,0,0,0,1,0,1
+facebook ads on the importance of staying safe during the thanksgiving,1,0,0,0,0,1
+facebook ads on the importance of staying safe during the thanksgiving / christmas holiday,1,0,0,0,0,1
 facial fractures reduction,0,1,0,0,0,1
 facial fractures reduction/osteosynthesis,0,1,0,0,0,1
 facial mask,0,0,0,1,0,1
+faeces samples,0,0,0,1,0,1
 family nurture intervention (fni),0,0,0,1,0,1
 familychildcare (provisional name of app),0,0,1,0,0,1
 farmalarm,0,1,0,0,0,1
 fast dissolving film,1,0,0,0,0,1
+fatigue severity scale,0,0,0,1,0,1
 favipiravir / standard care,1,0,0,0,0,1
 favipiravir/azithromycin,1,0,0,0,0,1
 favipiravir/chloroquine,0,0,0,1,0,1
 favipiravir/nitazoxanide,0,0,0,1,0,1
 favipiravir/tocilizumab,0,0,0,1,0,1
 favorable outcome,0,1,0,0,0,1
+fb2001,0,0,0,1,0,1
+fb2001 placebo,0,0,0,1,0,1
 fecal,0,1,0,0,0,1
 fecal sample,0,0,0,1,0,1
 fenofibrate,0,0,1,0,0,1
@@ -1638,8 +1768,8 @@ filtration test,0,1,0,0,0,1
 fingerstick,0,0,0,1,0,1
 fingertip tests for poc assays,0,0,0,1,0,1
 fisetin,0,0,1,0,0,1
-fitted pva strip,0,1,0,0,0,1
 fixed site standard of care testing,0,0,1,0,0,1
+flavor test,0,1,0,0,0,1
 flow controlled ventilation (evone-ventilator),0,0,0,1,0,1
 flu shot,0,0,1,0,0,1
 fluorescein,0,1,0,0,0,1
@@ -1660,6 +1790,8 @@ food diary,0,0,0,1,0,1
 formoterol,0,0,0,1,0,1
 fotv,0,0,0,1,0,1
 foy-305,0,0,0,1,0,1
+fp-025 100 mg,0,0,0,1,0,1
+fp-025 300 mg,0,0,0,1,0,1
 freestyle libre 14 day cgm system,0,1,0,0,0,1
 fresh start,0,0,1,0,0,1
 fsd201,0,0,0,1,0,1
@@ -1667,7 +1799,9 @@ fsfi survey,0,1,0,0,0,1
 full spectrum cbd oil,0,0,0,1,0,1
 functional mri,0,0,0,1,0,1
 fungal rhinosinusitis,0,1,0,0,0,1
+furfat,0,0,0,1,0,1
 further processing of health data,0,0,0,1,0,1
+furwat,0,0,0,1,0,1
 fx06,0,0,0,1,0,1
 gad-7 (7-item generalized anxiety disorder),0,1,0,0,0,1
 gad-7 (general anxiety disorder) scale,0,1,0,0,0,1
@@ -1680,6 +1814,7 @@ gamunex-c,0,0,0,1,0,1
 ganovo,0,1,0,0,0,1
 ganovo/ritonavir//-interferon nebulization,0,1,0,0,0,1
 "garadacimab, factor xiia antagonist monoclonal antibody",0,1,0,0,0,1
+gargle,0,0,0,1,0,1
 gas exchange measurement,0,1,0,0,0,1
 gas exchanges at different peep,0,1,0,0,0,1
 gastric cancer surgery,0,1,0,0,0,1
@@ -1687,14 +1822,19 @@ gastrointestinal endoscopy,0,1,0,0,0,1
 gastroscopy in transnasal techique,0,0,0,1,0,1
 gbp510 (rbd 10î¼g,0,0,0,1,0,1
 gbp510 (rbd 10î¼g/dose) - stage 1,0,0,0,1,0,1
+gbp510 (rbd 25î¼g,0,0,0,1,0,1
 gbp510 (rbd 25î¼g/dose)- stage 2,0,0,0,1,0,1
 gbp510 (rbd 25î¼g/dose) - stage 1,0,0,0,1,0,1
+gbp510 adjuvanted with alum (rbd 10î¼g,0,0,0,1,0,1
 gbp510 adjuvanted with alum (rbd 10î¼g/dose) - stage 1,0,0,0,1,0,1
 gbp510 adjuvanted with alum (rbd 10î¼g/dose) - stage 2,0,0,0,1,0,1
+gbp510 adjuvanted with alum (rbd 25î¼g,0,0,0,1,0,1
 gbp510 adjuvanted with alum (rbd 25î¼g/dose)- stage 2,0,0,0,1,0,1
 gbp510 adjuvanted with alum (rbd 25î¼g/dose) - stage 1,0,0,0,1,0,1
+gbp510 adjuvanted with as03 (rbd 10î¼g,0,0,0,1,0,1
 gbp510 adjuvanted with as03 (rbd 10î¼g/dose) - stage 1,0,0,0,1,0,1
 gbp510 adjuvanted with as03 (rbd 10î¼g/dose) - stage 2,0,0,0,1,0,1
+gbp510 adjuvanted with as03 (rbd 25î¼g,0,0,0,1,0,1
 gbp510 adjuvanted with as03 (rbd 25î¼g/dose)- stage 2,0,0,0,1,0,1
 gbp510 adjuvanted with as03 (rbd 25î¼g/dose) - stage 1,0,0,0,1,0,1
 gc4419,0,0,0,1,0,1
@@ -1702,17 +1842,23 @@ gc5131,0,0,0,1,0,1
 general anesthesia,0,0,0,1,0,1
 general communication message,0,0,0,1,0,1
 general health education,0,0,0,1,0,1
+general lifestyle advice to breast cancer patients by phone,0,1,0,0,0,1
+general practitioner tandem,0,1,0,0,0,1
 general public cohort,0,1,0,0,0,1
 general recommendation,0,0,0,1,0,1
 generalized anxiety disorder-7 (gad-7),0,1,0,0,0,1
+generalized anxiety disorder-7 (gad 7),0,0,0,1,0,1
 generic best practices,0,0,0,1,0,1
 genetic,0,0,0,1,0,1
 genetic analyses.,0,0,0,1,0,1
+genetic blood collection,0,0,0,1,0,1
 geneva emotional competence test (geco),0,0,1,0,0,1
-gimsilumab,1,0,0,0,0,1
+gimsilumab,0,1,0,0,0,1
+glenzocimab,0,0,0,1,0,1
 global longitudinal strain,0,0,0,1,0,1
 global survey,0,1,0,0,0,1
 gloves,0,1,0,0,0,1
+gls-1027,0,0,0,1,0,1
 gls-1200,0,0,0,1,0,1
 gls-5310,0,0,0,1,0,1
 glucose control,0,1,0,0,0,1
@@ -1720,11 +1866,11 @@ glucose control/sensor usage,0,1,0,0,0,1
 glycaemic levels,0,0,0,1,0,1
 glycomic analysis,0,0,0,1,0,1
 glycosylated ferritin by standard approved serological tests,0,0,0,1,0,1
-gm-csf,1,0,0,0,0,1
+gm-csf,0,1,0,0,0,1
 gns561,0,0,0,1,0,1
 go2 peep mouthpiece,0,1,0,0,0,1
+gossip intervention,1,0,0,0,0,1
 "gps reports of potential patient safety incidents, non-covid-19 related",0,1,0,0,0,1
-grad-cov2,0,0,0,1,0,1
 grandiosity subscales,0,1,0,0,0,1
 grocery store gift cards,0,0,1,0,0,1
 group 1,1,0,0,0,0,1
@@ -1736,9 +1882,13 @@ group apixaban,0,1,0,0,0,1
 group b (ag0302-covid19),1,0,0,0,0,1
 group b (placebo),1,0,0,0,0,1
 group b (sample collection),0,0,0,1,0,1
+group hydroxychloroquine,0,1,0,0,0,1
 group hydroxychloroquine/apixaban,0,1,0,0,0,1
 group1,0,0,0,1,0,1
 growth mindset ssi,1,0,0,0,0,1
+gs-441524,1,0,0,0,0,1
+gse,0,0,0,1,0,1
+gse/xylitol,0,0,0,1,0,1
 guided online support program,0,0,0,1,0,1
 guilt message,0,1,0,0,0,1
 gustatory tests,0,0,0,1,0,1
@@ -1746,6 +1896,7 @@ gx-19,0,0,0,1,0,1
 gx-19n,0,0,0,1,0,1
 gx-i7 vehicle,0,0,0,1,0,1
 h12 of the initiation of morphine between the control,0,0,0,1,0,1
+habit,0,0,0,1,0,1
 had5-s-fusion/n-etsd (suspension for injection),0,0,0,1,0,1
 had5-sfusion,0,0,0,1,0,1
 had5-sfusion/ n-etsd (oral capsule),0,0,0,1,0,1
@@ -1760,8 +1911,10 @@ health questionnaire,1,0,0,0,0,1
 health staff,0,0,0,1,0,1
 health warning leaflet,0,0,0,1,0,1
 healthcare providers' communication about the covid-19 vaccine,1,0,0,0,0,1
+healthcare workers with the coronavac vaccine,1,0,0,0,0,1
 healthy lifestyle advise,0,0,0,1,0,1
 healthy minds program foundations training,0,1,0,0,0,1
+heat therapy,0,0,0,1,0,1
 helmet niv,0,0,0,1,0,1
 helmet non-invasive ventilation,0,0,0,1,0,1
 hemodialysis by protein-leaking dialyzer for covid19 maintenance hemodialysis patients,0,0,0,1,0,1
@@ -1770,33 +1923,41 @@ hemodynamics monitoring,0,1,0,0,0,1
 heparin - prophylactic dosage,0,0,0,1,0,1
 heparin - therapeutic dosage,0,0,0,1,0,1
 hepatitis a vaccine,1,0,0,0,0,1
-herbal phenolic monoterpene,0,0,0,1,0,1
+herbal phenolic monoterpene,0,1,0,0,0,1
 hesperidin,0,0,0,1,0,1
 hfb30132a,1,0,0,0,0,1
+high-dose placebo (18-59 years),0,0,0,1,0,1
 high-dose placebo (18-59 years)/three dose regimen,0,0,0,1,0,1
 high-dose placebo (18-59 years)/two dose regimen,0,0,0,1,0,1
+high-dose placebo (60-85 years),0,0,0,1,0,1
 high-dose placebo (60-85 years)/three dose regimen,0,0,0,1,0,1
 high-dose placebo (60-85 years)/two dose regimen,0,0,0,1,0,1
+high-dose recombinant covid-19 vaccine (sf9 cells) (18-59 years),0,0,0,1,0,1
 high-dose recombinant covid-19 vaccine (sf9 cells) (18-59 years)/three dose regimen,0,0,0,1,0,1
 high-dose recombinant covid-19 vaccine (sf9 cells) (18-59 years)/two dose regimen,0,0,0,1,0,1
+high-dose recombinant covid-19 vaccine (sf9 cells) (60-85 years),0,0,0,1,0,1
 high-dose recombinant covid-19 vaccine (sf9 cells) (60-85 years)/three dose regimen,0,0,0,1,0,1
 high-dose recombinant covid-19 vaccine (sf9 cells) (60-85 years)/two dose regimen,0,0,0,1,0,1
 high-dose vitamin c treatment,1,0,0,0,0,1
-high-flow nasal cannula treatment,0,0,0,1,0,1
+high-flow nasal cannula treatment,0,1,0,0,0,1
 high-intensity aerobic training with high protein diet,0,1,0,0,0,1
+high dose corticosteroid,0,0,0,1,0,1
 high dose of kbp-covid-19,0,0,0,1,0,1
 high dose radiation 100 cgy,0,0,0,1,0,1
+high flow nasal oxygen (hfno) treatment,0,0,0,1,0,1
 high flow nasal therapy,0,0,0,1,0,1
 high intensity interval training,0,1,0,0,0,1
 high peep with end inspiratory pause,0,0,0,1,0,1
 high peep without end inspiratory pause,0,0,0,1,0,1
-high touch multi-pronged behavioral intervention,0,0,0,1,0,1
-hiking challenge,1,0,0,0,0,1
+high touch multi-pronged behavioral intervention,0,1,0,0,0,1
+hiking challenge,0,1,0,0,0,1
 hip arthropalsty,0,1,0,0,0,1
 hiv,0,0,0,1,0,1
 hmsc,0,0,0,1,0,1
+hmw-ha,0,0,0,1,0,1
 holter monitor,0,1,0,0,0,1
 home-based exercise training,0,0,1,0,0,1
+home-based sars-cov-2 test kit,0,0,0,1,0,1
 home-cov rule implementation,0,1,0,0,0,1
 home-use test,0,0,0,1,0,1
 home care monitoring,0,0,0,0,1,1
@@ -1806,15 +1967,15 @@ home sample collection of concerning mole with physician supervision,0,1,0,0,0,1
 home sleep apnea testing,1,0,0,0,0,1
 home sleep apnea testing/in-hospital polysomnography,1,0,0,0,0,1
 home spirometry,0,0,0,1,0,1
-hope intervention,1,0,0,0,0,1
 "hormone levels (testosterone, fsh, lh, prolactin)",0,0,0,1,0,1
 hospital acquired infection,0,0,0,1,0,1
-hospital admission,0,0,0,1,0,1
+hospital admission,1,0,0,0,0,1
 hospital anxiety,0,0,0,1,0,1
 hospital anxiety depression measure,0,0,0,1,0,1
 hospital anxiety depression scale,0,1,0,0,0,1
 hospital anxiety/depression scale,0,0,0,1,0,1
 hospital telemedicine management system,0,0,0,1,0,1
+hospital treatment of covid disease,0,0,0,1,0,1
 hospital: dd-ca,0,0,0,1,0,1
 hospital: usual care (uc),0,0,0,1,0,1
 hospitalisation for sars-cov2 infection,0,0,0,1,0,1
@@ -1826,7 +1987,8 @@ host genotype,0,0,0,1,0,1
 host immune factors,0,0,0,1,0,1
 "human coach first, then virtual assistant",0,0,0,1,0,1
 human milk donors,0,0,0,1,0,1
-human recombinant interleukin 2,0,0,0,1,0,1
+human normal immunoglobulin (ivig),0,0,0,1,0,1
+human recombinant interleukin 2,1,0,0,0,0,1
 humoral,0,0,1,0,0,1
 humoral/cellular immunity,0,0,1,0,0,1
 hydrocortisone,1,0,0,0,0,1
@@ -1835,11 +1997,12 @@ hydrogen peroxide (b) mouth rinse with the solution provided,0,0,0,1,0,1
 hydroxychloroquine / metabolic cofactor supplementation,0,0,0,1,0,1
 hydroxychloroquine / oxygen,0,1,0,0,0,1
 hydroxychloroquine / sorbitol,0,0,0,1,0,1
-hydroxychloroquine sulfate placebo,0,0,1,0,0,1
+hydroxychloroquine tablets,1,0,0,0,0,1
 "hydroxychloroquine, lopinavir",0,0,0,1,0,1
 "hydroxychloroquine, lopinavir/ritonavir/azithromycin/placebo (standard therapy)",0,0,0,1,0,1
 hydroxychloroquine/azithromycin/ tocilizumab,0,1,0,0,0,1
 hydroxychloroquine/clindamycin,0,1,0,0,0,1
+hydroxychloroquine/clindamycin/primaquine,0,1,0,0,0,1
 hydroxychloroquine/doxycycline,0,1,0,0,0,1
 hydroxychloroquine/lopinavir/ritonavir,0,0,0,1,0,1
 hydroxychloroquine/placebo,0,0,0,0,1,1
@@ -1851,6 +2014,7 @@ hypothermia via cooling machine- arctic sun 5000,0,0,0,1,0,1
 hypoxia : 14.3,0,0,0,1,0,1
 "hypoxia : 14.3/12.7% fio2, hypercapnia 7% co2, inspiratory mechanical constraint",0,0,0,1,0,1
 ibudilast,0,0,0,1,0,1
+ic14,0,0,0,1,0,1
 icatibant,0,0,0,1,0,1
 ice swimming,0,1,0,0,0,1
 icosapent ethyl,0,0,0,1,0,1
@@ -1866,14 +2030,17 @@ igg antibodies assay,0,0,0,1,0,1
 igg neutralising antibody titers to s1,0,0,0,1,0,1
 igg neutralising antibody titers to s1/s2 proteins of sars-cov-2 virus,0,0,0,1,0,1
 igg sars cov 2 antibodies,0,1,0,0,0,1
-igg sars cov2,1,0,0,0,0,1
+igg sars cov2,0,1,0,0,0,1
 "igg, aaz, boulogne-billancourt, france)",1,0,0,0,0,1
 igiv,0,0,0,1,0,1
 igm test,0,0,1,0,0,1
 igm/igg antibodies assay,0,0,0,1,0,1
+iibr-100 high-dose (prime-boost),0,0,0,1,0,1
 iibr-100 high-dose (prime),0,0,0,1,0,1
 iibr-100 low-dose (prime-boost),0,0,0,1,0,1
+iibr-100 medium-dose (prime-boost),0,0,0,1,0,1
 iibr-100 medium dose (prime),0,0,0,1,0,1
+iibr-100 top-dose (prime-boost),0,0,0,1,0,1
 "iibr-100, low dose (prime)",0,0,0,1,0,1
 iiv4 for the 1st dose,0,0,0,1,0,1
 iiv4 for the 1st dose/ppv23 for the 2nd dose,0,0,0,1,0,1
@@ -1893,18 +2060,27 @@ immunfluorescence,0,0,0,1,0,1
 immunoformulation,0,1,0,0,0,1
 immunofree tablets,0,1,0,0,0,1
 immunofree tablets/reginmune capsule,0,1,0,0,0,1
+immunogenicity after first,0,0,1,0,0,1
+immunogenicity after first/second dose,0,0,1,0,0,1
+immunoglobulin g detection,0,0,0,1,0,1
 immunoglubulins,0,0,0,1,0,1
+immunological,0,0,0,1,0,1
+immunophenotypic analysis after stimulation with overlapping s-peptides in peripheral blood mononuclear cells (pbmc),0,0,0,1,0,1
 immunosuppressive,0,0,0,1,0,1
 immunosuppressive agents,0,0,0,1,0,1
 impact event score,0,0,0,1,0,1
+impact of covid-19 questionnaire,0,0,0,1,0,1
 impact of event scale-revised,0,0,0,1,0,1
 implementation strategy,0,0,0,1,0,1
 in-hospital mortality rate,0,1,0,0,0,1
-in-person instruction,0,0,1,0,0,1
+in-person instruction,1,0,0,0,0,1
 in-person postoperative visit,0,0,0,1,0,1
-inactivated sars cov 2 vaccine (vero cell). wuhan,0,0,0,1,0,1
+inactivated sars cov 2 vaccine (vero cell) wuhan,1,0,0,0,0,1
+inactivated sars cov 2 vaccine (vero cell) wuhan/beijing/placebo,1,0,0,0,0,1
 inactivated vaccine,1,0,0,0,0,1
 inb03,0,0,0,1,0,1
+incentive spirometer,0,0,0,1,0,1
+incentive spirometer/respiratory exerciser,0,0,0,1,0,1
 indian costus,0,0,0,1,0,1
 indirect calorimetry,0,0,0,1,0,1
 individualized-chinese herbal medicine,0,0,0,1,0,1
@@ -1916,7 +2092,9 @@ inflammation (ii),0,0,0,1,0,1
 inflammation (iii),0,0,0,1,0,1
 inflammatory cytokines,0,0,0,1,0,1
 inflammatory cytokines/chemokines profiles of patients with dexmedetomidine administration,0,0,0,1,0,1
+inflammatory markers sampling,0,0,0,1,0,1
 influenza rapid test,1,0,0,0,0,1
+information assigned in community,1,0,0,0,0,1
 informational sheet,0,1,0,0,0,1
 informational videos,0,0,0,1,0,1
 informational videos/social media campaigns encouraging cancer screening.,0,0,0,1,0,1
@@ -1925,23 +2103,33 @@ inhalation of 5% sodium chloride,0,0,0,1,0,1
 "inhalation of 8,4% sodium bicarbonate",0,0,0,1,0,1
 inhalation of n-acetylcysteine,0,0,0,1,0,1
 inhalation of vitamin c,1,0,0,0,0,1
+inhaled aviptadil,0,0,0,1,0,1
 inhaled type i interferon,0,0,0,1,0,1
 injectable placebo,0,0,0,1,0,1
 injection,0,0,0,1,0,1
 injection of secretome-mscs,0,0,0,1,0,1
 inm005,0,1,0,0,0,1
 innova lateral flow device,0,0,0,1,0,1
-inopulse,1,0,0,0,0,1
+inopulse,0,0,0,0,1,1
+inspiratory,0,0,0,1,0,1
+inspiratory / expiratory muscle training group,0,0,0,1,0,1
+inspiratory / expiratory muscle training placebo group,0,0,0,1,0,1
+inspiratory muscle traiing,0,0,0,1,0,1
 inspiratory muscle training,0,0,0,1,0,1
+inspiratory muscle training group,0,0,0,1,0,1
+inspiratory muscle training placebo group,0,0,0,1,0,1
 instrumental activities of daily living shaping,0,0,0,1,0,1
+instrumental examination,0,0,0,1,0,1
 insulin,0,1,0,0,0,1
 insulin film,1,0,0,0,0,1
 insurance navigation,0,0,0,1,0,1
 integrated clinical evaluation,0,0,0,1,0,1
+intellivent asv,0,0,0,1,0,1
 intensive care,0,1,0,0,0,1
 intensive care unit admission ratio,0,0,0,1,0,1
 interferon alfa,0,0,0,1,0,1
-intermediate dose enoxaparin/ unfractionated heparin,0,0,0,1,0,1
+interleuken 6,0,0,0,1,0,1
+intermediate dose enoxaparin/ unfractionated heparin,1,0,0,0,0,1
 intermittent,0,0,0,0,1,1
 internet-based cognitive behavioral therapy,1,0,0,0,0,1
 internet-based guided self-help based on cbt principles,0,0,0,1,0,1
@@ -1955,6 +2143,7 @@ intervention program,0,0,0,1,0,1
 interventional groups,0,0,0,1,0,1
 interview by psychologists,0,0,0,1,0,1
 intestinal microbiota,0,0,0,1,0,1
+intestinal parasite,0,0,0,1,0,1
 intracorporeal left hemicolectomy anastomosis,0,0,0,1,0,1
 intramuscular injection,0,0,0,1,0,1
 intranasal ivermectin spray,0,0,0,1,0,1
@@ -1969,10 +2158,15 @@ investigation of smell,0,1,0,0,0,1
 investigation of smell/taste disorders,0,1,0,0,0,1
 investigation of the prevalence of test positivity,0,0,0,1,0,1
 investigational product - viracide,0,0,0,1,0,1
+"investigational vaccine against sars-cov-2 [mv-014-212] dosage 1, single dose, intranasal drops",0,0,0,1,0,1
+"investigational vaccine against sars-cov-2 [mv-014-212] dosage 2, single dose, intranasal drops",0,0,0,1,0,1
+"investigational vaccine against sars-cov-2 [mv-014-212] dosage 3, single dose, intranasal drops",0,0,0,1,0,1
+"investigational vaccine against sars-cov-2 [mv-014-212] dosage 3, single dose, intranasal spray",0,0,0,1,0,1
+"investigational vaccine against sars-cov-2 [mv-014-212] dosage 3, two doses, intranasal drops",0,0,0,1,0,1
 iota carrageenan nasal spray,0,1,0,0,0,1
 iota carrageenan nasal spray/ivermectin oral drops (used as buccal drops),0,1,0,0,0,1
 ip-10,0,1,0,0,0,1
-irl201104,0,0,0,1,0,1
+irl201104,0,1,0,0,0,1
 isavuconazonium injection [cresemba],0,0,0,1,0,1
 isis 721744,1,0,0,0,0,1
 isoflurane inhalant product,0,0,0,1,0,1
@@ -1988,6 +2182,7 @@ ivermectin / iota-carrageenan,0,1,0,0,0,1
 ivermectin / placebo,0,1,0,0,0,1
 ivermectin 3 mg,0,0,0,1,0,1
 "ivermectin 5 mg/ml oral solution, aspirin 250 mg tablets",0,1,0,0,0,1
+ivermectin 6 mg oral tablet,0,1,0,0,0,1
 ivermectin impregnated mask,0,0,0,1,0,1
 ivermectin oral tablets,0,0,0,1,0,1
 ivermectin oral tablets/sublingual waffles,0,0,0,1,0,1
@@ -2000,6 +2195,7 @@ ivermectin/doxycyline,0,1,0,0,0,1
 ivig,0,1,0,0,0,1
 ixekizumab,0,0,0,1,0,1
 "jinhua qinggan (jhqg) granules, traditional chinese medicine",0,0,0,1,0,1
+jnj-78436735,0,0,0,1,0,1
 kaletra,0,0,0,1,0,1
 kaletra/beta interferon,0,0,0,1,0,1
 kamada anti-sars-cov-2,0,1,0,0,0,1
@@ -2012,13 +2208,16 @@ ketotifen,0,1,0,0,0,1
 kg 24 hours continuous infusion for 15 days,0,0,0,1,0,1
 kg eb05 iv,0,0,0,1,0,1
 kg once daily,0,1,0,0,0,1
-kg),0,0,0,1,0,1
 kg;100mg,0,0,0,1,0,1
 kg;50mg,0,0,0,1,0,1
 kidney biopsy,1,0,0,0,0,1
 kinesiotherapy protocol,0,0,0,1,0,1
 kir phenotype evaluation,0,1,0,0,0,1
 "knowledge, attitude, practice, awareness, preference",0,1,0,0,0,1
+koã§ak-19 inaktif adjuvanlä± covid-19 vaccine 4 âµg,0,0,0,1,0,1
+koã§ak-19 inaktif adjuvanlä± covid-19 vaccine 4 âµg/0.5 ml vaccine,0,0,0,1,0,1
+koã§ak-19 inaktif adjuvanlä± covid-19 vaccine 6 âµg,0,0,0,1,0,1
+koã§ak-19 inaktif adjuvanlä± covid-19 vaccine 6 âµg/0.5 ml vaccine,0,0,0,1,0,1
 kundalini yoga,0,0,0,1,0,1
 kundalini yoga/anxiety reduction training,0,0,0,1,0,1
 l-arginine,0,0,0,1,0,1
@@ -2026,15 +2225,17 @@ l. reuteri dsm 17938,0,0,0,1,0,1
 l. reuteri dsm 17938 / vitamin d,0,0,0,1,0,1
 lab workup (on admission,0,0,0,1,0,1
 lab workup (on admission/regularly during follow up).,0,0,0,1,0,1
-laboratory,0,0,0,1,0,1
 laboratory analyses,0,0,0,1,0,1
+laboratory blood tests,0,0,0,1,0,1
 laboratory diagnostics tests,0,0,0,1,0,1
 laboratory samples,0,0,0,1,0,1
 laboratory test positive for sars-cov-2 virus,0,0,1,0,0,1
 laboratory values,0,1,0,0,0,1
+laboratory/instrumental examination,0,0,0,1,0,1
 labs,0,0,0,1,0,1
 lactobacillus,1,0,0,0,0,1
 lactobaciltus rhamnosus gg,0,0,0,1,0,1
+lactoferrin,0,0,0,1,0,1
 "lactoferrin, green tea extract",0,0,0,1,0,1
 lambda 180 mcg s.c,0,0,0,1,0,1
 lamp,0,1,0,0,0,1
@@ -2043,6 +2244,7 @@ laparoscopic,0,1,0,0,0,1
 laparoscopic appendectomy,0,1,0,0,0,1
 laparoscopic/open appendicectomy,0,1,0,0,0,1
 laryngoscope,0,1,0,0,0,1
+laryngoscopy,0,1,0,0,0,1
 late dexamethazone,0,0,0,1,0,1
 lateral position (left,0,0,0,1,0,1
 lateral position (left/right lateral decubitus),0,0,0,1,0,1
@@ -2052,6 +2254,7 @@ lay telephone coaching,0,0,1,0,0,1
 leaf-4l6715,0,0,0,1,0,1
 let it out (lio)-c,0,0,0,0,1,1
 leukapheresis,0,0,0,1,0,1
+leukotriene receptor antagonist,0,0,0,1,0,1
 levamisole,0,0,0,1,0,1
 levamisole / budesonide/formoterol,0,0,0,1,0,1
 levilimab,0,1,0,0,0,1
@@ -2065,11 +2268,14 @@ lifestyle (meditation),0,1,0,0,0,1
 lifestyle change promotion program,0,0,0,1,0,1
 lifestyle habits,0,1,0,0,0,1
 lift,0,0,0,1,0,1
+lilly bamlanivimab,0,0,0,1,0,1
+lilly bamlanivimab / etesevimab,0,0,0,1,0,1
 limbix spark,0,0,0,1,0,1
 linagliptin,0,1,0,0,0,1
 linagliptin 5 mg,0,0,0,1,0,1
 liposomal,0,1,0,0,0,1
 liquid alpha1-proteinase inhibitor (human),0,0,0,1,0,1
+listerine zero mouthwash product,0,0,0,1,0,1
 liver,0,0,1,0,0,1
 liver function tests,0,1,0,0,0,1
 "liver, lung, heart",1,0,0,0,0,1
@@ -2087,14 +2293,18 @@ lopinavir/ritonavir / hydoxychloroquine,0,0,0,1,0,1
 lopinavir/ritonavir 200 mg-50 mg oral tablet,0,0,0,1,0,1
 losartan 50 mg,0,0,0,1,0,1
 losartan 50 mg/spironolactone 25 mg pillules oral use,0,0,0,1,0,1
-losmapimod,0,0,0,1,0,1
+losmapimod,1,0,0,0,0,1
 lovenox,0,0,0,1,0,1
+low-dose placebo (18-59 years),0,0,0,1,0,1
 low-dose placebo (18-59 years)/three dose regimen,0,0,0,1,0,1
 low-dose placebo (18-59 years)/two dose regimen,0,0,0,1,0,1
+low-dose placebo (60-85 years),0,0,0,1,0,1
 low-dose placebo (60-85 years)/three dose regimen,0,0,0,1,0,1
 low-dose placebo (60-85 years)/two dose regimen,0,0,0,1,0,1
+low-dose recombinant covid-19 vaccine (sf9 cells) (18-59 years),0,0,0,1,0,1
 low-dose recombinant covid-19 vaccine (sf9 cells) (18-59 years)/three dose regimen,0,0,0,1,0,1
 low-dose recombinant covid-19 vaccine (sf9 cells) (18-59 years)/two dose regimen,0,0,0,1,0,1
+low-dose recombinant covid-19 vaccine (sf9 cells) (60-85 years),0,0,0,1,0,1
 low-dose recombinant covid-19 vaccine (sf9 cells) (60-85 years)/three dose regimen,0,0,0,1,0,1
 low-dose recombinant covid-19 vaccine (sf9 cells) (60-85 years)/two dose regimen,0,0,0,1,0,1
 low-intensity aerobic training,0,1,0,0,0,1
@@ -2107,9 +2317,11 @@ low molecular weight heparin as standard of care treatment,0,0,0,1,0,1
 low peep - fio2 high,0,0,0,1,0,1
 low peep - fio2 low,0,0,0,1,0,1
 low/upper respiratory tract sample,0,0,0,1,0,1
-lsalt peptide,0,0,0,1,0,1
+lsalt peptide,1,0,0,0,0,1
+"ltx-109 gel, 3%",0,0,0,1,0,1
 lucinactant,0,0,0,1,0,1
 lung biopsy,0,0,0,1,0,1
+lung ct,0,0,0,1,0,1
 lung ct scan analysis in covid-19 patients,0,0,0,1,0,1
 lung function test,0,0,1,0,0,1
 lung function tests,0,0,0,1,0,1
@@ -2123,10 +2335,12 @@ lus twelve area,0,1,0,0,0,1
 lv-smenp-dc vaccine,0,0,0,1,0,1
 lv-smenp-dc vaccine/antigen-specific ctls,0,0,0,1,0,1
 ly3127804,0,0,0,0,1,1
+ly3853113,0,0,0,1,0,1
 lyt-100,0,0,0,1,0,1
 m-m-r ii â® vaccine,0,0,0,1,0,1
 m capsules 148 mg,1,0,0,0,0,1
-machine learning,0,0,0,1,0,1
+m5049,0,0,0,1,0,1
+machine based evaluation,0,0,0,1,0,1
 machine learning classification of parenchymal lung change cause,0,0,0,1,0,1
 machine learning classification of recurrence,0,0,0,1,0,1
 machine learning classification of recurrence/non-recurrence,0,0,0,1,0,1
@@ -2137,45 +2351,55 @@ magec spine rod,0,0,0,1,0,1
 magnesium stearate),0,0,0,1,0,1
 magnetic resonance imaging,0,0,0,1,0,1
 magnetic resonance spectroscopy (mrs).,0,0,0,1,0,1
+mailer-based finger-prick,0,0,0,1,0,1
 maintenance,0,0,0,1,0,1
 makair,0,0,0,1,0,1
+management by a medical student,0,1,0,0,0,1
 management of covid-19,0,0,0,1,0,1
 management strategy of outpatient with mild to moderate sars-cov-2 pneumonia,0,1,0,0,0,1
 manremyc,0,0,0,1,0,1
-mas825,1,0,0,0,0,1
+manual acupuncture,0,0,0,1,0,1
+maraviroc experimental group,0,0,0,1,0,1
+mas825,0,1,0,0,0,1
 "masimo, lidco",0,0,0,1,0,1
 masitinib,0,0,0,1,0,1
 masked saline placebo,0,0,0,1,0,1
 maslach burnout inventory (mbi),0,1,0,0,0,1
-masseter inhibitory reflex,0,0,0,1,0,1
+masseter inhibitory reflex,0,1,0,0,0,1
 massive parallel sequencing of host genome,0,0,0,1,0,1
 "maternal attachment, edinburgh depression scoring",0,1,0,0,0,1
 "maternal attachment, edinburgh depression scoring/postpartum anxiety scale scores",0,1,0,0,0,1
 maternal sars-cov-2 infection,0,0,0,1,0,1
 maternal stress,0,0,0,1,0,1
-matrix-m1 adjuvant (crossover vaccination period),1,0,0,0,0,1
-matrix-m1 adjuvant (initial vaccination period),1,0,0,0,0,1
+matrix-m1 adjuvant (crossover vaccination period),0,0,0,1,0,1
+matrix-m1 adjuvant (initial vaccination period),0,0,0,1,0,1
 matrix m1-adjuvant,0,0,0,1,0,1
 maximal effort test,0,0,0,1,0,1
 mcc ims,0,1,0,0,0,1
 mcgrath videolaryngoscope,0,1,0,0,0,1
-measurement of circulating sflt1 concentration,0,0,0,1,0,1
+mct,0,0,0,1,0,1
+measurement of circulating sflt1 concentration,0,1,0,0,0,1
 measurement of respiratory muscle force,0,0,0,1,0,1
+measurement of sublingual microcirculation,0,0,0,1,0,1
 mechanical trombectomy,0,1,0,0,0,1
 media intervention,0,0,0,1,0,1
+medical consultation,0,0,0,1,0,1
 medical follow-up,0,0,0,1,0,1
 medical mask,0,0,0,1,0,1
 medical record review - inpatient treatment,0,0,0,1,0,1
+medical research council (mrc) dyspnea scale,0,0,0,1,0,1
 medication review,0,0,0,1,0,1
 meditation app usage,0,0,0,1,0,1
 meditation therapy,0,0,0,1,0,1
 meditation/anxiety reduction training,0,0,0,1,0,1
 medium dosage inactivated sars-cov-2 vaccine on a 0-/14-day schedule,0,0,0,1,0,1
 medium dose prednisolone,0,0,0,1,0,1
+mefloquine as a prophylaxis against sars-cov-2 infection in household contacts of covid 19 confirmed cases,0,0,0,1,0,1
 mefloquine/azithromycin/ tocilizumab,0,1,0,0,0,1
 mejoracare,0,0,0,1,0,1
 melatonin intravenous,0,1,0,0,0,1
 melphalan,0,0,0,1,0,1
+membrane-based immunoassay kit,0,0,0,1,0,1
 memory b-cell function,1,0,0,0,0,1
 menacwy prime,0,0,0,1,0,1
 menacwy prime/saline placebo boost / paracetamol,0,0,0,1,0,1
@@ -2184,10 +2408,11 @@ menacwy single dose / paracetamol,0,0,0,1,0,1
 menacwy vaccine,0,0,0,1,0,1
 mencare,0,0,1,0,0,1
 mencare//bandebereho fathers'/couples' group education,0,0,1,0,0,1
+mental health questionnaire,0,0,0,1,0,1
 mental health student,0,1,0,0,0,1
 mental imagery,0,0,0,1,0,1
 mental well-being,0,1,0,0,0,1
-meplazumab,0,0,0,1,0,1
+meplazumab,0,1,0,0,0,1
 merimepodib,0,0,0,0,1,1
 mesenchymal stromal cell-based therapy,0,0,0,1,0,1
 mesenchymalÂ stem cells/heparin,0,1,0,0,0,1
@@ -2199,13 +2424,14 @@ metenkefalin,0,1,0,0,0,1
 metenkefalin / tridecactide,0,1,0,0,0,1
 metformin,0,0,0,1,0,1
 metformin extended release oral tablet,0,0,0,1,0,1
-metformin glycinate,0,0,0,1,0,1
+metformin glycinate,0,1,0,0,0,1
 methotrexate-lde phase 1,0,0,0,1,0,1
 methotrexate-lde phase 2,0,0,0,1,0,1
 methylene-blue photodisinfection,0,0,0,1,0,1
 methylene blue/ vitamin c/n-acetyl cysteine,0,0,0,1,0,1
 methylprednisolone injectable product,0,0,0,1,0,1
 methylprednisolone injection,0,1,0,0,0,1
+mf59 adjuvanted sars-cov-2 sclamp vaccine,0,0,0,1,0,1
 mfs,0,0,0,1,0,1
 mhealth assessments,0,0,0,1,0,1
 mhealth platform,0,0,0,1,0,1
@@ -2216,12 +2442,15 @@ micronized,0,0,0,1,0,1
 microscopy of defined brain regions on autopsy specimens,0,0,0,1,0,1
 mindfullness training,0,1,0,0,0,1
 mindfulness-based cognitive therapy,0,0,0,1,0,1
+mindfulness-based health promotion,0,0,0,1,0,1
 mindfulness-based stress reduction,0,0,0,1,0,1
-mindfulness session(s),1,0,0,0,0,1
+mindfulness session(s),0,1,0,0,0,1
 mindfulness training,0,0,0,1,0,1
+mindrhythm harmony,0,0,0,1,0,1
 minimal attention control intervention,0,0,0,0,1,1
 minimal collection of products of the human body carried out during a sample for standard of care,0,0,0,1,0,1
 miniprobe alveoflex,0,0,0,1,0,1
+"minus formula, huhuang detoxicity paste, baimu qingre jiedu paste",1,0,0,0,0,1
 "minus formula, huhuang detoxicity paste, baimu qingre jiedu paste, fumigation",1,0,0,0,0,1
 mitral valve surgery,0,0,0,1,0,1
 ml intravenous solution [actemra]_#1,0,0,0,1,0,1
@@ -2230,6 +2459,7 @@ ml intravenous solution [actemra]_#1 (2 doses),0,0,0,1,0,1
 "ml oral solution, dexamethasone 4-mg injection, aspirin 250 mg tablets",0,1,0,0,0,1
 "ml oral solution, dexamethasone 4-mg injection, enoxaparin injection. inpatient treatment with mechanical ventilation in icu.",0,1,0,0,0,1
 ml prefilled syringe [kineret],0,0,0,1,0,1
+ml) intraven vial (ml),0,1,0,0,0,1
 mls laser,0,1,0,0,0,1
 mmrc (modified medical research council) dyspnea scale,0,0,0,1,0,1
 mobile internet survey on self-test,0,1,0,0,0,1
@@ -2252,13 +2482,19 @@ mon002,0,0,0,1,0,1
 monalizumab,0,0,0,1,0,1
 monitoring,0,0,0,1,0,1
 monitoring for aggravation,0,0,0,1,0,1
+monitoring visit,0,0,0,0,1,1
 monoclonal antibody,0,0,0,1,0,1
 montelukast,0,1,0,0,0,1
 month 12 after first symptoms from sars-cov-2 infection,0,0,0,1,0,1
 montmorrillonite,0,1,0,0,0,1
 mortality,0,0,0,1,0,1
+motivation,0,0,0,1,0,1
+motivational interviewing,0,0,0,1,0,1
 motivational interviewing/covid-19 symptom monitoring system,0,0,0,1,0,1
-motivational messages,1,0,0,0,0,1
+motivational messages,0,1,0,0,0,1
+mout-to-mouth ventilation,0,0,0,1,0,1
+mout-to-mouth ventilation with quantitative analysis,0,0,0,1,0,1
+"mouthpiece b1(mouthpiece mpc-st gmdn:62534 generic name: endoscopic bite block, basic, reusable",1,0,0,0,0,1
 mouthrinse with bãªta-cyclodextrin,0,1,0,0,0,1
 mouthrinse with bãªta-cyclodextrin/citrox,0,1,0,0,0,1
 mouthrinse without bãªta-cyclodextrin,0,1,0,0,0,1
@@ -2271,8 +2507,9 @@ mr/m-m-r ii â® vaccine,0,0,0,1,0,1
 mrg-001,0,0,0,1,0,1
 "mri (heart, brain, lungs, liver)",0,0,0,1,0,1
 mri scans,0,0,0,1,0,1
-mrna-1273.351,1,0,0,0,0,1
+mrna-1273 sars-cov-2 vaccine from moderna,0,0,0,1,0,1
 mrna-1283,0,0,0,1,0,1
+mrna covd19 vaccine,0,0,0,1,0,1
 mrna in urine test,0,1,0,0,0,1
 mrx-4dp0004,0,0,0,1,0,1
 msc,0,0,0,1,0,1
@@ -2286,6 +2523,7 @@ multisystem inflammatory syndrome in children (mis-c),0,0,0,1,0,1
 multitest 6 color tbnk,0,0,0,1,0,1
 multitest 6 color tbnk/bd lyotubes,0,0,0,1,0,1
 multivitamin with 11mg of zinc,1,0,0,0,0,1
+muscle-target oral nutritional supplementation,0,0,0,1,0,1
 muscle biopsy,0,0,0,1,0,1
 muscle relaxation therapy,0,0,0,1,0,1
 musclesound ultrasound,0,0,0,1,0,1
@@ -2298,6 +2536,7 @@ mw33 injection,0,0,0,1,0,1
 mw33 injection placebo,0,0,0,1,0,1
 n,0,0,0,1,0,1
 n-acetyl glucosamine (nag),1,0,0,0,0,1
+n-binding igg immunoassays,0,0,0,1,0,1
 n-etsd (oral capsule),0,0,0,1,0,1
 n-etsd (suspension for injection),0,0,0,1,0,1
 n/a - samples collected along routine care samples only,0,0,0,1,0,1
@@ -2308,9 +2547,13 @@ na (no intervention),0,0,0,1,0,1
 nad,0,0,0,1,0,1
 nad/,0,0,0,1,0,1
 naproxen,0,0,0,0,1,1
+narsoplimab,0,0,0,1,0,1
 nasal high flow,0,1,0,0,0,1
-nasal irrigation,0,0,0,1,0,1
 nasal lavage,0,0,1,0,0,1
+nasal spray by distilled water to control group,0,0,1,0,0,1
+nasal spray to asymptomatic to mild covid-19 patient having multiple comorbidity,0,0,1,0,0,1
+nasal spray to healthy volunteer,0,0,1,0,0,1
+nasal spray to moderately ill covid-19 positive patient,0,0,1,0,0,1
 naser al-husban,0,1,0,0,0,1
 nasopharyngeal (np) swab,1,0,0,0,0,1
 nasopharyngeal samples,0,0,0,1,0,1
@@ -2319,6 +2562,9 @@ nasopharyngeal/throat swab,0,1,0,0,0,1
 nasopharyngeal/throat/oropharyngeal swabs analyses by rt-pcr/ddpcr,0,0,0,1,0,1
 nasopharynx,0,0,0,0,1,1
 nasovax,0,0,0,1,0,1
+nature,0,0,1,0,0,1
+nature only,0,0,1,0,0,1
+nature/mindfulness,0,0,1,0,0,1
 navigation services,0,0,0,1,0,1
 nbp2001 adjuvanted with alum (rbd 30î¼g,1,0,0,0,0,1
 nbp2001 adjuvanted with alum (rbd 30î¼g/dose),1,0,0,0,0,1
@@ -2328,14 +2574,18 @@ nbt-nm108,0,0,0,1,0,1
 ncapp,0,0,0,1,0,1
 nebivolol,0,0,0,1,0,1
 nebulised heparin,0,0,0,1,0,1
-nebulised recombinant tissue-plasminogen activator (rt-pa),0,0,0,1,0,1
+nebulised recombinant tissue-plasminogen activator (rt-pa) - cohort 1,0,0,0,1,0,1
+nebulised recombinant tissue-plasminogen activator (rt-pa) - cohort 2 imv,0,0,0,1,0,1
+nebulised recombinant tissue-plasminogen activator (rt-pa) - cohort 2 niv,0,0,0,1,0,1
 nebulised unfractionated heparin (ufh),0,0,0,1,0,1
-nebulized administration of rlf-100,0,0,0,1,0,1
-nebulized administration of rlf-100/placebo,0,0,0,1,0,1
+nebulized administration of zyesamiâ„¢,0,0,0,1,0,1
+nebulized administration of zyesamiâ„¢/placebo,0,0,0,1,0,1
 nebulized furosemide,0,0,0,1,0,1
 nebulized platelet lysate,1,0,0,0,0,1
 nebulized saline,0,0,0,1,0,1
 nebulized sterile saline,1,0,0,0,0,1
+neonatal resuscitation with ppe for the prevention of sars-cov-2 infection,0,1,0,0,0,1
+neonatal resuscitation without ppe for the prevention of sars-cov-2 infection,0,1,0,0,0,1
 netosis markers,0,0,0,1,0,1
 neural network diagnosis algorithm,0,0,0,1,0,1
 neurocognitive assessment,0,0,0,1,0,1
@@ -2347,7 +2597,7 @@ neutral writing control,0,0,0,0,1,1
 new ppe,0,1,0,0,0,1
 newborns,0,1,0,0,0,1
 next generation sequencing (ngs) analysis,0,0,0,1,0,1
-ng test,0,0,0,1,0,1
+ng test,0,1,0,0,0,1
 ngm621,0,0,0,1,0,1
 nhanes smell,0,0,0,1,0,1
 nhanes smell/taste tests,0,0,0,1,0,1
@@ -2360,22 +2610,25 @@ nicotinamide riboside,0,0,0,1,0,1
 nicotine 7 mg,0,0,0,1,0,1
 nicotine 7 mg/ 24h transdermal patch - 24 hour,0,0,0,1,0,1
 nicotine patch,0,0,0,1,0,1
+nigella sativa,0,1,0,0,0,1
 nigella sativa / black cumin,0,1,0,0,0,1
 nigella sativa seed,0,0,0,1,0,1
-nintedanib,0,0,0,1,0,1
 nintedanib 150 mg [ofev],0,0,0,1,0,1
 nitazoxanide/atazanavir/ritonavir,0,0,0,1,0,1
 "nitric oxide lozenges, 30 mg",0,0,0,1,0,1
 nitroglycerin,0,0,0,1,0,1
 nk-1r antagonist,0,0,0,1,0,1
 no-immunosuppressive,0,0,0,1,0,1
+no active intervention (observational only),0,0,0,1,0,1
 no activities of the hbcc project,1,0,0,0,0,1
 no instruction regarding positioning,0,0,0,1,0,1
 no intervention-mechanistic study,0,0,0,1,0,1
 no intervention (survey study for medical doctors).,0,1,0,0,0,1
 no intervention as it is an observational study,0,0,0,1,0,1
+no intervention is planned,0,0,1,0,0,1
 no intervention planned due to the observational study design only a diagnostic testing,0,0,1,0,0,1
 "no intervention will be administered, this is a retrospective observational study.",0,0,0,1,0,1
+"no intervention, observation only",0,0,0,1,0,1
 no intervention. method study. psychometric testing,0,0,0,1,0,1
 no intervention; observational study,0,0,0,1,0,1
 no interventional study,0,1,0,0,0,1
@@ -2385,13 +2638,13 @@ no messaging,1,0,0,0,0,1
 no personal protective equipment (ppe),0,1,0,0,0,1
 no racial inequality highlighting,1,0,0,0,0,1
 no research related technology based social interactions,0,0,1,0,0,1
+no rinsing,0,0,0,1,0,1
 no special intervention,0,1,0,0,0,1
-non,0,0,1,0,0,1
-non-acei,1,0,0,0,0,1
-non-acei/arb,1,0,0,0,0,1
+non-acei,0,1,0,0,0,1
+non-acei/arb,0,1,0,0,0,1
 non-cardiac surgery,0,0,0,1,0,1
 non-contact mce system,0,1,0,0,0,1
-non-hospitalization procedures,0,0,0,1,0,1
+non-hospitalization procedures,1,0,0,0,0,1
 non-interventional study,0,0,0,1,0,1
 non-invasive ventilation strategies,0,0,0,1,0,1
 non-invasive ventilatory support,1,0,0,0,0,1
@@ -2401,17 +2654,19 @@ non-recurrence,0,0,0,1,0,1
 non intervention,0,0,0,1,0,1
 non interventional study,0,0,0,1,0,1
 non invasive visual acuity testing,0,1,0,0,0,1
+none - descriptive study,0,0,0,1,0,1
 none - na,0,1,0,0,0,1
 "none, this study is observational",0,1,0,0,0,1
 noninvasive ventilation,0,1,0,0,0,1
-noninvasive ventilation treatment,0,0,0,1,0,1
+noninvasive ventilation treatment,0,1,0,0,0,1
 normal saline intranasal,0,0,0,1,0,1
 "nose swabs, bronchoalveolar lavage ,urine)",0,0,0,1,0,1
+nosocomial,0,0,0,1,0,1
 not applicable (na),0,0,0,1,0,1
 not applicable (observational study),0,0,0,1,0,1
+not applicable as observational study,1,0,0,0,0,1
 not bravery message,0,1,0,0,0,1
 not required,0,1,0,0,0,1
-nowdx covid-19 test,0,1,0,0,0,1
 nox66,0,0,0,1,0,1
 np-120 (ifenprodil),1,0,0,0,0,1
 nps test,0,0,0,1,0,1
@@ -2424,6 +2679,7 @@ nutrition consult/protein supplementation,0,0,0,1,0,1
 nutritional assessment,0,0,0,1,0,1
 nutritional intervention,0,0,0,1,0,1
 nuvastatic,0,0,0,1,0,1
+nvx-cov2373,0,0,0,1,0,1
 obesity,1,0,0,0,0,1
 observation for study group,1,0,0,0,0,1
 observation of covid 19 pneumonia,0,0,0,1,0,1
@@ -2438,10 +2694,14 @@ observational study: this registry data will provide more specific information a
 "obtainment of nasopharyngeal, oropharyngeal, buccal, nasal",0,0,0,1,0,1
 "obtainment of nasopharyngeal, oropharyngeal, buccal, nasal/saliva samples",0,0,0,1,0,1
 obvio-19 app,0,0,0,1,0,1
+ocat,0,0,0,1,0,1
 occupational health workers,0,0,0,1,0,1
 octaplas,0,0,0,1,0,1
 odd,0,0,0,1,0,1
 odd/even birth year intervention groups,0,0,0,1,0,1
+of the cellular response after vaccination against covid-19,0,0,0,1,0,1
+"ol-1, high dose",0,0,0,1,0,1
+"ol-1, standard dose",0,0,0,1,0,1
 old ppe,0,1,0,0,0,1
 olfaction testing,0,0,0,1,0,1
 olfactometry,0,0,0,1,0,1
@@ -2450,28 +2710,35 @@ olfactory device,0,0,0,1,0,1
 olfactory function evaluation,0,1,0,0,0,1
 olfactory/gustatory tests,0,0,0,1,0,1
 olokizumab,0,1,0,0,0,1
+omega 3 fatty acid,0,0,0,1,0,1
 omega 3/nigella sativa oil,0,0,0,1,0,1
 omega 3/nigella sativa oil/anise seed capsule,0,0,0,1,0,1
 omega 3/nigella sativa oil/deglycyrrhizinated licorice,0,0,0,1,0,1
 omega 3/nigella sativa oil/indian costus,0,0,0,1,0,1
 omega 3/nigella sativa oil/quinine pills,0,0,0,1,0,1
+omega dha,0,0,0,1,0,1
+omega dha / epa,0,0,0,1,0,1
 omeprazole,0,0,0,1,0,1
 omnibiotic aad,0,0,0,1,0,1
 on-site testing (lumiradx),0,0,0,1,0,1
-one covid-19 vaccine candidate (tmv-083) administration - high dose,0,0,0,1,0,1
+one covid-19 vaccine candidate (tmv-083) administration - high dose,1,0,0,0,0,1
+one dose of bnt162b2 vaccine,0,0,0,1,0,1
 online cognitive stimulation therapy,0,0,0,1,0,1
-online instruction,0,0,1,0,0,1
+online instruction,1,0,0,0,0,1
 online intervention grief covid-19,0,0,0,1,0,1
 online intervention mental health covid-19,0,0,0,1,0,1
 online kkh sports singapore program with usual care,0,0,0,1,0,1
-online lifestyle intervention,0,0,0,1,0,1
+online lifestyle intervention,1,0,0,0,0,1
 online self-help intervention,1,0,0,0,0,1
-op-101,0,0,0,1,0,1
+op-101,1,0,0,0,0,1
 open appendicectomy,0,1,0,0,0,1
 open label bss (pepto bismol),0,0,0,1,0,1
 operative management,0,0,1,0,0,1
 ophtamesone,0,0,0,1,0,1
+opt-in (call-back),0,0,1,0,0,1
+opt-in (in-bound),0,0,1,0,0,1
 opt-in recruitment email,0,1,0,0,0,1
+opt-out framing,0,0,1,0,0,1
 opt-out recruitment email,0,1,0,0,0,1
 optical coherence tomography (oct),0,0,0,1,0,1
 optical coherence tomography angiography,0,1,0,0,0,1
@@ -2482,11 +2749,15 @@ or antiplatelet) before admission for covid19,0,1,0,0,0,1
 or high dose lmwh),0,0,0,1,0,1
 or mis-c exposure,0,0,0,1,0,1
 "or psychotherapy, n=10)",1,0,0,0,0,1
-oral,0,0,0,1,0,1
+oral-b mouth sore mouthwash,0,0,0,1,0,1
+oral-bâ® gum,0,0,0,1,0,1
+oral-bâ® gum/enamel care -cetylpyridinium chloride,0,0,0,1,0,1
 oral intervention with cetylpyridinium chloride,0,0,0,1,0,1
 oral ivermectin,0,0,0,1,0,1
-oral polio vaccine / information,0,0,1,0,0,1
+oral polio vaccine / information,1,0,0,0,0,1
+oral/nasal spray by distilled water to control group,0,0,1,0,0,1
 oropharyngeal,0,0,0,1,0,1
+oropharyngeal swabs,0,1,0,0,0,1
 oropharyngeal swabs analyses by rt-pcr,0,0,0,1,0,1
 oropharyngeal/intestinal microbiota,0,0,0,1,0,1
 ortd-1 high dose,0,0,0,1,0,1
@@ -2494,6 +2765,7 @@ ortd-1 low dose,0,0,0,1,0,1
 ortd-1 mid dose,0,0,0,1,0,1
 orthopaedic surgical procedures,0,1,0,0,0,1
 oseltamivir 75mg,0,0,0,1,0,1
+osoc,0,0,0,0,1,1
 osteosynthesis,0,1,0,0,0,1
 other clinical symptoms,0,1,0,0,0,1
 other vaccine against sars-cov-2,0,0,0,1,0,1
@@ -2502,16 +2774,18 @@ overnight intensive recovery,0,0,0,1,0,1
 overnight intensive recovery / extended post anaesthetic care in pacu,0,0,0,1,0,1
 oxaloacetate medical food,0,0,0,1,0,1
 oxaloacetate medical food/dietary supplement,0,0,0,1,0,1
+oxford-astrazeneca covid-19 vaccine,0,0,0,1,0,1
 oxidative stress elisa kit,0,0,0,1,0,1
+oxygen-ozone,0,0,0,1,0,1
 oxygen hood,0,1,0,0,0,1
-oxygen mask,0,0,0,1,0,1
+oxygen mask,0,1,0,0,0,1
 oxyhydrogen,0,0,0,1,0,1
 ozanimod,0,0,0,1,0,1
 ozone,0,0,0,1,0,1
 p2et (caesalpinia spinosa extract),0,0,0,1,0,1
 p2y12,0,0,0,1,0,1
-pacritinib,0,0,0,1,0,1
-pamrevlumab,0,0,0,1,0,1
+pacritinib,1,0,0,0,0,1
+pamrevlumab,0,0,0,0,1,1
 pandemic control measures,0,0,0,1,0,1
 paraclinical examination,0,0,0,1,0,1
 paraclinical test,0,0,0,1,0,1
@@ -2527,14 +2801,16 @@ part b: upamostat 200,0,0,0,1,0,1
 part b: upamostat 200/400 mg,0,0,0,1,0,1
 partially hla-matched sars-covsts,0,0,0,1,0,1
 participate in a massive musical event,0,1,0,0,0,1
+participation,0,1,0,0,0,1
 particle measurement,0,1,0,0,0,1
 passed infection of sars-cov-2,0,1,0,0,0,1
 passive microwave radiometry,0,1,0,0,0,1
-"patch, nicotine",0,0,0,1,0,1
-"patch, placebo",0,0,0,1,0,1
+"patch, nicotine",1,0,0,0,0,1
+"patch, placebo",1,0,0,0,0,1
 patient-centred advice on telephone consultation in tb patients:,0,0,0,1,0,1
 patient characteristics,0,1,0,0,0,1
 patient educational video,0,0,1,0,0,1
+patient health questionnaire (phq-9),0,0,0,1,0,1
 patient mychart scheduling link,0,0,1,0,0,1
 patient quality of life assessment,0,1,0,0,0,1
 patient sampling,0,0,0,1,0,1
@@ -2545,10 +2821,10 @@ patients admitted in intensive care units,0,0,0,1,0,1
 patients admitted to intensive care unit with sars-cov2,0,1,0,0,0,1
 patients covid 19,0,0,0,1,0,1
 patients received standard of care treatment during hospitalization,0,0,0,1,0,1
+patients with hemopathy,0,0,0,1,0,1
 patients with the treatment agains covid19,0,0,0,1,0,1
 pbmt,0,1,0,0,0,1
 pbmt/smf,0,1,0,0,0,1
-pcr test,0,0,0,1,0,1
 pcr value,0,0,0,1,0,1
 pcr/chest ct,0,1,0,0,0,1
 pct,0,0,0,1,0,1
@@ -2565,14 +2841,17 @@ pep flute,1,0,0,0,0,1
 perceived stress scale,0,1,0,0,0,1
 percutaneous coronary revascularization for stemi,1,0,0,0,0,1
 percutaneous treatment,0,0,0,1,0,1
+performance evaluation,0,0,0,1,0,1
 performance evaluation study of realdetect rt-pcr kit for covid-19 detection,0,0,0,1,0,1
 performance of the test antigenic,0,1,0,0,0,1
 performance of the test antigenic/test rt-pcr,0,1,0,0,0,1
 performing ai algorithms on images,0,0,0,1,0,1
 performing of lung ultrasound,0,0,0,1,0,1
+periogard,0,0,0,0,1,1
 peripheral blood samples,0,0,0,1,0,1
 peripheral lymphocytes subsets,0,0,0,1,0,1
 peripheral venous ultrasound,0,0,0,1,0,1
+peroxyl,0,0,0,0,1,1
 personal freedom message,0,1,0,0,0,1
 personal protective equipment,0,0,0,1,0,1
 personal protective equipment (ppe),0,1,0,0,0,1
@@ -2580,25 +2859,34 @@ personal protective equipment from biological hazard,0,1,0,0,0,1
 personal protective measures,0,1,0,0,0,1
 personal protective testing booth,0,1,0,0,0,1
 personalized ambulatory training,0,0,0,1,0,1
+personalized feedback,0,1,0,0,0,1
 personalized health education,0,0,0,1,0,1
 pet-ct of 18f-fdg,0,1,0,0,0,1
 pf-06650833,0,0,0,1,0,1
 pf-07304814,0,0,0,1,0,1
+pfizer-biontech covid-19 vaccine,0,0,0,1,0,1
 pharyngeal swab,1,0,0,0,0,1
+phase 1,0,0,0,1,0,1
+phase 2,0,0,0,1,0,1
 philips lumify ultrasound system,0,1,0,0,0,1
 phlebotomy,0,0,0,1,0,1
 phobia questionairre,0,0,0,1,0,1
-phone call interview,0,0,0,1,0,1
+phone-call screening,0,1,0,0,0,1
+phone-call screening/management by a medical student/general practitioner tandem,0,1,0,0,0,1
+phone call interview,0,1,0,0,0,1
 phone interview,0,0,0,1,0,1
 phone interviews,0,0,0,1,0,1
+phosphate-buffered saline,0,0,0,1,0,1
 phq,0,1,0,0,0,1
 phq-9 depression scale,0,0,0,1,0,1
 phr160 spray,0,0,0,1,0,1
 phsyiotherapy,1,0,0,0,0,1
-physical,0,0,0,1,0,1
+physical,0,1,0,0,0,1
+physical activity counseling,0,0,0,1,0,1
 physical activity program,0,0,0,1,0,1
 physical examination,0,0,0,1,0,1
-physical/cognitive activity,0,0,0,1,0,1
+physical exercise/computerized cognitive training,1,0,0,0,0,1
+physical/cognitive activity,0,1,0,0,0,1
 physiological effects of awake prone position in covid 19 patients,0,0,0,1,0,1
 phytomedicine,0,0,1,0,0,1
 piclidenoson,0,0,0,1,0,1
@@ -2611,16 +2899,17 @@ piperacillin/tazobactam,0,0,0,1,0,1
 placebo-lde phase 2,0,0,0,1,0,1
 placebo-simulation of transcranial direct current stimulation,0,0,0,1,0,1
 placebo - phase i,1,0,0,0,0,1
-placebo (crossover vaccination period),1,0,0,0,0,1
+placebo (crossover vaccination period),0,0,0,1,0,1
 placebo (im),0,0,0,1,0,1
 placebo (inhaled solution),0,0,0,1,0,1
-placebo (initial vaccination period),1,0,0,0,0,1
+placebo (initial vaccination period),0,0,0,1,0,1
 placebo (iv),0,0,0,1,0,1
 placebo (methylcellulose) capsule,0,0,0,1,0,1
 placebo (oral tablet),0,0,0,1,0,1
 placebo (potato starch,0,0,0,1,0,1
 placebo (potato starch/magnesium stearate),0,0,0,1,0,1
 placebo (saline),0,0,0,1,0,1
+placebo (sc injections),0,0,0,1,0,1
 "placebo (sodium chloride, a 0.9% solution for the preparation of dosage forms for injections)",1,0,0,0,0,1
 placebo (standard therapy),0,0,0,1,0,1
 "placebo (two doses), priming",1,0,0,0,0,1
@@ -2634,28 +2923,37 @@ placebo empty capsule,0,0,0,1,0,1
 placebo for abbv-2b04,0,0,0,1,0,1
 placebo for abbv-47d11,0,0,0,1,0,1
 placebo for camostat mesilate,0,0,0,1,0,1
+placebo gel,0,0,0,1,0,1
 placebo hydroxychloroquine,0,0,0,1,0,1
+placebo inhaled,0,0,0,1,0,1
 placebo iv,0,0,0,1,0,1
 placebo magnesium,0,0,0,1,0,1
+placebo mini drinks,0,0,0,1,0,1
+placebo multiple,1,0,0,0,0,1
 placebo nitazoxanide,0,0,0,1,0,1
 placebo of fx06,0,0,0,1,0,1
 placebo of nicotine transdermal patch,0,0,0,1,0,1
 placebo oil,0,0,0,1,0,1
 placebo patch,0,0,0,1,0,1
 placebo ribavirin,0,0,0,1,0,1
+placebo single,1,0,0,0,0,1
 placebo spray,0,0,0,1,0,1
 placebo videos,1,0,0,0,0,1
 placebo with remdesivir,0,0,0,1,0,1
 placebo/aluminum adjuvant of inactivated sars-cov-2 vaccine,1,0,0,0,0,1
 placebo/control,0,0,0,1,0,1
+plant stanol mini drinks,0,0,0,1,0,1
+plasebo acupressure,0,0,0,1,0,1
 plasma exchange/convalescent plasma,0,0,0,1,0,1
 plasma igg levels,0,0,0,1,0,1
+plasma sampling,0,0,0,1,0,1
 "platelet count, platelet, mean platelet volume",0,0,0,1,0,1
 "platelet count, platelet, mean platelet volume/platelet distribution width in covid-19",0,0,0,1,0,1
 platelet distribution width in covid-19,0,0,0,1,0,1
 "platelet function analyzer scp1, sienco, usa",0,1,0,0,0,1
 plethysmography,0,0,0,1,0,1
 plethysmography/dlco,0,0,0,1,0,1
+plitidepsin,0,1,0,0,0,1
 pln-74809,0,0,0,1,0,1
 pneumococcal vaccine,1,0,0,0,0,1
 poct,1,0,0,0,0,1
@@ -2673,10 +2971,12 @@ poractant alfa,0,0,0,1,0,1
 position,0,0,0,1,0,1
 positive feedback,0,1,0,0,0,1
 positive for sars-cov-2 infection,0,0,0,1,0,1
+positive psychotherapy,0,0,0,1,0,1
 post-intensive care unit syndrome,0,0,0,1,0,1
 post-mortem biopsies.,0,0,0,1,0,1
 post-traumatic stress screening,0,0,0,1,0,1
 post covid-19 functional satus scale,0,0,0,1,0,1
+post traumatic stress disorder questionnaire (ptsd-8),0,0,0,1,0,1
 postpartum,0,0,1,0,0,1
 postpartum anxiety scale scores,0,1,0,0,0,1
 postpartum women under investigation for coronavirus/diagnosed with covid-19,0,0,1,0,0,1
@@ -2693,6 +2993,7 @@ prediction market,0,1,0,0,0,1
 predictive factors for clinical response in patients with covid-19.,0,0,0,1,0,1
 predictors adverse evolution,0,0,0,1,0,1
 predictors of health care provide,0,0,0,1,0,1
+prednisolone,0,0,0,1,0,1
 prednisone tablet,0,0,0,1,0,1
 pregnant women under investigation for coronavirus,0,0,1,0,0,1
 pregnant women under investigation for coronavirus/diagnosed with covid-19,0,0,1,0,0,1
@@ -2706,7 +3007,6 @@ primepro,0,1,0,0,0,1
 pro-sero-cov,1,0,0,0,0,1
 "pro bnp , vitamin d",0,0,0,1,0,1
 probiorinse,0,0,0,1,0,1
-probiotics,0,1,0,0,0,1
 probiotics (2 strains 10x10^9 ufc),0,0,0,1,0,1
 problem-solving,0,0,0,1,0,1
 problem-solving/relationship improvement intervention.,0,0,0,1,0,1
@@ -2717,11 +3017,12 @@ prognostic score,1,0,0,0,0,1
 progressive cycling exercise test to exhaustion,0,1,0,0,0,1
 progressive muscle relaxation,0,1,0,0,0,1
 project echo,0,0,0,1,0,1
-prolastin,0,0,0,1,0,1
+prolastin,1,0,0,0,0,1
 prolectin-m; a (1-6)-alpha-d-mannopyranose class,0,1,0,0,0,1
 prolonged proned positioning,0,0,0,1,0,1
 promotores de salud,0,0,0,1,0,1
 prone lying position,0,1,0,0,0,1
+prone position (pp),0,0,0,1,0,1
 proper diet,0,0,0,1,0,1
 prophylactic,0,0,0,1,0,1
 prophylaxis,0,1,0,0,0,1
@@ -2731,7 +3032,9 @@ prospective chart review,0,0,1,0,0,1
 prospective oberservational registry,0,0,0,1,0,1
 protective ventilation,0,0,0,1,0,1
 protein supplementation,0,0,0,1,0,1
+proteinuria,0,1,0,0,0,1
 prototype,0,0,0,1,0,1
+proxalutamide (gt0918),0,0,0,1,0,1
 psc-04,0,0,0,1,0,1
 psg,0,0,0,1,0,1
 psqi,0,1,0,0,0,1
@@ -2758,6 +3061,10 @@ pulmonary physiotherapy techniques,0,1,0,0,0,1
 pulmonary tele-rehabilitation,0,0,0,1,0,1
 pulmozyme/ recombinant human deoxyribonuclease (rh-dnase),0,0,0,1,0,1
 pulse oximetry,0,1,0,0,0,1
+purapo,0,0,0,1,0,1
+purclo,0,0,0,1,0,1
+purinf,0,0,0,1,0,1
+purphl,0,0,0,1,0,1
 pwv,0,0,0,1,0,1
 pyridostigmine bromide,0,0,0,1,0,1
 pyronaridine-artesunate (pa),0,0,0,1,0,1
@@ -2767,21 +3074,24 @@ qrt-pcr,0,0,1,0,0,1
 qrt-pcr/serology,0,0,1,0,0,1
 quadramune(tm),0,0,0,1,0,1
 qualitative,0,0,0,1,0,1
+qualitative approaches to analysis,0,0,0,1,0,1
 qualitative assessments of mental health,0,0,0,1,0,1
 qualitative interviews..,0,0,0,1,0,1
 qualitative/quantitative virus pcr of respiratory secretions in patients with high aerosol concentrations,0,0,0,1,0,1
 quality of life promotion,1,0,0,0,0,1
 quality of life questionnaires,0,0,0,1,0,1
 quality of live assessment,0,1,0,0,0,1
+quantiferon,0,0,0,1,0,1
 quantitative,0,0,0,1,0,1
 quantitative analysis of anti-sars-cov-2-antibodies,0,1,0,0,0,1
 quantitative analysis of sars-cov-2 antibodies,0,1,0,0,0,1
-quantitative igg test,1,0,0,0,0,1
+quantitative antibody tests,0,0,0,1,0,1
 quantitative virus pcr of respiratory secretions in patients with high aerosol concentrations,0,0,0,1,0,1
 quantitative/qualitative assessments of mental health,0,0,0,1,0,1
 quantra system,0,0,1,0,0,1
 quasistatic pressure-volume curve,0,0,0,1,0,1
-quercetin phytosome,0,0,0,1,0,1
+quercetin phytosome,0,1,0,0,0,1
+quercetin phytosome (qp),0,0,0,1,0,1
 querying the insee database,0,0,0,1,0,1
 questionaire,0,1,0,0,0,1
 questionnaire : preparedness for caregiving scale,0,0,0,1,0,1
@@ -2812,21 +3122,25 @@ randomized booster,1,0,0,0,0,1
 rapa-501-allo off-the-shelf therapy of covid-19,0,0,0,1,0,1
 rapid-3,0,0,1,0,0,1
 rapid antibody test,0,0,0,1,0,1
-rapid antigen test,0,0,0,1,0,1
+rapid antigen test,0,1,0,0,0,1
 rapid antigen test for sars cov2,0,1,0,0,0,1
+rapid antigen testing versus rt-pcr,0,1,0,0,0,1
 rapid molecular test,0,0,0,1,0,1
 rapid salivary test,0,1,0,0,0,1
 rarefaction,0,0,0,1,0,1
 rayaldee 30mcg extended-release (er) capsule,0,0,0,1,0,1
-razuprotafib,0,0,0,1,0,1
 razuprotafib subcutaneous solution,0,0,0,1,0,1
+rbd-based protein subunit vaccine (zf2001) against covid-19,1,0,0,0,0,1
 rbt-9 (90 mg),0,0,0,1,0,1
 rd-x19,0,1,0,0,0,1
-rdv,0,0,0,1,0,1
+rdv,1,0,0,0,0,1
 rdv placebo,0,0,0,1,0,1
 reactivity,0,0,0,1,0,1
 reading a book,0,1,0,0,0,1
+recently vaccination,0,0,0,1,0,1
 recharge,0,0,0,1,0,1
+recombinant ad5 vectored covid-19 vaccine,1,0,0,0,0,1
+recombinant human annexin a5,0,0,0,1,0,1
 recombinant human anti-sars-cov-2 monoclonal antibody(25mg,0,0,0,1,0,1
 recombinant human anti-sars-cov-2 monoclonal antibody(25mg/kg;50mg/kg;100mg/kg),0,0,0,1,0,1
 recombinant human plasma gelsolin (rhu-pgsn),1,0,0,0,0,1
@@ -2839,13 +3153,16 @@ referral,0,0,0,1,0,1
 referral card,0,0,0,1,0,1
 referral/digital brochure,0,0,0,1,0,1
 reframing,0,1,0,0,0,1
+regeneron casirivimab,0,0,0,1,0,1
+regeneron casirivimab / imdevimab,0,0,0,1,0,1
 reginmune,0,1,0,0,0,1
 registery data collection,0,0,0,1,0,1
-regular care,0,0,0,1,0,1
+regular care,0,1,0,0,0,1
 regularly during follow up).,0,0,0,1,0,1
 rehabilitation by concentric exercises,0,0,0,1,0,1
 rehabilitation by eccentric exercises,0,0,0,1,0,1
 rehabilitation of cognitive function after remission of the symptoms of covid-19,0,0,0,1,0,1
+rehabilitation programme,0,0,0,1,0,1
 rehabilitation protocol through a digital platform,0,0,0,1,0,1
 rejuveinix (rjx) active comparator,0,0,0,1,0,1
 relation between frailty,0,0,0,1,0,1
@@ -2857,6 +3174,7 @@ remain covid free ssi,0,1,0,0,0,1
 remdesivir-hu,1,0,0,0,0,1
 remdesivir combination,0,0,0,1,0,1
 remestemcel-l,1,0,0,0,0,1
+remimazolam,0,0,0,1,0,1
 remote cognitive behavioral therapy for insomnia,0,0,0,1,0,1
 remote controlled exercise,0,0,0,1,0,1
 remote problem management plus,0,0,0,1,0,1
@@ -2873,10 +3191,10 @@ research specific blood sample,0,0,0,1,0,1
 resilience program,0,0,0,1,0,1
 resistance training,0,0,1,0,0,1
 resp-aer-meter,0,0,0,1,0,1
-"resp301, a nitric oxide generating solution",0,0,0,1,0,1
 respiratory,0,0,0,1,0,1
+respiratory exerciser,0,0,0,1,0,1
 respiratory function rehabilitation training,0,0,0,1,0,1
-respiratory functions,0,0,0,1,0,1
+respiratory functions,0,1,0,0,0,1
 respiratory mechanics measurement,0,1,0,0,0,1
 respiratory monitor,0,0,0,1,0,1
 respiratory monitoring,0,0,0,1,0,1
@@ -2884,6 +3202,7 @@ respiratory muscles ultrasound,0,0,0,1,0,1
 respiratory physiotherapy,0,1,0,0,0,1
 respiratory rehabilitation,0,0,0,1,0,1
 respiratory rehabilitation program (rr).,0,0,0,1,0,1
+respiratory supports,0,1,0,0,0,1
 respiratory swabs,0,0,0,1,0,1
 "respiratory symptoms, symptoms of anxiety",0,0,0,1,0,1
 "respiratory symptoms, symptoms of anxiety/depression,/post-traumatic stress screening",0,0,0,1,0,1
@@ -2897,7 +3216,7 @@ retrospective,0,0,0,1,0,1
 retrospective case-control analysis,0,1,0,0,0,1
 retrospective metagenomics on clinical samples collected during hospitalization,1,0,0,0,0,1
 reverse transcription polymerase chain reaction,0,1,0,0,0,1
-review of medical patient file,0,0,0,1,0,1
+review of medical patient file,0,1,0,0,0,1
 revised home-cov score,0,1,0,0,0,1
 reward re-training,0,0,0,1,0,1
 rh-dnase,0,0,0,1,0,1
@@ -2907,6 +3226,7 @@ rhinopharyngeal,0,1,0,0,0,1
 rhtpo,0,0,0,1,0,1
 ria-device (remote investigation,0,1,0,0,0,1
 ria-device (remote investigation/assessment),0,1,0,0,0,1
+ribaroxaban,0,0,0,1,0,1
 right lateral decubitus),0,0,0,1,0,1
 rintatolimod,0,0,0,1,0,1
 risankizumab,0,0,0,1,0,1
@@ -2915,8 +3235,8 @@ ritonavir 200 mg-50 mg oral tablet,0,0,0,1,0,1
 ritonavir 50 mg [kaletra],1,0,0,0,0,1
 ritonavir/oseltamivir,0,0,0,1,0,1
 rivaroxaban 15mg tab,0,0,0,1,0,1
-rlf-100 (aviptadil),0,0,0,1,0,1
 rnapc2,0,0,0,1,0,1
+roactemra,0,0,0,0,1,1
 robot assisted percutaneous cardiovascular intervention,0,0,0,1,0,1
 robotic assisted early mobilization,0,0,0,1,0,1
 robotic therapy,0,0,0,1,0,1
@@ -2925,19 +3245,33 @@ routine dental restorative procedures,0,0,0,1,0,1
 routine psychological support,0,1,0,0,0,1
 rph-104,0,1,0,0,0,1
 rt-qpcr test,0,1,0,0,0,1
+"s-binding igg, rbd-binding igg",0,0,0,1,0,1
+"s-binding igg, rbd-binding igg/n-binding igg immunoassays/sars-cov-2 serum neutralization assay, quantitative serum immunoglobulin tests",0,0,0,1,0,1
 s2 proteins of sars-cov-2 virus,0,0,0,1,0,1
 sab-185,1,0,0,0,0,1
+"sab-185 (10,240 units",0,0,0,1,0,1
+"sab-185 (10,240 units/kg)",0,0,0,1,0,1
+"sab-185 (3,840 units",0,0,0,1,0,1
+"sab-185 (3,840 units/kg)",0,0,0,1,0,1
 saint george respiratory questionnaire,0,0,1,0,0,1
+saisei maf capsules,0,0,0,1,0,1
 saline-sodium citrate (ssc) buffer,0,0,0,1,0,1
+saline nasal,0,0,0,1,0,1
+saline nasal/throat spray,0,0,0,1,0,1
+saline placebo (double),0,0,0,1,0,1
+saline placebo (single),0,0,0,1,0,1
 saline placebo boost,0,0,0,1,0,1
 saline with baby shampoo nasal irrigation,1,0,0,0,0,1
 saline/standard care,0,1,0,0,0,1
 saliva assay,0,0,1,0,0,1
 saliva based assay: crude rna extraction,0,0,0,1,0,1
 saliva collected via salivette cortisol,0,1,0,0,0,1
+saliva sample (self-sample),0,1,0,0,0,1
+saliva sample/to an anterior nare self-swabbing (self-samples),0,1,0,0,0,1
 saliva test kit,0,0,0,1,0,1
 saliva/nps test,0,0,0,1,0,1
 salivary,0,1,0,0,0,1
+salivary sample,0,0,0,1,0,1
 sam-lnp-s,0,0,0,1,0,1
 sam-lnp-s-tce,0,0,0,1,0,1
 samba ii,0,0,0,1,0,1
@@ -2960,13 +3294,14 @@ sars-cov-2 and/or mis-c exposure,0,0,0,1,0,1
 sars-cov-2 antibody analysis,0,0,1,0,0,1
 sars-cov-2 antibody based ivig therapy,0,1,0,0,0,1
 sars-cov-2 antibody immunoassays,1,0,0,0,0,1
-sars-cov-2 antibody test,0,0,0,1,0,1
+sars-cov-2 antibody test,1,0,0,0,0,1
 sars-cov-2 antibody testing,0,0,0,1,0,1
 sars-cov-2 antigen-specific cytotoxic t-lymphocytes,0,0,0,1,0,1
 sars-cov-2 ig g levels,0,0,0,1,0,1
 sars-cov-2 igg,0,0,0,1,0,1
 sars-cov-2 inactivated vaccine,0,0,0,1,0,1
 sars-cov-2 infection,1,0,0,0,0,1
+sars-cov-2 mrna vaccine,0,0,0,1,0,1
 sars-cov-2 mrna vaccine formulation 1,0,0,0,1,0,1
 sars-cov-2 mrna vaccine formulation 2,0,0,0,1,0,1
 sars-cov-2 mrna vaccine formulation 3,0,0,0,1,0,1
@@ -2979,18 +3314,18 @@ sars-cov-2 recombinant protein vaccine formulation 2,1,0,0,0,0,1
 sars-cov-2 recombinant protein vaccine formulation 3,1,0,0,0,0,1
 "sars-cov-2 research in nasopharyngeal swab, sperm",0,0,0,1,0,1
 "sars-cov-2 research in nasopharyngeal swab, sperm/serologics",0,0,0,1,0,1
-sars-cov-2 rs/matrix-m1 adjuvant (crossover vaccination period),1,0,0,0,0,1
-sars-cov-2 rs/matrix-m1 adjuvant (initial vaccination period),1,0,0,0,0,1
+sars-cov-2 rs/matrix-m1 adjuvant (crossover vaccination period),0,0,0,1,0,1
+sars-cov-2 rs/matrix-m1 adjuvant (initial vaccination period),0,0,0,1,0,1
 sars-cov-2 rs/matrix m1-adjuvant,0,0,0,1,0,1
 sars-cov-2 rt-pcr assay for detection of covid-19 infection,0,0,0,1,0,1
 sars-cov-2 s1,0,1,0,0,0,1
 sars-cov-2 s1/s2 igg,0,1,0,0,0,1
 sars-cov-2 serological assessment (igg),0,0,0,1,0,1
 sars-cov-2 serology,0,0,0,1,0,1
+"sars-cov-2 serum neutralization assay, quantitative serum immunoglobulin tests",0,0,0,1,0,1
 sars-cov-2 specific t cells,0,0,0,1,0,1
 sars-cov-2 testing on the eppendorf thermal cycler pcr system using self-collected saliva as the specimen,0,0,0,1,0,1
 sars-cov-2 vaccination,1,0,0,0,0,1
-sars-cov-2 vaccine,0,0,0,1,0,1
 sars-cov-2 vaccine formulation 1 with adjuvant 1,1,0,0,0,0,1
 sars-cov-2 vaccine formulation 1 with adjuvant 2,1,0,0,0,0,1
 sars-cov-2 vaccine formulation 2 with adjuvant 1,1,0,0,0,0,1
@@ -2998,13 +3333,17 @@ sars-cov-2 vaccine formulation 2 with adjuvant 2,1,0,0,0,0,1
 sars-cov-2 vaccine formulation 2 without adjuvant,1,0,0,0,0,1
 "sars-cov-2 vaccine(vero cell), inactivated",0,0,0,1,0,1
 sars-cov-2 viral composition,0,0,0,1,0,1
+sars-cov-2 virus,0,0,1,0,0,1
 sars-cov-2 virus vaccines,0,0,0,1,0,1
-sars-cov2 testing,0,0,0,1,0,1
+sars-cov-2 vlp vaccine,0,0,0,1,0,1
+sars-cov2 antibody measurement,0,0,0,1,0,1
 satisfaction evaluation,0,0,0,1,0,1
 savr,1,0,0,0,0,1
 sbi-101,0,0,0,1,0,1
 scales,0,0,0,1,0,1
+scales.,0,1,0,0,0,1
 scanning chest x-rays/performing ai algorithms on images,0,0,0,1,0,1
+scarcity,0,0,1,0,0,1
 scarcity message,0,1,0,0,0,1
 scb-2019,1,0,0,0,0,1
 scb-2019 with as03 adjuvant,1,0,0,0,0,1
@@ -3012,8 +3351,10 @@ scb-2019 with cpg 1018 adjuvant,1,0,0,0,0,1
 scb-2019 with cpg 1018 adjuvant/alum adjuvant,1,0,0,0,0,1
 scd,0,0,0,1,0,1
 sch intervention,0,0,1,0,0,1
-scta01,0,1,0,0,0,1
+second dose,0,0,1,0,0,1
+sedation,0,0,0,1,0,1
 self-administered questionnaire,0,1,0,0,0,1
+self-assesment questionnaire,0,1,0,0,0,1
 self-benefit,0,0,1,0,0,1
 self-care tools,0,0,1,0,0,1
 "self-collected, home-based testing",0,0,1,0,0,1
@@ -3023,13 +3364,14 @@ self-help mindfulness,0,0,0,1,0,1
 self-help mindfulness/compassion exercises,0,0,0,1,0,1
 self-interest message,0,1,0,0,0,1
 self-management booklet (switch: stay well during covid-19),1,0,0,0,0,1
-self-questionnary,0,0,0,1,0,1
+self-questionnary,0,1,0,0,0,1
 self-reported symptom collection,0,0,0,1,0,1
 self measurement with pulse oximeter,0,0,0,1,0,1
 self study,0,0,0,1,0,1
 self supportive care,0,0,0,1,0,1
 semen analysis,0,1,0,0,0,1
 semen qualitative analysis,1,0,0,0,0,1
+semi-directed entretien,0,0,0,1,0,1
 semi-structured telephone questionnaire,0,0,0,1,0,1
 semi structured interview,0,0,1,0,0,1
 sending thorax ct video images via smartphone applications,0,1,0,0,0,1
@@ -3051,6 +3393,7 @@ serological testing for covid-19 infection,0,0,0,1,0,1
 serological tests for sars cov-2,0,1,0,0,0,1
 serology test follow-up,1,0,0,0,0,1
 serology test for covid-19,0,0,0,1,0,1
+"serology testing, rt pcr",0,0,0,1,0,1
 serology tests,0,1,0,0,0,1
 serology to determine sars-cov-2 infection,0,0,0,1,0,1
 seroprevalence of sars-cov-2 infection in patients with hiv infection,0,0,0,1,0,1
@@ -3066,6 +3409,7 @@ sessions,1,0,0,0,0,1
 settings,0,0,0,1,0,1
 severe acute respiratory syndrome coronavirus 2 detection,0,1,0,0,0,1
 severity of lung involvement with covid-19.,0,1,0,0,0,1
+sf-12,0,0,0,1,0,1
 sfc (5-ala,0,0,0,1,0,1
 sfc),0,0,0,1,0,1
 sham inflation,0,0,0,1,0,1
@@ -3073,7 +3417,7 @@ shanshamani vati plus,0,1,0,0,0,1
 shared decision making,0,0,1,0,0,1
 shg,0,1,0,0,0,1
 "shingrix (zoster vaccine recombinant, adjuvanted)",0,0,0,1,0,1
-sildenafil,0,0,0,1,0,1
+sildenafil,1,0,0,0,0,1
 sildenafil citrate,0,0,0,1,0,1
 simha kriya,0,1,0,0,0,1
 simple chest tomography,0,1,0,0,0,1
@@ -3086,6 +3430,8 @@ single-nucleotide polymorphisms (snp) within the tcra/d region,0,0,0,1,0,1
 single high dose vitamin d,0,0,0,1,0,1
 single passive leg movement,0,0,0,1,0,1
 singstrong: strong lungs through song,0,0,0,1,0,1
+sinopharm,0,0,0,1,0,1
+sir1-365,0,0,0,1,0,1
 sirukumab,0,0,0,1,0,1
 sit-to-stand test,0,0,0,1,0,1
 sit to stand test,0,0,0,1,0,1
@@ -3096,13 +3442,16 @@ sm-ema,0,0,0,1,0,1
 smartphone-based voice,0,0,0,1,0,1
 smartphone-based voice/self-reported symptom collection,0,0,0,1,0,1
 smartphone technology,1,0,0,0,0,1
-smell training,0,0,0,1,0,1
+smell training,1,0,0,0,0,1
+smf,0,1,0,0,0,1
+smoliv,0,0,0,1,0,1
 sms-based support,0,0,0,1,0,1
 sms message support,0,1,0,0,0,1
 soc / ifx-1,0,0,0,1,0,1
 soc / intravenous famotidine,0,1,0,0,0,1
 soc/15mg/kg eb05 iv,0,0,0,1,0,1
 soc/placebo iv,0,0,0,1,0,1
+social,0,0,0,1,0,1
 social distancing,0,1,0,0,0,1
 social media,0,1,0,0,0,1
 social media campaigns encouraging cancer screening.,0,0,0,1,0,1
@@ -3111,6 +3460,9 @@ social proof,0,1,0,0,0,1
 socialization,0,0,0,1,0,1
 sodium chloride,0,0,0,1,0,1
 "sodium chloride, 0.9%",0,0,0,1,0,1
+"sodium chloride, usp, for injection (0.9% nacl)",0,0,0,1,0,1
+sodium pyruvate,0,0,0,1,0,1
+sodium pyruvate nasal spray,0,0,0,1,0,1
 sofosbuvir 400 mg,0,0,0,1,0,1
 sofosbuvir 400 mg/daclatasvir 200mg,0,0,0,1,0,1
 sofosbuvir ledipsavir,0,0,0,1,0,1
@@ -3140,27 +3492,38 @@ sperm collection,0,0,0,1,0,1
 sperm test,0,0,0,1,0,1
 sphenopalatine ganglion block with local anesthetic,0,0,0,1,0,1
 sphenopalatine ganglion block with placebo (isotone nacl),0,0,0,1,0,1
+spike protein (s),0,1,0,0,0,1
+spike protein (s)/the nucleocapsid (n) of sars-cov-2,0,1,0,0,0,1
 spin-chat program,0,1,0,0,0,1
 "spirometry, thoracic ct, cpet, 6 minute walking test, sf-36 questionnaire",0,0,1,0,0,1
+spironolactone,0,0,0,1,0,1
+spironolactone / dexamethasone,0,0,0,1,0,1
 spironolactone 25 mg pillules oral use,0,0,0,1,0,1
 sputnik light,1,0,0,0,0,1
+sputnik v,0,0,0,1,0,1
 sse educational intervention,0,1,0,0,0,1
 st. george's respiratory questionnaire (sgrq),0,0,0,1,0,1
 st266,0,0,0,1,0,1
 staff wellbeing centres,0,0,0,1,0,1
+standard-of-care sars-cov-2 treatment,0,0,0,1,0,1
 standard care/monitoring,0,0,0,1,0,1
 standard care/placebo,0,0,0,1,0,1
 standard charity resources,0,0,0,1,0,1
 standard interface,0,1,0,0,0,1
+standard message,0,0,1,0,0,1
 standard of care (soc)/colchicine/rosuvastatin,0,0,0,1,0,1
+standard of care for covid-19 as per the hospital guidelines,0,0,0,1,0,1
 standard of care thromboprophylaxis,0,0,0,1,0,1
+standard of care_1,0,1,0,0,0,1
+standard of care_2,0,1,0,0,0,1
 standard oxygen delivery system,0,1,0,0,0,1
-standard prophylactic dose enoxaparin,0,0,0,1,0,1
-standard prophylactic dose enoxaparin/ unfractionated heparin,0,0,0,1,0,1
+standard prophylactic dose enoxaparin,1,0,0,0,0,1
+standard prophylactic dose enoxaparin/ unfractionated heparin,1,0,0,0,0,1
 "standard q covid-19 ag - test, produced by sd biosensor inc.",0,1,0,0,0,1
 standard therapy for covid-19 patient,0,1,0,0,0,1
-standard therapy protocol (stp),0,0,0,1,0,1
+standard therapy protocol (stp),1,0,0,0,0,1
 standard treatment of covid-19,0,0,0,1,0,1
+standardized brazilian green propolis extract,0,0,0,1,0,1
 state-trait anxiety inventory scale,0,0,0,1,0,1
 statins,1,0,0,0,0,1
 stc-19,0,1,0,0,0,1
@@ -3173,8 +3536,9 @@ stimulation test with arginine infusion in order to verify the possible existenc
 stool analysis,0,0,0,1,0,1
 stools,0,0,0,1,0,1
 stop processing,0,0,0,1,0,1
-stp / covid-19 convalescent plasma (cp),0,0,0,1,0,1
-stp / standard plasma (sp),0,0,0,1,0,1
+stp,1,0,0,0,0,1
+stp / covid-19 convalescent plasma (cp),1,0,0,0,0,1
+stp / standard plasma (sp),1,0,0,0,0,1
 stress,0,0,0,1,0,1
 stress first aid,0,0,0,1,0,1
 stress scale,0,0,0,1,0,1
@@ -3185,6 +3549,7 @@ study b,0,0,0,1,0,1
 study c,0,0,0,1,0,1
 study d,0,0,0,1,0,1
 study of immune-mediated mechanisms in patients tested positive for sars-cov-2,0,0,0,1,0,1
+study questionnaire,0,0,0,1,0,1
 subacute rehabilitation,0,0,0,1,0,1
 sublingual methylene blue,0,0,0,1,0,1
 sublingual micro-dose ketamine,1,0,0,0,0,1
@@ -3196,6 +3561,7 @@ sun exposure,0,0,0,0,1,1
 "supar, c-reactive protein, ferritin, d-dimer, procalcitonin, interleukin-6, lactate dehydrogenase",0,0,0,1,0,1
 supine position,0,0,0,1,0,1
 supine positioning,0,0,0,1,0,1
+support,0,0,0,1,0,1
 support as usual,0,0,0,1,0,1
 supportive services,0,0,0,1,0,1
 supportive therapy,0,0,0,1,0,1
@@ -3204,14 +3570,16 @@ supportive tratment,0,0,0,1,0,1
 supportive/symptomatic treatment,1,0,0,0,0,1
 surfactant,0,0,0,1,0,1
 surge capacity,0,1,0,0,0,1
-surge index,1,0,0,0,0,1
+surge index,0,1,0,0,0,1
 surgery,0,0,0,1,0,1
 "surgery: dynamic hip screw, hemiarthroplasty, hip replacement, intramedullary nail",0,1,0,0,0,1
-surgical face mask use only,1,0,0,0,0,1
+surgical face mask use only,0,1,0,0,0,1
 surgical facial mask,0,1,0,0,0,1
 surgical procedure for cancer,0,0,0,1,0,1
 surgical procedures performed under general anesthesia,0,1,0,0,0,1
 surgical repair,0,0,0,1,0,1
+survey of acceptability of the different self-samples.,0,1,0,0,0,1
+survey of sars-cov-19 knowledge,0,1,0,0,0,1
 survey/questionnaire,1,0,0,0,0,1
 surveys/questionnaires,0,1,0,0,0,1
 susceptibility to infection,0,0,0,1,0,1
@@ -3236,6 +3604,7 @@ symptoms,0,0,0,1,0,1
 synthetic neutralising antibodies,0,0,0,1,0,1
 systemic,0,0,0,1,0,1
 t-cell receptor,0,0,0,1,0,1
+t-detect covid t-cell blood test,0,0,0,1,0,1
 t cell derived exosom,1,0,0,0,0,1
 t memory cells,0,0,0,1,0,1
 t memory cells/nk cells,0,0,0,1,0,1
@@ -3243,8 +3612,9 @@ t3 solution,0,0,0,1,0,1
 tablets,1,0,0,0,0,1
 tafenoquine oral tablet,0,0,0,1,0,1
 tailored best practices,0,0,0,1,0,1
+tailored information,0,0,0,1,0,1
 tailored recommendations,0,0,0,1,0,1
-tak-019,0,0,0,1,0,1
+tak-019,1,0,0,0,0,1
 tak-919,1,0,0,0,0,1
 taking biological samples,0,0,0,1,0,1
 tape-software,0,0,0,1,0,1
@@ -3277,6 +3647,7 @@ telephone interview,1,0,0,0,0,1
 telepsychoeducation,0,0,1,0,0,1
 telepsychoeducation with personalized videos,0,0,1,0,0,1
 telepsychoeducation without personalized videos,0,0,1,0,0,1
+telerehabilitation-based relaxation exercise group (eg),0,0,0,1,0,1
 telesimulation,0,0,0,1,0,1
 telestroke,0,1,0,0,0,1
 telmisartan 40mg oral tablet,0,0,0,1,0,1
@@ -3292,11 +3663,15 @@ test,0,0,0,1,0,1
 test group: experimental - uvc therapy applied,1,0,0,0,0,1
 test rt-pcr,0,1,0,0,0,1
 tested for sars-cov-2 (regardless of the result),0,0,0,1,0,1
+testing,0,0,0,1,0,1
 testing for sars-cov-2,1,0,0,0,0,1
+testing for sars-cov-2 igm,0,0,0,1,0,1
+testing for sars-cov-2 igm/igg,0,0,0,1,0,1
+testing for sars-cov-2 rna,0,0,0,1,0,1
 testing sensitivity for sars-cov-2 virus in symptomatic individuals,0,1,0,0,0,1
 testis pathology samples,0,0,0,1,0,1
 testnpass,0,0,0,1,0,1
-tetracycline hydrochloride 3%,0,0,0,1,0,1
+tetracycline hydrochloride 3%,0,1,0,0,0,1
 tetrandrine,0,0,1,0,0,1
 text material for psychoeducation,0,0,0,1,0,1
 text material for psychoeducation/audio for relaxation techniques,0,0,0,1,0,1
@@ -3305,7 +3680,10 @@ text material for psychoeducation/audio for relaxation techniques,0,0,0,1,0,1
 the drugs used before,0,1,0,0,0,1
 "the drugs used before/during the pandemic, the patient's job status, physical activity conditions, pain status",0,1,0,0,0,1
 the effects of covid 19 pandemic on the cardiovascular heath of children with autism spectrum disorder,1,0,0,0,0,1
+the icp monitoring will be performed in a non-invasive method developed by brain4care,0,0,0,1,0,1
+the leisure time activity,0,1,0,0,0,1
 the management of severe covid-19 cases,1,0,0,0,0,1
+the nucleocapsid (n) of sars-cov-2,0,1,0,0,0,1
 the placenta,0,0,0,1,0,1
 the psychosocial effects of covid-19 pandemic on dental professionals,0,1,0,0,0,1
 the standard protocol only,0,0,0,1,0,1
@@ -3313,8 +3691,10 @@ the standard protocol only,0,0,0,1,0,1
 "the study evaluates all surgical patients operated, both elective scheduled/emergent cases",0,1,0,0,0,1
 the use of the mentalplusâ® digital game for assessment,0,0,0,1,0,1
 the use of the mentalplusâ® digital game for assessment/rehabilitation of cognitive function after remission of the symptoms of covid-19,0,0,0,1,0,1
+theophylline powder,0,0,0,1,0,1
 therapeutic exercise,0,0,1,0,0,1
 therapeutic exercise/education,0,0,1,0,0,1
+therapeutic plasma exchange : 3 sessions in 3 consecutive days (day 1 to day 3),0,0,0,1,0,1
 theraputic heparin,0,0,0,1,0,1
 therapy intervention,0,1,0,0,0,1
 there is no intervention in this study,0,0,0,1,0,1
@@ -3324,12 +3704,14 @@ thoracic ct-scan,0,0,0,1,0,1
 thoracic lung ultrasound,0,0,0,1,0,1
 thorax ct,0,0,0,1,0,1
 thoraxic computed tomography,0,0,0,1,0,1
+three dose regimen,0,0,0,1,0,1
 "three doses of high-dose recombinant sars-cov-2 vaccine (cho cell) at the schedule of day 0, 14, 28",0,0,0,1,0,1
 "three doses of high-dose recombinant sars-cov-2 vaccine (sf9 cell) at the schedule of day 0, 14, 28",1,0,0,0,0,1
 "three doses of middle-dose recombinant sars-cov-2 vaccine (cho cell) at the schedule of day 0, 14, 28",0,0,0,1,0,1
 "three doses of placebo at the schedule of day 0, 14, 28 #high-dose group#",0,0,0,1,0,1
 "three doses of placebo at the schedule of day 0, 14, 28 #middle-dose group#",0,0,0,1,0,1
 throat,0,0,0,1,0,1
+throat spray,0,0,0,1,0,1
 throat swab sample for measuring current infection with sars-cov-2,0,0,0,1,0,1
 thrombin,1,0,0,0,0,1
 thromboprofylaxis protocol,0,1,0,0,0,1
@@ -3338,22 +3720,29 @@ thymosin,0,0,0,1,0,1
 thyroidectomy,0,1,0,0,0,1
 tigeraseâ®,0,1,0,0,0,1
 tigeraseâ®/best available care,0,1,0,0,0,1
+time management,0,1,0,0,0,1
+time management/participation/the leisure time activity,0,1,0,0,0,1
 tirofiban,0,1,0,0,0,1
 titanium blood test,0,0,0,1,0,1
 tj003234,0,0,0,1,0,1
 tlrs activation measurement,0,1,0,0,0,1
 tm5614,0,0,0,1,0,1
-tnkase,1,0,0,0,0,1
+tnkase,0,0,0,1,0,1
+to an anterior nare self-swabbing (self-samples),0,1,0,0,0,1
 to determine the prevalence of renal dysfunction in hospitalized children with covid19 in qatar.,0,0,0,1,0,1
+to monitor the effectiveness of the single dose ad26.cov2.s covid-19 vaccine,0,0,0,1,0,1
 tociliuzumab,0,1,0,0,0,1
 tocilizumab 20 mg/ml intravenous solution [actemra]_#1,0,0,0,1,0,1
 tocilizumab 20 mg/ml intravenous solution [actemra]_#1 (2 doses),0,0,0,1,0,1
+tocilizumab 200 mg,0,1,0,0,0,1
+tocilizumab 200 mg/10 ml (20 mg/ml) intraven vial (ml),0,1,0,0,0,1
 tof protocol,0,1,0,0,0,1
 tomography angiography,0,1,0,0,0,1
+tozinameran,0,0,0,1,0,1
 tr,0,0,0,1,0,1
 tracheostomy,0,0,0,1,0,1
 tracheostomy with aerosol box in covid-19 positive patients,0,1,0,0,0,1
-tracheotomy,0,0,0,1,0,1
+tracheotomy,1,0,0,0,0,1
 tradipitant,0,0,1,0,0,1
 traditional proning arm,0,0,0,1,0,1
 training clinicians in basic critical care,1,0,0,0,0,1
@@ -3370,7 +3759,6 @@ training session adressing information/health literacy,0,0,0,1,0,1
 tranexamic acid,0,0,0,1,0,1
 trans sodium crocetinate,0,0,0,1,0,1
 transcendental meditation,0,0,0,1,0,1
-transcranial direct current stimulation,0,0,0,1,0,1
 transcutaneous auricular vagus nerve stimulation,0,0,0,1,0,1
 transfer package from ci therapy,0,0,0,1,0,1
 transfusion of sars-cov-2 convalescent plasma.,0,0,0,1,0,1
@@ -3381,33 +3769,38 @@ transpulmonary pressure measurements,0,0,0,1,0,1
 transpulmonary thermodilution,0,0,0,1,0,1
 transthoracic echocardiogram (tte),0,0,0,1,0,1
 trauma-informed yoga video recording,0,0,0,1,0,1
-trauma informed psychotherapy,1,0,0,0,0,1
-trauma informed yoga,1,0,0,0,0,1
+trauma informed psychotherapy,0,1,0,0,0,1
+trauma informed yoga,0,1,0,0,0,1
 travelan otc,1,0,0,0,0,1
-treamid,1,0,0,0,0,1
+treamid,0,1,0,0,0,1
 treated with hyperimmune plasma,0,0,0,1,0,1
 treatment,0,1,0,0,0,1
 treatment as usual vitamin d,0,0,0,1,0,1
 treatment for covid-19,0,0,0,1,0,1
 treatment group,0,0,0,1,0,1
 treatment/prophylaxis,0,1,0,0,0,1
+trial-based cognitive therapy,0,0,0,1,0,1
 triazavirin (riamilovir),0,0,0,1,0,1
 tridecactide,0,1,0,0,0,1
 trier social stress test,0,0,0,1,0,1
 trimetazidine,0,0,0,1,0,1
 trimodulin,0,0,0,1,0,1
 trimoxazole,0,0,0,1,0,1
+trivalent split influenza vaccine,1,0,0,0,0,1
 trust in science message,0,1,0,0,0,1
 trv027,0,0,0,1,0,1
 tsu,0,0,0,1,0,1
 tsvf,0,0,0,1,0,1
 tuberculin,0,0,0,1,0,1
 turkish physicians,0,1,0,0,0,1
-two covid-19 vaccine candidate (tmv-083) administrations - high dose,0,0,0,1,0,1
-two covid-19 vaccine candidate (tmv-083) administrations - low dose,0,0,0,1,0,1
+two covid-19 vaccine candidate (tmv-083) administrations - high dose,1,0,0,0,0,1
+two covid-19 vaccine candidate (tmv-083) administrations - low dose,1,0,0,0,0,1
+two dose chadox1 ncov-19,0,0,0,1,0,1
 two dose chadox1 ncov-19/covishield 0.25ml/0.5ml,0,0,0,1,0,1
 two dose chadox1 ncov-19/covishield 0.5ml,0,0,0,1,0,1
 two dose menacwy vaccine min. 4 weeks apart,0,0,0,1,0,1
+two dose regimen,0,0,0,1,0,1
+two doses of bnt162b2 vaccine,0,0,0,1,0,1
 "two doses of commercial scale inactivated sars-cov-2 vaccine at the schedule of day 0,14",0,0,0,1,0,1
 "two doses of high-dose recombinant sars-cov-2 vaccine (cho cell) at the schedule of day 0, 14",0,0,0,1,0,1
 "two doses of high-dose recombinant sars-cov-2 vaccine (sf9 cell) at the schedule of day 0, 28",1,0,0,0,0,1
@@ -3421,6 +3814,8 @@ two dose menacwy vaccine min. 4 weeks apart,0,0,0,1,0,1
 txa127,0,0,0,1,0,1
 type ii diabetes mellitus,0,0,0,1,0,1
 type ii diabetes mellitus/covid-19 group (group ii),0,0,0,1,0,1
+uexplorer,0,0,0,1,0,1
+uexplorer/mct,0,0,0,1,0,1
 ultra-micronized palmitoylethanolamide (mpea,0,0,0,1,0,1
 ultra brief online mindfulness-based intervention,0,1,0,0,0,1
 ultraprotective ventilation,0,0,0,1,0,1
@@ -3436,7 +3831,7 @@ unsupervised physical activities,0,0,0,1,0,1
 "urinary ngal, timp-2, igfbp7, il-6, viral load/metabolomic",0,0,0,1,0,1
 urine collection,0,0,0,1,0,1
 urine samples,0,0,0,1,0,1
-usability,0,0,0,1,0,1
+usability,0,1,0,0,0,1
 use,0,1,0,0,0,1
 use of continuous positive airway pressure,0,1,0,0,0,1
 use of facetime with child,0,0,0,1,0,1
@@ -3446,6 +3841,7 @@ use of non-invasive ventilation,0,1,0,0,0,1
 use of social media during covid-19,0,1,0,0,0,1
 "use of the pinpointiq solution (physiq, inc.)",0,0,1,0,0,1
 use/exposure to disinfectants during the coronavirus pandemic,0,1,0,0,0,1
+users,0,1,0,0,0,1
 usual antibiotic treatment,0,0,0,1,0,1
 usual care control,0,0,0,1,0,1
 usual care only,0,0,0,1,0,1
@@ -3453,6 +3849,7 @@ usual care positioning with no instructions,0,0,0,0,1,1
 usual monitoring,0,0,0,1,0,1
 usual orientations,0,0,0,1,0,1
 usual practice / symbicort rapihaler,0,0,0,1,0,1
+usual treatments in intensive care unit according to the current state of knowledge,0,0,0,1,0,1
 utooth btc),0,0,0,1,0,1
 uttr1147a,0,1,0,0,0,1
 uv light treatment,0,1,0,0,0,1
@@ -3465,8 +3862,11 @@ v/q spect-ct,0,0,0,1,0,1
 v590,0,0,0,0,1,1
 v591,0,0,0,0,1,1
 vaccinated with polio vaccine (ipv),0,0,0,1,0,1
+vaccination against covid19,0,0,0,1,0,1
+vaccine anti-covid19,0,0,0,1,0,1
 vaccine coverage assessment,0,0,0,1,0,1
 vaccine therapy,0,0,0,1,0,1
+vaccine: bnt162b2 10mcg,0,0,0,1,0,1
 vaccine: recombinant new coronavirus vaccine (cho cell) low-dose group,1,0,0,0,0,1
 vaccine: recombinant new coronavirus vaccine (cho cells) high-dose group,1,0,0,0,0,1
 vadadustat,0,0,0,1,0,1
@@ -3477,6 +3877,7 @@ validation of the poct antigen/antibody tests,0,0,0,1,0,1
 vascular occlusion test,0,0,0,1,0,1
 vb-201,0,0,0,1,0,1
 vb-201 / standard of care,0,0,0,1,0,1
+vbi-2902a,1,0,0,0,0,1
 vcpm,0,0,0,1,0,1
 vehicle,0,1,0,0,0,1
 vehicle / heparin along with best supportive care,0,1,0,0,0,1
@@ -3492,15 +3893,21 @@ vesta respirator,0,0,0,1,0,1
 vib7734,0,0,0,1,0,1
 vibrolung,0,0,0,1,0,1
 video-based intervention,0,0,0,1,0,1
-video chat / basic feedback,1,0,0,0,0,1
-video chat /personalized feedback,1,0,0,0,0,1
+video-based psychotherapy,0,1,0,0,0,1
+video chat,0,1,0,0,0,1
+video chat / basic feedback,0,1,0,0,0,1
+video chat /personalized feedback,0,1,0,0,0,1
 video dance classes,0,0,0,1,0,1
 videofluoroscopic swallowing study (vfss),0,0,1,0,0,1
 videofluoroscopy,0,0,0,1,0,1
 vielight rx plus,0,0,0,1,0,1
+views,0,0,0,1,0,1
 vir-7831 (gen1),0,0,0,1,0,1
 vir-7831 (gen2),0,0,0,1,0,1
+vir-7832,0,0,0,1,0,1
 viral sequence,0,0,0,1,0,1
+virazole,0,0,0,1,0,1
+virgin coconut oil,0,0,0,1,0,1
 virgin coconut oil (vco),0,0,0,1,0,1
 virtual-care cognitive behavioural therapy,0,0,0,1,0,1
 "virtual assistant first, then human coach",0,0,0,1,0,1
@@ -3509,7 +3916,8 @@ virtual elm,1,0,0,0,0,1
 virtual family-based treatment,0,0,1,0,0,1
 virtual group exercise,0,0,0,1,0,1
 virtual group intervention,0,1,0,0,0,1
-virtual reality,0,0,0,1,0,1
+virtual individual cognitive simulation therapy,0,0,0,1,0,1
+virtual reality,0,1,0,0,0,1
 virtual reality therapy first,1,0,0,0,0,1
 viruxal oral,0,0,0,1,0,1
 viruxal oral/nasal spray,0,0,0,1,0,1
@@ -3518,13 +3926,16 @@ visual prompts,0,1,0,0,0,1
 vitamin b,0,0,0,1,0,1
 vitamin c 500 mg oral tablet,0,0,0,1,0,1
 vitamin c tablets,0,0,0,1,0,1
+"vitamin c, vitamin b complex",0,0,0,1,0,1
+"vitamin c, vitamin b complex/zinc acetate",0,0,0,1,0,1
+vitamin d (cholecalciferol),0,0,0,1,0,1
+vitamin d3 (cholecalciferol),0,0,0,1,0,1
 vitamin e,1,0,0,0,0,1
 vitamin k2 in the form of menaquinone-7 (mk-7),0,0,0,1,0,1
 vitamine d3 supplementation,0,0,0,0,1,1
 vitamins,0,0,0,1,0,1
 vitros anti-sars-cov-2 igg test,0,0,1,0,0,1
 viusid/asbrip,0,1,0,0,0,1
-vla2001,1,0,0,0,0,1
 voclosporin,0,0,0,1,0,1
 voice symptom scale (voiss),0,0,0,1,0,1
 volatile organic compounds analysis (e-noses),0,0,0,1,0,1
@@ -3544,7 +3955,8 @@ wearable medical device (empatica e4),0,0,0,1,0,1
 wearing surgical face mask sprayed with hypertonic saline,0,0,0,1,0,1
 web-application,0,0,0,1,0,1
 web-based redcap survey,0,0,0,1,0,1
-web application users,0,0,0,1,0,1
+web-based survey,1,0,0,0,0,1
+web application users,0,1,0,0,0,1
 web based questionnaire,0,0,1,0,0,1
 webex physical activity program,0,0,0,1,0,1
 weck-cel swab collection,0,0,1,0,0,1
@@ -3564,8 +3976,14 @@ written summary of rounds,0,0,0,1,0,1
 x-ray,0,0,0,1,0,1
 xav-19,0,0,0,1,0,1
 xc221,0,1,0,0,0,1
+xc7 100 mg single,1,0,0,0,0,1
+xc7 200 mg multiple,1,0,0,0,0,1
+xc7 200 mg single,1,0,0,0,0,1
 xcel-umc-beta,0,0,0,1,0,1
+"xiamen wiz biotech co., ltd. sars-cov-2 antigen rapid test",0,1,0,0,0,1
+xlear nasal spray,0,0,0,1,0,1
 xuanfei baidu granules,0,0,0,1,0,1
+xylitol,0,0,0,1,0,1
 yoga group,0,1,0,0,0,1
 zanubrutinib,1,0,0,0,0,1
 zaritt burden interview,0,1,0,0,0,1
@@ -3573,7 +3991,8 @@ zavegepant (bhv-3500),0,0,0,1,0,1
 zidovudine,0,1,0,0,0,1
 zilucoplan,0,0,0,1,0,1
 zilucoplan placebo,0,0,0,1,0,1
-zinc acetate,0,0,0,1,0,1
+zinc (zinc gluconate),0,0,0,1,0,1
+zinc (zinc gluconate)/vitamin d (cholecalciferol),0,0,0,1,0,1
 zinc citrate,0,0,0,1,0,1
 zinc picolinate,1,0,0,0,0,1
 zinc sulfate 220 mg,0,1,0,0,0,1

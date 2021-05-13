@@ -1,31 +1,34 @@
 Intervention_type,intervention,Study_count
 Other,no intervention,11
-Other,questionnaire,7
-Diagnostic Test,serology test,4
+Other,questionnaire,6
 Diagnostic Test,blood sample,3
-Diagnostic Test,igm/igg rapid test,3
+Diagnostic Test,pcr,3
+Diagnostic Test,serology test,3
+Other,data collection,3
 Behavioral,telehealth,2
 Device,nä°cas,2
 Device,seraphâ®-100 microbindâ® affinity blood filter,2
+Device,vã§ac,2
+Diagnostic Test,antibody test,2
+Diagnostic Test,chest ct,2
 Diagnostic Test,igm,2
-Diagnostic Test,pcr,2
-Diagnostic Test,ultrasound,2
+Diagnostic Test,igm/igg rapid test,2
+Diagnostic Test,mri,2
 Drug,ivermectin,2
-Other,data collection,2
-Other,diagnosed with covid-19,2
 Other,icu treatment,2
-Other,observation,2
 Other,pregnant women with laboratory-confirmed 2019-n-cov,2
-Other,qualitative approaches to analysis,2
 Other,recop unit patient,2
 Other,standard care,2
-Other,survey,2
 Behavioral,data registry,1
 Behavioral,enhanced hygiene measures,1
 Behavioral,evaluation,1
 Behavioral,health care worker survey,1
+Behavioral,participation,1
 Behavioral,registery data collection,1
 Behavioral,survey,1
+Behavioral,the leisure time activity,1
+Behavioral,time management,1
+Behavioral,time management/participation/the leisure time activity,1
 Biological,bnt162b2,1
 Biological,covid-19,1
 Biological,hiv,1
@@ -42,6 +45,7 @@ Device,cerebral compliance/hemodynamics monitoring,1
 Device,cordio app,1
 Device,cytosorb,1
 Device,hemodynamics monitoring,1
+Device,intellivent asv,1
 Device,performance evaluation study of realdetect rt-pcr kit for covid-19 detection,1
 Device,ria-device (remote investigation,1
 Device,ria-device (remote investigation/assessment),1
@@ -54,21 +58,22 @@ Device,web-application,1
 Device,web application users,1
 Diagnostic Test,4c mortality score,1
 Diagnostic Test,angiogenic biomarkers,1
-Diagnostic Test,antibody test,1
 Diagnostic Test,assessment of cardiovascular diseases,1
 Diagnostic Test,assessment of cardiovascular diseases/cardiovascular risk factors,1
 Diagnostic Test,baseline spirometry,1
 Diagnostic Test,"biomarker (tropt, myoglobin, ck, ck-mb, ldh, d-dimer, crp, pct)",1
 Diagnostic Test,cardiovascular magnetic resonance imaging,1
 Diagnostic Test,cardiovascular risk factors,1
-Diagnostic Test,chest ct,1
 Diagnostic Test,chest ct scan / baseline spirometry,1
+Diagnostic Test,chest cta,1
 Diagnostic Test,copan swabbing,1
 Diagnostic Test,copan swabbing/blood sample collection,1
 Diagnostic Test,"covid-19 pcr , igm",1
 Diagnostic Test,covid-19 test,1
 Diagnostic Test,covid-19 testing,1
 Diagnostic Test,duplex sonography,1
+Diagnostic Test,ecg,1
+Diagnostic Test,echocardiography,1
 Diagnostic Test,elisa,1
 Diagnostic Test,elisa/rapid test to detect antibodies against covid-19,1
 Diagnostic Test,endothelial damage,1
@@ -80,9 +85,9 @@ Diagnostic Test,igg antibody test,1
 Diagnostic Test,igg test,1
 Diagnostic Test,indirect calorimetry,1
 Diagnostic Test,laboratory,1
+Diagnostic Test,laboratory blood tests,1
 Diagnostic Test,lung ultrasound,1
 Diagnostic Test,metabolomic,1
-Diagnostic Test,mri,1
 Diagnostic Test,muscle,1
 Diagnostic Test,netosis markers,1
 Diagnostic Test,neuropsychological assessment,1
@@ -97,10 +102,12 @@ Diagnostic Test,sars-cov-2 serological assessment (igg),1
 Diagnostic Test,senior fitness test,1
 Diagnostic Test,single passive leg movement,1
 Diagnostic Test,sonoclot,1
+Diagnostic Test,ultrasound,1
 Diagnostic Test,"urinary ngal, timp-2, igfbp7, il-6, viral load",1
 Diagnostic Test,"urinary ngal, timp-2, igfbp7, il-6, viral load/metabolomic",1
 Diagnostic Test,vitros anti-sars-cov-2 igg test,1
 Dietary Supplement,vitamin d,1
+Drug,10 ml (20 mg,1
 Drug,ace inhibitor,1
 Drug,antihypertensives,1
 Drug,art,1
@@ -113,8 +120,11 @@ Drug,immunosuppressive agents,1
 Drug,ivermectin / doxycycline,1
 Drug,low molecular weight heparin as standard of care treatment,1
 Drug,methylprednisolone,1
+Drug,ml) intraven vial (ml),1
 Drug,patients with the treatment agains covid19,1
 Drug,statins,1
+Drug,tocilizumab 200 mg,1
+Drug,tocilizumab 200 mg/10 ml (20 mg/ml) intraven vial (ml),1
 Genetic,assessment tests,1
 Genetic,covid-19 diagnostic,1
 Genetic,covid-19 diagnostic/assessment tests,1
@@ -148,6 +158,7 @@ Other,covid19 treatments,1
 Other,"depression, anxiety",1
 Other,"depression, anxiety/stress scale",1
 Other,diabetes type 2,1
+Other,diagnosed with covid-19,1
 Other,"during the pandemic, the patient's job status, physical activity conditions, pain status",1
 Other,ecg-holter,1
 Other,epidemiology of admissions,1
@@ -156,12 +167,15 @@ Other,follow-up phone call,1
 Other,follow up,1
 Other,follow up calls,1
 Other,hospital admission,1
+Other,hospital treatment of covid disease,1
 Other,hospitalized children with covid19,1
 Other,hydroxychloroquine,1
 Other,hypertension,1
 Other,identification of genetic variants,1
 Other,impact of event scale-revised,1
 Other,interview,1
+Other,machine based evaluation,1
+Other,machine learning,1
 Other,modified rankin score,1
 Other,multisystem inflammatory syndrome in children (mis-c),1
 Other,no special intervention,1
@@ -170,22 +184,26 @@ Other,non-interventional study,1
 Other,non intervention,1
 Other,not applicable (observational study),1
 Other,obesity,1
+Other,observation,1
 Other,observational,1
 Other,online questionnaires,1
 Other,optimized management of covid-19 positive kidney transplant recipients: single center experience from the middle east,1
 Other,patient sampling,1
+Other,patients with hemopathy,1
 Other,perceived stress scale,1
 Other,postpartum,1
 Other,postpartum women under investigation for coronavirus/diagnosed with covid-19,1
 Other,pregnant women under investigation for coronavirus,1
 Other,pregnant women under investigation for coronavirus/diagnosed with covid-19,1
 Other,prone positioning,1
+Other,qualitative approaches to analysis,1
 Other,"raman analysis of saliva, characterization of the raman database",1
 Other,"raman analysis of saliva, characterization of the raman database/building of the classification model",1
 Other,sarcopenia diagnosis,1
 Other,sars-cov2 infection,1
 Other,serology test,1
 Other,stress scale,1
+Other,survey,1
 Other,"symptomatology, treatment. daily activities",1
 Other,taking biological samples,1
 Other,teleconsultation either by phone,1
@@ -197,6 +215,7 @@ Other,"the drugs used before/during the pandemic, the patient's job status, phys
 Other,thromboprofylaxis protocol,1
 Other,transthoracic echocardiogram (tte),1
 Other,urine collection,1
+Other,users,1
 Other,web-based redcap survey,1
 Procedure,abdominal ultrasound,1
 Procedure,airway management during sedation,1
