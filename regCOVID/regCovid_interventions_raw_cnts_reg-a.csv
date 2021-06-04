@@ -1,15 +1,14 @@
 Intervention_type,intervention,Study_count
 Other,no intervention,11
 Other,questionnaire,6
+Diagnostic Test,serology test,4
 Diagnostic Test,blood sample,3
 Diagnostic Test,pcr,3
-Diagnostic Test,serology test,3
 Other,data collection,3
 Behavioral,telehealth,2
 Device,nä°cas,2
 Device,seraphâ®-100 microbindâ® affinity blood filter,2
 Device,vã§ac,2
-Diagnostic Test,antibody test,2
 Diagnostic Test,chest ct,2
 Diagnostic Test,igm,2
 Diagnostic Test,igm/igg rapid test,2
@@ -30,6 +29,7 @@ Behavioral,the leisure time activity,1
 Behavioral,time management,1
 Behavioral,time management/participation/the leisure time activity,1
 Biological,bnt162b2,1
+Biological,completion of covid19 vaccine at least 4 weeks ago,1
 Biological,covid-19,1
 Biological,hiv,1
 Biological,observational study: this registry data will provide more specific information about how people with blood cancer respond to covid-19 virus and,1
@@ -58,6 +58,7 @@ Device,web-application,1
 Device,web application users,1
 Diagnostic Test,4c mortality score,1
 Diagnostic Test,angiogenic biomarkers,1
+Diagnostic Test,antibody test,1
 Diagnostic Test,assessment of cardiovascular diseases,1
 Diagnostic Test,assessment of cardiovascular diseases/cardiovascular risk factors,1
 Diagnostic Test,baseline spirometry,1
@@ -69,8 +70,8 @@ Diagnostic Test,chest cta,1
 Diagnostic Test,copan swabbing,1
 Diagnostic Test,copan swabbing/blood sample collection,1
 Diagnostic Test,"covid-19 pcr , igm",1
-Diagnostic Test,covid-19 test,1
 Diagnostic Test,covid-19 testing,1
+Diagnostic Test,ct-scan,1
 Diagnostic Test,duplex sonography,1
 Diagnostic Test,ecg,1
 Diagnostic Test,echocardiography,1
@@ -83,6 +84,7 @@ Diagnostic Test,face mask sampling,1
 Diagnostic Test,igg,1
 Diagnostic Test,igg antibody test,1
 Diagnostic Test,igg test,1
+Diagnostic Test,incremental shuttle walk test,1
 Diagnostic Test,indirect calorimetry,1
 Diagnostic Test,laboratory,1
 Diagnostic Test,laboratory blood tests,1
@@ -91,8 +93,10 @@ Diagnostic Test,metabolomic,1
 Diagnostic Test,muscle,1
 Diagnostic Test,netosis markers,1
 Diagnostic Test,neuropsychological assessment,1
+Diagnostic Test,novel coronavirus infection,1
 Diagnostic Test,pcr/serology,1
 Diagnostic Test,presence of specific anti-sars-cov-2 antibodies,1
+Diagnostic Test,pulmonary function test,1
 Diagnostic Test,questionnaire,1
 Diagnostic Test,questionnaires family,1
 Diagnostic Test,questionnaires patient,1
@@ -102,18 +106,24 @@ Diagnostic Test,sars-cov-2 serological assessment (igg),1
 Diagnostic Test,senior fitness test,1
 Diagnostic Test,single passive leg movement,1
 Diagnostic Test,sonoclot,1
+Diagnostic Test,test,1
 Diagnostic Test,ultrasound,1
 Diagnostic Test,"urinary ngal, timp-2, igfbp7, il-6, viral load",1
 Diagnostic Test,"urinary ngal, timp-2, igfbp7, il-6, viral load/metabolomic",1
 Diagnostic Test,vitros anti-sars-cov-2 igg test,1
+Diagnostic Test,walk test,1
 Dietary Supplement,vitamin d,1
+Drug,01,1
 Drug,10 ml (20 mg,1
+Drug,2010,1
 Drug,ace inhibitor,1
 Drug,antihypertensives,1
 Drug,art,1
 Drug,azithromycin,1
 Drug,coromec registry with ecl-19,1
 Drug,doxycycline,1
+Drug,history of exposure to anti-cd20 treatment since 01,1
+Drug,history of exposure to anti-cd20 treatment since 01/01/2010,1
 Drug,hydroxychloroquine,1
 Drug,hydroxychloroquine / azithromycin,1
 Drug,immunosuppressive agents,1
@@ -123,6 +133,7 @@ Drug,methylprednisolone,1
 Drug,ml) intraven vial (ml),1
 Drug,patients with the treatment agains covid19,1
 Drug,statins,1
+Drug,tocilizumab,1
 Drug,tocilizumab 200 mg,1
 Drug,tocilizumab 200 mg/10 ml (20 mg/ml) intraven vial (ml),1
 Genetic,assessment tests,1
@@ -197,8 +208,10 @@ Other,pregnant women under investigation for coronavirus,1
 Other,pregnant women under investigation for coronavirus/diagnosed with covid-19,1
 Other,prone positioning,1
 Other,qualitative approaches to analysis,1
+Other,quality of life assessment,1
 Other,"raman analysis of saliva, characterization of the raman database",1
 Other,"raman analysis of saliva, characterization of the raman database/building of the classification model",1
+Other,rehabilitation,1
 Other,sarcopenia diagnosis,1
 Other,sars-cov2 infection,1
 Other,serology test,1

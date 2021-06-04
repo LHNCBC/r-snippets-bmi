@@ -1,12 +1,14 @@
 intervention,"Active, not recruiting",Completed,Enrolling by invitation,Recruiting
+01,0,0,0,1
 10 ml (20 mg,0,1,0,0
+2010,0,0,0,1
 4c mortality score,0,0,0,2
 abdominal ultrasound,0,1,0,0
 ace inhibitor,0,0,0,1
 airway management during sedation,0,0,0,1
 airway management during sedation/general anesthesia,0,0,0,1
 angiogenic biomarkers,0,0,0,1
-antibody test,0,0,0,2
+antibody test,0,0,0,1
 antihypertensives,1,0,0,0
 ards,0,1,0,0
 ards/covid19 treatments,0,1,0,0
@@ -44,12 +46,13 @@ chloroquine/hydroxychloroquine,0,0,1,0
 clinical data,0,0,0,1
 clinical diagnosis of covid-19 by a health care professional,0,0,0,1
 comparative observational cohort study,0,0,0,1
+completion of covid19 vaccine at least 4 weeks ago,0,0,0,1
 complex diagnostic panel,0,0,1,0
 connor-davidson resilience scale 10 items (cd-risc 10),0,0,0,1
 copan swabbing,0,0,0,1
 copan swabbing/blood sample collection,0,0,0,1
 cordio app,0,0,0,1
-coromec registry with ecl-19,0,0,1,0
+coromec registry with ecl-19,0,0,0,1
 "coronavirus anxiety scale , covid-19 phobia scale",0,1,0,0
 coronavirus disease 2019,0,0,0,1
 covid-19,0,0,0,2
@@ -57,9 +60,9 @@ covid-19 diagnostic,0,0,0,1
 covid-19 diagnostic/assessment tests,0,0,0,1
 "covid-19 pcr , igm",1,0,0,0
 covid-19 positive via testing,0,0,0,1
-covid-19 test,0,0,0,1
 covid-19 testing,0,0,0,1
 covid19 treatments,0,1,0,0
+ct-scan,0,0,0,1
 cytosorb,0,0,0,1
 data collection,0,0,1,2
 data registry,0,0,0,1
@@ -93,6 +96,8 @@ gastrointestinal endoscopy,0,1,0,0
 general anesthesia,0,0,0,1
 health care worker survey,0,0,0,1
 hemodynamics monitoring,0,1,0,0
+history of exposure to anti-cd20 treatment since 01,0,0,0,1
+history of exposure to anti-cd20 treatment since 01/01/2010,0,0,0,1
 hiv,0,0,0,1
 hospital admission,1,0,0,0
 hospital treatment of covid disease,0,0,0,1
@@ -109,6 +114,7 @@ igm,0,0,0,2
 igm/igg rapid test,0,0,0,2
 immunosuppressive agents,0,0,0,1
 impact of event scale-revised,0,0,0,1
+incremental shuttle walk test,0,0,0,1
 indirect calorimetry,0,0,0,1
 intellivent asv,0,0,0,1
 interview,0,0,0,1
@@ -136,6 +142,7 @@ non-hospitalization procedures,1,0,0,0
 non-interventional study,0,0,0,1
 non intervention,0,0,0,1
 not applicable (observational study),0,0,0,1
+novel coronavirus infection,0,1,0,0
 obesity,1,0,0,0
 observation,1,0,0,0
 observational,0,1,0,1
@@ -160,7 +167,9 @@ pregnant women under investigation for coronavirus/diagnosed with covid-19,0,0,1
 pregnant women with laboratory-confirmed 2019-n-cov,0,0,0,2
 presence of specific anti-sars-cov-2 antibodies,0,1,0,0
 prone positioning,0,1,0,0
+pulmonary function test,0,0,0,1
 qualitative approaches to analysis,0,0,0,1
+quality of life assessment,0,0,0,1
 questionnaire,0,2,0,5
 questionnaires family,0,0,0,1
 questionnaires patient,0,0,0,1
@@ -169,6 +178,7 @@ questionnaires patient,0,0,0,1
 rapid test,1,0,0,0
 recop unit patient,1,1,0,0
 registery data collection,0,0,0,1
+rehabilitation,0,1,0,0
 ria-device (remote investigation,0,1,0,0
 ria-device (remote investigation/assessment),0,1,0,0
 sarcopenia diagnosis,0,0,0,1
@@ -180,7 +190,7 @@ savr,1,0,0,0
 senior fitness test,0,1,0,0
 seraph,0,0,0,1
 seraphâ®-100 microbindâ® affinity blood filter,0,0,0,2
-serology test,0,1,0,4
+serology test,0,1,0,5
 single passive leg movement,0,0,0,1
 sonoclot,0,0,0,1
 standard care,0,2,0,0
@@ -195,6 +205,7 @@ teleconsultation either by phone,0,0,0,1
 teleconsultation either by phone/by computer consultation. quantitative/qualitative approaches to analysis,0,0,0,1
 telehealth,0,2,0,0
 telephone interview,1,0,0,0
+test,0,0,0,1
 tested for sars-cov-2 (regardless of the result),0,0,0,1
 the drugs used before,0,1,0,0
 "the drugs used before/during the pandemic, the patient's job status, physical activity conditions, pain status",0,1,0,0
@@ -202,6 +213,7 @@ the leisure time activity,0,1,0,0
 thromboprofylaxis protocol,0,1,0,0
 time management,0,1,0,0
 time management/participation/the leisure time activity,0,1,0,0
+tocilizumab,0,1,0,0
 tocilizumab 200 mg,0,1,0,0
 tocilizumab 200 mg/10 ml (20 mg/ml) intraven vial (ml),0,1,0,0
 transthoracic echocardiogram (tte),0,0,0,1
@@ -214,7 +226,8 @@ vã§ac,0,2,0,0
 vascular occlusion test,0,0,0,1
 vitamin d,0,0,1,0
 vitros anti-sars-cov-2 igg test,0,0,1,0
+walk test,0,0,0,1
 web-application,0,0,0,1
 web-based redcap survey,0,0,0,1
 web application users,0,1,0,0
-NA,7,22,3,90
+NA,7,24,3,92
