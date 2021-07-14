@@ -1,43 +1,43 @@
 intervention_type,Study_Count
-Other,905
-"NA",776
-Drug,596
-Drug|placebo,422
-Diagnostic Test,415
-Biological,268
-Behavioral,237
-Device,205
-Biological|placebo,149
-Procedure,93
+Other,947
+"NA",805
+Drug,621
+Drug|placebo,436
+Diagnostic Test,431
+Biological,298
+Behavioral,254
+Device,213
+Biological|placebo,160
+Procedure,97
 Drug|Other,88
-Biological|Other,43
-Dietary Supplement,41
+Dietary Supplement,45
+Biological|Other,44
 Biological|Drug,33
-Dietary Supplement|placebo,29
-Diagnostic Test|Other,26
+Dietary Supplement|placebo,31
+Diagnostic Test|Other,29
 Behavioral|Other,18
-Device|Other,16
-Combination Product,15
+Device|Other,18
+Combination Product,16
 Dietary Supplement|Drug,15
 Radiation,14
 Drug|Other|placebo,12
+Biological|Drug|placebo,10
 Other|Procedure,10
-Biological|Drug|placebo,8
 Combination Product|Drug,8
-Genetic,7
+Genetic,8
 Other|placebo,6
 Device|Drug,5
 Dietary Supplement|Other,5
 Behavioral|placebo,4
 Combination Product|placebo,4
 Device|Drug|placebo,4
+Device|placebo,4
 Dietary Supplement|Drug|placebo,4
 Behavioral|Biological,3
 Behavioral|Diagnostic Test,3
 Biological|Diagnostic Test,3
 Device|Diagnostic Test,3
 Device|Drug|Procedure,3
-Device|placebo,3
 Drug|Procedure,3
 Behavioral|Drug,2
 Biological|Device|Other,2
@@ -45,6 +45,7 @@ Biological|Other|placebo,2
 Combination Product|Dietary Supplement,2
 Device|Drug|Radiation,2
 Device|Procedure,2
+Diagnostic Test|Drug,2
 Drug|placebo|Procedure,2
 Behavioral|Biological|Device,1
 Behavioral|Biological|Other,1
@@ -54,6 +55,8 @@ Behavioral|Procedure,1
 Biological|Combination Product|Drug|placebo,1
 Biological|Device,1
 Biological|Device|Diagnostic Test,1
+Biological|Device|Diagnostic Test|Other,1
+Biological|Diagnostic Test|Drug|Other,1
 Biological|Diagnostic Test|Genetic,1
 Biological|Dietary Supplement|placebo,1
 Biological|Drug|Other,1
@@ -61,9 +64,10 @@ Biological|Drug|Other|placebo,1
 Biological|Drug|Procedure,1
 Biological|Genetic|Other,1
 Combination Product|Device,1
+Device|Diagnostic Test|Radiation,1
 Diagnostic Test|Dietary Supplement,1
-Diagnostic Test|Drug,1
 Diagnostic Test|Drug|Other|placebo,1
+Diagnostic Test|Drug|Other|placebo|Procedure,1
 Diagnostic Test|Genetic,1
 Diagnostic Test|Genetic|Other,1
 Diagnostic Test|Procedure,1

@@ -1,9 +1,9 @@
 Intervention_type,intervention,Study_count
-Other,no intervention,11
+Other,no intervention,12
 Other,questionnaire,6
+Diagnostic Test,pcr,4
 Diagnostic Test,serology test,4
 Diagnostic Test,blood sample,3
-Diagnostic Test,pcr,3
 Other,data collection,3
 Behavioral,telehealth,2
 Device,nä°cas,2
@@ -12,6 +12,7 @@ Device,vã§ac,2
 Diagnostic Test,chest ct,2
 Diagnostic Test,igm,2
 Diagnostic Test,igm/igg rapid test,2
+Diagnostic Test,laboratory test,2
 Diagnostic Test,mri,2
 Drug,ivermectin,2
 Other,icu treatment,2
@@ -38,10 +39,14 @@ Biological,or a covid-19 vaccination.,1
 Biological,other vaccine against sars-cov-2,1
 Biological,sars-cov-2 vaccination,1
 Biological,serology test,1
+Biological,sras-cov-2 vaccination immunological response,1
+Biological,vaccine,1
+Combination Product,no severe covid-19,1
 Combination Product,observational,1
 Device,assessment),1
 Device,cerebral compliance,1
 Device,cerebral compliance/hemodynamics monitoring,1
+Device,computed tomography,1
 Device,cordio app,1
 Device,cytosorb,1
 Device,hemodynamics monitoring,1
@@ -110,6 +115,7 @@ Diagnostic Test,test,1
 Diagnostic Test,ultrasound,1
 Diagnostic Test,"urinary ngal, timp-2, igfbp7, il-6, viral load",1
 Diagnostic Test,"urinary ngal, timp-2, igfbp7, il-6, viral load/metabolomic",1
+Diagnostic Test,vitamin d,1
 Diagnostic Test,vitros anti-sars-cov-2 igg test,1
 Diagnostic Test,walk test,1
 Dietary Supplement,vitamin d,1
@@ -136,6 +142,7 @@ Drug,statins,1
 Drug,tocilizumab,1
 Drug,tocilizumab 200 mg,1
 Drug,tocilizumab 200 mg/10 ml (20 mg/ml) intraven vial (ml),1
+Drug,vaccination,1
 Genetic,assessment tests,1
 Genetic,covid-19 diagnostic,1
 Genetic,covid-19 diagnostic/assessment tests,1
@@ -145,6 +152,7 @@ Other,ards/covid19 treatments,1
 Other,at risk for covid-19 infection,1
 Other,biological samples,1
 Other,blood d-dimer assay,1
+Other,blood sampling (4 per year),1
 Other,brief psychiatric rating scale,1
 Other,building of the classification model,1
 Other,by computer consultation. quantitative,1
@@ -168,6 +176,7 @@ Other,covid-19 positive via testing,1
 Other,covid19 treatments,1
 Other,"depression, anxiety",1
 Other,"depression, anxiety/stress scale",1
+Other,detection of oral lesions,1
 Other,diabetes type 2,1
 Other,diagnosed with covid-19,1
 Other,"during the pandemic, the patient's job status, physical activity conditions, pain status",1
@@ -209,6 +218,7 @@ Other,pregnant women under investigation for coronavirus/diagnosed with covid-19
 Other,prone positioning,1
 Other,qualitative approaches to analysis,1
 Other,quality of life assessment,1
+Other,questionaire,1
 Other,"raman analysis of saliva, characterization of the raman database",1
 Other,"raman analysis of saliva, characterization of the raman database/building of the classification model",1
 Other,rehabilitation,1
@@ -239,3 +249,5 @@ Procedure,endoscopic procedure,1
 Procedure,evaluation of changes in the diagnostic-therapeutic pathway,1
 Procedure,gastrointestinal endoscopy,1
 Procedure,general anesthesia,1
+Procedure,"mrm , toilet mastectomy , bcs",1
+Procedure,scheduled surgery,1
