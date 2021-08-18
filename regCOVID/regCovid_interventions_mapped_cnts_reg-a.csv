@@ -6,6 +6,7 @@ Diagnostic Test,serology test,4
 Diagnostic Test,blood sample,3
 Other,data collection,3
 Behavioral,telehealth,2
+Biological,vaccine,2
 Device,nä°cas,2
 Device,seraphâ®-100 microbindâ® affinity blood filter,2
 Device,vã§ac,2
@@ -40,7 +41,6 @@ Biological,other vaccine against sars-cov-2,1
 Biological,sars-cov-2 vaccination,1
 Biological,serology test,1
 Biological,sras-cov-2 vaccination immunological response,1
-Biological,vaccine,1
 Combination Product,no severe covid-19,1
 Combination Product,observational,1
 Device,assessment),1
@@ -118,6 +118,7 @@ Diagnostic Test,"urinary ngal, timp-2, igfbp7, il-6, viral load/metabolomic",1
 Diagnostic Test,vitamin d,1
 Diagnostic Test,vitros anti-sars-cov-2 igg test,1
 Diagnostic Test,walk test,1
+Dietary Supplement,1-mna,1
 Dietary Supplement,vitamin d,1
 Drug,01,1
 Drug,10 ml (20 mg,1
@@ -157,15 +158,16 @@ Other,brief psychiatric rating scale,1
 Other,building of the classification model,1
 Other,by computer consultation. quantitative,1
 Other,cam-icu 7 score,1
+Other,capillary blood sampling,1
 Other,cardiopulmonary resuscitation,1
 Other,cardiovascular magnetic resonance (cmr) imaging,1
 Other,care modalities. quantitative,1
 Other,care modalities. quantitative/qualitative approaches to analysis,1
-Other,chiropractic care,1
 Other,chloroquine,1
 Other,chloroquine/hydroxychloroquine,1
 Other,clinical data,1
 Other,clinical diagnosis of covid-19 by a health care professional,1
+Other,cohort study,1
 Other,comparative observational cohort study,1
 Other,complex diagnostic panel,1
 Other,connor-davidson resilience scale 10 items (cd-risc 10),1
@@ -210,6 +212,8 @@ Other,online questionnaires,1
 Other,optimized management of covid-19 positive kidney transplant recipients: single center experience from the middle east,1
 Other,patient sampling,1
 Other,patients with hemopathy,1
+Other,patients with stable normal kidney function,1
+Other,patients with unstable kidney function,1
 Other,perceived stress scale,1
 Other,postpartum,1
 Other,postpartum women under investigation for coronavirus/diagnosed with covid-19,1
@@ -225,12 +229,14 @@ Other,rehabilitation,1
 Other,sarcopenia diagnosis,1
 Other,sars-cov2 infection,1
 Other,serology test,1
+Other,serum pai-1 alpha analysis.,1
 Other,stress scale,1
 Other,survey,1
 Other,"symptomatology, treatment. daily activities",1
 Other,taking biological samples,1
 Other,teleconsultation either by phone,1
 Other,teleconsultation either by phone/by computer consultation. quantitative/qualitative approaches to analysis,1
+Other,telemedicine in the form virtual clinic via video consultation,1
 Other,telephone interview,1
 Other,tested for sars-cov-2 (regardless of the result),1
 Other,the drugs used before,1
@@ -251,3 +257,4 @@ Procedure,gastrointestinal endoscopy,1
 Procedure,general anesthesia,1
 Procedure,"mrm , toilet mastectomy , bcs",1
 Procedure,scheduled surgery,1
+Procedure,venous bleeding,1

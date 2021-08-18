@@ -1,5 +1,6 @@
 intervention,"Active, not recruiting",Completed,Enrolling by invitation,Recruiting
 01,0,0,0,1
+1-mna,0,1,0,0
 10 ml (20 mg,0,1,0,0
 2010,0,0,0,1
 4c mortality score,0,0,0,2
@@ -7,7 +8,7 @@ abdominal ultrasound,0,1,0,0
 ace inhibitor,0,0,0,1
 airway management during sedation,0,0,0,1
 airway management during sedation/general anesthesia,0,0,0,1
-angiogenic biomarkers,0,0,0,1
+angiogenic biomarkers,1,0,0,0
 antibody test,0,0,0,1
 antihypertensives,1,0,0,0
 ards,0,1,0,0
@@ -30,6 +31,7 @@ brief psychiatric rating scale,0,0,0,1
 building of the classification model,0,0,0,1
 by computer consultation. quantitative,0,0,0,1
 cam-icu 7 score,0,0,0,1
+capillary blood sampling,0,1,0,0
 cardiopulmonary resuscitation,0,1,0,0
 cardiovascular magnetic resonance (cmr) imaging,0,0,0,1
 cardiovascular magnetic resonance imaging,0,0,0,1
@@ -41,11 +43,11 @@ cerebral compliance/hemodynamics monitoring,0,1,0,0
 chest ct,1,0,0,1
 chest ct scan / baseline spirometry,0,0,0,1
 chest cta,1,0,0,0
-chiropractic care,1,0,0,0
 chloroquine,0,0,1,0
 chloroquine/hydroxychloroquine,0,0,1,0
 clinical data,0,0,0,1
 clinical diagnosis of covid-19 by a health care professional,0,0,0,1
+cohort study,0,0,0,1
 comparative observational cohort study,0,0,0,1
 completion of covid19 vaccine at least 4 weeks ago,0,0,0,1
 complex diagnostic panel,0,0,1,0
@@ -79,13 +81,13 @@ duplex sonography,0,0,0,1
 ecg,0,0,0,1
 ecg-holter,0,1,0,0
 echocardiography,0,0,0,1
-elisa,1,0,0,0
-elisa/rapid test to detect antibodies against covid-19,1,0,0,0
+elisa,0,1,0,0
+elisa/rapid test to detect antibodies against covid-19,0,1,0,0
 emergency surgery,0,1,0,0
 endoscopic intervention,0,1,0,0
 endoscopic procedure,0,1,0,0
-endothelial damage,0,0,0,1
-endothelial damage/angiogenic biomarkers,0,0,0,1
+endothelial damage,1,0,0,0
+endothelial damage/angiogenic biomarkers,1,0,0,0
 enhanced hygiene measures,1,0,0,0
 epidemiology of admissions,0,0,0,1
 evaluation,0,1,0,1
@@ -141,13 +143,13 @@ muscle,0,0,0,1
 nä°cas,0,0,0,2
 netosis markers,0,0,0,1
 neuropsychological assessment,0,0,0,1
-no intervention,2,2,0,8
+no intervention,1,4,0,7
 no severe covid-19,1,0,0,0
 no special intervention,0,1,0,0
 non-hospitalization procedures,1,0,0,0
 non-interventional study,0,0,0,1
 non intervention,0,0,0,1
-not applicable (observational study),0,0,0,1
+not applicable (observational study),0,1,0,0
 novel coronavirus infection,0,1,0,0
 obesity,1,0,0,0
 observation,1,0,0,0
@@ -161,7 +163,9 @@ other vaccine against sars-cov-2,0,0,0,1
 participation,0,1,0,0
 patient sampling,0,0,0,1
 patients with hemopathy,0,0,0,1
+patients with stable normal kidney function,0,1,0,0
 patients with the treatment agains covid19,0,0,0,1
+patients with unstable kidney function,0,1,0,0
 pcr,0,2,0,2
 pcr/serology,0,0,0,1
 perceived stress scale,0,1,0,0
@@ -177,12 +181,12 @@ pulmonary function test,0,0,0,1
 qualitative approaches to analysis,0,0,0,1
 quality of life assessment,0,0,0,1
 questionaire,0,0,1,0
-questionnaire,0,2,0,5
+questionnaire,1,2,0,4
 questionnaires family,0,0,0,1
 questionnaires patient,0,0,0,1
 "raman analysis of saliva, characterization of the raman database",0,0,0,1
 "raman analysis of saliva, characterization of the raman database/building of the classification model",0,0,0,1
-rapid test,1,0,0,0
+rapid test,0,1,0,0
 recop unit patient,1,1,0,0
 registery data collection,0,0,0,1
 rehabilitation,0,1,0,0
@@ -199,6 +203,7 @@ senior fitness test,0,1,0,0
 seraph,0,0,0,1
 seraphâ®-100 microbindâ® affinity blood filter,0,0,0,2
 serology test,0,1,0,5
+serum pai-1 alpha analysis.,0,0,0,1
 single passive leg movement,0,0,0,1
 sonoclot,0,0,0,1
 sras-cov-2 vaccination immunological response,0,0,0,1
@@ -213,6 +218,7 @@ tavr/savr,1,0,0,0
 teleconsultation either by phone,0,0,0,1
 teleconsultation either by phone/by computer consultation. quantitative/qualitative approaches to analysis,0,0,0,1
 telehealth,0,2,0,0
+telemedicine in the form virtual clinic via video consultation,0,1,0,0
 telephone interview,1,0,0,0
 test,0,0,0,1
 tested for sars-cov-2 (regardless of the result),0,0,0,1
@@ -233,8 +239,9 @@ urine collection,0,0,0,1
 users,0,1,0,0
 vã§ac,0,2,0,0
 vaccination,0,0,0,1
-vaccine,0,0,0,1
+vaccine,0,0,0,2
 vascular occlusion test,0,0,0,1
+venous bleeding,1,0,0,0
 vitamin d,0,0,1,1
 vitros anti-sars-cov-2 igg test,0,0,1,0
 walk test,0,0,0,1
