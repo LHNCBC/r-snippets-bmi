@@ -6,6 +6,8 @@
 
 [User Friendly regCOVIDpublications Landing Page](https://lhncbc.github.io/r-snippets-bmi/regCOVID/regCOVIDpublications/)
 
+[Github repository link (lists all supplementaly files)](https://github.com/lhncbc/r-snippets-bmi/tree/master/regCOVID/regCOVIDpublications)
+
 ## Trial List:
 Set of registered COVID-19 trials with at least one linked publication.
 
