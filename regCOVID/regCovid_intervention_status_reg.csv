@@ -5,9 +5,10 @@ intervention,"Active, not recruiting",Completed,Enrolling by invitation,Recruiti
 2010,0,0,0,1
 4c mortality score,0,0,0,2
 abdominal ultrasound,0,1,0,0
-ace inhibitor,0,0,0,1
+ace inhibitor,0,1,0,0
 airway management during sedation,0,0,0,1
 airway management during sedation/general anesthesia,0,0,0,1
+amended lls covid-19 registry,0,0,0,1
 angiogenic biomarkers,1,0,0,0
 antibody test,0,0,0,1
 antihypertensives,1,0,0,0
@@ -34,7 +35,7 @@ cam-icu 7 score,0,0,0,1
 capillary blood sampling,0,1,0,0
 cardiopulmonary resuscitation,0,1,0,0
 cardiovascular magnetic resonance (cmr) imaging,0,0,0,1
-cardiovascular magnetic resonance imaging,0,0,0,1
+cardiovascular magnetic resonance imaging,1,0,0,0
 cardiovascular risk factors,0,0,0,1
 care modalities. quantitative,0,0,0,1
 care modalities. quantitative/qualitative approaches to analysis,0,0,0,1
@@ -43,6 +44,7 @@ cerebral compliance/hemodynamics monitoring,0,1,0,0
 chest ct,1,0,0,1
 chest ct scan / baseline spirometry,0,0,0,1
 chest cta,1,0,0,0
+chiropractic care,0,1,0,0
 chloroquine,0,0,1,0
 chloroquine/hydroxychloroquine,0,0,1,0
 clinical data,0,0,0,1
@@ -89,7 +91,7 @@ endoscopic procedure,0,1,0,0
 endothelial damage,1,0,0,0
 endothelial damage/angiogenic biomarkers,1,0,0,0
 enhanced hygiene measures,1,0,0,0
-epidemiology of admissions,0,0,0,1
+epidemiology of admissions,0,1,0,0
 evaluation,0,1,0,1
 evaluation of changes in the diagnostic-therapeutic pathway,0,1,0,0
 face mask sampling,0,0,0,1
@@ -111,7 +113,7 @@ hydroxychloroquine,0,1,1,0
 hydroxychloroquine / azithromycin,0,1,0,0
 hypertension,1,0,0,0
 icu treatment,0,0,0,2
-identification of genetic variants,0,0,0,1
+identification of genetic variants,1,0,0,0
 igg,0,1,0,0
 igg antibody test,0,0,0,1
 igg test,0,0,0,1
@@ -122,6 +124,7 @@ impact of event scale-revised,0,0,0,1
 incremental shuttle walk test,0,0,0,1
 indirect calorimetry,0,0,0,1
 intellivent asv,0,0,0,1
+interval appendectomy,0,1,0,0
 interview,0,0,0,1
 ivermectin,0,1,1,0
 ivermectin / doxycycline,0,1,0,0
@@ -151,14 +154,12 @@ non-interventional study,0,0,0,1
 non intervention,0,0,0,1
 not applicable (observational study),0,1,0,0
 novel coronavirus infection,0,1,0,0
+nutrition therapy according to icu protocol,1,0,0,0
 obesity,1,0,0,0
 observation,1,0,0,0
 observational,0,1,0,1
-observational study: this registry data will provide more specific information about how people with blood cancer respond to covid-19 virus and,0,0,0,1
-observational study: this registry data will provide more specific information about how people with blood cancer respond to covid-19 virus and/or a covid-19 vaccination.,0,0,0,1
 online questionnaires,0,1,0,0
 optimized management of covid-19 positive kidney transplant recipients: single center experience from the middle east,0,1,0,0
-or a covid-19 vaccination.,0,0,0,1
 other vaccine against sars-cov-2,0,0,0,1
 participation,0,1,0,0
 patient sampling,0,0,0,1
@@ -201,11 +202,12 @@ savr,1,0,0,0
 scheduled surgery,0,1,0,0
 senior fitness test,0,1,0,0
 seraph,0,0,0,1
-seraphâ®-100 microbindâ® affinity blood filter,0,0,0,2
-serology test,0,1,0,5
+seraphâ®-100 microbindâ® affinity blood filter,0,0,2,0
+serology test,0,2,0,4
 serum pai-1 alpha analysis.,0,0,0,1
 single passive leg movement,0,0,0,1
 sonoclot,0,0,0,1
+spirometry,0,0,0,1
 sras-cov-2 vaccination immunological response,0,0,0,1
 standard care,0,2,0,0
 statins,1,0,0,0
@@ -248,4 +250,4 @@ walk test,0,0,0,1
 web-application,0,0,0,1
 web-based redcap survey,0,0,0,1
 web application users,0,1,0,0
-NA,7,25,3,94
+NA,12,30,3,93

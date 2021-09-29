@@ -1,15 +1,15 @@
 Intervention_type,intervention,Study_count
-Other,questionnaire,96
-Other,no intervention,63
+Other,questionnaire,98
+Other,no intervention,68
 Diagnostic Test,pcr,27
+Biological,vaccine,17
 Other,online survey,15
 Other,observational,14
-Biological,vaccine,13
 Behavioral,questionnaire,12
 Diagnostic Test,serology test,12
 Biological,blood sample,11
+Other,blood sample,11
 Other,covid-19,10
-Other,blood sample,9
 Other,data collection,9
 Other,survey,9
 Diagnostic Test,blood sample,8
@@ -41,12 +41,15 @@ Other,other,4
 Other,standard care,4
 Procedure,prone positioning,4
 Biological,bnt162b2,3
+Biological,sars-cov-2 vaccine,3
 Diagnostic Test,blood test,3
 Diagnostic Test,ct-scan,3
 Diagnostic Test,flow cytometry,3
 Diagnostic Test,igg,3
 Diagnostic Test,serum test,3
 Drug,methylprednisolone,3
+Drug,tinzaparin,3
+Drug,vaccine,3
 Other,data record,3
 Other,non-interventional,3
 Other,prone positioning,3
@@ -58,12 +61,14 @@ Behavioral,assessment of work-related stress,2
 Behavioral,behavior,2
 Behavioral,emotional stimulation,2
 Behavioral,fear of covid-19 scale,2
+Behavioral,interview,2
 Behavioral,observation,2
 Behavioral,prone positioning,2
 Biological,biological samples,2
 Biological,bnt162b2 mrna covid-19 vaccine,2
 Biological,covid-19 vaccination,2
 Biological,data,2
+Biological,mrna-1273,2
 Biological,pcr,2
 Biological,serology test,2
 Device,breath biopsy,2
@@ -87,6 +92,7 @@ Diagnostic Test,nanomix elabâ® covid-19 rapid antigen panel (non-interventiona
 Diagnostic Test,online survey,2
 Diagnostic Test,pulmonary function tests,2
 Diagnostic Test,rapid test,2
+Diagnostic Test,recordings of cough sounds from adults,2
 Diagnostic Test,rothâ´s test,2
 Diagnostic Test,saliva sampling,2
 Diagnostic Test,sampling,2
@@ -103,9 +109,7 @@ Drug,dalteparin,2
 Drug,favipiravir,2
 Drug,interleukin,2
 Drug,ivermectin,2
-Drug,tinzaparin,2
 Drug,tinzaparin/dalteparin,2
-Drug,vaccine,2
 Other,acute kidney injury,2
 Other,blood test,2
 Other,brescä°a-covä°d respiratory severity scale,2
@@ -170,13 +174,13 @@ Behavioral,hospital anxiety depression measure,1
 Behavioral,in-person instruction,1
 Behavioral,informational videos,1
 Behavioral,informational videos/social media campaigns encouraging cancer screening.,1
-Behavioral,interview,1
 Behavioral,"knowledge, attitude, practice, awareness, preference",1
 Behavioral,lock-down,1
 Behavioral,lock-down/social distancing,1
 Behavioral,loneliness in the covid-19 environment.,1
 Behavioral,maslach burnout inventory (mbi),1
 Behavioral,mindfulness training,1
+Behavioral,neurocognitive assessment,1
 Behavioral,neuropsychometric test,1
 Behavioral,news,1
 Behavioral,occupational health workers,1
@@ -200,6 +204,7 @@ Behavioral,social media campaigns encouraging cancer screening.,1
 Behavioral,social media/news consumption,1
 Behavioral,stop processing,1
 Behavioral,subacute rehabilitation,1
+Behavioral,systemic methylprednisolone,1
 Behavioral,testing with medical detection dogs,1
 Behavioral,therapy during the completed rct diqol,1
 Behavioral,tobacco use,1
@@ -217,27 +222,37 @@ Biological,approved vaccines against sars-cov2,1
 Biological,azd1222,1
 Biological,bbibp-corv,1
 Biological,bbv152,1
+Biological,biological,1
 Biological,biological assays in particular on the lipid metabolism,1
 Biological,biological check-up data collect,1
+Biological,biological/vaccine: sars-cov-2 vaccine,1
+Biological,bnt162b2 (tozinameran),1
 Biological,bnt162b2 vaccine,1
 Biological,bronchial fibroscopy,1
 Biological,cellular immune response after anti-sars-cov-2 vaccine administration,1
 Biological,chest ct,1
+Biological,convalescent plasma therapy,1
 Biological,"copper, vitamin a, d, e plasma concentrations during patient hospitalization",1
 Biological,coronavac,1
 Biological,coronavac vaccine,1
+Biological,covid,1
 Biological,"covid-19 inactive vaccine, recombinant human adenovirus serotype number 26, mrna vaccine",1
+Biological,covid vaccine,1
 Biological,covid vaccines,1
 Biological,cvncov,1
+Biological,eua sars-cov-2 vaccine,1
 Biological,exposure,1
 Biological,exposure to covid-19,1
+Biological,exposure: covid-19 severity,1
 Biological,flu shot,1
 Biological,gam-covid-vac,1
+Biological,immune response characterization,1
 Biological,immunogenicity after first dose of participants who received first dose of chadox-1 n cov-19 vaccine,1
-Biological,inactivated covid-19 vaccine,1
+Biological,inactivated covid-19 vaccine (coronavac),1
 Biological,jnj-78436735,1
+Biological,licensed,1
+Biological,licensed/eua sars-cov-2 vaccine,1
 Biological,longitudinally,1
-Biological,mrna-1273,1
 Biological,no intervention,1
 Biological,nvx-cov2373,1
 Biological,other clinical symptoms,1
@@ -247,6 +262,7 @@ Biological,primary exposure status of pfizer-biontech covid-19 vaccine,1
 Biological,recently vaccination,1
 Biological,"reporting of anosmia, ageusia",1
 Biological,"reporting of anosmia, ageusia/other clinical symptoms",1
+Biological,respiratory infections,1
 Biological,sars-cov-2 mrna vaccine,1
 Biological,"sars-cov-2 vaccine(vero cell), inactivated",1
 Biological,sars-cov-2 virus vaccines,1
@@ -255,13 +271,20 @@ Biological,"selenium, zinc",1
 Biological,"selenium, zinc/copper, vitamin a, d, e plasma concentrations during patient hospitalization",1
 Biological,serological covid-19 vaccine immunogenicity,1
 Biological,serological surveillance,1
+Biological,serology testing profiles description,1
 Biological,sinopharm,1
 Biological,specific anti-sars-cov-2 antibodies,1
 Biological,specific antibody,1
 Biological,specific antibody/cellular immune response after anti-sars-cov-2 vaccine administration,1
 Biological,sputnik v,1
+Biological,there is no intervention in this study.,1
+Biological,third dose vaccination with biontech vaccine,1
+Biological,third dose vaccination with coronavac vaccine,1
+Biological,vaccination with biontech vaccine,1
+Biological,vaccination with coronavac vaccine,1
 Biological,vaccine anti-covid19,1
 Biological,vaccine inoculation against sars-cov-2,1
+Biological,vaccine: sars-cov-2 vaccine,1
 Combination Product,cardiovascular,1
 Combination Product,cardiovascular/respiratory systems monitoring,1
 Combination Product,iota carrageenan nasal spray,1
@@ -300,11 +323,13 @@ Device,echocardiography,1
 Device,elecsys semi-quantitative anti-sars-cov-2 antibody test,1
 Device,electrical impedance tomography,1
 Device,electrodermal recordings,1
+Device,evaluation of diaphragmatic contractility by ultrasound,1
 Device,extracorporeal membrane oxygenation,1
 Device,fecal,1
 Device,high-flow nasal cannula treatment,1
 Device,high flow nasal cannula,1
 Device,holter monitor,1
+Device,lumeneye x1 digital rectoscope,1
 Device,magec spine rod,1
 Device,"masimo, lidco",1
 Device,mindrhythm harmony,1
@@ -406,9 +431,11 @@ Diagnostic Test,collection of swabs,1
 Diagnostic Test,comet assay,1
 Diagnostic Test,communication during the covid-19 pandemic,1
 Diagnostic Test,comparison of antigen tests with rt-pcr as reference method,1
+Diagnostic Test,comprehensive assessment of respiratory muscle function.,1
 Diagnostic Test,confinement,1
 Diagnostic Test,confinement/communication during the covid-19 pandemic,1
 Diagnostic Test,coronary angiography,1
+Diagnostic Test,covid-19 antibody test,1
 Diagnostic Test,covid-19 antibody testing,1
 Diagnostic Test,"covid-19 antigen/antibody tests,/influenza rapid test",1
 Diagnostic Test,covid-19 nasal,1
@@ -448,11 +475,13 @@ Diagnostic Test,echo-doppler,1
 Diagnostic Test,echocardiogram,1
 Diagnostic Test,"elecsys anti-sars-cov-2 s (roche diagnostics gmbh, mannheim, germany), 2) access sars-cov-2 igg ii (beckman coulter, inc. usa)",1
 Diagnostic Test,electro impedance tomography,1
+Diagnostic Test,electrocardiogram,1
 Diagnostic Test,electrocardiogram (ecg),1
 Diagnostic Test,"electrocardiogram, telemetry, echocardiogram, laboratory values",1
 Diagnostic Test,"electrocardiogram, transthoracic echocardiography",1
 Diagnostic Test,"electrocardiogram, transthoracic echocardiography/clinico-biological parameters in routine care",1
 Diagnostic Test,"electrocardiography ,tomographic imaging",1
+Diagnostic Test,elisa test for the antibodies to covid-2019.,1
 Diagnostic Test,elispot,1
 Diagnostic Test,elispot: detection of the t cells specific to different sars-cov-2 proteins,1
 Diagnostic Test,euroimmun assay,1
@@ -469,7 +498,6 @@ Diagnostic Test,flow cytometry: detection of the sars-cov-2 specific t-helpers,1
 Diagnostic Test,flow cytometry: detection of the sars-cov-2 specific t-helpers/cytotoxic t lymphocytes,1
 Diagnostic Test,fmd,1
 Diagnostic Test,functional analysis,1
-Diagnostic Test,functional mri,1
 Diagnostic Test,fungal rhinosinusitis,1
 Diagnostic Test,gas exchange measurement,1
 Diagnostic Test,generalized anxiety disorder-7 (gad 7),1
@@ -498,6 +526,7 @@ Diagnostic Test,igm/igg antibodies assay,1
 Diagnostic Test,imaging,1
 Diagnostic Test,imaging by thoracic scanner,1
 Diagnostic Test,"imaging, blood tests",1
+Diagnostic Test,immune response,1
 Diagnostic Test,immune response study,1
 Diagnostic Test,immunfluorescence,1
 Diagnostic Test,immunoglobulin g detection,1
@@ -505,6 +534,7 @@ Diagnostic Test,immunological analysis:,1
 Diagnostic Test,immunophenotypic analysis after stimulation with overlapping s-peptides in peripheral blood mononuclear cells (pbmc),1
 Diagnostic Test,immunoseq,1
 Diagnostic Test,impact of covid-19 questionnaire,1
+Diagnostic Test,inflamatory biomarkers,1
 Diagnostic Test,inflammatory markers sampling,1
 Diagnostic Test,inflammatory parameters,1
 Diagnostic Test,influenza rapid test,1
@@ -624,12 +654,12 @@ Diagnostic Test,quasistatic pressure-volume curve,1
 Diagnostic Test,questionnaires/neuropsychological assessment,1
 Diagnostic Test,quidel quickvue antigen test for covid-19,1
 Diagnostic Test,radiological,1
+Diagnostic Test,rale score vs. severity score,1
 Diagnostic Test,rapid antigen test (panbio ag test),1
 Diagnostic Test,rapid antigen test for sars cov2,1
 Diagnostic Test,rapid antigen testing versus rt-pcr,1
 Diagnostic Test,rarefaction,1
 Diagnostic Test,recombinase,1
-Diagnostic Test,recordings of cough sounds from adults,1
 Diagnostic Test,regularly during follow up).,1
 Diagnostic Test,repeat sars-cov-2 igg antibodies at 45-65 days,1
 Diagnostic Test,respiratory mechanics measurement,1
@@ -676,6 +706,7 @@ Diagnostic Test,serologic immune response evaluation,1
 Diagnostic Test,serologic immunoassays to sars-cov-2 antibodies,1
 Diagnostic Test,serologic test,1
 Diagnostic Test,serological assay for sars-cov-2,1
+Diagnostic Test,serological test for covid-19.,1
 Diagnostic Test,serology test for covid-19,1
 Diagnostic Test,"serology testing, rt pcr",1
 Diagnostic Test,serology tests,1
@@ -691,6 +722,7 @@ Diagnostic Test,soton hyperinflammation score,1
 Diagnostic Test,spartan covid-19 test,1
 Diagnostic Test,spartan covid-19 v2 system,1
 Diagnostic Test,specimen collection,1
+Diagnostic Test,sperm analysis,1
 Diagnostic Test,"spirometry, thoracic ct, cpet, 6 minute walking test, sf-36 questionnaire",1
 Diagnostic Test,stc-19,1
 Diagnostic Test,stress levels,1
@@ -723,7 +755,6 @@ Diagnostic Test,tomography angiography,1
 Diagnostic Test,tuberculin,1
 Diagnostic Test,ultrasonography,1
 Diagnostic Test,ultrasound,1
-Diagnostic Test,venous blood collection,1
 Diagnostic Test,venous blood was collected for biochemistry testing,1
 Diagnostic Test,venous blood was collected for biochemistry testing.,1
 Diagnostic Test,videofluoroscopic swallowing study (vfss),1
@@ -739,6 +770,7 @@ Dietary Supplement,nricm101,1
 Dietary Supplement,proper diet,1
 Dietary Supplement,sivomixx,1
 Dietary Supplement,traditional chinese medicine,1
+Drug,129xenon gas,1
 Drug,aat( alpha 1 antitrypsin),1
 Drug,ace inhibitor/arb,1
 Drug,ace inhibitors/calcium channel blockers,1
@@ -755,7 +787,6 @@ Drug,apixaban,1
 Drug,arb blocker,1
 Drug,baricitinib,1
 Drug,baricitinib/anakinra,1
-Drug,beta interferon,1
 Drug,bovhyaluronidase azoxymer,1
 Drug,calcium channel blockers,1
 Drug,chemotherapy,1
@@ -777,6 +808,7 @@ Drug,dexamethasone,1
 Drug,dexamethasone oral,1
 Drug,dornase alfa,1
 Drug,enoxaparin,1
+Drug,erenumab,1
 Drug,famotidine,1
 Drug,favorable outcome,1
 Drug,fondaparinux,1
@@ -787,8 +819,6 @@ Drug,immunosuppressive,1
 Drug,infliximab,1
 Drug,"ivermectin 5 mg/ml oral solution, aspirin 250 mg tablets",1
 Drug,ivermectin 6 mg oral tablet,1
-Drug,kaletra,1
-Drug,kaletra/beta interferon,1
 Drug,ketotifen,1
 Drug,lmwh,1
 Drug,lopinavir,1
@@ -823,6 +853,7 @@ Genetic,complete thrombophilic profile testing by multiplex pcr,1
 Genetic,covid-19 androgen sensitivity test (covast),1
 Genetic,cross-sectional genetics study,1
 Genetic,d region,1
+Genetic,determination of cyp2c19 genotype,1
 Genetic,genetic,1
 Genetic,massive parallel sequencing of host genome,1
 Genetic,next generation sequencing (ngs) analysis,1
@@ -838,6 +869,7 @@ Other,2 post-mortem transcutaneous lung biopsies (1 anterior ; 1 posterior) usin
 Other,25 oh vitamin d level,1
 Other,25 post non-icu patients,1
 Other,40ml blood sample,1
+Other,5 blood samples,1
 Other,6 weeks after delivery,1
 Other,a - samples collected along routine care samples only,1
 Other,a questionnaire,1
@@ -845,6 +877,7 @@ Other,a questionnaire/scales.,1
 Other,a survey of 60 questions was created through the internet-based 'google forms surveys' site.,1
 Other,"ä±t will be compared pain, sleep, fatigue, physical activity level",1
 Other,"ä±t will be compared pain, sleep, fatigue, physical activity level/quality of life/questioning exercise habits before/after the covid-19 outbreak in patients with behã§et/fmf.",1
+Other,acceptance survey,1
 Other,ace inhibitor,1
 Other,ace/arb,1
 Other,active covid-19 disease,1
@@ -893,9 +926,11 @@ Other,big five inventory (bfi) scale,1
 Other,biochemical analysis,1
 Other,biological sample/clinical data collection,1
 Other,biospecimen collection,1
+Other,blood oxygen saturation level.,1
 Other,blood serum samples,1
 Other,"blood tests sputum, nasal lavage",1
 Other,"blood tests sputum, nasal lavage/brushing",1
+Other,brain mri assessment,1
 Other,brief cope scale,1
 Other,brushing,1
 Other,by computer consultation,1
@@ -909,10 +944,10 @@ Other,cellular,1
 Other,cellular/antibody response to spike antigens of sars-cov-2 in both groups in peripheral blood samples,1
 Other,change in kidney function,1
 Other,change in kidney function/proteinuria,1
+Other,change in sars-cov-2 antibody levels,1
 Other,chart review,1
 Other,chelsea critical care physical assessment tool,1
 Other,chest computed tomography,1
-Other,chiropractic care,1
 Other,clinical data collection,1
 Other,clinical examination,1
 Other,clinical interview,1
@@ -948,10 +983,13 @@ Other,covid-19 infection status,1
 Other,covid-19 monitoring using wearable sensors,1
 Other,covid-19 monitoring using wearable sensors/smartphone technology,1
 Other,covid-19 pneumonia,1
+Other,covid-19 related muscle mass change in the intensive care unit,1
 Other,covid-19 survey,1
 Other,covid-19 treatments,1
+Other,covid-19 vaccine hesitancy,1
 Other,covid-19 vaccine hesitancy associated factors,1
 Other,covid-19 vaccine hesitancy scale in rheumatic diseases,1
+Other,covid-19 vaccine hesitancy/acceptance survey,1
 Other,covid-19/intensive care,1
 Other,covid 19 impact,1
 Other,covid rehabilitation program for the elderly (core),1
@@ -970,6 +1008,10 @@ Other,data collection (,1
 Other,data collection from blood draw,1
 Other,data collection from lumbar puncture,1
 Other,data collection from medical files,1
+Other,data collection of patients presenting to the tertiary care centre with acute coronary syndrome,1
+Other,data collection on cardiovascular mortality,1
+Other,data collection on hospitalisation,1
+Other,data collection on outpatient care,1
 Other,data collection up to 1 year,1
 Other,data monitoring for 48h within the first 24 hours of admission for covid-19,1
 Other,"data research, database analysis",1
@@ -1006,6 +1048,7 @@ Other,evaluation of skin microvascular flow,1
 Other,evaluation of skin microvascular flow/reactivity,1
 Other,evaluation of the epidemiological characteristics of coronavirus infection (sars-cov-2),1
 Other,evaluation of the ferritin,1
+Other,"expected adverse reactions shortly following vaccination (reactogenicity), use of antipyretic",1
 Other,experience of pandemic,1
 Other,experts consensus,1
 Other,exposure to covid19,1
@@ -1044,6 +1087,8 @@ Other,health questionnaire,1
 Other,"health, daily self-assessment,",1
 Other,health/safety executive's (hse) management standards indicator tool (msit) to measure work-related stress,1
 Other,healthcare workers with the coronavac vaccine,1
+Other,heart rateã€arrhythmiaã€blood pressureã€central body temperature (ear temperature),1
+Other,heart rateã€arrhythmiaã€blood pressureã€central body temperature (ear temperature)/blood oxygen saturation level.,1
 Other,high peep with end inspiratory pause,1
 Other,high peep without end inspiratory pause,1
 Other,home-use test,1
@@ -1066,7 +1111,9 @@ Other,"immune response monitoring , blood samples",1
 Other,immunoglobulin,1
 Other,immunological,1
 Other,impact event score,1
+Other,impact of covid-19 on health-seeking behaviors,1
 Other,in-hospital mortality rate,1
+Other,in vivo brain pet-tspo acquisitions,1
 Other,incentive spirometer,1
 Other,incentive spirometer/respiratory exerciser,1
 Other,individual interview,1
@@ -1093,9 +1140,11 @@ Other,ivermectin/deamethisone/aspirin,1
 Other,ivermectin/deamethisone/exoparin,1
 Other,kb109,1
 Other,kb109 / self supportive care,1
+Other,laboratory investigation,1
 Other,laboratory parameters,1
 Other,laboratory test positive for sars-cov-2 virus,1
 Other,labs,1
+Other,lactating persons,1
 Other,lifestyle habits,1
 Other,liver,1
 Other,loneliness,1
@@ -1130,6 +1179,7 @@ Other,monitoring for aggravation,1
 Other,mortality,1
 Other,mr-pro-adm,1
 Other,mri,1
+Other,music,1
 Other,n,1
 Other,n/a - samples collected along routine care samples only,1
 Other,na (no intervention),1
@@ -1163,6 +1213,7 @@ Other,non invasive visual acuity testing,1
 Other,none - descriptive study,1
 Other,none - na,1
 Other,none - observational,1
+Other,none (not interventional),1
 Other,"none, this study is observational",1
 Other,none. as this was an observational study.,1
 Other,nosocomial,1
@@ -1175,6 +1226,7 @@ Other,nutrition,1
 Other,nutritional assessment,1
 Other,nutritional intervention,1
 Other,observation group 1,1
+Other,observation no intervention,1
 Other,observation of breathing pattern,1
 Other,observation of covid 19 pneumonia,1
 Other,observation of different courses of sars-cov-2 infection in different phases (acute vs. post-acute),1
@@ -1201,6 +1253,7 @@ Other,overnight intensive recovery,1
 Other,overnight intensive recovery / extended post anaesthetic care in pacu,1
 Other,oxygen,1
 Other,pain,1
+Other,pain medications,1
 Other,pain/neuropsychological questionnaires,1
 Other,pandemic control measures,1
 Other,paraclinical examination,1
@@ -1212,6 +1265,7 @@ Other,patients,1
 Other,patients admitted in intensive care units,1
 Other,patients admitted to intensive care unit with sars-cov2,1
 Other,patients received standard of care treatment during hospitalization,1
+Other,patients recovering from covid19 receive usual care by allied health professionals,1
 Other,pcr,1
 Other,pct/serology,1
 Other,peep,1
@@ -1289,6 +1343,7 @@ Other,recording of respiratory monitoring,1
 Other,relation between frailty,1
 Other,relation between frailty/clinical outcomes in elderly patients with covid-19.,1
 Other,relationship scales questionnaire (rsq),1
+Other,remote monitoring of covid-19,1
 Other,research specific blood sample,1
 Other,respiratory exerciser,1
 Other,respiratory functions,1
@@ -1302,11 +1357,16 @@ Other,review of medical file,1
 Other,review of medical patient file,1
 Other,risk factors,1
 Other,routine dental restorative procedures,1
+Other,rt-pcr sars-cov2 in urine,1
 Other,safety executive's (hse) management standards indicator tool (msit) to measure work-related stress,1
 Other,saliva based assay: crude rna extraction,1
+Other,sars-cov-2,1
 Other,sars-cov-2 and,1
 Other,sars-cov-2 and/or mis-c exposure,1
+Other,sars-cov-2 negative,1
+Other,sars-cov-2 positive,1
 Other,sars-cov2 infection,1
+Other,satisfaction,1
 Other,satisfaction evaluation,1
 Other,scales.,1
 Other,self-assesment questionnaire,1
@@ -1320,6 +1380,7 @@ Other,sending thorax ct video images via smartphone applications,1
 Other,sensor usage,1
 Other,separic-covid19 cohort,1
 Other,serial seroconversion measurements in hospital employees during the covid-19 pandemic,1
+Other,serious adverse events,1
 Other,seroprevalence of sars-cov-2 infection in patients with hiv infection,1
 Other,serum neurofilaments as a marker of neurological damage.,1
 Other,serum protein level analysis,1
@@ -1334,6 +1395,8 @@ Other,smartphone-based voice/self-reported symptom collection,1
 Other,smartphone technology,1
 Other,sociodemographic,1
 Other,"sociodemographic/health, daily self-assessment,/feasibility of using the opal app for covid",1
+Other,solicited common,1
+Other,"solicited common/expected adverse reactions shortly following vaccination (reactogenicity), use of antipyretic/pain medications/unsolicited adverse events/serious adverse events",1
 Other,SOP,1
 Other,speq (specific psychotic experiences questionnaire) - paranoia,1
 Other,speq (specific psychotic experiences questionnaire) - paranoia/grandiosity subscales,1
@@ -1350,6 +1413,7 @@ Other,study a,1
 Other,study b,1
 Other,study c,1
 Other,study d,1
+Other,study of the synthesis of antibodies directed against sars,1
 Other,surge capacity,1
 Other,surge index,1
 Other,surgery,1
@@ -1374,7 +1438,9 @@ Other,training load,1
 Other,transplant patient,1
 Other,treatment for covid-19,1
 Other,treatment group,1
+Other,type of treatment,1
 Other,ultrasonography,1
+Other,unsolicited adverse events,1
 Other,use,1
 Other,use of continuous positive airway pressure,1
 Other,use of high flow nasal cannula alone,1
@@ -1382,6 +1448,8 @@ Other,use of non-invasive ventilation,1
 Other,use/exposure to disinfectants during the coronavirus pandemic,1
 Other,v,1
 Other,v/q spect-ct,1
+Other,vaccinated pregnant,1
+Other,vaccinated pregnant/lactating persons,1
 Other,vaccine,1
 Other,vaccine coverage assessment,1
 Other,validation of the lamp assays,1
@@ -1407,8 +1475,10 @@ Procedure,arterial line,1
 Procedure,autopsy,1
 Procedure,awake prone position,1
 Procedure,bariatric procedures,1
+Procedure,"blood collection at 1st injection of vaccine against covid-19, at at second injection of vaccine, at month 1, month 2, month 6",1
+Procedure,"blood collection at 1st injection of vaccine against covid-19, at at second injection of vaccine, at month 1, month 2, month 6/month 12 after second injection of vaccine for volunteers",1
 Procedure,"blood collection at day 8, day 16, day 24, month 6",1
-Procedure,"blood collection at day 8, day 16, day 24, month 6/month 12 after first symptoms from sars-cov-2 infection",1
+Procedure,"blood collection at day 8, day 16, day 24, month 6/month 12 after first symptoms from sars-cov-2 infection.",1
 Procedure,blood test,1
 Procedure,bronchoalveolar lavage,1
 Procedure,collection of mucosal lining fluid,1
@@ -1425,6 +1495,7 @@ Procedure,extracorporeal left hemicolectomy anastomosis,1
 Procedure,facial fractures reduction,1
 Procedure,facial fractures reduction/osteosynthesis,1
 Procedure,gastric cancer surgery,1
+Procedure,gdm screening criteria,1
 Procedure,gloves,1
 Procedure,hip arthropalsty,1
 Procedure,hip fracture surgery,1
@@ -1438,7 +1509,8 @@ Procedure,lateral position (left/right lateral decubitus),1
 Procedure,lung ultrasound,1
 Procedure,lung ultrasound (lus),1
 Procedure,mitral valve surgery,1
-Procedure,month 12 after first symptoms from sars-cov-2 infection,1
+Procedure,month 12 after first symptoms from sars-cov-2 infection.,1
+Procedure,month 12 after second injection of vaccine for volunteers,1
 Procedure,mri scans,1
 Procedure,nasopharyngeal,1
 Procedure,nasopharyngeal/throat swab,1
