@@ -1,85 +1,85 @@
 country,Total_changes,Study_Count,changes_per_study
-Puerto Rico,218,1,218
+Puerto Rico,236,1,236
 Zimbabwe,36,1,36
-United States,4161,297,14.01010101010101
+United States,4320,312,13.846153846153847
 Bolivia,13,1,13
-Romania,13,1,13
-Peru,38,3,12.666666666666666
-Ethiopia,8,1,8
-Australia,23,3,7.666666666666667
+Peru,39,3,13
+Ethiopia,9,1,9
+Ecuador,8,1,8
+Serbia,8,1,8
+Romania,15,2,7.5
+Albania,7,1,7
 Belarus,7,1,7
-"Iran, Islamic Republic of",14,2,7
-Albania,6,1,6
 Burkina Faso,6,1,6
-Ecuador,6,1,6
+Canada,312,52,6
 Martinique,6,1,6
-Serbia,6,1,6
-Canada,286,51,5.607843137254902
-Portugal,29,6,4.833333333333333
-United Arab Emirates,24,5,4.8
+Australia,23,4,5.75
+Portugal,33,6,5.5
+"Iran, Islamic Republic of",15,3,5
+United Arab Emirates,25,5,5
+Finland,13,3,4.333333333333333
+Croatia,12,3,4
 Kenya,4,1,4
 Philippines,4,1,4
-Finland,11,3,3.6666666666666665
+Chile,33,9,3.6666666666666665
 Tunisia,11,3,3.6666666666666665
-Chile,27,8,3.375
-Argentina,64,19,3.3684210526315788
-Brazil,64,20,3.2
-"Congo, The Democratic Republic of the",6,2,3
-Croatia,9,3,3
+"Congo, The Democratic Republic of the",7,2,3.5
+Argentina,66,19,3.473684210526316
+Brazil,67,20,3.35
+Ireland,9,3,3
 Slovakia,3,1,3
+Ukraine,3,1,3
+Greece,44,15,2.933333333333333
+Czechia,39,14,2.7857142857142856
 Singapore,25,9,2.7777777777777777
 Netherlands,41,15,2.7333333333333334
-Czechia,30,11,2.727272727272727
-Germany,160,60,2.6666666666666665
-Ireland,8,3,2.6666666666666665
-Greece,39,15,2.6
-Saudi Arabia,26,10,2.6
-Poland,38,15,2.533333333333333
-Russian Federation,49,20,2.45
-Mexico,46,19,2.4210526315789473
-Malaysia,19,9,2.111111111111111
-Colombia,10,5,2
-India,38,19,2
+Poland,45,17,2.6470588235294117
+Germany,168,64,2.625
+Colombia,13,5,2.6
+Russian Federation,52,21,2.4761904761904763
+Saudi Arabia,26,11,2.3636363636363638
+Mexico,50,22,2.272727272727273
+Japan,11,5,2.2
+Malaysia,22,10,2.2
+Spain,144,67,2.1492537313432836
+India,45,22,2.0454545454545454
+Dominican Republic,4,2,2
+Slovenia,8,4,2
 Thailand,6,3,2
-Spain,133,67,1.9850746268656716
-Denmark,41,22,1.8636363636363635
-Japan,9,5,1.8
-Switzerland,69,39,1.7692307692307692
-Norway,37,21,1.7619047619047619
-Sweden,31,18,1.7222222222222223
-Austria,36,22,1.6363636363636365
-Italy,229,145,1.5793103448275863
-France,647,414,1.5628019323671498
-United Kingdom,197,128,1.5390625
+Norway,41,21,1.9523809523809523
+Denmark,44,23,1.9130434782608696
+Switzerland,76,41,1.853658536585366
+Sweden,37,20,1.85
+Austria,40,22,1.8181818181818181
+United Kingdom,218,135,1.614814814814815
+Italy,246,154,1.5974025974025974
+France,676,430,1.572093023255814
+Belgium,65,42,1.5476190476190477
 Iraq,3,2,1.5
 Mozambique,3,2,1.5
-Slovenia,6,4,1.5
-Belgium,60,42,1.4285714285714286
-Egypt,148,112,1.3214285714285714
-Israel,26,20,1.3
+Israel,29,21,1.380952380952381
+Egypt,151,115,1.3130434782608695
 Taiwan,5,4,1.25
+Hungary,6,5,1.2
 Pakistan,20,17,1.1764705882352942
-Turkey,172,159,1.0817610062893082
-Dominican Republic,1,1,1
+Turkey,186,167,1.1137724550898203
+Hong Kong,18,17,1.0588235294117647
+Bahrain,1,1,1
 Georgia,1,1,1
-Hong Kong,17,17,1
-Hungary,5,5,1
+Indonesia,4,4,1
 Kazakhstan,4,4,1
 Lithuania,3,3,1
 Luxembourg,2,2,1
-Ukraine,1,1,1
-China,53,63,0.8412698412698413
+China,54,65,0.8307692307692308
 Morocco,1,2,0.5
 Jordan,3,7,0.42857142857142855
 Qatar,1,5,0.2
 Algeria,0,1,0
-Bahrain,0,1,0
 Bangladesh,0,2,0
 Gabon,0,1,0
-Indonesia,0,3,0
-"Korea, Republic of",0,4,0
+"Korea, Republic of",0,5,0
 Kuwait,0,1,0
-Monaco,0,2,0
+Monaco,0,3,0
 Nepal,0,2,0
 Armenia,NA,NA,NA
 Bosnia and Herzegovina,NA,NA,NA
@@ -96,6 +96,7 @@ Guadeloupe,NA,NA,NA
 Guatemala,NA,NA,NA
 Guinea,NA,NA,NA
 Lebanon,NA,NA,NA
+Liberia,NA,NA,NA
 Malawi,NA,NA,NA
 Mali,NA,NA,NA
 Malta,NA,NA,NA

@@ -17,6 +17,7 @@ Diagnostic Test,laboratory test,2
 Diagnostic Test,mri,2
 Drug,ivermectin,2
 Other,icu treatment,2
+Other,not applicable (observational study),2
 Other,pregnant women with laboratory-confirmed 2019-n-cov,2
 Other,recop unit patient,2
 Other,standard care,2
@@ -57,6 +58,7 @@ Device,seraph,1
 Device,spirometry,1
 Device,tavr,1
 Device,tavr/savr,1
+Device,ultra sound,1
 Device,vascular occlusion test,1
 Device,web-application,1
 Device,web application users,1
@@ -85,16 +87,22 @@ Diagnostic Test,endothelial damage,1
 Diagnostic Test,endothelial damage/angiogenic biomarkers,1
 Diagnostic Test,evaluation,1
 Diagnostic Test,face mask sampling,1
+Diagnostic Test,hematological,1
+Diagnostic Test,hematological/immunological biomarkers,1
 Diagnostic Test,igg,1
 Diagnostic Test,igg antibody test,1
 Diagnostic Test,igg test,1
+Diagnostic Test,immunological biomarkers,1
 Diagnostic Test,incremental shuttle walk test,1
 Diagnostic Test,indirect calorimetry,1
 Diagnostic Test,laboratory,1
 Diagnostic Test,laboratory blood tests,1
+Diagnostic Test,levels of sars-cov-2 antibodies,1
 Diagnostic Test,lung ultrasound,1
 Diagnostic Test,metabolomic,1
+Diagnostic Test,mitochondrial dna,1
 Diagnostic Test,muscle,1
+Diagnostic Test,muscle ultrasound evaluation,1
 Diagnostic Test,netosis markers,1
 Diagnostic Test,neuropsychological assessment,1
 Diagnostic Test,novel coronavirus infection,1
@@ -105,11 +113,15 @@ Diagnostic Test,questionnaire,1
 Diagnostic Test,questionnaires family,1
 Diagnostic Test,questionnaires patient,1
 Diagnostic Test,rapid test,1
+Diagnostic Test,rrt-pcr sars-cov-2,1
 Diagnostic Test,sars-cov-2-test,1
 Diagnostic Test,sars-cov-2 serological assessment (igg),1
+Diagnostic Test,sars-cov-2 viral culturing,1
 Diagnostic Test,senior fitness test,1
+Diagnostic Test,sequencing covid-19,1
 Diagnostic Test,single passive leg movement,1
 Diagnostic Test,sonoclot,1
+Diagnostic Test,spirometry,1
 Diagnostic Test,test,1
 Diagnostic Test,ultrasound,1
 Diagnostic Test,"urinary ngal, timp-2, igfbp7, il-6, viral load",1
@@ -138,6 +150,7 @@ Drug,low molecular weight heparin as standard of care treatment,1
 Drug,methylprednisolone,1
 Drug,ml) intraven vial (ml),1
 Drug,patients with the treatment agains covid19,1
+Drug,spironolactone,1
 Drug,statins,1
 Drug,tocilizumab,1
 Drug,tocilizumab 200 mg,1
@@ -149,6 +162,7 @@ Genetic,covid-19 diagnostic/assessment tests,1
 Other,4c mortality score,1
 Other,ards,1
 Other,ards/covid19 treatments,1
+Other,asthma control test,1
 Other,at risk for covid-19 infection,1
 Other,biological samples,1
 Other,blood d-dimer assay,1
@@ -168,6 +182,7 @@ Other,chloroquine/hydroxychloroquine,1
 Other,clinical data,1
 Other,clinical diagnosis of covid-19 by a health care professional,1
 Other,cohort study,1
+Other,comorbidities,1
 Other,comparative observational cohort study,1
 Other,complex diagnostic panel,1
 Other,connor-davidson resilience scale 10 items (cd-risc 10),1
@@ -181,6 +196,8 @@ Other,"depression, anxiety/stress scale",1
 Other,detection of oral lesions,1
 Other,diabetes type 2,1
 Other,diagnosed with covid-19,1
+Other,diagnostic criteria for temporomandibular disorders (dc,1
+Other,diagnostic criteria for temporomandibular disorders (dc/tmd) scale,1
 Other,"during the pandemic, the patient's job status, physical activity conditions, pain status",1
 Other,ecg-holter,1
 Other,epidemiology of admissions,1
@@ -198,13 +215,13 @@ Other,impact of event scale-revised,1
 Other,interview,1
 Other,machine based evaluation,1
 Other,machine learning,1
+Other,mitigation measures against covid 19,1
 Other,modified rankin score,1
 Other,multisystem inflammatory syndrome in children (mis-c),1
 Other,no special intervention,1
 Other,non-hospitalization procedures,1
 Other,non-interventional study,1
 Other,non intervention,1
-Other,not applicable (observational study),1
 Other,nutrition therapy according to icu protocol,1
 Other,obesity,1
 Other,observation,1
@@ -243,10 +260,12 @@ Other,tested for sars-cov-2 (regardless of the result),1
 Other,the drugs used before,1
 Other,"the drugs used before/during the pandemic, the patient's job status, physical activity conditions, pain status",1
 Other,thromboprofylaxis protocol,1
+Other,tmd) scale,1
 Other,transthoracic echocardiogram (tte),1
 Other,urine collection,1
 Other,users,1
 Other,web-based redcap survey,1
+placebo,placebo,1
 Procedure,abdominal ultrasound,1
 Procedure,airway management during sedation,1
 Procedure,airway management during sedation/general anesthesia,1

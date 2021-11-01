@@ -1,51 +1,54 @@
 intervention_type,Study_Count
-Drug,591
-Drug|placebo,472
-Other,318
-Biological,283
-Behavioral,215
-Biological|placebo,176
-Device,149
-Diagnostic Test,108
-Drug|Other,90
-Procedure,46
-Biological|Other,41
-Dietary Supplement,40
-Dietary Supplement|placebo,37
-Biological|Drug,33
-Dietary Supplement|Drug,18
+Drug,600
+Drug|placebo,492
+Other,328
+Biological,307
+Behavioral,231
+Biological|placebo,179
+Device,156
+Diagnostic Test,114
+Drug|Other,91
+Procedure,47
+Biological|Other,42
+Dietary Supplement,41
+Dietary Supplement|placebo,39
+Biological|Drug,34
+Dietary Supplement|Drug,19
+Behavioral|Other,17
 Device|Other,17
-Behavioral|Other,16
 Drug|Other|placebo,13
 Radiation,13
 Biological|Drug|placebo,11
 Combination Product,11
-Combination Product|Drug,8
+Combination Product|Drug,9
 Diagnostic Test|Other,8
-Other|placebo,6
+Other|placebo,7
+Dietary Supplement|Other,6
+Behavioral|placebo,5
 Device|Drug,5
 Device|Drug|placebo,5
-Dietary Supplement|Other,5
 Drug|Procedure,5
 Behavioral|Biological,4
-Behavioral|placebo,4
 Combination Product|placebo,4
 Device|placebo,4
-Dietary Supplement|Drug|placebo,4
 Other|Procedure,4
 Device|Drug|Procedure,3
 Device|Procedure,3
+Dietary Supplement|Drug|placebo,3
+Behavioral|Device,2
 Behavioral|Drug,2
 Biological|Device|Other,2
 Biological|Other|placebo,2
 Combination Product|Dietary Supplement,2
+Combination Product|Procedure,2
 Device|Drug|Radiation,2
 Dietary Supplement|Drug|Other,2
 Drug|placebo|Procedure,2
 Genetic,2
+placebo|Radiation,2
 Behavioral|Combination Product,1
-Behavioral|Device,1
 Behavioral|Diagnostic Test,1
+Biological|Combination Product,1
 Biological|Combination Product|Drug|placebo,1
 Biological|Device,1
 Biological|Device|Diagnostic Test,1
@@ -57,7 +60,7 @@ Biological|Drug|Other|placebo,1
 Biological|Drug|Procedure,1
 Biological|Genetic|Other,1
 Combination Product|Device,1
-Combination Product|Procedure,1
+Device|Drug|Other,1
 Diagnostic Test|Dietary Supplement,1
 Diagnostic Test|Drug,1
 Diagnostic Test|Drug|Other|placebo,1
@@ -70,4 +73,3 @@ Drug|Radiation,1
 Other|Radiation,1
 placebo,1
 placebo|Procedure,1
-placebo|Radiation,1
