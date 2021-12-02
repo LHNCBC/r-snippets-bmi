@@ -1,48 +1,49 @@
 ArticleType,Article_Count
-Journal Article,218
-Journal Article|Review,52
+Journal Article,235
+"Journal Article|Research Support, Non-U.S. Gov't",56
+Journal Article|Review,53
 Clinical Trial Protocol|Letter,50
-"Journal Article|Research Support, Non-U.S. Gov't",49
-Journal Article|Randomized Controlled Trial,31
+Journal Article|Randomized Controlled Trial,33
 Clinical Trial Protocol|Journal Article,28
 "Journal Article|Randomized Controlled Trial|Research Support, Non-U.S. Gov't",23
-"Journal Article|Multicenter Study|Randomized Controlled Trial|Research Support, Non-U.S. Gov't",15
+"Journal Article|Multicenter Study|Randomized Controlled Trial|Research Support, Non-U.S. Gov't",17
+"Journal Article|Research Support, Non-U.S. Gov't|Review",16
 Preprint,15
-"Journal Article|Research Support, Non-U.S. Gov't|Review",13
-"Clinical Trial Protocol|Journal Article|Research Support, Non-U.S. Gov't",11
-Journal Article|Multicenter Study|Randomized Controlled Trial,11
-"Clinical Trial, Phase II|Journal Article|Randomized Controlled Trial|Research Support, Non-U.S. Gov't",10
+"Clinical Trial Protocol|Journal Article|Research Support, Non-U.S. Gov't",13
+Journal Article|Multicenter Study|Randomized Controlled Trial,12
+"Clinical Trial, Phase II|Journal Article|Randomized Controlled Trial|Research Support, Non-U.S. Gov't",11
+Case Reports|Journal Article,7
 Clinical Trial|Journal Article,7
 "Journal Article|Meta-Analysis|Research Support, Non-U.S. Gov't|Systematic Review",7
 Journal Article|Multicenter Study,7
 Letter|Randomized Controlled Trial,7
-Case Reports|Journal Article,6
 "Clinical Trial, Phase I|Journal Article|Randomized Controlled Trial|Research Support, Non-U.S. Gov't",6
 "Clinical Trial, Phase II|Journal Article|Multicenter Study|Randomized Controlled Trial|Research Support, Non-U.S. Gov't",6
 "Clinical Trial, Phase III|Journal Article|Randomized Controlled Trial|Research Support, Non-U.S. Gov't",6
+"Clinical Trial|Journal Article|Research Support, Non-U.S. Gov't",6
 "Comparative Study|Journal Article|Multicenter Study|Randomized Controlled Trial|Research Support, Non-U.S. Gov't",6
+Journal Article|Observational Study,6
 "Journal Article|Research Support, N.I.H., Extramural|Research Support, Non-U.S. Gov't",6
 "Clinical Trial, Phase I|Clinical Trial, Phase II|Journal Article|Multicenter Study|Randomized Controlled Trial|Research Support, Non-U.S. Gov't",5
-Journal Article|Observational Study,5
 "Journal Article|Research Support, N.I.H., Extramural",5
 "Journal Article|Research Support, Non-U.S. Gov't|Systematic Review",5
 Journal Article|Systematic Review,5
 "Clinical Trial, Phase I|Clinical Trial, Phase II|Journal Article|Randomized Controlled Trial|Research Support, Non-U.S. Gov't",4
+"Journal Article|Multicenter Study|Randomized Controlled Trial|Research Support, N.I.H., Extramural|Research Support, Non-U.S. Gov't",4
 "Journal Article|Observational Study|Research Support, Non-U.S. Gov't",4
 Case Reports,3
 Clinical Trial Protocol|Journal Article|Multicenter Study,3
 Clinical Trial Protocol|Letter|Multicenter Study,3
 "Clinical Trial, Phase II|Letter|Multicenter Study|Randomized Controlled Trial",3
+"Clinical Trial, Phase III|Journal Article|Multicenter Study|Randomized Controlled Trial",3
 "Clinical Trial, Phase III|Journal Article|Multicenter Study|Randomized Controlled Trial|Research Support, N.I.H., Extramural|Research Support, Non-U.S. Gov't",3
-"Clinical Trial|Journal Article|Research Support, Non-U.S. Gov't",3
+"Clinical Trial, Phase III|Journal Article|Multicenter Study|Randomized Controlled Trial|Research Support, Non-U.S. Gov't",3
 Comparative Study|Journal Article,3
 Comparative Study|Journal Article|Multicenter Study|Randomized Controlled Trial,3
 Evaluation Study|Journal Article,3
 Journal Article|Meta-Analysis|Systematic Review,3
-"Journal Article|Multicenter Study|Randomized Controlled Trial|Research Support, N.I.H., Extramural|Research Support, Non-U.S. Gov't",3
 "Journal Article|Randomized Controlled Trial|Research Support, N.I.H., Extramural",3
 "Journal Article|Randomized Controlled Trial|Research Support, N.I.H., Extramural|Research Support, Non-U.S. Gov't",3
-"Journal Article|Review|Research Support, Non-U.S. Gov't",3
 Case Reports|Clinical Trial,2
 "Clinical Trial Protocol|Clinical Trial, Phase I|Clinical Trial, Phase II|Letter",2
 Clinical Trial Protocol|Comparative Study|Journal Article,2
@@ -68,6 +69,7 @@ Journal Article|Published Erratum,2
 "Journal Article|Research Support, N.I.H., Extramural|Research Support, Non-U.S. Gov't|Research Support, U.S. Gov't, Non-P.H.S.",2
 "Journal Article|Research Support, N.I.H., Extramural|Research Support, Non-U.S. Gov't|Review",2
 "Journal Article|Research Support, N.I.H., Extramural|Review",2
+"Journal Article|Research Support, Non-U.S. Gov't|Research Support, N.I.H., Extramural",2
 Letter,2
 "Adaptive Clinical Trial|Clinical Trial Protocol|Clinical Trial, Phase III|Journal Article|Multicenter Study|Randomized Controlled Trial|Research Support, Non-U.S. Gov't",1
 Case Reports|Clinical Trial|Journal Article,1
@@ -108,14 +110,13 @@ Clinical Trial Protocol|Letter|Multicenter Study|Observational Study|Randomized 
 "Clinical Trial, Phase II|Journal Article|Randomized Controlled Trial|Research Support, N.I.H., Extramural",1
 "Clinical Trial, Phase II|Journal Article|Research Support, Non-U.S. Gov't",1
 "Clinical Trial, Phase III|Comparative Study|Journal Article|Randomized Controlled Trial|Research Support, Non-U.S. Gov't",1
-"Clinical Trial, Phase III|Journal Article|Multicenter Study|Randomized Controlled Trial",1
-"Clinical Trial, Phase III|Journal Article|Multicenter Study|Randomized Controlled Trial|Research Support, Non-U.S. Gov't",1
 "Clinical Trial, Phase III|Journal Article|Randomized Controlled Trial",1
 "Clinical Trial, Phase III|Journal Article|Randomized Controlled Trial|Research Support, N.I.H., Extramural|Research Support, Non-U.S. Gov't",1
 "Clinical Trial, Phase III|Letter|Randomized Controlled Trial",1
 "Clinical Trial, Phase IV|Journal Article|Research Support, Non-U.S. Gov't",1
 Clinical Trial|Journal Article|Video-Audio Media,1
 Comparative Study|Journal Article|Multicenter Study,1
+"Comparative Study|Journal Article|Multicenter Study|Randomized Controlled Trial|Research Support, N.I.H., Extramural",1
 "Comparative Study|Journal Article|Multicenter Study|Randomized Controlled Trial|Research Support, N.I.H., Extramural|Research Support, Non-U.S. Gov't",1
 Comparative Study|Journal Article|Randomized Controlled Trial,1
 "Comparative Study|Journal Article|Randomized Controlled Trial|Research Support, N.I.H., Extramural|Research Support, Non-U.S. Gov't",1
@@ -128,6 +129,7 @@ Comparative Study|Letter|Randomized Controlled Trial,1
 Equivalence Trial|Journal Article|Multicenter Study|Randomized Controlled Trial,1
 Historical Article|Journal Article|Personal Narrative,1
 Journal Article|Comment,1
+Journal Article|Meta-Analysis|Review|Systematic Review,1
 Journal Article|Multicenter Study|Observational Study,1
 "Journal Article|Multicenter Study|Observational Study|Research Support, Non-U.S. Gov't",1
 Journal Article|Multicenter Study|Pragmatic Clinical Trial,1
@@ -138,7 +140,9 @@ Journal Article|Practice Guideline,1
 "Journal Article|Pragmatic Clinical Trial|Research Support, Non-U.S. Gov't",1
 "Journal Article|Research Support, N.I.H., Extramural|Research Support, N.I.H., Intramural|Review",1
 "Journal Article|Research Support, N.I.H., Intramural",1
+"Journal Article|Research Support, Non-U.S. Gov't|Research Support, U.S. Gov't, Non-P.H.S.",1
 "Journal Article|Research Support, Non-U.S. Gov't|Validation Study",1
 "Journal Article|Research Support, U.S. Gov't, Non-P.H.S.",1
+"Journal Article|Review|Research Support, Non-U.S. Gov't",1
 Journal Article|Review|Systematic Review,1
 Review|Journal Article,1
