@@ -1,21 +1,21 @@
 ArticleType,Article_Count
-Journal Article,216
-"Journal Article|Research Support, Non-U.S. Gov't",66
-Journal Article|Observational Study,35
+Journal Article,218
+"Journal Article|Research Support, Non-U.S. Gov't",71
+Journal Article|Observational Study,38
 Journal Article|Review,28
 Journal Article|Multicenter Study|Observational Study,22
-"Journal Article|Observational Study|Research Support, Non-U.S. Gov't",21
-Journal Article|Multicenter Study,18
+"Journal Article|Observational Study|Research Support, Non-U.S. Gov't",22
+Journal Article|Multicenter Study,20
+"Journal Article|Multicenter Study|Research Support, Non-U.S. Gov't",10
+"Journal Article|Research Support, N.I.H., Extramural|Research Support, Non-U.S. Gov't",10
 "Journal Article|Multicenter Study|Observational Study|Research Support, Non-U.S. Gov't",9
-"Journal Article|Multicenter Study|Research Support, Non-U.S. Gov't",9
-"Journal Article|Research Support, N.I.H., Extramural|Research Support, Non-U.S. Gov't",9
 "Journal Article|Research Support, Non-U.S. Gov't|Review",8
+Comparative Study|Journal Article,7
 Case Reports|Journal Article,6
 Clinical Trial|Journal Article,6
-Comparative Study|Journal Article,6
+"Journal Article|Research Support, N.I.H., Extramural",6
 "Journal Article|Research Support, N.I.H., Extramural|Review",6
-"Journal Article|Research Support, N.I.H., Extramural",5
-"Journal Article|Multicenter Study|Research Support, N.I.H., Extramural",4
+"Journal Article|Multicenter Study|Research Support, N.I.H., Extramural",5
 Journal Article|Randomized Controlled Trial,4
 "Case Reports|Journal Article|Research Support, Non-U.S. Gov't",3
 "Comparative Study|Journal Article|Multicenter Study|Research Support, Non-U.S. Gov't",3
@@ -24,12 +24,12 @@ Journal Article|Practice Guideline,3
 Clinical Trial Protocol|Journal Article,2
 "Clinical Trial, Phase I|Clinical Trial, Phase II|Journal Article|Multicenter Study|Randomized Controlled Trial|Research Support, Non-U.S. Gov't",2
 Clinical Trial|Journal Article|Multicenter Study,2
+"Clinical Trial|Journal Article|Multicenter Study|Research Support, Non-U.S. Gov't",2
 Clinical Trial|Journal Article|Observational Study,2
 Evaluation Study|Journal Article,2
 "Evaluation Study|Journal Article|Research Support, Non-U.S. Gov't",2
 Journal Article|Comment,2
 "Journal Article|Meta-Analysis|Research Support, Non-U.S. Gov't|Systematic Review",2
-"Journal Article|Research Support, Non-U.S. Gov't|Systematic Review",2
 Letter,2
 Preprint,2
 Case Reports,1
@@ -42,11 +42,12 @@ Clinical Study|Journal Article,1
 "Clinical Trial, Phase III|Journal Article|Randomized Controlled Trial|Research Support, Non-U.S. Gov't",1
 Clinical Trial|Comparative Study|Journal Article|Multicenter Study,1
 Clinical Trial|Journal Article|Multicenter Study|Observational Study,1
-"Clinical Trial|Journal Article|Multicenter Study|Research Support, Non-U.S. Gov't",1
+"Clinical Trial|Journal Article|Multicenter Study|Research Support, N.I.H., Extramural|Research Support, Non-U.S. Gov't",1
 "Clinical Trial|Journal Article|Observational Study|Research Support, Non-U.S. Gov't",1
 "Clinical Trial|Journal Article|Research Support, N.I.H., Extramural",1
 "Clinical Trial|Journal Article|Research Support, Non-U.S. Gov't",1
 "Comparative Study|Journal Article|Meta-Analysis|Research Support, Non-U.S. Gov't|Systematic Review",1
+Comparative Study|Journal Article|Multicenter Study,1
 "Comparative Study|Journal Article|Multicenter Study|Randomized Controlled Trial|Research Support, Non-U.S. Gov't",1
 "Comparative Study|Journal Article|Research Support, Non-U.S. Gov't",1
 Controlled Clinical Trial|Journal Article,1
@@ -66,6 +67,7 @@ Journal Article|Published Erratum,1
 "Journal Article|Research Support, N.I.H., Extramural|Research Support, Non-U.S. Gov't|Research Support, U.S. Gov't, Non-P.H.S.",1
 "Journal Article|Research Support, N.I.H., Extramural|Research Support, Non-U.S. Gov't|Review",1
 "Journal Article|Research Support, Non-U.S. Gov't|Research Support, U.S. Gov't, Non-P.H.S.",1
+"Journal Article|Research Support, Non-U.S. Gov't|Systematic Review",1
 "Journal Article|Research Support, Non-U.S. Gov't|Validation Study",1
 Journal Article|Systematic Review,1
 Letter|Comment,1
