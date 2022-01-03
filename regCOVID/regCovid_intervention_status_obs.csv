@@ -1,69 +1,69 @@
 intervention,"Active, not recruiting",Completed,Enrolling by invitation,Recruiting,Terminated,Total
-NA,80,255,39,414,5,793
-questionnaire,8,56,3,55,2,124
-no intervention,5,21,4,40,0,70
-blood sample,5,9,2,27,0,43
-pcr,1,16,2,12,0,31
-vaccine,3,1,1,18,0,23
-observational,1,5,0,11,1,18
-online survey,1,9,2,6,0,18
-serology test,2,5,2,8,0,17
+NA,80,261,42,465,6,854
+questionnaire,8,58,3,50,2,121
+no intervention,5,23,4,39,0,71
+blood sample,5,10,2,22,0,39
+pcr,1,16,2,9,0,28
+vaccine,3,1,1,19,0,24
+observational,3,5,0,9,1,18
+online survey,1,9,2,5,0,17
+serology test,2,5,2,6,0,15
 biological samples,1,1,0,10,0,12
-data collection,0,4,0,8,0,12
+data collection,1,4,0,7,0,12
 prone positioning,2,7,0,3,0,12
-saliva,2,3,1,6,0,12
-covid-19,0,3,0,7,1,11
-lung ultrasound,3,4,0,2,1,10
+saliva,3,3,1,5,0,12
+covid-19,0,3,0,6,1,10
 survey,2,7,0,1,0,10
+lung ultrasound,2,5,0,1,1,9
 exposure,1,4,0,3,0,8
-observation,0,4,0,4,0,8
 covid-19 pandemic,1,3,0,3,0,7
 ct-scan,0,4,0,3,0,7
 interview,1,3,0,3,0,7
+observation,0,4,0,3,0,7
 remdesivir,0,1,0,6,0,7
 standard care,0,2,0,5,0,7
 biospecimen collection,0,1,0,5,0,6
 blood test,2,0,0,4,0,6
-exercise,0,0,1,5,0,6
 igm/igg rapid test,0,3,2,1,0,6
 ace inhibitor,0,3,0,2,0,5
 clinical assessment,0,3,0,2,0,5
 convalescent plasma,2,1,0,2,0,5
 data,2,3,0,0,0,5
 echocardiography,0,3,0,2,0,5
+exercise,0,0,1,4,0,5
 hydroxychloroquine,2,3,0,0,0,5
 igg antibody test,1,2,2,0,0,5
 quality-of-life assessment,0,0,0,5,0,5
-serum test,0,2,0,3,0,5
-ultrasound,0,3,0,2,0,5
 bnt162b2,1,1,0,2,0,4
 electronic health record review,0,0,0,4,0,4
 igm,0,1,1,2,0,4
 ivermectin,0,4,0,0,0,4
-nasopharyngeal swab,0,3,0,1,0,4
+nasopharyngeal swab,1,3,0,0,0,4
 other,0,2,0,2,0,4
 quality of life,0,2,1,1,0,4
 sars-cov-2 vaccine,0,0,0,4,0,4
+serum test,0,2,0,2,0,4
 spirometry,1,0,1,2,0,4
 tocilizumab,0,0,0,4,0,4
+ultrasound,0,4,0,0,0,4
 arb,0,1,0,2,0,3
 bronchoalveolar lavage,1,0,0,2,0,3
-data record,0,0,0,3,0,3
-ecg,0,0,0,3,0,3
+cardiac mri,1,1,0,1,0,3
 flow cytometry,0,2,0,1,0,3
-igg,0,1,1,1,0,3
 interleukin,0,1,0,2,0,3
 methylprednisolone,0,2,0,1,0,3
-mri,0,0,0,3,0,3
 mrna-1273,0,0,0,3,0,3
 non-interventional,1,1,0,1,0,3
-sars-cov-2,0,1,0,2,0,3
+oxygen,0,0,0,3,0,3
+sars-cov-2,0,1,0,1,1,3
 taste,0,2,0,1,0,3
 tinzaparin,0,2,0,1,0,3
 6 minute walk test,0,0,1,1,0,2
 a questionnaire,0,1,0,1,0,2
 acute kidney injury,0,1,0,1,0,2
 appendectomy,0,2,0,0,0,2
+assessment of the anti-sars-cov-2 igg antibody titer in 2-dose schedule,1,0,0,1,0,2
+assessment of the anti-sars-cov-2 igg antibody titer in 3-dose schedule,1,0,0,1,0,2
 assessment of work-related stress,1,1,0,0,0,2
 autopsy,0,1,0,1,0,2
 azithromycin,1,1,0,0,0,2
@@ -73,13 +73,11 @@ breath biopsy face masks with removable filters/fitted pva strip,0,2,0,0,0,2
 breath test,1,1,0,0,0,2
 brescä°a-covä°d respiratory severity scale,0,2,0,0,0,2
 cardiac,1,1,0,0,0,2
-cardiac mri,1,1,0,0,0,2
 cardiac/electrodermal recordings,1,1,0,0,0,2
-cellular immunity,0,0,2,0,0,2
+cellular immunity,0,1,1,0,0,2
 chest computed tomography,0,2,0,0,0,2
 chest ct,0,2,0,0,0,2
 clinical data,2,0,0,0,0,2
-clinical features,0,1,0,1,0,2
 control treatment schedule,1,1,0,0,0,2
 corticosteroid,1,0,0,1,0,2
 covid-19 infection,0,1,0,0,1,2
@@ -88,10 +86,12 @@ covid-19/ observational,0,0,0,1,1,2
 current clinical practices of participating physicians,0,2,0,0,0,2
 dalteparin,0,2,0,0,0,2
 data collection/clinical testing of subjects,0,1,0,1,0,2
+data record,0,0,0,2,0,2
 diagnostic laboratory biomarker analysis,0,0,0,2,0,2
 diagnostic test,0,1,0,1,0,2
 dialysis,1,0,0,1,0,2
 diffusing capacity of carbon monoxide,0,0,1,1,0,2
+ecg,0,0,0,2,0,2
 electrodermal recordings,1,1,0,0,0,2
 elisa,0,2,0,0,0,2
 emotional stimulation,1,1,0,0,0,2
@@ -102,6 +102,7 @@ filmarrayâ® analysis,0,2,0,0,0,2
 fitted pva strip,0,2,0,0,0,2
 fmd,0,0,0,2,0,2
 "ib10 sphingotestâ® bio-admâ® apparatus (sphingotec gmbh, hennigsdorf, germany)",0,0,0,2,0,2
+igg,0,1,1,0,0,2
 igm antibodytest,0,2,0,0,0,2
 impulseâ„¢ una e-stethoscope,0,2,0,0,0,2
 impulseâ„¢ una infrasound-to-ultrasound e-stethoscope,0,0,0,2,0,2
@@ -109,18 +110,17 @@ indicators of central sensitisation,0,0,0,2,0,2
 ion mobility spectrometry (ims),0,2,0,0,0,2
 lung ultrasound (lus),0,0,0,2,0,2
 mask,0,1,0,0,1,2
-nanomix elabâ® covid-19 rapid antigen panel (non-interventional),0,0,0,2,0,2
+mri,0,0,0,2,0,2
+nanomix elabâ® covid-19 rapid antigen panel (non-interventional),0,2,0,0,0,2
 nasal,0,1,0,1,0,2
 non,0,1,1,0,0,2
 non interventional study,0,0,0,2,0,2
-oxygen,0,0,0,2,0,2
 patient-reported online questionnaire on olfactory,0,1,0,1,0,2
 patient-reported online questionnaire on olfactory/taste disturbances,0,1,0,1,0,2
 phone call interview,0,1,0,1,0,2
 poc covidxâ„¢ rapid antigen test,0,2,0,0,0,2
 practice details,0,2,0,0,0,2
-pulmonary function tests,0,1,0,1,0,2
-pulmonary rehabilitation,1,1,0,0,0,2
+pulmonary rehabilitation,0,2,0,0,0,2
 quantitative analysis of sars-cov-2 antibodies,0,1,1,0,0,2
 questionnaire survey,0,2,0,0,0,2
 rapid test,0,2,0,0,0,2
@@ -133,7 +133,7 @@ sample collection,2,0,0,0,0,2
 sampling,0,0,0,2,0,2
 sars-cov2 testing,0,1,0,1,0,2
 semen analysis,0,1,0,1,0,2
-semi-directive interview,0,0,0,2,0,2
+semi-directive interview,0,1,0,1,0,2
 surgery,0,1,0,1,0,2
 t-detectâ„¢ sars-cov-2 assay,0,2,0,0,0,2
 taste disturbances,0,1,0,1,0,2
@@ -145,8 +145,9 @@ tinzaparin/dalteparin,0,2,0,0,0,2
 two doses of coronavac,0,0,0,2,0,2
 ultrasonography,0,1,0,1,0,2
 vitamin d,0,1,0,1,0,2
-whole exome sequencing,0,0,0,2,0,2
+walk test,1,0,0,1,0,2
 ,0,0,0,1,0,1
+'tib' olfactory test,0,1,0,0,0,1
 (ppa >95%) fda eua rt-pcr,0,0,0,1,0,1
 ": igg, ig m serologies in the amniotoc fluid, the blood cord",0,1,0,0,0,1
 [11c]sl25.1188 pet scan,0,0,0,1,0,1
@@ -196,7 +197,6 @@ airwave oscillometry,0,0,0,1,0,1
 airway pressure release ventilation,0,1,0,0,0,1
 albuterol sulfate (mdi),0,0,0,1,0,1
 albuterol sulfate (nebulizer),0,0,0,1,0,1
-alexa amazon,0,0,0,1,0,1
 algorithm,1,0,0,0,0,1
 all treatment about covid-2019,0,0,0,1,0,1
 alternate nostril breathing,0,1,0,0,0,1
@@ -232,7 +232,7 @@ antidiabetic treatment,0,1,0,0,0,1
 antigen,1,0,0,0,0,1
 antigen test for covid 19,0,1,0,0,0,1
 antirheumatic drugs,0,0,1,0,0,1
-antithrombin iii,0,0,0,1,0,1
+antithrombin iii,1,0,0,0,0,1
 antithrombotic therapy (anticoagulant and,0,1,0,0,0,1
 antithrombotic therapy (anticoagulant and/or antiplatelet) before admission for covid19,0,1,0,0,0,1
 "antiviral, surgical",0,1,0,0,0,1
@@ -260,10 +260,7 @@ assessment of postnatal depression using the the edinburgh questionnaire between
 assessment of postnatal depression using the the edinburgh questionnaire between 4/6 weeks after delivery,0,1,0,0,0,1
 assessment of proinflammatory cytokine production,0,0,0,1,0,1
 assessment of proinflammatory cytokine production/immunophenotypic analysis after stimulation with overlapping s-peptides in peripheral blood mononuclear cells (pbmc),0,0,0,1,0,1
-assessment of the anti-sars-cov-2 igg antibody titer in 2-dose schedule,1,0,0,0,0,1
-assessment of the anti-sars-cov-2 igg antibody titer in 3-dose schedule,1,0,0,0,0,1
 assessment of the sequelae after hospitalization for sars-cov-2,0,0,1,0,0,1
-assessment of ventilator-associated pneumonia criteria,0,0,0,1,0,1
 asynchronies detection,0,1,0,0,0,1
 attendance by ambulance crew,0,0,0,1,0,1
 audio-visual triage system (avt),0,1,0,0,0,1
@@ -271,7 +268,7 @@ auscul-x,0,0,0,1,0,1
 autoimmunity,0,1,0,0,0,1
 autologous stem cell transplantation,0,0,0,1,0,1
 awake prone position,0,1,0,0,0,1
-axillary sweat sample,0,0,0,1,0,1
+axillary sweat sample,1,0,0,0,0,1
 ayurvedic kadha,0,1,0,0,0,1
 azd 1222,0,0,0,1,0,1
 azd1222,0,0,0,1,0,1
@@ -300,6 +297,7 @@ biomarkers expression,0,0,0,1,0,1
 biomarkers of inflammation,0,0,0,1,0,1
 biosensor,0,0,0,1,0,1
 bis analysis,0,0,0,1,0,1
+blood,0,0,0,1,0,1
 blood coagulation profile,0,1,0,0,0,1
 "blood collection at 1st injection of vaccine against covid-19, at at second injection of vaccine, at month 1, month 2, month 6",0,0,0,1,0,1
 "blood collection at 1st injection of vaccine against covid-19, at at second injection of vaccine, at month 1, month 2, month 6/month 12 after second injection of vaccine for volunteers",0,0,0,1,0,1
@@ -313,6 +311,7 @@ blood test for igg antibodies against sars-cov-2,0,1,0,0,0,1
 blood test for sars-cov2 serology,0,0,0,1,0,1
 "blood tests sputum, nasal lavage",0,0,0,1,0,1
 "blood tests sputum, nasal lavage/brushing",0,0,0,1,0,1
+blood/saliva samples will be taken,0,0,0,1,0,1
 bloodwork,1,0,0,0,0,1
 "bloodwork, echocardiogram, mri",0,0,0,1,0,1
 "bloodwork, echocardiogram, pet",0,0,0,1,0,1
@@ -325,6 +324,7 @@ brain mri assessment,0,0,0,1,0,1
 breast feeding adherence,0,0,0,1,0,1
 brief cope scale,0,0,0,1,0,1
 bronchial fibroscopy,0,0,0,1,0,1
+bronchoalveolar lavage fluid diagnostics,0,0,0,1,0,1
 brushing,0,0,0,1,0,1
 burnout,0,0,0,1,0,1
 butterfly,0,0,0,1,0,1
@@ -350,7 +350,7 @@ care modalities,0,1,0,0,0,1
 carotid artery reactivity testing,1,0,0,0,0,1
 case fatality rate,0,1,0,0,0,1
 cases,0,0,0,1,0,1
-cbc-diff monocyte volume width distribution,0,0,0,1,0,1
+cbc-diff monocyte volume width distribution,0,1,0,0,0,1
 cellular,0,0,0,1,0,1
 cellular immune response after anti-sars-cov-2 vaccine administration,0,0,0,1,0,1
 cellular response,0,1,0,0,0,1
@@ -369,6 +369,7 @@ chlorine dioxide,0,0,0,1,0,1
 clinical,0,0,0,1,0,1
 clinical data collection,0,0,0,1,0,1
 clinical examination,0,0,0,1,0,1
+clinical features,0,1,0,0,0,1
 clinical features/laboratory values,0,1,0,0,0,1
 clinical interview,1,0,0,0,0,1
 clinical observation,0,0,0,1,0,1
@@ -421,6 +422,7 @@ control group quality of life assessment,0,1,0,0,0,1
 controls,0,0,0,1,0,1
 convalescent plasma therapy,0,1,0,0,0,1
 "copper, vitamin a, d, e plasma concentrations during patient hospitalization",0,1,0,0,0,1
+corona-t-test,0,1,0,0,0,1
 coronacheck device,0,0,0,1,0,1
 coronary angiography,0,1,0,0,0,1
 coronavac,0,0,0,1,0,1
@@ -451,7 +453,6 @@ covid-19 monitoring using wearable sensors/smartphone technology,1,0,0,0,0,1
 covid-19 nasal,1,0,0,0,0,1
 covid-19 nasal/pharyngeal swab,1,0,0,0,0,1
 covid-19 neutralizing antibody,0,0,0,1,0,1
-covid-19 pcr swab,0,0,0,1,0,1
 covid-19 pneumonia,1,0,0,0,0,1
 covid-19 positive,0,0,0,1,0,1
 covid-19 positive pregnant women,0,1,0,0,0,1
@@ -465,6 +466,7 @@ covid-19 vaccine hesitancy,0,0,0,1,0,1
 covid-19 vaccine hesitancy associated factors,0,0,0,1,0,1
 covid-19 vaccine hesitancy scale in rheumatic diseases,0,0,0,1,0,1
 covid-19 vaccine hesitancy/acceptance survey,0,0,0,1,0,1
+"covid-19 vaccine, booster",0,0,0,1,0,1
 covid-19/intensive care,0,1,0,0,0,1
 covid-antibody test,1,0,0,0,0,1
 covid-surgres questionaire,0,1,0,0,0,1
@@ -501,6 +503,7 @@ cytokines measurement,0,1,0,0,0,1
 cytotoxic t lymphocytes,0,0,0,1,0,1
 d region,0,0,0,1,0,1
 daily syndromic surveillance,0,0,1,0,0,1
+dana app,0,0,0,1,0,1
 darunavir,0,0,0,1,0,1
 darunavir/cobicistat,0,0,0,1,0,1
 dass-21 instrument (depression,0,0,1,0,0,1
@@ -566,11 +569,12 @@ ecg data analysis,0,1,0,0,0,1
 ecg from handheld device,0,0,0,1,0,1
 echo-doppler,0,0,0,1,0,1
 echocardiogram,0,0,0,1,0,1
+ecmo,1,0,0,0,0,1
 edinburgh postnatal depression scale,0,0,0,1,0,1
 edinburgh postnatal depression scale (edps),0,0,0,1,0,1
 education,0,1,0,0,0,1
-education sessions,0,0,0,1,0,1
 educational meetings/visual prompts,0,1,0,0,0,1
+effect of covid-19 exposure,0,1,0,0,0,1
 efferon ct,0,1,0,0,0,1
 ei open ended pre-survey,0,0,1,0,0,1
 ei open ended pre-survey/semi structured interview,0,0,1,0,0,1
@@ -596,8 +600,6 @@ encephalography measurement,0,0,0,1,0,1
 endoscopic management according to standard of care,0,1,0,0,0,1
 endotracheal intubation,0,0,0,1,0,1
 enoxaparin,0,0,0,1,0,1
-environmental exposure,0,0,0,1,0,1
-environmental exposure/clinical features,0,0,0,1,0,1
 epds (edinburgh postnatal depression scale),0,1,0,0,0,1
 epidemiological,0,1,0,0,0,1
 epidemiological/demographic characteristics,0,1,0,0,0,1
@@ -687,7 +689,6 @@ glycosylated ferritin by standard approved serological tests,0,0,0,1,0,1
 "gps reports of potential patient safety incidents, non-covid-19 related",0,1,0,0,0,1
 grandiosity subscales,0,1,0,0,0,1
 group 1,1,0,0,0,0,1
-group1,0,0,0,1,0,1
 guduchi ghan vati,0,1,0,0,0,1
 gustatory,0,0,0,1,0,1
 gustatory tests,0,1,0,0,0,1
@@ -704,15 +705,14 @@ heart-lung interactions,0,0,0,1,0,1
 heart rateã€arrhythmiaã€blood pressureã€central body temperature (ear temperature),0,0,0,1,0,1
 heart rateã€arrhythmiaã€blood pressureã€central body temperature (ear temperature)/blood oxygen saturation level.,0,0,0,1,0,1
 heparin,0,1,0,0,0,1
+hfno/niv,0,0,0,1,0,1
 high-flow nasal cannula treatment,0,1,0,0,0,1
 high flow nasal cannula,0,1,0,0,0,1
-high peep with end inspiratory pause,0,0,0,1,0,1
-high peep without end inspiratory pause,0,0,0,1,0,1
 high resolution computed tomography,0,0,0,1,0,1
 hip arthropalsty,0,1,0,0,0,1
 hip fracture surgery,0,1,0,0,0,1
 holter monitor,0,1,0,0,0,1
-home-use test,0,0,0,1,0,1
+home-use test,0,1,0,0,0,1
 home sleep apnea testing,1,0,0,0,0,1
 home sleep apnea testing/in-hospital polysomnography,1,0,0,0,0,1
 home spirometry,0,0,0,1,0,1
@@ -732,8 +732,9 @@ host immune factors,0,0,0,1,0,1
 hr-ct-scan,0,0,0,1,0,1
 hscore,1,0,0,0,0,1
 human milk donors,0,0,0,1,0,1
-humoral,0,0,1,0,0,1
-humoral/cellular immunity,0,0,1,0,0,1
+humoral,0,1,0,0,0,1
+humoral/cellular immunity,0,1,0,0,0,1
+iamp test,0,1,0,0,0,1
 ice swimming,0,1,0,0,0,1
 ier-r (posttraumatic stress),0,0,1,0,0,1
 igg antibodies assay,0,0,0,1,0,1
@@ -749,7 +750,6 @@ igm test,0,0,1,0,0,1
 igm/igg antibodies assay,0,0,0,1,0,1
 im injection of vaccination (mrna vaccination),1,0,0,0,0,1
 im injection of vaccination (vector based vaccination),1,0,0,0,0,1
-imaging,0,0,0,1,0,1
 imaging by thoracic scanner,1,0,0,0,0,1
 imaging characteristics of pneumonia,0,0,0,1,0,1
 "imaging, blood tests",0,1,0,0,0,1
@@ -757,6 +757,8 @@ immune response,0,0,0,1,0,1
 immune response characterization,0,0,0,1,0,1
 "immune response monitoring , blood samples",0,0,0,1,0,1
 immune response study,0,0,0,1,0,1
+"immune response to sars-cov-2 vaccinations; including covid-19 vaccin moderna, comirnaty (pfizer)",0,0,0,1,0,1
+"immune response to sars-cov-2 vaccinations; including covid-19 vaccin moderna, comirnaty (pfizer)/vaxzevria (astrazeneca)",0,0,0,1,0,1
 immunfluorescence,0,0,0,1,0,1
 immunoformulation,0,1,0,0,0,1
 immunogenicity after first dose of participants who received first dose of chadox-1 n cov-19 vaccine,0,1,0,0,0,1
@@ -839,7 +841,7 @@ laboratory tests/montreal cognitive assessment,0,0,0,1,0,1
 laboratory values,0,1,0,0,0,1
 laboratory/instrumental examination,0,0,0,1,0,1
 labs,0,0,0,1,0,1
-lactating persons,0,0,0,1,0,1
+lactating persons,0,1,0,0,0,1
 lamp,0,1,0,0,0,1
 laparoscopic,0,1,0,0,0,1
 laparoscopic appendectomy,0,1,0,0,0,1
@@ -861,8 +863,6 @@ loneliness in the covid-19 environment.,0,0,0,1,0,1
 longitudinally,0,0,0,1,0,1
 lopinavir,0,0,0,1,0,1
 lopinavir/ritonavir,0,0,0,1,0,1
-low peep - fio2 high,0,0,0,1,0,1
-low peep - fio2 low,0,0,0,1,0,1
 lumeneye x1 digital rectoscope,0,1,0,0,0,1
 lung biopsy,0,0,0,1,0,1
 lung computed tomography,1,0,0,0,0,1
@@ -875,7 +875,6 @@ machine learning classification of parenchymal lung change cause,0,0,0,1,0,1
 machine learning classification of recurrence,0,0,0,1,0,1
 machine learning classification of recurrence/non-recurrence,0,0,0,1,0,1
 machine learning model,0,1,0,0,0,1
-magec spine rod,0,0,0,1,0,1
 magnetic resonance imaging,0,0,0,1,0,1
 mailer-based finger-prick,1,0,0,0,0,1
 management of covid-19,0,0,0,1,0,1
@@ -918,11 +917,13 @@ model validation,0,1,0,0,0,1
 modification,0,1,0,0,0,1
 molecular assessment of saliva,0,0,0,1,0,1
 monitoring for aggravation,0,0,0,1,0,1
+monoclonal antibody,0,0,0,1,0,1
 montelukast,0,1,0,0,0,1
 month 12 after first symptoms from sars-cov-2 infection.,0,0,0,1,0,1
 month 12 after second injection of vaccine for volunteers,0,0,0,1,0,1
 montreal cognitive assessment,0,0,0,1,0,1
 mortality,0,0,0,1,0,1
+mpas questionnaire,0,0,0,1,0,1
 mr-pro-adm,0,1,0,0,0,1
 "mri (heart, brain, lungs, liver)",1,0,0,0,0,1
 mri scans,0,0,0,1,0,1
@@ -963,6 +964,7 @@ news,0,1,0,0,0,1
 next generation sequencing (ngs) analysis,0,0,0,1,0,1
 nhanes smell,0,0,0,1,0,1
 nhanes smell/taste tests,0,0,0,1,0,1
+niv,0,0,0,1,0,1
 no-immunosuppressive,0,0,0,1,0,1
 no active intervention (observational only),1,0,0,0,0,1
 no intervention-mechanistic study,0,0,0,1,0,1
@@ -1093,9 +1095,7 @@ pcr value,0,0,0,1,0,1
 pcr/antigen test for covid 19/inluenza,0,1,0,0,0,1
 pcr/chest ct,0,1,0,0,0,1
 pcr/serology,0,0,0,1,0,1
-pct,0,0,0,1,0,1
 pct/serology,1,0,0,0,0,1
-peep,0,0,0,1,0,1
 peep setting,0,1,0,0,0,1
 peer support,0,0,1,0,0,1
 percutaneous coronary revascularization for stemi,1,0,0,0,0,1
@@ -1110,7 +1110,6 @@ pet-ct of 18f-fdg,0,1,0,0,0,1
 pfizer-biontech covid-19 vaccine,0,1,0,0,0,1
 pharyngeal swab,1,0,0,0,0,1
 philips lumify ultrasound system,0,1,0,0,0,1
-phlebotomy,0,0,0,1,0,1
 phobia questionairre,0,0,0,1,0,1
 phone interview,0,0,0,1,0,1
 phone interviews,0,0,0,1,0,1
@@ -1144,6 +1143,7 @@ polyethelyene glycol,0,0,1,0,0,1
 polymerase chain reaction (pcr) test,1,0,0,0,0,1
 polyoxidonium,0,1,0,0,0,1
 polysomnography,1,0,0,0,0,1
+polyvinylalcohol strip [diagnostic],0,0,0,1,0,1
 pool lamp,0,1,0,0,0,1
 pool rt-pcr,0,1,0,0,0,1
 posaconazole,0,0,0,1,0,1
@@ -1151,18 +1151,16 @@ positive for sars-cov-2 infection,1,0,0,0,0,1
 post-intensive care unit syndrome,0,0,0,1,0,1
 post-mortem biopsies.,0,0,0,1,0,1
 post-traumatic stress screening,0,0,0,1,0,1
-post covid-19 functional satus scale,0,0,0,1,0,1
 post traumatic stress disorder questionnaire (ptsd-8),0,0,0,1,0,1
 postpartum anxiety scale scores,0,1,0,0,0,1
 pre-operative screening,0,0,0,1,0,1
-pre-pandemic stroke related metrics,1,0,0,0,0,1
+pre-pandemic stroke related metrics,0,1,0,0,0,1
 predict admission of covid-19 patients to icu,1,0,0,0,0,1
 "predict admission of covid-19 patients to icu/death with routine/quickly avalaible clinical, biological/radiological variables?",1,0,0,0,0,1
 predictive factors for clinical response in patients with covid-19.,0,0,0,1,0,1
 predictors adverse evolution,0,0,0,1,0,1
 predictors of health care provide,0,0,0,1,0,1
 prevalence of covid-19,0,1,0,0,0,1
-"primary care professionals reports of potential patient safety incidents, non-covid-19 related",0,0,0,1,0,1
 primary exposure status of pfizer-biontech covid-19 vaccine,1,0,0,0,0,1
 "pro bnp , vitamin d",0,0,0,1,0,1
 prognostic score,1,0,0,0,0,1
@@ -1185,8 +1183,8 @@ ptsd,0,0,0,1,0,1
 ptsd check list (pcl) scale,0,0,0,1,0,1
 public health england gold standard,0,0,0,1,0,1
 pulmonary function test,0,0,0,1,0,1
+pulmonary function tests,0,1,0,0,0,1
 pulmonary resection,0,1,0,0,0,1
-pulse oximeter,0,0,0,1,0,1
 pwv,0,0,0,1,0,1
 q-nrg metobolic cart device,0,0,0,1,0,1
 q spect-ct,0,0,0,1,0,1
@@ -1210,7 +1208,7 @@ quantra system,0,0,1,0,0,1
 quasistatic pressure-volume curve,0,1,0,0,0,1
 querying the insee database,0,0,0,1,0,1
 questionaire,0,1,0,0,0,1
-questionnaire : preparedness for caregiving scale,0,0,0,1,0,1
+questionnaire : preparedness for caregiving scale,0,1,0,0,0,1
 questionnaire about impact of the covid-19 pandemic on orthopaedic resident training,0,1,0,0,0,1
 "questionnaire administration,blood sampling",1,0,0,0,0,1
 "questionnaire administration,blood sampling/genetic analyses.",1,0,0,0,0,1
@@ -1239,6 +1237,7 @@ rapid antigen testing versus rt-pcr,0,1,0,0,0,1
 rapid molecular test,0,0,0,1,0,1
 rarefaction,0,0,0,1,0,1
 reactivity,0,0,0,1,0,1
+reamberin,0,1,0,0,0,1
 recently vaccination,0,0,0,1,0,1
 recombinase,0,0,0,1,0,1
 recording of hemodynamic monitoring,1,0,0,0,0,1
@@ -1255,13 +1254,14 @@ repeat sars-cov-2 igg antibodies at 45-65 days,0,1,0,0,0,1
 "reporting of anosmia, ageusia",0,1,0,0,0,1
 "reporting of anosmia, ageusia/other clinical symptoms",0,1,0,0,0,1
 research specific blood sample,1,0,0,0,0,1
+residual symptoms,0,1,0,0,0,1
+residual symptoms/the quality of life in individuals recovered from covid-19 infection: a survey from pakistan,0,1,0,0,0,1
 resilience,1,0,0,0,0,1
 resilience/institutional support,1,0,0,0,0,1
 respiratory exerciser,0,0,0,1,0,1
 respiratory functions,0,1,0,0,0,1
 respiratory infections,1,0,0,0,0,1
 respiratory mechanics measurement,0,1,0,0,0,1
-respiratory monitor,0,0,0,1,0,1
 respiratory monitoring,0,1,0,0,0,1
 respiratory muscles ultrasound,0,1,0,0,0,1
 respiratory physiotherapy,0,1,0,0,0,1
@@ -1282,6 +1282,7 @@ review of medical patient file,0,1,0,0,0,1
 reviewed clinical records,0,1,0,0,0,1
 reviewed clinical records/laboratory results,0,1,0,0,0,1
 right lateral decubitus),0,1,0,0,0,1
+ringer's solution,0,1,0,0,0,1
 risk factors,0,1,0,0,0,1
 ritonavir,0,0,0,1,0,1
 rivaroxaban,0,0,0,1,0,1
@@ -1295,6 +1296,7 @@ s2 proteins of sars-cov-2 virus,0,0,0,1,0,1
 safety executive's (hse) management standards indicator tool (msit) to measure work-related stress,0,1,0,0,0,1
 saint george respiratory questionnaire,0,0,1,0,0,1
 saliva based assay: crude rna extraction,0,0,0,1,0,1
+saliva samples will be taken,0,0,0,1,0,1
 saliva/nps test,0,0,0,1,0,1
 salivary,0,1,0,0,0,1
 samba ii,0,0,0,1,0,1
@@ -1317,6 +1319,7 @@ sars-cov-2 serology,0,0,0,1,0,1
 "sars-cov-2 serum neutralization assay, quantitative serum immunoglobulin tests",0,0,0,1,0,1
 sars-cov-2 specific igm,0,0,0,1,0,1
 sars-cov-2 specific igm/igg detection,0,0,0,1,0,1
+sars-cov-2 vaccine (vero cell) inactivated,0,0,0,1,0,1
 "sars-cov-2 vaccine(vero cell), inactivated",0,0,0,1,0,1
 sars-cov-2 virus vaccines,1,0,0,0,0,1
 sars-cov2 antibody measurement,0,0,1,0,0,1
@@ -1345,7 +1348,6 @@ semi structured interview,0,0,1,0,0,1
 sending thorax ct video images via smartphone applications,0,1,0,0,0,1
 sensor usage,0,1,0,0,0,1
 separic-covid19 cohort,0,1,0,0,0,1
-sequencing,0,0,0,1,0,1
 serial seroconversion measurements in hospital employees during the covid-19 pandemic,0,0,0,1,0,1
 serious adverse events,0,0,0,1,0,1
 serodiagnosis of igg,0,0,0,1,0,1
@@ -1375,6 +1377,7 @@ severe acute respiratory syndrome coronavirus 2 detection,0,1,0,0,0,1
 sex hormones,0,1,0,0,0,1
 sg diagnostics covid-19 antigen rapid test kit,1,0,0,0,0,1
 simple chest tomography,0,1,0,0,0,1
+simple inflammatory biomarkers measurement,0,0,0,1,0,1
 simulation of repurposed drugs for covid-19,1,0,0,0,0,1
 single-nucleotide polymorphisms (snp) within the tcra,0,0,0,1,0,1
 single-nucleotide polymorphisms (snp) within the tcra/d region,0,0,0,1,0,1
@@ -1383,6 +1386,8 @@ sit to stand (sts) measurement,0,0,0,1,0,1
 sivomixx,1,0,0,0,0,1
 six-minute walk test (6mwt),0,0,0,1,0,1
 six minutes walk test,0,1,0,0,0,1
+sleep diagnostics,0,0,0,1,0,1
+sleeve gastrectomy,0,0,1,0,0,1
 smartphone-based voice,0,1,0,0,0,1
 smartphone-based voice/self-reported symptom collection,0,1,0,0,0,1
 smartphone technology,1,0,0,0,0,1
@@ -1423,9 +1428,8 @@ stress,0,0,0,1,0,1
 stress levels,0,1,0,0,0,1
 stress levels/mental well-being assessment,0,1,0,0,0,1
 stress/anxiety questionnaire,0,0,0,1,0,1
-stroke related metrics during the pandemic,1,0,0,0,0,1
+stroke related metrics during the pandemic,0,1,0,0,0,1
 study a,0,0,0,1,0,1
-study arm,0,0,0,1,0,1
 study b,0,0,0,1,0,1
 study c,0,0,0,1,0,1
 study d,0,0,0,1,0,1
@@ -1451,7 +1455,6 @@ swallowing evaluation with the eat-10/the volume-viscosity swallowing test (v-vs
 symptom,0,1,0,0,0,1
 symptom/exposure surveys,0,1,0,0,0,1
 symptoms,0,0,0,1,0,1
-systemic,0,0,0,1,0,1
 systemic methylprednisolone,0,0,0,1,0,1
 t-detect covid t-cell blood test,0,1,0,0,0,1
 t-detect covid test,0,0,0,1,0,1
@@ -1464,7 +1467,10 @@ teleconsultation either by phone,0,1,0,0,0,1
 teleconsultation either by phone/by computer consultation,0,1,0,0,0,1
 telephone consult,0,0,0,1,0,1
 tem-tpa,0,1,0,0,0,1
+terabio ltd.,0,0,0,1,0,1
 testing for sars-cov-2,0,1,0,0,0,1
+testing in lab offices,0,0,0,1,0,1
+testing in poc offices,0,0,0,1,0,1
 testing sensitivity for sars-cov-2 virus in symptomatic individuals,0,1,0,0,0,1
 testing with medical detection dogs,0,0,0,1,0,1
 testnpass,0,1,0,0,0,1
@@ -1475,6 +1481,7 @@ the effects of covid 19 pandemic on the cardiovascular heath of children with au
 the icp monitoring will be performed in a non-invasive method developed by brain4care,0,0,0,1,0,1
 the pine trees health test system,0,1,0,0,0,1
 the placenta,0,1,0,0,0,1
+the quality of life in individuals recovered from covid-19 infection: a survey from pakistan,0,1,0,0,0,1
 "the study evaluates all surgical patients operated, both elective scheduled",0,1,0,0,0,1
 "the study evaluates all surgical patients operated, both elective scheduled/emergent cases",0,1,0,0,0,1
 therapy during the completed rct diqol,0,1,0,0,0,1
@@ -1484,6 +1491,8 @@ there is no intervention; the study is observational,0,0,1,0,0,1
 third dose vaccination with biontech vaccine,0,0,0,1,0,1
 third dose vaccination with coronavac vaccine,0,0,0,1,0,1
 "this is an observational cross-sectional study, there is no need for intervention",0,0,0,1,0,1
+this is an observational study,0,0,0,1,0,1
+this is observational study,0,0,0,1,0,1
 thoracic computed tomography scan,0,0,1,0,0,1
 thoracic ct,0,0,0,1,0,1
 thoracic ct-scan,0,0,0,1,0,1
@@ -1493,13 +1502,12 @@ thoraxic computed tomography,0,0,0,1,0,1
 three doses of bnt162b2 (observational),0,0,0,1,0,1
 three doses of sars-cov-2 bnt162b2 vaccine (observational),0,0,0,1,0,1
 throat,0,1,0,0,0,1
-throat swab sample for measuring current infection with sars-cov-2,0,0,0,1,0,1
+throat swab sample for measuring current infection with sars-cov-2,0,1,0,0,0,1
 throat/nose swabs,0,1,0,0,0,1
 thrombin,1,0,0,0,0,1
 thrombophilia screening,0,0,0,1,0,1
 thromboprophylaxis,0,1,0,0,0,1
 thyroidectomy,0,1,0,0,0,1
-titanium blood test,0,0,0,1,0,1
 tlrs activation measurement,0,1,0,0,0,1
 to determine the prevalence of renal dysfunction in hospitalized children with covid19 in qatar.,0,0,0,1,0,1
 tobacco use,1,0,0,0,0,1
@@ -1510,6 +1518,7 @@ tools development,0,0,0,1,0,1
 tracheostomy,0,0,0,1,0,1
 tracheostomy with aerosol box in covid-19 positive patients,0,1,0,0,0,1
 traditional chinese medicine,0,0,0,1,0,1
+traditional chinese version of the university of pennsylvania of smell identification test (upsit-tc),0,1,0,0,0,1
 training in surgery,0,1,0,0,0,1
 training load,1,0,0,0,0,1
 "training video on anxiety, fear",0,0,0,1,0,1
@@ -1538,8 +1547,8 @@ use of social media during covid-19,0,1,0,0,0,1
 use/exposure to disinfectants during the coronavirus pandemic,0,1,0,0,0,1
 v,0,0,0,1,0,1
 v/q spect-ct,0,0,0,1,0,1
-vaccinated pregnant,0,0,0,1,0,1
-vaccinated pregnant/lactating persons,0,0,0,1,0,1
+vaccinated pregnant,0,1,0,0,0,1
+vaccinated pregnant/lactating persons,0,1,0,0,0,1
 vaccination with biontech vaccine,0,0,0,1,0,1
 vaccination with coronavac vaccine,0,0,0,1,0,1
 vaccine anti-covid19,0,0,0,1,0,1
@@ -1550,7 +1559,9 @@ validation of the lamp assays,0,0,0,1,0,1
 validation of the ngs method,0,0,0,1,0,1
 validation of the poct antigen,0,0,0,1,0,1
 validation of the poct antigen/antibody tests,0,0,0,1,0,1
+vaxzevria (astrazeneca),0,0,0,1,0,1
 venipuncture in peripheral vein,0,0,0,1,0,1
+venous blood sample,0,1,0,0,0,1
 venous blood was collected for biochemistry testing,0,1,0,0,0,1
 venous blood was collected for biochemistry testing.,0,1,0,0,0,1
 video call,0,1,0,0,0,1
@@ -1566,13 +1577,12 @@ vitamin c,0,1,0,0,0,1
 voice symptom scale (voiss),0,0,0,1,0,1
 volume rapid test,0,0,0,1,0,1
 vv-ecmo,0,1,0,0,0,1
-walk test,1,0,0,0,0,1
 "wearable devices, saliva samples, survey measures",1,0,0,0,0,1
-wearable medical device (empatica e4),0,0,0,1,0,1
 web-based survey,1,0,0,0,0,1
 web based questionnaire,1,0,0,0,0,1
 weck-cel swab collection,1,0,0,0,0,1
 well-being assessment,0,1,0,0,0,1
+whole exome sequencing,0,0,0,1,0,1
 whoqol-bref,0,0,1,0,0,1
 without colchicine,0,1,0,0,0,1
 x-ray,0,0,0,1,0,1
