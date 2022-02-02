@@ -1,23 +1,26 @@
 intervention,"Active, not recruiting",Completed,Enrolling by invitation,Recruiting,Terminated,Total
-NA,15,35,2,109,0,161
-no intervention,1,6,0,2,0,9
+NA,15,36,2,95,0,148
+no intervention,1,6,0,6,0,13
 questionnaire,1,2,0,4,0,7
-serology test,0,2,0,4,0,6
+serology test,0,2,0,5,0,7
 pcr,0,2,0,2,0,4
+blood sample,0,1,0,2,0,3
+covid-19,0,1,0,2,0,3
 data collection,0,0,1,2,0,3
+observational,0,1,0,2,0,3
 4c mortality score,0,0,0,2,0,2
-blood sample,0,1,0,1,0,2
 chest ct,1,0,0,1,0,2
-covid-19,0,0,0,2,0,2
 evaluation,0,2,0,0,0,2
 hydroxychloroquine,0,1,1,0,0,2
 icu treatment,0,0,0,2,0,2
+igm,0,0,0,2,0,2
+igm/igg rapid test,0,0,0,2,0,2
 ivermectin,0,1,1,0,0,2
 laboratory test,0,0,0,2,0,2
 mri,0,0,0,2,0,2
 nä°cas,0,0,0,2,0,2
 not applicable (observational study),0,1,0,1,0,2
-observational,0,1,0,1,0,2
+pregnant women with laboratory-confirmed 2019-n-cov,0,0,0,2,0,2
 recop unit patient,0,2,0,0,0,2
 seraphâ®-100 microbindâ® affinity blood filter,0,0,2,0,0,2
 spirometry,0,1,0,1,0,2
@@ -40,6 +43,7 @@ amended lls covid-19 registry,0,0,0,1,0,1
 angiogenic biomarkers,0,1,0,0,0,1
 antibody test,0,0,0,1,0,1
 antihypertensives,1,0,0,0,0,1
+application of exosomes in a whole blood assay,0,0,0,1,0,1
 ards,0,1,0,0,0,1
 ards/covid19 treatments,0,1,0,0,0,1
 art,0,0,0,1,0,1
@@ -87,16 +91,19 @@ computed tomography,0,1,0,0,0,1
 connor-davidson resilience scale 10 items (cd-risc 10),0,0,0,0,1,1
 copan swabbing,0,0,0,1,0,1
 copan swabbing/blood sample collection,0,0,0,1,0,1
+cordio app,0,0,0,1,0,1
 coromec registry with ecl-19,0,0,0,1,0,1
 "coronavirus anxiety scale , covid-19 phobia scale",0,1,0,0,0,1
 coronavirus disease 2019,0,0,0,1,0,1
 covid-19 diagnostic,0,0,0,1,0,1
 covid-19 diagnostic/assessment tests,0,0,0,1,0,1
 "covid-19 pcr , igm",1,0,0,0,0,1
+covid-19 positive via testing,0,0,0,1,0,1
 covid-19 testing,0,0,0,1,0,1
 covid19 treatments,0,1,0,0,0,1
 ct-scan,0,0,0,1,0,1
-cytosorb,0,0,0,1,0,1
+cytosorb,0,1,0,0,0,1
+data registry,0,0,0,1,0,1
 "depression, anxiety",0,0,0,0,1,1
 "depression, anxiety/stress scale",0,0,0,0,1,1
 detection of oral lesions,0,0,1,0,0,1
@@ -141,9 +148,9 @@ hydroxychloroquine / azithromycin,0,1,0,0,0,1
 hypertension,1,0,0,0,0,1
 identification of genetic variants,1,0,0,0,0,1
 igg,0,1,0,0,0,1
+igg antibody test,0,0,0,1,0,1
 igg test,0,0,0,1,0,1
-igm,0,0,0,1,0,1
-igm/igg rapid test,0,0,0,1,0,1
+immune reconstitution,0,0,0,1,0,1
 immunological biomarkers,0,0,0,1,0,1
 immunosuppressive agents,0,0,0,1,0,1
 impact of event scale-revised,0,0,0,0,1,1
@@ -153,6 +160,7 @@ intellivent asv,0,1,0,0,0,1
 interval appendectomy,0,1,0,0,0,1
 interview,0,0,0,1,0,1
 ivermectin / doxycycline,0,1,0,0,0,1
+laboratory,0,0,0,1,0,1
 laboratory blood tests,0,0,0,1,0,1
 levels of sars-cov-2 antibodies,0,0,0,1,0,1
 longcovidkidsdk,0,0,0,1,0,1
@@ -168,6 +176,7 @@ ml) intraven vial (ml),0,1,0,0,0,1
 modified rankin score,0,1,0,0,0,1
 "mrm , toilet mastectomy , bcs",0,1,0,0,0,1
 multisystem inflammatory syndrome in children (mis-c),0,0,0,1,0,1
+muscle,0,0,0,1,0,1
 muscle ultrasound evaluation,0,0,0,1,0,1
 netosis markers,0,0,0,1,0,1
 neuropsychological assessment,0,0,0,1,0,1
@@ -175,6 +184,7 @@ no severe covid-19,1,0,0,0,0,1
 no special intervention,0,1,0,0,0,1
 non-hospitalization procedures,1,0,0,0,0,1
 non-interventional study,1,0,0,0,0,1
+non intervention,0,0,0,1,0,1
 novel coronavirus infection,0,1,0,0,0,1
 nutrition therapy according to icu protocol,1,0,0,0,0,1
 obesity,1,0,0,0,0,1
@@ -207,6 +217,7 @@ questionnaires patient,0,0,0,1,0,1
 "raman analysis of saliva, characterization of the raman database",0,0,0,1,0,1
 "raman analysis of saliva, characterization of the raman database/building of the classification model",0,0,0,1,0,1
 rapid test,0,1,0,0,0,1
+registery data collection,0,0,0,1,0,1
 rehabilitation,0,1,0,0,0,1
 ria-device (remote investigation,0,1,0,0,0,1
 ria-device (remote investigation/assessment),0,1,0,0,0,1
@@ -259,7 +270,9 @@ users,0,1,0,0,0,1
 vaccination,0,0,0,1,0,1
 vascular occlusion test,0,0,0,1,0,1
 venous bleeding,1,0,0,0,0,1
+vibroacoustic therapy,0,1,0,0,0,1
 vitros anti-sars-cov-2 igg test,0,0,1,0,0,1
 walk test,0,0,0,1,0,1
 web-application,0,1,0,0,0,1
+web-based redcap survey,0,0,0,1,0,1
 web application users,0,1,0,0,0,1

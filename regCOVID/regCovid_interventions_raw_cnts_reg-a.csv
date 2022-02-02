@@ -1,32 +1,40 @@
 Intervention_type,intervention,Study_count
-Other,no intervention,9
+Other,no intervention,13
 Other,questionnaire,6
+Diagnostic Test,serology test,5
 Diagnostic Test,pcr,4
-Diagnostic Test,serology test,4
+Diagnostic Test,blood sample,3
 Other,data collection,3
 Behavioral,telehealth,2
 Biological,vaccine,2
+Combination Product,observational,2
 Device,nä°cas,2
 Device,seraphâ®-100 microbindâ® affinity blood filter,2
 Device,vã§ac,2
-Diagnostic Test,blood sample,2
 Diagnostic Test,chest ct,2
+Diagnostic Test,igm,2
+Diagnostic Test,igm/igg rapid test,2
 Diagnostic Test,laboratory test,2
 Diagnostic Test,mri,2
 Drug,ivermectin,2
+Other,covid-19,2
 Other,icu treatment,2
 Other,not applicable (observational study),2
+Other,pregnant women with laboratory-confirmed 2019-n-cov,2
 Other,recop unit patient,2
 Other,standard care,2
+Behavioral,data registry,1
 Behavioral,enhanced hygiene measures,1
 Behavioral,evaluation,1
 Behavioral,health care worker survey,1
 Behavioral,participation,1
+Behavioral,registery data collection,1
 Behavioral,survey,1
 Behavioral,the leisure time activity,1
 Behavioral,time management,1
 Behavioral,time management/participation/the leisure time activity,1
 Biological,amended lls covid-19 registry,1
+Biological,application of exosomes in a whole blood assay,1
 Biological,bnt162b2,1
 Biological,completion of covid19 vaccine at least 4 weeks ago,1
 Biological,covid-19,1
@@ -36,11 +44,11 @@ Biological,sars-cov-2 vaccination,1
 Biological,serology test,1
 Biological,sras-cov-2 vaccination immunological response,1
 Combination Product,no severe covid-19,1
-Combination Product,observational,1
 Device,assessment),1
 Device,cerebral compliance,1
 Device,cerebral compliance/hemodynamics monitoring,1
 Device,computed tomography,1
+Device,cordio app,1
 Device,cytosorb,1
 Device,hemodynamics monitoring,1
 Device,intellivent asv,1
@@ -54,6 +62,7 @@ Device,tavr,1
 Device,tavr/savr,1
 Device,ultra sound,1
 Device,vascular occlusion test,1
+Device,vibroacoustic therapy,1
 Device,web-application,1
 Device,web application users,1
 Diagnostic Test,(2) interferon-gamma release in response to sars-cov-2 antigen stimulation,1
@@ -87,17 +96,19 @@ Diagnostic Test,face mask sampling,1
 Diagnostic Test,hematological,1
 Diagnostic Test,hematological/immunological biomarkers,1
 Diagnostic Test,igg,1
+Diagnostic Test,igg antibody test,1
 Diagnostic Test,igg test,1
-Diagnostic Test,igm,1
-Diagnostic Test,igm/igg rapid test,1
+Diagnostic Test,immune reconstitution,1
 Diagnostic Test,immunological biomarkers,1
 Diagnostic Test,incremental shuttle walk test,1
 Diagnostic Test,indirect calorimetry,1
+Diagnostic Test,laboratory,1
 Diagnostic Test,laboratory blood tests,1
 Diagnostic Test,levels of sars-cov-2 antibodies,1
 Diagnostic Test,lung ultrasound,1
 Diagnostic Test,metabolomic,1
 Diagnostic Test,mitochondrial dna,1
+Diagnostic Test,muscle,1
 Diagnostic Test,muscle ultrasound evaluation,1
 Diagnostic Test,netosis markers,1
 Diagnostic Test,neuropsychological assessment,1
@@ -184,7 +195,7 @@ Other,complex diagnostic panel,1
 Other,connor-davidson resilience scale 10 items (cd-risc 10),1
 Other,"coronavirus anxiety scale , covid-19 phobia scale",1
 Other,coronavirus disease 2019,1
-Other,covid-19,1
+Other,covid-19 positive via testing,1
 Other,covid19 treatments,1
 Other,"depression, anxiety",1
 Other,"depression, anxiety/stress scale",1
@@ -217,6 +228,7 @@ Other,multisystem inflammatory syndrome in children (mis-c),1
 Other,no special intervention,1
 Other,non-hospitalization procedures,1
 Other,non-interventional study,1
+Other,non intervention,1
 Other,nutrition therapy according to icu protocol,1
 Other,obesity,1
 Other,observation,1
@@ -259,6 +271,7 @@ Other,tmd) scale,1
 Other,transthoracic echocardiogram (tte),1
 Other,urine collection,1
 Other,users,1
+Other,web-based redcap survey,1
 placebo,placebo,1
 Procedure,abdominal ultrasound,1
 Procedure,airway management during sedation,1
