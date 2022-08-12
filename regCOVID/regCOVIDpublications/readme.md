@@ -1,5 +1,7 @@
 # regCOVIDpublications- Linked publications to COVID-19 Clinical Studies
 
+[Published Manuscript](https://bmcmedresmethodol.biomedcentral.com/articles/10.1186/s12874-022-01703-9)
+
 [regCOVIDpublications Report](https://lhncbc.github.io/r-snippets-bmi/regCOVID/regCOVIDpublications/regCOVIDpublications.html)
 
 [User Friendly regCOVID Landing Page](https://lhncbc.github.io/r-snippets-bmi/regCOVID/)
